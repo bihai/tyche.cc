@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Post-rsses on CoderZh Blog</title>
+        <link>http://blog.coderzh.com/post/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>CoderZh</author>
+        <rights>Copyright (c) 2015, CoderZh; all rights reserved.</rights>
+        <updated>Fri, 23 Sep 2016 14:48:35 CST</updated>
+        
+        <item>
+            <title>hello</title>
+            <link>http://blog.coderzh.com/2016/09/23/hello/</link>
+            <pubDate>Fri, 23 Sep 2016 14:48:35 CST</pubDate>
+            <author>CoderZh</author>
+            <guid>http://blog.coderzh.com/2016/09/23/hello/</guid>
+            <description>&lt;p&gt;###Hello!&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
