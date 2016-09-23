@@ -9,30 +9,34 @@
         <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
         
         <item>
-            <title>new</title>
-            <link>http://tyche.cc/2016/09/23/new/</link>
-            <pubDate>Fri, 23 Sep 2016 16:18:43 CST</pubDate>
+            <title>first post hello tyche.cc</title>
+            <link>http://tyche.cc/2016/09/23/first-post-hello-tyche.cc/</link>
+            <pubDate>Fri, 23 Sep 2016 16:35:14 CST</pubDate>
             <author>CoderZh</author>
-            <guid>http://tyche.cc/2016/09/23/new/</guid>
+            <guid>http://tyche.cc/2016/09/23/first-post-hello-tyche.cc/</guid>
             <description>
 
-&lt;h1 id=&#34;title-new&#34;&gt;title: &amp;ldquo;new&amp;rdquo;&lt;/h1&gt;
+&lt;h1 id=&#34;title-first-post-hello-tyche-cc&#34;&gt;title: &amp;ldquo;first post hello tyche.cc&amp;rdquo;&lt;/h1&gt;
 
-&lt;h3 id=&#34;description-by-bihai-of-http-tyche-cc&#34;&gt;description: &amp;ldquo;&amp;rdquo; &amp;ldquo;by bihai of &lt;a href=&#34;http://tyche.cc&amp;quot;&#34;&gt;http://tyche.cc&amp;quot;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;date&#34;&gt;date: &amp;ldquo;&amp;rdquo;&lt;/h3&gt;
+
+&lt;h3 id=&#34;by-bihai-of-http-tyche-cc&#34;&gt;by bihai of &lt;a href=&#34;http://tyche.cc&#34;&gt;http://tyche.cc&lt;/a&gt;&lt;/h3&gt;
 </description>
         </item>
         
         <item>
-            <title>hello hugo</title>
-            <link>http://tyche.cc/2016/09/23/hello-hugo/</link>
-            <pubDate>Fri, 23 Sep 2016 16:17:30 CST</pubDate>
+            <title>new post</title>
+            <link>http://tyche.cc/2016/09/23/new-post/</link>
+            <pubDate>Fri, 23 Sep 2016 16:22:38 CST</pubDate>
             <author>CoderZh</author>
-            <guid>http://tyche.cc/2016/09/23/hello-hugo/</guid>
+            <guid>http://tyche.cc/2016/09/23/new-post/</guid>
             <description>
 
-&lt;h1 id=&#34;title-hello-hugo&#34;&gt;title: &amp;ldquo;hello hugo&amp;rdquo;&lt;/h1&gt;
+&lt;h1 id=&#34;title-new-post&#34;&gt;title: &amp;ldquo;new post&amp;rdquo;&lt;/h1&gt;
 
-&lt;h3 id=&#34;date-by-bihai-of-http-tyche-cc&#34;&gt;date: &amp;ldquo;&amp;rdquo; &amp;ldquo;by bihai of &lt;a href=&#34;http://tyche.cc&amp;quot;&#34;&gt;http://tyche.cc&amp;quot;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;date&#34;&gt;date: &amp;ldquo;&amp;rdquo;&lt;/h3&gt;
+
+&lt;h3 id=&#34;by-bihai-of-http-tyche-cc&#34;&gt;by bihai of &lt;a href=&#34;http://tyche.cc&#34;&gt;http://tyche.cc&lt;/a&gt;&lt;/h3&gt;
 </description>
         </item>
         
