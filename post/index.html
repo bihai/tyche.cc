@@ -1,335 +1,164 @@
 <!DOCTYPE html>
-<html class="no-js">
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-  <base href="http://tyche.cc/">
-  <script>
-    document._writeOriginal = document.write;
-    document.write = function(str) {
-        if (str.indexOf('livereload.js') > -1) {
-            document._writeOriginal(str);
-        } else {
-            document._writeOriginal('<!-- Be Hijack!! -->');
-        }
-    }
-  </script>
-  <title>Posts - tyche.cc</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Posts  &middot; tyche.cc</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta name="description" content="Posts">
-<meta name="author" content="coderzh">
-<meta name="publisher" content="coderzh">
-<meta name="generator" content="http://gohugo.io/"/>
 
-<meta itemprop="name" content="Posts - tyche.cc">
-<meta itemprop="description" content="Posts">
-<meta itemprop="image" content="http://tyche.cc/public/coderzh.jpg">
+<meta name="description" content="" />
 
-<meta property="og:title" content="Posts - tyche.cc" />
-<meta property="og:type" content="article" />
+<meta name="keywords" content="">
+
+
+<meta property="og:title" content="Posts  &middot; tyche.cc ">
+<meta property="og:site_name" content="tyche.cc"/>
 <meta property="og:url" content="http://tyche.cc/post/" />
-<meta property="og:image" content="http://tyche.cc/public/coderzh.jpg" />
-<meta property="og:description" content="Posts">
+<meta property="og:locale" content="zh-CN">
 
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@coderzh">
-<meta name="twitter:title" content="Posts - tyche.cc">
-<meta name="twitter:description" content="Posts">
-<meta name="twitter:creator" content="@coderzh">
-<meta name="twitter:image" content="http://tyche.cc/public/coderzh.jpg">
 
-  <script>document.documentElement.className = document.documentElement.className.replace("no-js", "js");</script>
-  <link rel="canonical" href="http://tyche.cc/post/">
-  <link rel='shortlink' href="http://tyche.cc/post/"/>
-  <link rel="shortcut icon" href="http://tyche.cc/public/favicon.ico"/>
-  
- <link href="http://tyche.cc/feed.xml" rel="alternate" type="application/rss+xml" title="tyche.cc" />
+<meta property="og:type" content="website" />
 
-<link rel="stylesheet" id="human-style-css" href="/wp-content/themes/hueman/style.css" type="text/css" media="all"/>
-<link rel="stylesheet" id="human-style-css2" href="/wp-content/themes/hueman-child/style.css" type="text/css" media="all"/>
-<link rel="stylesheet" id="responsive-css" href="/wp-content/themes/hueman/responsive.css" type="text/css" media="all"/>
-<link rel="stylesheet" id="font-awesome-css" href="/wp-content/themes/hueman/fonts/font-awesome.min.css" type="text/css" media="all"/>
-<link rel="stylesheet" href="/public/highlight/styles/github.css">
-<script src="/public/highlight/highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-<link rel="stylesheet" id="human-style-css3" href="/wp-content/themes/hueman-child/user.css" type="text/css" media="all"/>
-<link rel="stylesheet" href="public/font/hack/css/hack.min.css">
 
-<script type="text/javascript" src="assets/js/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="wp-content/themes/hueman/js/jquery.jplayer.min.js"></script>
-<script type="text/javascript" src="wp-content/themes/hueman/js/scripts.js"></script>
-<script type="text/javascript" src="assets/picturefill/picturefill.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.matchHeight-min.js"></script>
-<script type="text/javascript" async defer src="assets/js/myblog.js"></script>
+
+<link href="http://tyche.cc/post/index.xml" rel="alternate" type="application/rss+xml" title="Posts" />
+
+<link rel="canonical" href="http://tyche.cc/post/" />
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://tyche.cc/touch-icon-144-precomposed.png">
+<link href="http://tyche.cc/favicon.png" rel="icon">
+
+<meta name="generator" content="Hugo 0.17-DEV" />
+
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+
+    <link rel="stylesheet" href="http://tyche.cc/css/bootswatch/default/bootstrap.min.css">
+
+
+<link rel="stylesheet" href="http://tyche.cc/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://tyche.cc/css/style.css">
+
+
+  <link rel="stylesheet" href="http://tyche.cc/css/highlight/default.css">
+
 
 </head>
-
-<body class="archive category col-3cm full-width topbar-enabled chrome">
-
-<div id="wrapper">
-  <header id="header">
-
-  <nav class="nav-container group" id="nav-topbar">
-    <div class="nav-toggle"><i class="fa fa-bars"></i></div>
-    <div class="nav-text"></div>
-    <div class="nav-wrap container">
-      <a rel="nofollow" href="http://tyche.cc/" class="nav-cs-icon">
-        <img width="40" height="40" src="/public/bihai.jpg" alt="bihai" title="Home">
-      </a>
-      <ul id="menu-default-menu" class="nav container-inner group">
-        <li class="menu-item menu-item-type-post_type menu-item-object-page">
-          <a rel="nofollow" href="/">首页-home</a>
-        </li>
-        
-        <li class="menu-item menu-item-type-post_type menu-item-object-page">
-          <a rel="nofollow" href="/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/">心得笔记-blog</a>
-        </li>
-        
-        <li class="menu-item menu-item-type-post_type menu-item-object-page">
-          <a rel="nofollow" href="/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/">技术文章-article</a>
-        </li>
-        
-        <li class="menu-item menu-item-type-post_type menu-item-object-page">
-          <a rel="nofollow" href="/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/">灌水乐乐-post</a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-type-post_type menu-item-object-page">
-          <a rel="nofollow" href="/post/">归档-Archive</a>
-        </li>
-        
-        <li class="menu-item menu-item-type-post_type menu-item-object-page">
-          <a rel="nofollow" href="/about/">关于-About Me</a>
-        </li>
-        
-        <li class="menu-item menu-item-type-post_type menu-item-object-page">
-          <a rel="nofollow" href="/feed.xml" type="application/rss+xml" target="_blank">订阅</a>
-        </li>
-        <li class="menu-item menu-item-type-post_type menu-item-text">
-        tyche.cc
-        </li>
-      </ul>
-    </div>
-
+<body>
+    <header id="main-header">
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-      <div class="container-inner">
-        <div class="toggle-search"><i class="fa fa-search"></i></div>
-        <div class="search-expand">
-          <div class="search-expand-inner">
-            <form method="get" class="searchform themeform" action="https://www.google.com/search">
-              <div>
-                <input type="text" class="search" name="q" placeholder="Press enter to start searching">
-              </div>
-            </form>
-          </div>
-        </div>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://tyche.cc">tyche.cc</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          
+        </ul>
       </div>
       
     </div>
-    
-
   </nav>
-  
-
-  <div class="container group">
-    <div class="container-inner">
-
-      <div class="group pad">
-
-        <div class="group pad">
-          <h1 class="site-title">
-            <a rel="nofollow" href="http://tyche.cc/" rel="home">
-              <img style="border-radius: 50%;width:72px;height:72px;margin:0 auto;" alt="bihai" src="/public/bihai.jpg"></img>
-              tyche.cc
-            </a>
-          </h1>
-          <p class="site-description"> tyche.cc =  Take your confidence, hope &amp; emotion. </p>
-        </div>
-
-      </div>
-    </div>
-    
-  </div>
-  
 
 </header>
 
 
+<div id="main-content" class="container">
+  <header>
+    <h1>Posts
+</h1>
 
-  <div class="container" id="page">
-    <div class="container-inner">
-      <div class="main">
-        <div class="main-inner group">
-          <section class="content">
-            <div class="page-title pad group">
-              <h1><i class="fa fa-folder-open"></i>Category: <span>Posts</span></h1>
-            </div>
-            <div class="pad group">
-              <div class="post-list group">
+  </header>
   
-  <div class="post-row">
-    <article class="post-row type-post status-publish format-standard has-post-thumbnail hentry group">
-  <div class="post-inner post-hover">
-    <div class="post-meta group">
-  <p class="post-date">2016年09月25日</p>
-  <p class="post-title-small"><a href="http://tyche.cc/post/2016/2016-09-25-Welcome%20to%20tyche/" rel="bookmark" title="Welcome to tyche.cc">Welcome to tyche.cc</a></p>
-</div>
+    <div>
+  <h2><a href="http://tyche.cc/post/2016/2016-09-25-Welcome%20to%20tyche/">Welcome to tyche.cc</a>
+</h2>
 
-  </div>
-  
-</article>
+  <div class="margin-10">
+    <small>
+  <i class="fa fa-calendar"></i>
+  <time datetime="2016-09-25">25 Sep, 2016</time>
+</small>
 
-
-  </div>
-  
-</div>
-
-            </div>
-          </section>
-          <div class="sidebar s1">
-  <a class="sidebar-toggle" title="Expand Sidebar"><i class="fa icon-sidebar-toggle"></i></a>
-  <div class="sidebar-content">
-    <div class="sidebar-top group">
-      <p>Follow:</p>
-      <ul class="social-links">
-    <li>
-    <a class="social-tooltip" title="On csdn"
-        href="http://blog.csdn.net/thriller" target="_blank">
-        <i class="fa fa-csdn"></i>
-    </a>
-    </li>
-    <li>
-    <a class="social-tooltip" title="On weibo"
-        href="http://weibo.com/bihaiorg" target="_blank">
-        <i class="fa fa-weibo"></i>
-    </a>
-    </li>
-    <li>
-    <a class="social-tooltip" title="On Twitter" rel="nofollow"
-        href="https://twitter.com/bihaiorg" target="_blank">
-        <i class="fa fa-twitter"></i>
-    </a>
-    </li>
-    <li>
-    <a class="social-tooltip" title="On GitHub"
-        href="https://github.com/bihai" target="_blank">
-        <i class="fa fa-github"></i>
-    </a>
-    </li>
-</ul>
-
-    </div>
-    <div class="widget qrcode">
-    <img src="/public/qrcode.jpg" alt="qrcode" width="172px" height="172px"/>
-    <p> 微信扫一扫：<br/> 关注我的公众号： <br /> hacker-thinking <br /></p>
-</div>
-
-    <div id="search-2" class="widget widget_search"><h3>Search</h3>
-      <form method="get" class="searchform themeform" action="https://www.google.com/search">
-        <div>
-          <input type="text" class="search" name="q" placeholder="Press enter to start searching">
-        </div>
-      </form>
-    </div>
-  </div>
-</div>
-
-          <div class="sidebar s2">
-  <a class="sidebar-toggle" title="Expand Sidebar"><i class="fa icon-sidebar-toggle"></i></a>
-  <div class="sidebar-content">
-    <div class="sidebar-top group">
-      <p>More</p>
-    </div>
-    <div id="categories-2" class="widget widget_categories"><h3>Categories</h3>
-      <ul>
-        
-          <li class="cat-item cat-item-1">
-            <a rel="nofollow" href="/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/">心得笔记-blog</a>
-          </li>
-        
-          <li class="cat-item cat-item-1">
-            <a rel="nofollow" href="/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/">技术文章-article</a>
-          </li>
-        
-          <li class="cat-item cat-item-1">
-            <a rel="nofollow" href="/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/">灌水乐乐-post</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-</div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-  <footer id="footer">
-  <section class="container" id="footer-bottom">
-    <div class="container-inner">
-      <a id="back-to-top" href="#"><i class="fa fa-angle-up"></i></a>
-      <div class="pad group">
-        <div class="grid one-half">
-          <div id="copyright">
-            <p>Copyright © 2016. All Rights Reserved. <br>Powered by
-              <a rel="nofollow" href="http://gohugo.io/" target="_blank">Hugo - the static site generator</a>.
-              <a rel="nofollow" href="http://golang.org" target="_blank">#golang</a>.
-            </p>
-          </div>
-          
-        </div>
-        
-        <div class="grid one-half last">
-          <ul class="social-links">
-    <li>
-    <a class="social-tooltip" title="On csdn"
-        href="http://blog.csdn.net/thriller" target="_blank">
-        <i class="fa fa-csdn"></i>
-    </a>
-    </li>
-    <li>
-    <a class="social-tooltip" title="On weibo"
-        href="http://weibo.com/bihaiorg" target="_blank">
-        <i class="fa fa-weibo"></i>
-    </a>
-    </li>
-    <li>
-    <a class="social-tooltip" title="On Twitter" rel="nofollow"
-        href="https://twitter.com/bihaiorg" target="_blank">
-        <i class="fa fa-twitter"></i>
-    </a>
-    </li>
-    <li>
-    <a class="social-tooltip" title="On GitHub"
-        href="https://github.com/bihai" target="_blank">
-        <i class="fa fa-github"></i>
-    </a>
-    </li>
-</ul>
-
-        </div>
-      </div>
-
-    </div>
     
-  </section>
+
+  </div>
+</div>
+
+
   
+  
+
+</div>
+      
+<footer class="footer hidden-print">
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <p>
+           <div class="pull-left">
+  <a class="toplink" href="#">back to top</a>
+</div>
+<div class="pull-right">
+  
+</div>
+
+         </p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+          <small>
+              
+    
+<div class="container footline">
+  
+
+</div>
+
+
+    
+<div class="container copyright">
+  
+  Copyright &copy; 2016. All rights reserved.
+
+
+</div>
+
+
+
+          </small>
+        </div>
+    </div>
+  </div>
 </footer>
 
-</div>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <script src="http://tyche.cc/js/jquery.min.js"></script>
+<script src="http://tyche.cc/js/bootstrap.min.js"></script>
 
-  ga('create', 'UA-10147768-2', 'auto');
-  ga('send', 'pageview');
 
-  $('#messagesbsb').remove();
 
-</script>
-</body>
+
+<script src="http://tyche.cc/js/highlight.pack.js"></script>
+<script src="http://tyche.cc/js/site.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+  </body>
 </html>
 
