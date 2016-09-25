@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>http://tyche.cc/</loc>
-    <lastmod>2016-09-25T13:20:13+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tyche.cc/hello%20tyche/</loc>
-    <lastmod>2016-09-25T13:20:13+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tyche.cc/2016/09/25/hello/</loc>
-    <lastmod>2016-09-25T13:16:39+08:00</lastmod>
-  </url>
-  
+    
+    <url>
+        <loc>http://tyche.cc/</loc>
+        <lastmod>2016-09-25T13:08:40+08:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/2016/09/25/hello-tyche.cc/</loc>
+        <lastmod>2016-09-25T13:08:40+08:00</lastmod>
+    </url>
+    
 </urlset>
