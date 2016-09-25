@@ -6,7 +6,21 @@
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
-        <updated>Sun, 25 Sep 2016 14:55:22 CST</updated>
+        <updated>Sun, 25 Sep 2016 15:54:10 CST</updated>
+        
+        <item>
+            <title>hello 欢迎</title>
+            <link>http://tyche.cc/2016/09/25/hello-%E6%AC%A2%E8%BF%8E/</link>
+            <pubDate>Sun, 25 Sep 2016 15:54:10 CST</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/2016/09/25/hello-%E6%AC%A2%E8%BF%8E/</guid>
+            <description>
+
+&lt;h1 id=&#34;title-hello-欢迎&#34;&gt;title: &amp;ldquo;hello 欢迎&amp;rdquo;&lt;/h1&gt;
+
+&lt;p&gt;by bihai of &lt;a href=&#34;http://tyche.cc&#34;&gt;http://tyche.cc&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
         
         <item>
             <title>Publish by HUGO</title>
