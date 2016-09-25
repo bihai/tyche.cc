@@ -4,15 +4,43 @@
         <title>Post-rsses on tyche.cc</title>
         <link>http://tyche.cc/post/feed/index.xml</link>
         <language>zh-CN</language>
-        <author>CoderZh</author>
-        <rights>Copyright (c) 2015, CoderZh; all rights reserved.</rights>
-        <updated>Sun, 25 Sep 2016 13:08:40 CST</updated>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Sun, 25 Sep 2016 14:55:22 CST</updated>
+        
+        <item>
+            <title>Publish by HUGO</title>
+            <link>http://tyche.cc/2016/09/25/Publish-by-HUGO/</link>
+            <pubDate>Sun, 25 Sep 2016 14:55:22 CST</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/2016/09/25/Publish-by-HUGO/</guid>
+            <description>
+
+&lt;h1 id=&#34;title-publish-by-hugo&#34;&gt;title: &amp;ldquo;Publish by HUGO&amp;rdquo;&lt;/h1&gt;
+
+&lt;p&gt;by bihai of &lt;a href=&#34;http://tyche.cc&#34;&gt;http://tyche.cc&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title>Make blog over HUGO</title>
+            <link>http://tyche.cc/2016/09/25/Make-blog-over-HUGO/</link>
+            <pubDate>Sun, 25 Sep 2016 14:54:12 CST</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/2016/09/25/Make-blog-over-HUGO/</guid>
+            <description>
+
+&lt;h1 id=&#34;title-make-blog-over-hugo&#34;&gt;title: &amp;ldquo;Make blog over HUGO&amp;rdquo;&lt;/h1&gt;
+
+&lt;p&gt;by bihai of &lt;a href=&#34;http://tyche.cc&#34;&gt;http://tyche.cc&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
         
         <item>
             <title>hello tyche.cc</title>
             <link>http://tyche.cc/2016/09/25/hello-tyche.cc/</link>
             <pubDate>Sun, 25 Sep 2016 13:08:40 CST</pubDate>
-            <author>CoderZh</author>
+            <author>bihai</author>
             <guid>http://tyche.cc/2016/09/25/hello-tyche.cc/</guid>
             <description>
 
