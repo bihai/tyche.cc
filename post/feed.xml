@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Post-rsses on tyche.cc</title>
-        <link>http://tyche.cc/post/feed/index.xml</link>
+        <link>http://tyche.cc/post/feed.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
