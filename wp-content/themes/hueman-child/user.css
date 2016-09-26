@@ -1,11 +1,11 @@
 /* custom colors, etc */
 
 ::selection {
-    background-color : #d36430;
+    background-color : navy;
 }
 
 ::-moz-selection {
-    background-color : #d36430;
+    background-color : navy;
 }
 
 a,
@@ -36,7 +36,7 @@ a,
 .child-menu a:hover,
 .child-menu .current_page_item > a,
 .wp-pagenavi a {
-    color : #d36430;
+    color : navy;
 }
 
 .themeform input[type="submit"],
@@ -50,11 +50,11 @@ a,
 .author-bio .bio-avatar:after,
 .commentlist li.bypostauthor > .comment-body:after,
 .commentlist li.comment-author-admin > .comment-body:after {
-    background-color : #d36430;
+    background-color : navy;
 }
 
 .post-format .format-container {
-    border-color : #d36430;
+    border-color : navy;
 }
 
 .s1 .alx-tabs-nav li.active a,
@@ -63,7 +63,7 @@ a,
 .wp-pagenavi a:hover,
 .wp-pagenavi a:active,
 .wp-pagenavi span.current {
-    border-bottom-color : #d36430 !important;
+    border-bottom-color : navy !important;
 }
 
 .s2 .post-nav li a:hover i,
