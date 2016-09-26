@@ -74,7 +74,7 @@ a,
 .s2 .alx-tab li:hover .tab-item-title a,
 .s2 .alx-tab li:hover .tab-item-comment a,
 .s2 .alx-posts li:hover .post-item-title a {
-    color : #e2864d;
+    color : #0000aa;
 }
 
 .s2 .sidebar-top,
@@ -83,15 +83,15 @@ a,
 .jp-play-bar,
 .jp-volume-bar-value,
 .s2 .widget_calendar caption {
-    background-color : #e2864d;
+    background-color : #0000aa;
 }
 
 .s2 .alx-tabs-nav li.active a {
-    border-bottom-color : #e2864d;
+    border-bottom-color : #0000aa;
 }
 
 .post-comments span:before {
-    border-right-color : #e2864d;
+    border-right-color : #0000aa;
 }
 
 .site-title a img {
