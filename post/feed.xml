@@ -6,7 +6,16 @@
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
-        <updated>Mon, 26 Sep 2016 15:59:38 CST</updated>
+        <updated>Wed, 28 Sep 2016 10:00:47 CST</updated>
+        
+        <item>
+            <title>hello test</title>
+            <link>http://tyche.cc/post/2016/2016-09-28-hello%20test/</link>
+            <pubDate>Wed, 28 Sep 2016 10:00:47 CST</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/post/2016/2016-09-28-hello%20test/</guid>
+            <description></description>
+        </item>
         
         <item>
             <title>Tyche.cc is online</title>
