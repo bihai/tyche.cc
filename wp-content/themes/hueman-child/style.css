@@ -16,11 +16,11 @@ body, input, textarea, button, select, label {
 }
 
 body {
-    background: #eaeaea;
+    background: #D3C8FA;
 }
 
 #commentform {
-    background-color: #FAEBD7;
+    background-color: #D3C8FA;
 }
 
 .site-description {
@@ -33,11 +33,11 @@ body {
 }
 
 ::selection {
-    background-color: #E3701A;
+    background-color: #2B0F93;
 }
 
 ::-moz-selection {
-    background-color: #E3701A;
+    background-color: #2B0F93;
 }
 
 a,
@@ -68,7 +68,7 @@ a,
 .child-menu a:hover,
 .child-menu .current_page_item > a,
 .wp-pagenavi a {
-    color: #E3701A;
+    color: #4825C9;
 }
 
 .themeform input[type="submit"],
@@ -82,11 +82,11 @@ a,
 .author-bio .bio-avatar:after,
 .commentlist li.bypostauthor > .comment-body:after {
     /*background-color: #E3701A;*/
-    background-color: #E3701A;
+    background-color: #4825C9;
 }
 
 .post-format .format-container {
-    border-color: #E3701A;
+    border-color:#4825C9;
 }
 
 .s1 .alx-tabs-nav li.active a,
@@ -95,7 +95,7 @@ a,
 .wp-pagenavi a:hover,
 .wp-pagenavi a:active,
 .wp-pagenavi span.current {
-    border-bottom-color: #E3701A !important;
+    border-bottom-color: #4825C9 !important;
 }
 
 .s2 .post-nav li a:hover i,
@@ -106,7 +106,7 @@ a,
 .s2 .alx-tab li:hover .tab-item-title a,
 .s2 .alx-tab li:hover .tab-item-comment a,
 .s2 .alx-posts li:hover .post-item-title a {
-    color: #8B2500;
+    color: #4825C9;
 }
 
 .s2 .sidebar-top,
@@ -115,15 +115,15 @@ a,
 .jp-play-bar,
 .jp-volume-bar-value,
 .s2 .widget_calendar caption {
-    background-color: #8B2500;
+    background-color: #4825C9;
 }
 
 .s2 .alx-tabs-nav li.active a {
-    border-bottom-color: #8B2500;
+    border-bottom-color: #4825C9;
 }
 
 .post-comments span:before {
-    border-right-color: #8B2500;
+    border-right-color: #4825C9;
 }
 
 .widget_archive h4 {

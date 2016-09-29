@@ -1,11 +1,11 @@
 /* custom colors, etc */
 
 ::selection {
-    background-color: #d36430;
+    background-color: #4825C9;
 }
 
 ::-moz-selection {
-    background-color: #d36430;
+    background-color: #4825C9;
 }
 
 a,
@@ -36,7 +36,7 @@ a,
 .child-menu a:hover,
 .child-menu .current_page_item > a,
 .wp-pagenavi a {
-    color: #d36430;
+    color: #32159F;
 }
 
 .themeform input[type="submit"],
@@ -50,11 +50,11 @@ a,
 .author-bio .bio-avatar:after,
 .commentlist li.bypostauthor > .comment-body:after,
 .commentlist li.comment-author-admin > .comment-body:after {
-    background-color: #d36430;
+    background-color: #32159F;
 }
 
 .post-format .format-container {
-    border-color: #d36430;
+    border-color: #32159F;
 }
 
 .s1 .alx-tabs-nav li.active a,
@@ -63,7 +63,7 @@ a,
 .wp-pagenavi a:hover,
 .wp-pagenavi a:active,
 .wp-pagenavi span.current {
-    border-bottom-color: #d36430 !important;
+    border-bottom-color: #32159F !important;
 }
 
 .s2 .post-nav li a:hover i,
@@ -74,7 +74,7 @@ a,
 .s2 .alx-tab li:hover .tab-item-title a,
 .s2 .alx-tab li:hover .tab-item-comment a,
 .s2 .alx-posts li:hover .post-item-title a {
-    color: #e2864d;
+    color: #32159F;
 }
 
 .s2 .sidebar-top,
@@ -83,22 +83,22 @@ a,
 .jp-play-bar,
 .jp-volume-bar-value,
 .s2 .widget_calendar caption {
-    background-color: #ef6430;
+    background-color: #32159F;
 }
 
 .s2 .alx-tabs-nav li.active a {
-    border-bottom-color: #e2864d;
+    border-bottom-color: #32159F;
 }
 
 .post-comments span:before {
-    border-right-color: #e2864d;
+    border-right-color: #32159F;
 }
 
 /*header*/
 .home-icon {
     float: left;
     margin-right: 5px;
-    border: 1px solid #f5f5f5;
+    border: 1px solid #D0C5F7;
 }
 
 #nav-topbar.nav-container, .nav-container {
@@ -229,7 +229,7 @@ a,
 }
 
 .social-tooltip i {
-    color: #dddddd;
+    color: #D0C5F7;
 }
 
 .entry .gist table, .entry table.mEvent {
@@ -245,14 +245,14 @@ a,
 }
 
 .post-byline a:hover {
-    color: #d36430;
+    color: #3A1BAD;
     text-decoration: none;
 }
 
 .entry ul.ghStarred li {
     list-style-type: none;
     margin-bottom: 1em;
-    border-bottom: 1px solid #ececec;
+    border-bottom: 1px solid #D0C5F7;
 }
 
 .ghStarred img {
