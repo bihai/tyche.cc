@@ -1,38 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Post-rsses on tyche.cc</title>
-        <link>http://tyche.cc/post/feed/index.xml</link>
+        <title>Posts on tyche.cc</title>
+        <link>http://tyche.cc/post/</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
-        <updated>Wed, 28 Sep 2016 10:00:47 CST</updated>
-        
-        <item>
-            <title>hello test</title>
-            <link>http://tyche.cc/post/2016/2016-09-28-hello%20test/</link>
-            <pubDate>Wed, 28 Sep 2016 10:00:47 CST</pubDate>
-            <author>bihai</author>
-            <guid>http://tyche.cc/post/2016/2016-09-28-hello%20test/</guid>
-            <description></description>
-        </item>
-        
-        <item>
-            <title>Tyche.cc is online</title>
-            <link>http://tyche.cc/post/2016/2016-09-26-Tyche/</link>
-            <pubDate>Mon, 26 Sep 2016 15:59:38 CST</pubDate>
-            <author>bihai</author>
-            <guid>http://tyche.cc/post/2016/2016-09-26-Tyche/</guid>
-            <description></description>
-        </item>
+        <updated>Sun, 25 Sep 2016 18:53:52 CST</updated>
         
         <item>
             <title>Welcome to tyche.cc</title>
-            <link>http://tyche.cc/post/2016/2016-09-25-Welcome%20to%20tyche/</link>
+            <link>http://tyche.cc/post/2016/2016-09-25-Welcome%20to%20tyche.cc/</link>
             <pubDate>Sun, 25 Sep 2016 18:53:52 CST</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/post/2016/2016-09-25-Welcome%20to%20tyche/</guid>
+            <guid>http://tyche.cc/post/2016/2016-09-25-Welcome%20to%20tyche.cc/</guid>
             <description>
+
+&lt;p&gt;&lt;img src=&#34;https://cdn.v2ex.co/avatar/afec/1e2e/94644_large.png?m=1473034381&#34; alt=&#34;nhew&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;tyche-cc-torch-your-confidence-hope-emotion&#34;&gt;tyche.cc = Torch your confidence, hope &amp;amp; emotion.&lt;/h2&gt;
 
