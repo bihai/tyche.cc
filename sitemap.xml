@@ -2,18 +2,408 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>http://tyche.cc/</loc>
+        <loc>http://replace-this-with-your-hugo-site.com/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/customproject/video/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/project/video/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/about/</loc>
         <lastmod>2016-09-28T10:00:47+08:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/about/</loc>
-        <lastmod>2016-09-28T10:00:47+08:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://tyche.cc/post/2016/2016-09-25-Welcome%20to%20tyche.cc/</loc>
+        <loc>http://replace-this-with-your-hugo-site.com/post/2016/2016-09-25-Welcome%20to%20tyche.cc/</loc>
         <lastmod>2016-09-25T18:53:52+08:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/custompost/info/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/post/2016/info/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/custompost/redirect/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/post/2016/redirect/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/customgallery/anothercar/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/customgallery/anothercup/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/customgallery/anotherdrone/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/customgallery/anotherfood/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/customgallery/anotherjars/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/customgallery/anotherphone/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/customgallery/car/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/customgallery/cup/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/customgallery/drone/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/customgallery/food/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/customgallery/jars/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/customgallery/phone/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/gallery/anothercar/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/gallery/anothercup/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/gallery/anotherdrone/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/gallery/anotherfood/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/gallery/anotherjars/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/gallery/anotherphone/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/gallery/car/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/gallery/cup/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/gallery/drone/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/gallery/food/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/gallery/jars/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/gallery/phone/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/custompost/eight/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/custompost/eleven/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/custompost/five/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/custompost/four/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/custompost/nine/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/custompost/one/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/custompost/seven/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/custompost/six/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/custompost/ten/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/custompost/three/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/custompost/twelve/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/custompost/two/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/post/2016/eight/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/post/2016/eleven/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/post/2016/five/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/post/2016/four/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/post/2016/nine/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/post/2016/one/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/post/2016/seven/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/post/2016/six/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/post/2016/ten/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/post/2016/three/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/post/2016/twelve/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/post/2016/two/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/customproject/anothercar/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/project/anothercar/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/customproject/anothercup/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/project/anothercup/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/customproject/car/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/project/car/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/customproject/cup/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/project/cup/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/customproject/anotherdrone/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/customproject/drone/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/project/anotherdrone/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/project/drone/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/customproject/anotherfood/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/customproject/food/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/project/anotherfood/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/project/food/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/customproject/anotherjars/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/customproject/jars/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/project/anotherjars/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/project/jars/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/customproject/anotherphone/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/customproject/phone/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/project/anotherphone/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://replace-this-with-your-hugo-site.com/project/phone/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
 </urlset>

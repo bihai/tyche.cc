@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Another Tag on Grid Side</title>
+        <link>http://replace-this-with-your-hugo-site.com/tags/another-tag/</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title>Another Car</title>
+            <link>http://replace-this-with-your-hugo-site.com/customproject/anothercar/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/customproject/anothercar/</guid>
+            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
+&lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title>Another Car</title>
+            <link>http://replace-this-with-your-hugo-site.com/project/anothercar/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/project/anothercar/</guid>
+            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
+&lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title>Another Cup</title>
+            <link>http://replace-this-with-your-hugo-site.com/customproject/anothercup/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/customproject/anothercup/</guid>
+            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
+&lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title>Another Cup</title>
+            <link>http://replace-this-with-your-hugo-site.com/project/anothercup/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/project/anothercup/</guid>
+            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
+&lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title>Car</title>
+            <link>http://replace-this-with-your-hugo-site.com/customproject/car/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/customproject/car/</guid>
+            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
+&lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title>Car</title>
+            <link>http://replace-this-with-your-hugo-site.com/project/car/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/project/car/</guid>
+            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
+&lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title>Cup</title>
+            <link>http://replace-this-with-your-hugo-site.com/customproject/cup/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/customproject/cup/</guid>
+            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
+&lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title>Cup</title>
+            <link>http://replace-this-with-your-hugo-site.com/project/cup/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/project/cup/</guid>
+            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
+&lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title>Drone</title>
+            <link>http://replace-this-with-your-hugo-site.com/customproject/anotherdrone/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/customproject/anotherdrone/</guid>
+            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
+&lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title>Drone</title>
+            <link>http://replace-this-with-your-hugo-site.com/customproject/drone/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/customproject/drone/</guid>
+            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
+&lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title>Drone</title>
+            <link>http://replace-this-with-your-hugo-site.com/project/anotherdrone/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/project/anotherdrone/</guid>
+            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
+&lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title>Drone</title>
+            <link>http://replace-this-with-your-hugo-site.com/project/drone/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/project/drone/</guid>
+            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
+&lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title>Food</title>
+            <link>http://replace-this-with-your-hugo-site.com/customproject/anotherfood/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/customproject/anotherfood/</guid>
+            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
+&lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title>Food</title>
+            <link>http://replace-this-with-your-hugo-site.com/customproject/food/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/customproject/food/</guid>
+            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
+&lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title>Food</title>
+            <link>http://replace-this-with-your-hugo-site.com/project/anotherfood/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/project/anotherfood/</guid>
+            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
+&lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Galleries on Grid Side</title>
+        <link>http://replace-this-with-your-hugo-site.com/gallery/</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Wed, 29 Jul 2015 00:00:00 UTC</updated>
+        
+        <item>
+            <title>This is the title</title>
+            <link>http://replace-this-with-your-hugo-site.com/gallery/anothercar/</link>
+            <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/gallery/anothercar/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>This is the title</title>
+            <link>http://replace-this-with-your-hugo-site.com/gallery/anothercup/</link>
+            <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/gallery/anothercup/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>This is the title</title>
+            <link>http://replace-this-with-your-hugo-site.com/gallery/anotherdrone/</link>
+            <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/gallery/anotherdrone/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>This is the title</title>
+            <link>http://replace-this-with-your-hugo-site.com/gallery/anotherfood/</link>
+            <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/gallery/anotherfood/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>This is the title</title>
+            <link>http://replace-this-with-your-hugo-site.com/gallery/anotherjars/</link>
+            <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/gallery/anotherjars/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>This is the title</title>
+            <link>http://replace-this-with-your-hugo-site.com/gallery/anotherphone/</link>
+            <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/gallery/anotherphone/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>This is the title</title>
+            <link>http://replace-this-with-your-hugo-site.com/gallery/car/</link>
+            <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/gallery/car/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>This is the title</title>
+            <link>http://replace-this-with-your-hugo-site.com/gallery/cup/</link>
+            <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/gallery/cup/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>This is the title</title>
+            <link>http://replace-this-with-your-hugo-site.com/gallery/drone/</link>
+            <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/gallery/drone/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>This is the title</title>
+            <link>http://replace-this-with-your-hugo-site.com/gallery/food/</link>
+            <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/gallery/food/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>This is the title</title>
+            <link>http://replace-this-with-your-hugo-site.com/gallery/jars/</link>
+            <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/gallery/jars/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>This is the title</title>
+            <link>http://replace-this-with-your-hugo-site.com/gallery/phone/</link>
+            <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/gallery/phone/</guid>
+            <description></description>
+        </item>
+        
+    </channel>
+</rss>

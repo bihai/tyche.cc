@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Category1 on Grid Side</title>
+        <link>http://replace-this-with-your-hugo-site.com/categories/category1/</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Wed, 29 Jul 2015 00:00:00 UTC</updated>
+        
+        <item>
+            <title>Info</title>
+            <link>http://replace-this-with-your-hugo-site.com/custompost/info/</link>
+            <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/custompost/info/</guid>
+            <description>&lt;p&gt;You can optionally set an image in the front matter of a post using
+&lt;code&gt;image = &amp;quot;...&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title>Info</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/2016/info/</link>
+            <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/post/2016/info/</guid>
+            <description>&lt;p&gt;You can optionally set an image in the front matter of a post using
+&lt;code&gt;image = &amp;quot;...&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title>Redirect</title>
+            <link>http://replace-this-with-your-hugo-site.com/custompost/redirect/</link>
+            <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/custompost/redirect/</guid>
+            <description>&lt;p&gt;You can optionally set the front matter &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt; to automatically
+redirect the content to another page.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title>Redirect</title>
+            <link>http://replace-this-with-your-hugo-site.com/post/2016/redirect/</link>
+            <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://replace-this-with-your-hugo-site.com/post/2016/redirect/</guid>
+            <description>&lt;p&gt;You can optionally set the front matter &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt; to automatically
+redirect the content to another page.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
