@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Galleries on Grid Side</title>
-        <link>http://replace-this-with-your-hugo-site.com/gallery/</link>
+        <title>Galleries on tyche.cc</title>
+        <link>http://tyche.cc/gallery/</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,109 +10,109 @@
         
         <item>
             <title>This is the title</title>
-            <link>http://replace-this-with-your-hugo-site.com/gallery/anothercar/</link>
+            <link>http://tyche.cc/gallery/anothercar/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/gallery/anothercar/</guid>
+            <guid>http://tyche.cc/gallery/anothercar/</guid>
             <description></description>
         </item>
         
         <item>
             <title>This is the title</title>
-            <link>http://replace-this-with-your-hugo-site.com/gallery/anothercup/</link>
+            <link>http://tyche.cc/gallery/anothercup/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/gallery/anothercup/</guid>
+            <guid>http://tyche.cc/gallery/anothercup/</guid>
             <description></description>
         </item>
         
         <item>
             <title>This is the title</title>
-            <link>http://replace-this-with-your-hugo-site.com/gallery/anotherdrone/</link>
+            <link>http://tyche.cc/gallery/anotherdrone/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/gallery/anotherdrone/</guid>
+            <guid>http://tyche.cc/gallery/anotherdrone/</guid>
             <description></description>
         </item>
         
         <item>
             <title>This is the title</title>
-            <link>http://replace-this-with-your-hugo-site.com/gallery/anotherfood/</link>
+            <link>http://tyche.cc/gallery/anotherfood/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/gallery/anotherfood/</guid>
+            <guid>http://tyche.cc/gallery/anotherfood/</guid>
             <description></description>
         </item>
         
         <item>
             <title>This is the title</title>
-            <link>http://replace-this-with-your-hugo-site.com/gallery/anotherjars/</link>
+            <link>http://tyche.cc/gallery/anotherjars/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/gallery/anotherjars/</guid>
+            <guid>http://tyche.cc/gallery/anotherjars/</guid>
             <description></description>
         </item>
         
         <item>
             <title>This is the title</title>
-            <link>http://replace-this-with-your-hugo-site.com/gallery/anotherphone/</link>
+            <link>http://tyche.cc/gallery/anotherphone/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/gallery/anotherphone/</guid>
+            <guid>http://tyche.cc/gallery/anotherphone/</guid>
             <description></description>
         </item>
         
         <item>
             <title>This is the title</title>
-            <link>http://replace-this-with-your-hugo-site.com/gallery/car/</link>
+            <link>http://tyche.cc/gallery/car/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/gallery/car/</guid>
+            <guid>http://tyche.cc/gallery/car/</guid>
             <description></description>
         </item>
         
         <item>
             <title>This is the title</title>
-            <link>http://replace-this-with-your-hugo-site.com/gallery/cup/</link>
+            <link>http://tyche.cc/gallery/cup/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/gallery/cup/</guid>
+            <guid>http://tyche.cc/gallery/cup/</guid>
             <description></description>
         </item>
         
         <item>
             <title>This is the title</title>
-            <link>http://replace-this-with-your-hugo-site.com/gallery/drone/</link>
+            <link>http://tyche.cc/gallery/drone/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/gallery/drone/</guid>
+            <guid>http://tyche.cc/gallery/drone/</guid>
             <description></description>
         </item>
         
         <item>
             <title>This is the title</title>
-            <link>http://replace-this-with-your-hugo-site.com/gallery/food/</link>
+            <link>http://tyche.cc/gallery/food/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/gallery/food/</guid>
+            <guid>http://tyche.cc/gallery/food/</guid>
             <description></description>
         </item>
         
         <item>
             <title>This is the title</title>
-            <link>http://replace-this-with-your-hugo-site.com/gallery/jars/</link>
+            <link>http://tyche.cc/gallery/jars/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/gallery/jars/</guid>
+            <guid>http://tyche.cc/gallery/jars/</guid>
             <description></description>
         </item>
         
         <item>
             <title>This is the title</title>
-            <link>http://replace-this-with-your-hugo-site.com/gallery/phone/</link>
+            <link>http://tyche.cc/gallery/phone/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/gallery/phone/</guid>
+            <guid>http://tyche.cc/gallery/phone/</guid>
             <description></description>
         </item>
         

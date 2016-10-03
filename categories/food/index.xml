@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Food on Grid Side</title>
-        <link>http://replace-this-with-your-hugo-site.com/categories/food/</link>
+        <title>Food on tyche.cc</title>
+        <link>http://tyche.cc/categories/food/</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title>Food</title>
-            <link>http://replace-this-with-your-hugo-site.com/customproject/anotherfood/</link>
+            <link>http://tyche.cc/customproject/anotherfood/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/customproject/anotherfood/</guid>
+            <guid>http://tyche.cc/customproject/anotherfood/</guid>
             <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
@@ -21,10 +21,10 @@
         
         <item>
             <title>Food</title>
-            <link>http://replace-this-with-your-hugo-site.com/customproject/food/</link>
+            <link>http://tyche.cc/customproject/food/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/customproject/food/</guid>
+            <guid>http://tyche.cc/customproject/food/</guid>
             <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
@@ -32,10 +32,10 @@
         
         <item>
             <title>Food</title>
-            <link>http://replace-this-with-your-hugo-site.com/project/anotherfood/</link>
+            <link>http://tyche.cc/project/anotherfood/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/project/anotherfood/</guid>
+            <guid>http://tyche.cc/project/anotherfood/</guid>
             <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
@@ -43,10 +43,10 @@
         
         <item>
             <title>Food</title>
-            <link>http://replace-this-with-your-hugo-site.com/project/food/</link>
+            <link>http://tyche.cc/project/food/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/project/food/</guid>
+            <guid>http://tyche.cc/project/food/</guid>
             <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>

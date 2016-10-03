@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title> on Grid Side</title>
-        <link>http://replace-this-with-your-hugo-site.com/</link>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title>Video</title>
-            <link>http://replace-this-with-your-hugo-site.com/customproject/video/</link>
+            <link>http://tyche.cc/customproject/video/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/customproject/video/</guid>
+            <guid>http://tyche.cc/customproject/video/</guid>
             <description>&lt;p&gt;Videos can be provided via:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;video_mp4 = &amp;quot;/vid/vid_480x320.mp4&amp;quot;
@@ -37,10 +37,10 @@ support HTML5 video.&lt;/p&gt;
         
         <item>
             <title>Video</title>
-            <link>http://replace-this-with-your-hugo-site.com/project/video/</link>
+            <link>http://tyche.cc/project/video/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/project/video/</guid>
+            <guid>http://tyche.cc/project/video/</guid>
             <description>&lt;p&gt;Videos can be provided via:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;video_mp4 = &amp;quot;/vid/vid_480x320.mp4&amp;quot;
@@ -64,10 +64,10 @@ support HTML5 video.&lt;/p&gt;
         
         <item>
             <title>About tyche.cc</title>
-            <link>http://replace-this-with-your-hugo-site.com/about/</link>
+            <link>http://tyche.cc/about/</link>
             <pubDate>Wed, 28 Sep 2016 10:00:47 CST</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/about/</guid>
+            <guid>http://tyche.cc/about/</guid>
             <description>
 
 &lt;p&gt;&lt;img src=&#34;https://cdn.v2ex.co/avatar/afec/1e2e/94644_large.png?m=1473034381&#34; alt=&#34;nhew&#34; /&gt;&lt;/p&gt;
@@ -97,10 +97,10 @@ Tyche很有意思，作为希腊女神，她既是好运气的给予者也是邪
         
         <item>
             <title>Welcome to tyche.cc</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/2016/2016-09-25-Welcome%20to%20tyche.cc/</link>
+            <link>http://tyche.cc/post/2016/2016-09-25-Welcome%20to%20tyche.cc/</link>
             <pubDate>Sun, 25 Sep 2016 18:53:52 CST</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/post/2016/2016-09-25-Welcome%20to%20tyche.cc/</guid>
+            <guid>http://tyche.cc/post/2016/2016-09-25-Welcome%20to%20tyche.cc/</guid>
             <description>
 
 &lt;p&gt;&lt;img src=&#34;https://cdn.v2ex.co/avatar/afec/1e2e/94644_large.png?m=1473034381&#34; alt=&#34;nhew&#34; /&gt;&lt;/p&gt;
@@ -130,10 +130,10 @@ Tyche很有意思，作为希腊女神，她既是好运气的给予者也是邪
         
         <item>
             <title>Info</title>
-            <link>http://replace-this-with-your-hugo-site.com/custompost/info/</link>
+            <link>http://tyche.cc/custompost/info/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/custompost/info/</guid>
+            <guid>http://tyche.cc/custompost/info/</guid>
             <description>&lt;p&gt;You can optionally set an image in the front matter of a post using
 &lt;code&gt;image = &amp;quot;...&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
@@ -141,10 +141,10 @@ Tyche很有意思，作为希腊女神，她既是好运气的给予者也是邪
         
         <item>
             <title>Info</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/2016/info/</link>
+            <link>http://tyche.cc/post/2016/info/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/post/2016/info/</guid>
+            <guid>http://tyche.cc/post/2016/info/</guid>
             <description>&lt;p&gt;You can optionally set an image in the front matter of a post using
 &lt;code&gt;image = &amp;quot;...&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
@@ -152,10 +152,10 @@ Tyche很有意思，作为希腊女神，她既是好运气的给予者也是邪
         
         <item>
             <title>Redirect</title>
-            <link>http://replace-this-with-your-hugo-site.com/custompost/redirect/</link>
+            <link>http://tyche.cc/custompost/redirect/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/custompost/redirect/</guid>
+            <guid>http://tyche.cc/custompost/redirect/</guid>
             <description>&lt;p&gt;You can optionally set the front matter &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt; to automatically
 redirect the content to another page.&lt;/p&gt;
 </description>
@@ -163,10 +163,10 @@ redirect the content to another page.&lt;/p&gt;
         
         <item>
             <title>Redirect</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/2016/redirect/</link>
+            <link>http://tyche.cc/post/2016/redirect/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/post/2016/redirect/</guid>
+            <guid>http://tyche.cc/post/2016/redirect/</guid>
             <description>&lt;p&gt;You can optionally set the front matter &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt; to automatically
 redirect the content to another page.&lt;/p&gt;
 </description>
@@ -174,64 +174,64 @@ redirect the content to another page.&lt;/p&gt;
         
         <item>
             <title>This is the title</title>
-            <link>http://replace-this-with-your-hugo-site.com/customgallery/anothercar/</link>
+            <link>http://tyche.cc/customgallery/anothercar/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/customgallery/anothercar/</guid>
+            <guid>http://tyche.cc/customgallery/anothercar/</guid>
             <description></description>
         </item>
         
         <item>
             <title>This is the title</title>
-            <link>http://replace-this-with-your-hugo-site.com/customgallery/anothercup/</link>
+            <link>http://tyche.cc/customgallery/anothercup/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/customgallery/anothercup/</guid>
+            <guid>http://tyche.cc/customgallery/anothercup/</guid>
             <description></description>
         </item>
         
         <item>
             <title>This is the title</title>
-            <link>http://replace-this-with-your-hugo-site.com/customgallery/anotherdrone/</link>
+            <link>http://tyche.cc/customgallery/anotherdrone/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/customgallery/anotherdrone/</guid>
+            <guid>http://tyche.cc/customgallery/anotherdrone/</guid>
             <description></description>
         </item>
         
         <item>
             <title>This is the title</title>
-            <link>http://replace-this-with-your-hugo-site.com/customgallery/anotherfood/</link>
+            <link>http://tyche.cc/customgallery/anotherfood/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/customgallery/anotherfood/</guid>
+            <guid>http://tyche.cc/customgallery/anotherfood/</guid>
             <description></description>
         </item>
         
         <item>
             <title>This is the title</title>
-            <link>http://replace-this-with-your-hugo-site.com/customgallery/anotherjars/</link>
+            <link>http://tyche.cc/customgallery/anotherjars/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/customgallery/anotherjars/</guid>
+            <guid>http://tyche.cc/customgallery/anotherjars/</guid>
             <description></description>
         </item>
         
         <item>
             <title>This is the title</title>
-            <link>http://replace-this-with-your-hugo-site.com/customgallery/anotherphone/</link>
+            <link>http://tyche.cc/customgallery/anotherphone/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/customgallery/anotherphone/</guid>
+            <guid>http://tyche.cc/customgallery/anotherphone/</guid>
             <description></description>
         </item>
         
         <item>
             <title>This is the title</title>
-            <link>http://replace-this-with-your-hugo-site.com/customgallery/car/</link>
+            <link>http://tyche.cc/customgallery/car/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/customgallery/car/</guid>
+            <guid>http://tyche.cc/customgallery/car/</guid>
             <description></description>
         </item>
         

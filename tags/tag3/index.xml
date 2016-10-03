@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Tag3 on Grid Side</title>
-        <link>http://replace-this-with-your-hugo-site.com/tags/tag3/</link>
+        <title>Tag3 on tyche.cc</title>
+        <link>http://tyche.cc/tags/tag3/</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title>One</title>
-            <link>http://replace-this-with-your-hugo-site.com/custompost/eight/</link>
+            <link>http://tyche.cc/custompost/eight/</link>
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/custompost/eight/</guid>
+            <guid>http://tyche.cc/custompost/eight/</guid>
             <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
 vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
 faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
@@ -26,10 +26,10 @@ a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
         
         <item>
             <title>One</title>
-            <link>http://replace-this-with-your-hugo-site.com/custompost/five/</link>
+            <link>http://tyche.cc/custompost/five/</link>
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/custompost/five/</guid>
+            <guid>http://tyche.cc/custompost/five/</guid>
             <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
 vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
 faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
@@ -42,10 +42,10 @@ a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
         
         <item>
             <title>One</title>
-            <link>http://replace-this-with-your-hugo-site.com/custompost/four/</link>
+            <link>http://tyche.cc/custompost/four/</link>
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/custompost/four/</guid>
+            <guid>http://tyche.cc/custompost/four/</guid>
             <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
 vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
 faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
@@ -58,10 +58,10 @@ a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
         
         <item>
             <title>One</title>
-            <link>http://replace-this-with-your-hugo-site.com/custompost/one/</link>
+            <link>http://tyche.cc/custompost/one/</link>
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/custompost/one/</guid>
+            <guid>http://tyche.cc/custompost/one/</guid>
             <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
 vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
 faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
@@ -74,10 +74,10 @@ a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
         
         <item>
             <title>One</title>
-            <link>http://replace-this-with-your-hugo-site.com/custompost/seven/</link>
+            <link>http://tyche.cc/custompost/seven/</link>
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/custompost/seven/</guid>
+            <guid>http://tyche.cc/custompost/seven/</guid>
             <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
 vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
 faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
@@ -90,10 +90,10 @@ a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
         
         <item>
             <title>One</title>
-            <link>http://replace-this-with-your-hugo-site.com/custompost/six/</link>
+            <link>http://tyche.cc/custompost/six/</link>
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/custompost/six/</guid>
+            <guid>http://tyche.cc/custompost/six/</guid>
             <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
 vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
 faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
@@ -106,10 +106,10 @@ a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
         
         <item>
             <title>One</title>
-            <link>http://replace-this-with-your-hugo-site.com/custompost/ten/</link>
+            <link>http://tyche.cc/custompost/ten/</link>
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/custompost/ten/</guid>
+            <guid>http://tyche.cc/custompost/ten/</guid>
             <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
 vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
 faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
@@ -122,10 +122,10 @@ a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
         
         <item>
             <title>One</title>
-            <link>http://replace-this-with-your-hugo-site.com/custompost/three/</link>
+            <link>http://tyche.cc/custompost/three/</link>
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/custompost/three/</guid>
+            <guid>http://tyche.cc/custompost/three/</guid>
             <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
 vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
 faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
@@ -138,10 +138,10 @@ a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
         
         <item>
             <title>One</title>
-            <link>http://replace-this-with-your-hugo-site.com/custompost/twelve/</link>
+            <link>http://tyche.cc/custompost/twelve/</link>
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/custompost/twelve/</guid>
+            <guid>http://tyche.cc/custompost/twelve/</guid>
             <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
 vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
 faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
@@ -154,10 +154,10 @@ a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
         
         <item>
             <title>One</title>
-            <link>http://replace-this-with-your-hugo-site.com/custompost/two/</link>
+            <link>http://tyche.cc/custompost/two/</link>
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/custompost/two/</guid>
+            <guid>http://tyche.cc/custompost/two/</guid>
             <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
 vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
 faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
@@ -170,10 +170,10 @@ a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
         
         <item>
             <title>One</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/2016/eight/</link>
+            <link>http://tyche.cc/post/2016/eight/</link>
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/post/2016/eight/</guid>
+            <guid>http://tyche.cc/post/2016/eight/</guid>
             <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
 vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
 faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
@@ -186,10 +186,10 @@ a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
         
         <item>
             <title>One</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/2016/five/</link>
+            <link>http://tyche.cc/post/2016/five/</link>
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/post/2016/five/</guid>
+            <guid>http://tyche.cc/post/2016/five/</guid>
             <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
 vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
 faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
@@ -202,10 +202,10 @@ a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
         
         <item>
             <title>One</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/2016/four/</link>
+            <link>http://tyche.cc/post/2016/four/</link>
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/post/2016/four/</guid>
+            <guid>http://tyche.cc/post/2016/four/</guid>
             <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
 vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
 faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
@@ -218,10 +218,10 @@ a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
         
         <item>
             <title>One</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/2016/one/</link>
+            <link>http://tyche.cc/post/2016/one/</link>
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/post/2016/one/</guid>
+            <guid>http://tyche.cc/post/2016/one/</guid>
             <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
 vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
 faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
@@ -234,10 +234,10 @@ a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
         
         <item>
             <title>One</title>
-            <link>http://replace-this-with-your-hugo-site.com/post/2016/seven/</link>
+            <link>http://tyche.cc/post/2016/seven/</link>
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/post/2016/seven/</guid>
+            <guid>http://tyche.cc/post/2016/seven/</guid>
             <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
 vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
 faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Jars on Grid Side</title>
-        <link>http://replace-this-with-your-hugo-site.com/categories/jars/</link>
+        <title>Jars on tyche.cc</title>
+        <link>http://tyche.cc/categories/jars/</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title>Jars</title>
-            <link>http://replace-this-with-your-hugo-site.com/customproject/anotherjars/</link>
+            <link>http://tyche.cc/customproject/anotherjars/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/customproject/anotherjars/</guid>
+            <guid>http://tyche.cc/customproject/anotherjars/</guid>
             <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
@@ -21,10 +21,10 @@
         
         <item>
             <title>Jars</title>
-            <link>http://replace-this-with-your-hugo-site.com/customproject/jars/</link>
+            <link>http://tyche.cc/customproject/jars/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/customproject/jars/</guid>
+            <guid>http://tyche.cc/customproject/jars/</guid>
             <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
@@ -32,10 +32,10 @@
         
         <item>
             <title>Jars</title>
-            <link>http://replace-this-with-your-hugo-site.com/project/anotherjars/</link>
+            <link>http://tyche.cc/project/anotherjars/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/project/anotherjars/</guid>
+            <guid>http://tyche.cc/project/anotherjars/</guid>
             <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
@@ -43,10 +43,10 @@
         
         <item>
             <title>Jars</title>
-            <link>http://replace-this-with-your-hugo-site.com/project/jars/</link>
+            <link>http://tyche.cc/project/jars/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://replace-this-with-your-hugo-site.com/project/jars/</guid>
+            <guid>http://tyche.cc/project/jars/</guid>
             <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
