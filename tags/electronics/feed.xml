@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/electronics/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title>LosslessLife</title>
+            <link>http://tyche.cc/showcase/losslesslife/</link>
+            <pubDate>Sun, 15 Nov 2015 11:20:00 -0800</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/losslesslife/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>Richard Sumilang - Top Secret Labs</title>
+            <link>http://tyche.cc/showcase/richardsumilang/</link>
+            <pubDate>Mon, 07 Sep 2015 00:12:00 -0700</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/richardsumilang/</guid>
+            <description></description>
+        </item>
+        
+    </channel>
+</rss>

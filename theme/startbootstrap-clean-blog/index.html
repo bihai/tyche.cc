@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Startbootstrap Clean Blog">
+        <link rel="alternate" href="/feed.xml" type="application/rss+xml" title="tyche.cc">
+        <link rel="icon" href="http://tyche.cc//favicon.ico">
+        <title> - tyche.cc</title>
+        <link rel="stylesheet" href="http://tyche.cc//css/highlight.js.min.css">
+        <link rel="stylesheet" href="http://tyche.cc//css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://tyche.cc//css/bootstrap-theme.css">
+        <link rel="stylesheet" href="http://tyche.cc//css/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="http://tyche.cc//css/theme.css">
+        <link rel="stylesheet" href="http://tyche.cc//css/hugo-org.css">
+    </head>
+
+<body role="document">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://tyche.cc//">tyche.cc</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li ><a href="http://tyche.cc//">主页</a></li>
+                    
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">常用链接<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                        
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">官方文档<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                        
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+<div class="container">
+    <div id="theme-header">
+        <img src="/images/startbootstrap-clean-blog.screenshot.png" class="screenshot-blurred" />
+        <div class="dark-overlay"></div>
+        <div class="row">
+            <div class="col-md-6 col-sm-6 screenshot-container"><img src="/images/startbootstrap-clean-blog.screenshot.png" class="screenshot-normal" /></div>
+            <div class="col-md-6 col-sm-6 theme-details">
+                <h1>Startbootstrap Clean Blog</h1>
+                <p class="description">Startbootstrap Clean Blog</p>
+                <ul class="theme-meta">
+                    
+                        
+                            <li><span class="label">Author:</span> <a href="http://www.humboldtux.com">Benoît Benedetti</a></li>
+                        
+                    
+                    
+                        <li><span class="label">Minimum Hugo Version:</span> <span class="value">0.14</span></li>
+                    
+                    
+                        <li><span class="label">License:</span> <a href="https://github.com/humboldtux/startbootstrap-clean-blog/blob/master/LICENSE.md">Apache 2.0</a></li>
+                    
+                    
+                        <li>
+                            <span class="label">Tags:</span>
+                            
+                            <a href="/tags/blog">blog</a>
+                            
+                            <a href="/tags/bootstrap">bootstrap</a>
+                            
+                        </li>
+                    
+                </ul>
+            </div>
+
+            <div class="theme-buttons">
+
+                
+                <a class="btn btn-info btn-lg" href="https://github.com/humboldtux/startbootstrap-clean-blog"><i class="fa fa-download"></i> Download</a>
+                
+
+                
+                <a class="btn btn-success btn-lg" href="/theme/startbootstrap-clean-blog/"><i class="fa fa-road"></i> Demo</a>
+                
+
+                
+                <a class="btn btn-dark btn-lg" href="https://github.com/humboldtux/startbootstrap-clean-blog"><i class="fa fa-home"></i> Homepage</a>
+                
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        
+
+<h2 id="about">About</h2>
+
+<p>Hugo theme based on <a href="http://startbootstrap.com/template-overviews/clean-blog/">Start Bootstrap Clean Blog</a>.</p>
+
+<p><img src="https://raw.githubusercontent.com/humboldtux/startbootstrap-clean-blog/master/images/tn.png" alt="Screenshot" /></p>
+
+<h2 id="setup">Setup</h2>
+
+<h3 id="as-is">As is</h3>
+
+<p>You can use the site as is, it will work. You can for example use it with <a href="https://github.com/spf13/HugoBasicExample">HugoBasicExample</a>.</p>
+
+<h4 id="full-features">full features</h4>
+
+<p>If you want to have all the features and pages of the original theme, you will need a similar <em>config.toml</em>:</p>
+
+<pre><code class="language-toml">baseurl = &quot;http://humboldtux.github.io/sbcb-demo&quot;
+title = &quot;Start Bootstrap Clean Blog&quot;
+canonifyurls = true
+paginate = 10
+theme = &quot;startbootstrap-clean-blog&quot;
+languageCode = &quot;en-us&quot;
+copyright = &quot;Code released under the Apache 2.0 license.&quot;
+
+[author]
+  name = &quot;Benoît Benedetti&quot;
+    
+[params]
+  DateForm = &quot;Mon, Jan 2, 2006&quot;
+  Description = &quot;Your site description&quot;
+  Author = &quot;Benoît Benedetti&quot;
+  email = &quot;benoit.benedetti@gmail.com&quot;
+  Ganalytics = &quot;XX-00000000-0&quot;
+              
+[[params.social]]
+  title = &quot;twitter&quot;
+  url = &quot;https://twitter.com/humboldtux&quot;
+[[params.social]]
+  title = &quot;github&quot;
+  url = &quot;https://github.com/humboldtux&quot;
+[[params.social]]
+  title = &quot;facebook&quot;
+  url = &quot;https://www.facebook.com/FACEBOOKHANDLE&quot;
+                                      
+[[menu.main]]
+  name = &quot;home&quot;
+  url = &quot;/&quot;
+  weight = -200
+[[menu.main]]
+  name = &quot;Archives&quot;
+  url = &quot;/post/&quot;
+  weight = -180
+</code></pre>
+
+<p>You can find a <a href="http://humboldtux.github.io/sbcb-demo/">Demo site</a>, and have a look at the source on the<br />
+<a href="https://github.com/humboldtux/sbcb-demo">repo site</a> for configuration parameters.</p>
+
+<h3 id="custom">Custom</h3>
+
+<p>You can have a look at my <a href="http://www.humboldtux.net">personal website</a>, where i customize it and use it in a different way than the original theme.</p>
+
+<h2 id="todo">TODO</h2>
+
+<ul>
+<li>multi-language support:<br />
+
+<ul>
+<li>encoding<br /></li>
+<li><a href="https://github.com/spf13/hugo/tree/master/examples/multilingual">https://github.com/spf13/hugo/tree/master/examples/multilingual</a><br /></li>
+<li><a href="http://discuss.gohugo.io/t/multiple-language-websites/537">http://discuss.gohugo.io/t/multiple-language-websites/537</a><br /></li>
+<li><a href="http://discuss.gohugo.io/t/hugo-multisite-workflow/103">http://discuss.gohugo.io/t/hugo-multisite-workflow/103</a><br /></li>
+</ul></li>
+<li>&laquo;Edit on github&raquo; feature <a href="http://discuss.gohugo.io/t/how-to-implement-edit-this-page-on-github/1166">http://discuss.gohugo.io/t/how-to-implement-edit-this-page-on-github/1166</a><br /></li>
+<li>Display archive posts per year/month<br /></li>
+<li>dynamic configuration of email for JS contact form<br /></li>
+<li>Advanced pagination, make pagination button look like older posts button<br /></li>
+<li>pre and next links in post <a href="https://github.com/antzucaro/az.com/blob/master/layouts/_default/single.html">https://github.com/antzucaro/az.com/blob/master/layouts/_default/single.html</a><br /></li>
+<li>Suggested links at the bottom of post<br /></li>
+<li>use post title as post image name<br /></li>
+<li>mailing list subscription form<br /></li>
+<li>Google search form<br />
+
+<ul>
+<li><a href="http://discuss.gohugo.io/t/how-are-you-implementing-site-search/986">http://discuss.gohugo.io/t/how-are-you-implementing-site-search/986</a><br /></li>
+</ul></li>
+<li>multi author support, authors list page, author page<br /></li>
+<li>use {{ .Content }} for 404.html<br /></li>
+<li>deploy workflow<br />
+
+<ul>
+<li>Makefile<br /></li>
+<li><a href="http://discuss.gohugo.io/t/deployment-workflow/90">http://discuss.gohugo.io/t/deployment-workflow/90</a><br /></li>
+<li><a href="http://discuss.gohugo.io/t/my-deployment-process/807">http://discuss.gohugo.io/t/my-deployment-process/807</a><br /></li>
+<li><a href="http://discuss.gohugo.io/t/automated-hugo-deployments-anywhere-using-wercker/539">http://discuss.gohugo.io/t/automated-hugo-deployments-anywhere-using-wercker/539</a><br /></li>
+</ul></li>
+<li>updatedate post metadata for updated post<br /></li>
+<li>comment system support: disqus, Discourse, Kaiju<br /></li>
+<li>Syntax highlighting<br /></li>
+<li>Less support<br /></li>
+<li>post series : <a href="http://discuss.gohugo.io/t/creating-post-series/1115">http://discuss.gohugo.io/t/creating-post-series/1115</a><br /></li>
+<li>Add menu entry for taxonomies<br /></li>
+<li>DRY template<br /></li>
+</ul>
+
+    </div>
+
+
+
+<hr />
+
+<div class="row">
+    <div class="col-sm-12">
+        
+	    <div class="text-center">
+        
+		    <p class="doc-footer-em"><a href="#">回到顶部↑</a></p>
+	    </div>
+	</div>
+</div>
+
+</div> 
+
+<footer class="doc-footer">
+	
+    <p>Copyright (c) 2016. All rights reserved. Generated by <a href="http://gohugo.io/">Hugo</a></p>
+</footer>
+
+
+
+<script src="http://tyche.cc//js/jquery-1.11.2.min.js"></script>
+<script src="http://tyche.cc//js/bootstrap.min.js"></script>
+
+<script src="http://tyche.cc//js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="http://tyche.cc//js/ie10-viewport-bug-workaround.js"></script>
+
+</body>
+</html>
+

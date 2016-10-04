@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/portfolio/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title>cdnoverview.com</title>
+            <link>http://tyche.cc/showcase/cdnoverview/</link>
+            <pubDate>Wed, 17 Feb 2016 15:19:08 &#43;0100</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/cdnoverview/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>Coding Journal</title>
+            <link>http://tyche.cc/showcase/coding-journal/</link>
+            <pubDate>Wed, 23 Dec 2015 11:42:00 &#43;0100</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/coding-journal/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>Davide Petilli</title>
+            <link>http://tyche.cc/showcase/davidepetilli/</link>
+            <pubDate>Fri, 01 Nov 2013 07:32:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/davidepetilli/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/agency/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/agency/</guid>
+            <description>
+
+&lt;h1 id=&#34;agency-theme&#34;&gt;Agency Theme&lt;/h1&gt;
+
+&lt;p&gt;Agency Theme is a one page portfolio for companies and freelancers based on the &lt;a href=&#34;//github.com/IronSummitMedia/startbootstrap-agency&#34;&gt;original Bootstrap theme&lt;/a&gt; by &lt;a href=&#34;//github.com/davidtmiller&#34;&gt;David Miller&lt;/a&gt;. This Hugo theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a timeline, and a contact form.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/digitalcraftsman/hugo-agency-theme/master/images/screenshot.png&#34; alt=&#34;Hugo Agency Theme screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#change-the-hero-background&#34;&gt;Change the hero background&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#present-your-skills&#34;&gt;Present your skills&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#show-what-happened&#34;&gt;Show what happened&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#introduce-your-team&#34;&gt;Introduce your team&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#list-your-clients&#34;&gt;List your clients&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Inside the folder of your Hugo site run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ mkdir themes
+$ cd themes
+$ git clone https://github.com/digitalcraftsman/hugo-agency-theme
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For more information read the official &lt;a href=&#34;//gohugo.io/overview/installing/&#34;&gt;setup guide&lt;/a&gt; of Hugo.&lt;/p&gt;
+
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting started&lt;/h2&gt;
+
+&lt;p&gt;After installing the Agency Theme successfully it requires a just a few more steps to get your site running.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-config-file&#34;&gt;The config file&lt;/h3&gt;
+
+&lt;p&gt;Take a look inside the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/tree/master/exampleSite&#34;&gt;&lt;code&gt;exampleSite&lt;/code&gt;&lt;/a&gt; folder of this theme. You&amp;rsquo;ll find a file called &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;. To use it, copy the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt; in the root folder of your Hugo site. Feel free to change the strings in this theme.&lt;/p&gt;
+
+&lt;h3 id=&#34;change-the-hero-background&#34;&gt;Change the hero background&lt;/h3&gt;
+
+&lt;p&gt;The hero acts as an eye-catcher for your site. So consider to give him a nice background. You just need to replace the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/static/img/header-bg.jpg&#34;&gt;&lt;code&gt;header-bg.jpg&lt;/code&gt;&lt;/a&gt; at &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/tree/master/static/img&#34;&gt;&lt;code&gt;static/img&lt;/code&gt;&lt;/a&gt; with your own background image. But it&amp;rsquo;s important that you keep the original filename.&lt;/p&gt;
+
+&lt;h3 id=&#34;present-your-skills&#34;&gt;Present your skills&lt;/h3&gt;
+
+&lt;p&gt;This section should show your capabilities and skills. You can change the services at &lt;code&gt;[params.services.list]&lt;/code&gt; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;All icons are part of Fontawesome&amp;rsquo;s icon font. Look at the website of &lt;a href=&#34;//fortawesome.github.io/Font-Awesome/icons/&#34;&gt;Fontawesome&lt;/a&gt; for more icons. The icons are represented by their corresponding CSS class of Fontawesome. A skill is defined like this example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[[params.services.list]]
+      icon = &amp;quot;fa-shopping-cart&amp;quot;
+      title = &amp;quot;E-Commerce&amp;quot;
+      description = &amp;quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;create-your-portfolio&#34;&gt;Create your portfolio&lt;/h3&gt;
+
+&lt;p&gt;Beside the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;, there is under &lt;code&gt;data&lt;/code&gt; another subfolder called &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/tree/master/exampleSite/data/projects&#34;&gt;&lt;code&gt;projects&lt;/code&gt;&lt;/a&gt; which hosts the files that will appear as your projects in the portfolio section. Such a project file might look like &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/data/projects/2014-07-05-project-1.yaml&#34;&gt;this one&lt;/a&gt; written in YAML:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;modalID: 1
+title: Round Icons
+subtitle: Lorem ipsum dolor sit amet consectetur.
+date: 2014-07-05
+img: roundicons.png
+preview: roundicons-preview.png
+client: Start Bootstrap
+clientLink: &amp;quot;#&amp;quot;
+category: Graphic Design
+description: Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo! &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;**Want these icons in this portfolio item sample?** You can download 60 of them for free, courtesy of [RoundIcons.com](//getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc), or you can purchase the 1500 icon set [here](//getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc).
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Copy &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/tree/master/exampleSite/data/projects&#34;&gt;&lt;code&gt;projects&lt;/code&gt;&lt;/a&gt; inside the &lt;code&gt;data&lt;/code&gt; folder in the &lt;strong&gt;root&lt;/strong&gt; directory of your site. Let&amp;rsquo;s make some changes.&lt;/p&gt;
+
+&lt;p&gt;Pay attention to the &lt;code&gt;modalID&lt;/code&gt;. It must be a unique integer and be incremented with each new project you want to add to the portfolio. Otherwise, the corresponding modal can&amp;rsquo;t be rendered.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, you can use Markdown syntax for URLs like here &lt;code&gt;[text](//url.to/source)&lt;/code&gt; in the description.&lt;/p&gt;
+
+&lt;p&gt;To give your projects an image, save those under &lt;a href=&#34;github.com/digitalcraftsman/hugo-agency-theme/tree/master/static/img/portfolio&#34;&gt;&lt;code&gt;static/img/portfolio&lt;/code&gt;&lt;/a&gt;. Don&amp;rsquo;t forget to set the appropriate &lt;strong&gt;filename&lt;/strong&gt; under &lt;code&gt;img&lt;/code&gt; in your project.&lt;/p&gt;
+
+&lt;h3 id=&#34;show-what-happened&#34;&gt;Show what happened&lt;/h3&gt;
+
+&lt;p&gt;This theme features a timeline for important events in your company or your career too. You can add a new event by copying the following snippet to the &lt;code&gt;[params.about]&lt;/code&gt; section in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[[params.about.events]]
+      img = &amp;quot;1.jpg&amp;quot;
+      date = &amp;quot;2009-2011&amp;quot;
+      title = &amp;quot;Our Humble Beginnings&amp;quot;
+      description = &amp;quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The image set under &lt;code&gt;img&lt;/code&gt; needs to be stored at &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/tree/master/static/img/about&#34;&gt;&lt;code&gt;static/img/about&lt;/code&gt;&lt;/a&gt;. The events will be listed from the top to the bottom.&lt;/p&gt;
+
+&lt;h3 id=&#34;introduce-your-team&#34;&gt;Introduce your team&lt;/h3&gt;
+
+&lt;p&gt;Let the visitors or potential clients know who you are. To add a team member paste the code below into the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;. The &lt;code&gt;img&lt;/code&gt; field refers to the shown image. Paste those of you or your colleages into &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/tree/master/static/img/team&#34;&gt;&lt;code&gt;static/img/team&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[[params.team.members]]
+    img = &amp;quot;1.jpg&amp;quot;
+    name = &amp;quot;Kay Garland&amp;quot;
+    position = &amp;quot;Lead Designer&amp;quot;
+    social = [
+        [&amp;quot;fa-twitter&amp;quot;, &amp;quot;#&amp;quot;],
+        [&amp;quot;fa-facebook&amp;quot;, &amp;quot;#&amp;quot;],
+        [&amp;quot;fa-linkedin&amp;quot;, &amp;quot;#&amp;quot;]
+    ]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As you can see there&amp;rsquo;s an option to link individual social networks. The first index of the array represents the icon (or CSS class) of &lt;a href=&#34;//fortawesome.github.io/Font-Awesome/icons/&#34;&gt;Fontawesome&lt;/a&gt;. The last index is simply the link to the social network profiles.&lt;/p&gt;
+
+&lt;h3 id=&#34;list-your-clients&#34;&gt;List your clients&lt;/h3&gt;
+
+&lt;p&gt;You can also show some of your clients. To do so, paste the client&amp;rsquo;s logos into &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/tree/master/static/img/logos&#34;&gt;&lt;code&gt;static/img/logos&lt;/code&gt;&lt;/a&gt; and add the example below to the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[[params.clients]]
+    logo = &amp;quot;designmodo.jpg&amp;quot;
+    link = &amp;quot;#&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;The logos require a dimension of 200 x 50 pixels.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/h3&gt;
+
+&lt;p&gt;Since this page will be static, you can use &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt; as proxy to send the actual email. Each month, visitors can send you up to one thousand emails without incurring extra charges. Begin the setup by following the steps below:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Enter your email address under &amp;lsquo;email&amp;rsquo; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Upload the generated site to your server&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Send a dummy email yourself to confirm your account&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Click the confirm link in the email from &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re done. Happy mailing!&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;nearly-finished&#34;&gt;Nearly finished&lt;/h3&gt;
+
+&lt;p&gt;In order to see your site in action, run Hugo&amp;rsquo;s built-in local server.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo server -w
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now enter &lt;code&gt;localhost:1313&lt;/code&gt; in the address bar of your browser.&lt;/p&gt;
+
+&lt;h2 id=&#34;contributing&#34;&gt;Contributing&lt;/h2&gt;
+
+&lt;p&gt;Did you found a bug or got an idea for a new feature? Feel free to use the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/issues&#34;&gt;issue tracker&lt;/a&gt; to let me know. Or make directly a &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/pulls&#34;&gt;pull request&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;This theme is released under the Apache License 2.0 For more information read the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/LICENSE&#34;&gt;License&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;annotations&#34;&gt;Annotations&lt;/h2&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&#34;//github.com/spf13&#34;&gt;Steve Francia&lt;/a&gt; for creating Hugo and the awesome community around the project.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/artists/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/artists/</guid>
+            <description>
+
+&lt;h1 id=&#34;artists-theme&#34;&gt;Artists Theme&lt;/h1&gt;
+
+&lt;p&gt;The Artists Theme is a one page portfolio for freelancers based on the original &lt;a href=&#34;//github.com/DevTips/Artists-Theme&#34;&gt;Jekyll theme&lt;/a&gt; by &lt;a href=&#34;//github.com/travisneilson&#34;&gt;Travis Neilson&lt;/a&gt; aka &lt;a href=&#34;//www.youtube.com/user/DevTipsForDesigners&#34;&gt;DevTips&lt;/a&gt; and his many contributors. It&amp;rsquo;s the result of a longer &lt;a href=&#34;//www.youtube.com/watch?v=T6jKLsxbFg4&amp;amp;list=PLqGj3iMvMa4KQZUkRjfwMmTq_f1fbxerI&#34;&gt;video series&lt;/a&gt; made by him that is showing the whole developement process from the first designs to the final Jekyll theme. Consider to subscribe to his &lt;a href=&#34;//www.youtube.com/user/DevTipsForDesigners&#34;&gt;YouTube channel&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This Hugo theme features several content sections, like an about section  showing the level of your skills, a responsive portfolio with hover effects, a gallery to present your client&amp;rsquo;s opinions and a contact form.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/digitalcraftsman/hugo-artists-theme/master/images/screenshot.png&#34; alt=&#34;Hugo Artists Theme screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#change-the-hero-background&#34;&gt;Change the hero background&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#add-your-own-logo&#34;&gt;Add your own logo&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#introduce-yourself&#34;&gt;Introduce yourself&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#what-your-clients-think&#34;&gt;What your clients think&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#add-social-networks&#34;&gt;Add social networks&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Inside the folder of your Hugo site run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ mkdir themes
+$ cd themes
+$ git clone https://github.com/digitalcraftsman/hugo-artists-theme
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For more information read the official &lt;a href=&#34;//gohugo.io/overview/installing/&#34;&gt;setup guide&lt;/a&gt; of Hugo.&lt;/p&gt;
+
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting started&lt;/h2&gt;
+
+&lt;p&gt;After installing the Artists Theme successfully it requires a just a few more steps to get your site finally running.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-config-file&#34;&gt;The config file&lt;/h3&gt;
+
+&lt;p&gt;Take a look inside the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/tree/master/exampleSite&#34;&gt;&lt;code&gt;exampleSite&lt;/code&gt;&lt;/a&gt; folder of this theme. You&amp;rsquo;ll find a file called &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;. To use it, copy the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt; in the root folder of your Hugo site. Feel free to customize this theme as you like.&lt;/p&gt;
+
+&lt;h3 id=&#34;change-the-hero-background&#34;&gt;Change the hero background&lt;/h3&gt;
+
+&lt;p&gt;The hero acts as an eye-catcher for your site. So consider to give him a nice background. You just need to replace the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/static/img/hero-bg.jpg&#34;&gt;&lt;code&gt;hero-bg.jpg&lt;/code&gt;&lt;/a&gt; at &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/tree/master/static/img&#34;&gt;&lt;code&gt;static/img&lt;/code&gt;&lt;/a&gt; with your own background image. But it&amp;rsquo;s important that you keep the original filename.&lt;/p&gt;
+
+&lt;h3 id=&#34;add-your-own-logo&#34;&gt;Add your own logo&lt;/h3&gt;
+
+&lt;p&gt;Go to &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/tree/master/static/img&#34;&gt;&lt;code&gt;static/img&lt;/code&gt;&lt;/a&gt; and replace the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/static/img/logo.svg&#34;&gt;&lt;code&gt;logo.svg&lt;/code&gt;&lt;/a&gt; with your own file. If you don&amp;rsquo;t want to use an svg you also need to change the source name  inside the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/static/css/all.css&#34;&gt;&lt;code&gt;all.css&lt;/code&gt;&lt;/a&gt; stylesheet &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/static/css/all.css#L614&#34;&gt;&lt;code&gt;here&lt;/code&gt;&lt;/a&gt; and &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/static/css/all.css#L662&#34;&gt;&lt;code&gt;here&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;introduce-yourself&#34;&gt;Introduce yourself&lt;/h3&gt;
+
+&lt;p&gt;In the next step, replace the image of Travis in the about section with one of yours. Therefore search the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/static/img/avatar.jpg&#34;&gt;&lt;code&gt;avatar.jpg&lt;/code&gt;&lt;/a&gt; under &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/tree/master/static/img&#34;&gt;&lt;code&gt;static/img&lt;/code&gt;&lt;/a&gt;. But keep the original filename here too.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, you can show your visitors your skills and capabilities. Add as many skills as you like by copying the snippet below:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[[params.about.skills]]
+   name = &amp;quot;Communication&amp;quot;
+   value = 9
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To rate your skill level, use a value between 0 and 10.&lt;/p&gt;
+
+&lt;h3 id=&#34;create-your-portfolio&#34;&gt;Create your portfolio&lt;/h3&gt;
+
+&lt;p&gt;Adding a new project is very simple. Firstly, you need to define a new project in your &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt; with the following code snippet:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[[params.work.projects]]
+    name   = &amp;quot;TYPO International Design Talks&amp;quot;
+    folder = &amp;quot;proj-1&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;folder&lt;/code&gt; attribute defines a project-specific subfolder for your images. You will use it at the end of this section.&lt;/p&gt;
+
+&lt;p&gt;Beside the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;, there is under &lt;code&gt;content&lt;/code&gt; another subfolder called &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/tree/master/exampleSite/content/work&#34;&gt;&lt;code&gt;work&lt;/code&gt;&lt;/a&gt; which hosts the files that will appear as your projects in the work section. Copy the whole folder into the &lt;code&gt;content&lt;/code&gt; directory at the &lt;strong&gt;root&lt;/strong&gt; of your Hugo site.&lt;/p&gt;
+
+&lt;p&gt;Such a project file might look like &lt;a href=&#34;//raw.githubusercontent.com/digitalcraftsman/hugo-artists-theme/master/exampleSite/content/work/proj-1.md&#34;&gt;this one&lt;/a&gt; written in Markdown:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;![Typo International](img/work/proj-1/img1.jpg)
+
+TYPO: International Design Talks is an annual event held in Berlin, London, and San Francisco. This promotional project is developed to market the event for the designindustry. The use of patterns, sophisticated color scheme and typography are applied for the print and mobile application.
+
+![Typo International](img/work/proj-1/img2.jpg)
+![Typo International](img/work/proj-1/img3.jpg)
+![Typo International](img/work/proj-1/img4.jpg)
+![Typo International](img/work/proj-1/img5.jpg)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The paths to your images are relative to the base url. Store those under &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/tree/master/static/img/work&#34;&gt;&lt;code&gt;static/img/work/&amp;lt;folder&amp;gt;/&lt;/code&gt;&lt;/a&gt;. &lt;code&gt;&amp;lt;folder&amp;gt;&lt;/code&gt; is a the attribute from the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt; that you defined for the images above. Create at least a &lt;code&gt;thumb.jpg&lt;/code&gt; for the preview in the portfolio grid.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-your-clients-think&#34;&gt;What your clients think&lt;/h3&gt;
+
+&lt;p&gt;For a new quote, copy the code below into your &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[[params.clients.list]]
+      avatar = &amp;quot;face-teleject.jpg&amp;quot;
+      name   = &amp;quot;Cleatus Cassidy&amp;quot;
+      title  = &amp;quot;VP of Helmut, Lorem Sorem LLC.&amp;quot;
+      quote  = &amp;quot;**Back in old country** only nerds who is playing on computers. Now all bros is wanting to make codes and junk. I lost foot in war. You dont see girls asking me about homework.&amp;quot;
+      logo   = &amp;quot;logo4.png&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Store both the client&amp;rsquo;s avatar and logo at &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/tree/master/static/img/clients&#34;&gt;&lt;code&gt;static/img/clients&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;add-social-networks&#34;&gt;Add social networks&lt;/h3&gt;
+
+&lt;p&gt;You can link some of your social networks in this theme too. Therefore copy the this snippet:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[[params.contact.social]]
+      icon = &amp;quot;twitter&amp;quot;
+      link = &amp;quot;//twitter.com/devtipsshow&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The following social network icons are available:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;twitter&lt;/code&gt;, &lt;code&gt;facebook&lt;/code&gt;, &lt;code&gt;github&lt;/code&gt;, &lt;code&gt;pinterest&lt;/code&gt; &lt;code&gt;google-plus&lt;/code&gt;, &lt;code&gt;linkedin&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;youtube&lt;/code&gt;, &lt;code&gt;instagram&lt;/code&gt;, &lt;code&gt;dribbble&lt;/code&gt;, &lt;code&gt;behance&lt;/code&gt;, &lt;code&gt;soundcloud&lt;/code&gt; and &lt;code&gt;vine&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/h3&gt;
+
+&lt;p&gt;Since this page will be static, you can use &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt; as proxy to send the actual email. Each month, visitors can send you up to one thousand emails without incurring extra charges. Begin the setup by following the steps below:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Enter your email address under &amp;lsquo;email&amp;rsquo; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Upload the generated site to your server&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Send a dummy email yourself to confirm your account&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Click the confirm link in the email from &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re done. Happy mailing!&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;nearly-finished&#34;&gt;Nearly finished&lt;/h3&gt;
+
+&lt;p&gt;In order to see your site in action, run Hugo&amp;rsquo;s built-in local server.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo server -w
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now enter &lt;code&gt;localhost:1313&lt;/code&gt; in the address bar of your browser.&lt;/p&gt;
+
+&lt;h2 id=&#34;contributing&#34;&gt;Contributing&lt;/h2&gt;
+
+&lt;p&gt;Did you found a bug or got an idea for a new feature? Feel free to use the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/issues&#34;&gt;issue tracker&lt;/a&gt; to let me know. Or make directly a &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/pulls&#34;&gt;pull request&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;This theme is released under the Unlincense License. For more information read the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/LICENSE&#34;&gt;License&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;annotations&#34;&gt;Annotations&lt;/h2&gt;
+
+&lt;p&gt;A big thank you to these creators for contributing sample projects for the &amp;laquo;work&amp;raquo; section:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/14751131/-TYPO-International-Design-Talks&#34;&gt;Micael Butial&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/16750837/Free-80-Crispy-Icons-in-PSD-AI-SVG-Webfont&#34;&gt;Petras Nargėla&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/13745729/Timeline-Page&#34;&gt;Sergey Valiukh&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/15812143/Flat-Mobile-UIUX-Concept-download&#34;&gt;Ayoub Elred&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/16483395/City-IN-website-concept&#34;&gt;Anton Skvortsov&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/13870569/Stripes-Co-Free-icon-Set&#34;&gt;Nick Zoutendijk&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/12748107/Weather-Dashboard-Global-Outlook-UIUX&#34;&gt;Jonathan Quintin&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/15063575/Fresh-It-Up-App-Design&#34;&gt;Jieyu Xiong&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Also thanks to &lt;a href=&#34;//github.com/spf13&#34;&gt;Steve Francia&lt;/a&gt; for creating &lt;a href=&#34;//gohugo.io&#34;&gt;Hugo&lt;/a&gt; and the awesome community around the project.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/creative/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/creative/</guid>
+            <description>
+
+&lt;h1 id=&#34;creative-theme&#34;&gt;Creative Theme&lt;/h1&gt;
+
+&lt;p&gt;Creative Theme is a one page portfolio for creatives based on the &lt;a href=&#34;//github.com/IronSummitMedia/startbootstrap-creative&#34;&gt;original Bootstrap theme&lt;/a&gt; by &lt;a href=&#34;//github.com/davidtmiller&#34;&gt;David Miller&lt;/a&gt;. Noteworthy features of this Hugo theme are several content sections and a responsive portfolio grid with hover effects and full page portfolio item modals.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/digitalcraftsman/hugo-creative-theme/dev/images/screenshot.png&#34; alt=&#34;Hugo Creative Theme Screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#change-the-hero-background&#34;&gt;Change the hero background&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#add-your-services&#34;&gt;Add your services&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Inside the folder of your Hugo site run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ mkdir themes
+$ cd themes
+$ git clone https://github.com/digitalcraftsman/hugo-creative-theme
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For more information read the official &lt;a href=&#34;//gohugo.io/overview/installing/&#34;&gt;setup guide&lt;/a&gt; of Hugo.&lt;/p&gt;
+
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting started&lt;/h2&gt;
+
+&lt;p&gt;After installing the Creative Theme successfully it requires a just a few more steps to get your site running.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-config-file&#34;&gt;The config file&lt;/h3&gt;
+
+&lt;p&gt;Take a look inside the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/tree/master/exampleSite&#34;&gt;&lt;code&gt;exampleSite&lt;/code&gt;&lt;/a&gt; folder of this theme. You&amp;rsquo;ll find a file called &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To use it, copy the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/blob/dev/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt; in the root folder of your Hugo site. Feel free to change strings as you like to customize your website.&lt;/p&gt;
+
+&lt;h3 id=&#34;change-the-hero-background&#34;&gt;Change the hero background&lt;/h3&gt;
+
+&lt;p&gt;The hero acts as an eye-catcher for your site. So consider to give him a nice background. You just need to replace the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/blob/master/static/img/header.jpg&#34;&gt;&lt;code&gt;header.jpg&lt;/code&gt;&lt;/a&gt; at &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/tree/master/static/img&#34;&gt;&lt;code&gt;static/img&lt;/code&gt;&lt;/a&gt; with your own. But it&amp;rsquo;s important that you use the same filename.&lt;/p&gt;
+
+&lt;h3 id=&#34;add-your-services&#34;&gt;Add your services&lt;/h3&gt;
+
+&lt;p&gt;This section should show your capabilities and skills. You can change the services under  at &lt;code&gt;[params.services.list]&lt;/code&gt; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/blob/dev/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;All icons using Fontawesome&amp;rsquo;s icon font. Look at the website of &lt;a href=&#34;//fortawesome.github.io/Font-Awesome/icons/&#34;&gt;Fontawesome&lt;/a&gt; for more icons. The icons are represented by their corresponding CSS class. A skill is defined like this example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[[params.services.list]]
+    icon = &amp;quot;fa-diamond&amp;quot;
+    title = &amp;quot;Sturdy Templates&amp;quot;
+    description = &amp;quot;Our templates are updated regularly so they don&#39;t break.&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;create-your-portfolio&#34;&gt;Create your portfolio&lt;/h3&gt;
+
+&lt;p&gt;Beside the config file, there is in &lt;code&gt;data&lt;/code&gt; another subfolder called &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/tree/master/exampleSite/data/projects&#34;&gt;&lt;code&gt;projects&lt;/code&gt;&lt;/a&gt; which hosts the files that will appear as your projects in the portfolio section. Such a project file might look like &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/blob/dev/exampleSite/data/projects/2014-07-05-project-1.yaml&#34;&gt;this one&lt;/a&gt; written in YAML:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;modalID: 1
+title: Project 1
+date: 2014-07-05
+img: 1.jpg
+client: Start Bootstrap
+clientLink: &amp;quot;#&amp;quot;
+category: Web Development
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Copy the folder &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/tree/master/exampleSite/data/projects&#34;&gt;&lt;code&gt;projects&lt;/code&gt;&lt;/a&gt; inside the &lt;code&gt;data&lt;/code&gt; folder in the &lt;strong&gt;root&lt;/strong&gt; directory of your site. Let&amp;rsquo;s make some changes to show your work.&lt;/p&gt;
+
+&lt;p&gt;Pay attention to the &lt;code&gt;modalID&lt;/code&gt;. It must be a unique integer and be incremented with each new project you want to add to the portfolio. Otherwise, the corresponding modal can&amp;rsquo;t be rendered.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, you can use Markdown syntax for URLs like here &lt;code&gt;[text](//url.to/source)&lt;/code&gt; in the description.&lt;/p&gt;
+
+&lt;p&gt;To give your projects an image, save those under &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/tree/master/static/img/portfolio&#34;&gt;&lt;code&gt;static/img/portfolio&lt;/code&gt;&lt;/a&gt;. The dimensions should be 650 x 350 pixels. Don&amp;rsquo;t forget to set the &lt;strong&gt;filename&lt;/strong&gt; under &amp;lsquo;img&amp;rsquo; in your project.&lt;/p&gt;
+
+&lt;h3 id=&#34;nearly-finished&#34;&gt;Nearly finished&lt;/h3&gt;
+
+&lt;p&gt;In order to see your site in action, run Hugo&amp;rsquo;s built-in local server.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo server -w
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now enter &lt;code&gt;localhost:1313&lt;/code&gt; in the address bar of your browser.&lt;/p&gt;
+
+&lt;h2 id=&#34;contributing&#34;&gt;Contributing&lt;/h2&gt;
+
+&lt;p&gt;Did you found a bug or got an idea for a new feature? Feel free to use the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/issues&#34;&gt;issue tracker&lt;/a&gt; to let me know. Or make directly a &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/pulls&#34;&gt;pull request&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;This theme is released under the Apache License 2.0 For more information read the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/blob/master/LICENSE&#34;&gt;License&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;annotations&#34;&gt;Annotations&lt;/h2&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&#34;//github.com/spf13&#34;&gt;Steve Francia&lt;/a&gt; for creating Hugo and the awesome community around the project.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/freelancer/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/freelancer/</guid>
+            <description>
+
+&lt;h1 id=&#34;freelancer-theme&#34;&gt;Freelancer Theme&lt;/h1&gt;
+
+&lt;p&gt;Freelancer Theme is a one page freelancer portfolio based on the &lt;a href=&#34;//github.com/IronSummitMedia/startbootstrap-freelancer&#34;&gt;original Bootstrap theme&lt;/a&gt; by &lt;a href=&#34;//github.com/davidtmiller&#34;&gt;David Miller&lt;/a&gt; and on &lt;a href=&#34;//github.com/jeromelachaud&#34;&gt;Jerome Lachaud&lt;/a&gt;&amp;rsquo;s &lt;a href=&#34;//github.com/jeromelachaud/freelancer-theme&#34;&gt;Jekyll theme&lt;/a&gt;. This Hugo theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals and a contact form.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/digitalcraftsman/hugo-freelancer-theme/master/images/screenshot.png&#34; alt=&#34;Hugo Freelancer Theme screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#add-social-networks&#34;&gt;Add social networks&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Inside the folder of your Hugo site run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ mkdir themes
+$ cd themes
+$ git clone https://github.com/digitalcraftsman/hugo-freelancer-theme
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For more information read the official &lt;a href=&#34;//gohugo.io/overview/installing/&#34;&gt;setup guide&lt;/a&gt; of Hugo.&lt;/p&gt;
+
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting started&lt;/h2&gt;
+
+&lt;p&gt;After installing the Freelancer Theme successfully it requires a just a few more steps to get your site running.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-config-file&#34;&gt;The config file&lt;/h3&gt;
+
+&lt;p&gt;Take a look inside the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-freelancer-theme/tree/master/exampleSite&#34;&gt;&lt;code&gt;exampleSite&lt;/code&gt;&lt;/a&gt; folder of this theme. You&amp;rsquo;ll find a file called &lt;a href=&#34;//github.com/digitalcraftsman/hugo-freelancer-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;.&lt;br /&gt;
+It contains detailed information about the setup of the contact form (&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;or see below&lt;/a&gt;) and the customization of all strings in this theme.&lt;/p&gt;
+
+&lt;p&gt;To use it, copy the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-freelancer-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt; in the root folder of your Hugo site. Feel free to change strings as you like.&lt;/p&gt;
+
+&lt;h3 id=&#34;make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/h3&gt;
+
+&lt;p&gt;Since this page will be static, you can use &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt; as proxy to send the actual email. Each month, visitors can send you up to one thousand emails without incurring extra charges. Begin the setup by following the steps below:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Enter your email address under &amp;lsquo;email&amp;rsquo; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-freelancer-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Upload the generated site to your server&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Send a dummy email yourself to confirm your account&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Click the confirm link in the email from &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re done. Happy mailing!&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;add-social-networks&#34;&gt;Add social networks&lt;/h3&gt;
+
+&lt;p&gt;In the footer you can link some of your social network accounts. Search for &lt;code&gt;[params.footer.social.networks]&lt;/code&gt; at the bottom of the file. The configuration should look similar to this one:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[[params.footer.social.networks]]
+    icon = &amp;quot;fa-github&amp;quot;
+    link = &amp;quot;//github.com/spf13/hugo&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The variable &amp;lsquo;icon&amp;rsquo; represents the shown icon of the social network. It&amp;rsquo;s a CSS class of Fontawesome&amp;rsquo;s popular icon font. Search &lt;a href=&#34;//fortawesome.github.io/Font-Awesome/icons&#34;&gt;here&lt;/a&gt; if you need a particular icon.&lt;/p&gt;
+
+&lt;h3 id=&#34;create-your-portfolio&#34;&gt;Create your portfolio&lt;/h3&gt;
+
+&lt;p&gt;Beside the config file, there is in &lt;code&gt;data&lt;/code&gt; another subfolder called &lt;a href=&#34;//github.com/digitalcraftsman/hugo-freelancer-theme/tree/master/exampleSite/data/projects&#34;&gt;&lt;code&gt;projects&lt;/code&gt;&lt;/a&gt; which hosts the files that will appear as your projects in the portfolio section. Such a project file might look like &lt;a href=&#34;//github.com/digitalcraftsman/hugo-freelancer-theme/blob/master/exampleSite/data/projects/2014-07-13-project-1.yaml&#34;&gt;this one&lt;/a&gt; written in YAML:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;modalID: 1
+title: Project Cabin
+date: 2014-07-13
+img: cabin.png
+client: Start Bootstrap
+clientLink: &amp;quot;#&amp;quot;
+category: Web Development
+description: Use this area of the page to describe your project. The icon above is part of a free icon set by [Flat Icons](//sellfy.com/p/8Q9P/jV3VZ/&amp;quot;). On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Copy the folder &lt;a href=&#34;//github.com/digitalcraftsman/hugo-freelancer-theme/tree/master/exampleSite/data/projects&#34;&gt;&lt;code&gt;projects&lt;/code&gt;&lt;/a&gt; inside the &lt;code&gt;data&lt;/code&gt; folder in the &lt;strong&gt;root&lt;/strong&gt; directory of your site. Let&amp;rsquo;s make some changes to show your work.&lt;/p&gt;
+
+&lt;p&gt;Pay attention to the &lt;code&gt;modalID&lt;/code&gt;. It must be a unique integer and be incremented with each new project you want to add to the portfolio. Otherwise, the corresponding modal can&amp;rsquo;t be rendered.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, you can use Markdown syntax for URLs like here &lt;code&gt;[text](//url.to/source)&lt;/code&gt; in the description. Copy the image of an project inside &lt;code&gt;static/img/portfolio&lt;/code&gt; and &lt;strong&gt;just&lt;/strong&gt; enter the filename.&lt;/p&gt;
+
+&lt;h3 id=&#34;nearly-finished&#34;&gt;Nearly finished&lt;/h3&gt;
+
+&lt;p&gt;In order to see your site in action, run Hugo&amp;rsquo;s built-in local server.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo server -w
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now enter &lt;code&gt;localhost:1313&lt;/code&gt; in the address bar of your browser.&lt;/p&gt;
+
+&lt;h2 id=&#34;contributing&#34;&gt;Contributing&lt;/h2&gt;
+
+&lt;p&gt;Did you found a bug or got an idea for a new feature? Feel free to use the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-freelancer-theme/issues&#34;&gt;issue tracker&lt;/a&gt; to let me know. Or make directly a &lt;a href=&#34;//github.com/digitalcraftsman/hugo-freelancer-theme/pulls&#34;&gt;pull request&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;This theme is released under the Apache License 2.0 For more information read the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-freelancer-theme/blob/master/LICENSE&#34;&gt;License&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;annotations&#34;&gt;Annotations&lt;/h2&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&#34;//github.com/spf13&#34;&gt;Steve Francia&lt;/a&gt; for creating Hugo and the awesome community around the project.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/grid-side/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/grid-side/</guid>
+            <description>
+
+&lt;h1 id=&#34;gridside-theme&#34;&gt;GridSide Theme&lt;/h1&gt;
+
+&lt;p&gt;The GridSide theme is a multi-page portfolio and blog utilizing the&lt;br /&gt;
+&lt;a href=&#34;http://www.materializecss.com/&#34;&gt;Materialize&lt;/a&gt; frontend framework. Comments can be added using&lt;br /&gt;
+Disqus.&lt;/p&gt;
+
+&lt;p&gt;The theme contains a main page with a single grid of images representing&lt;br /&gt;
+different sections of the website. Sections can be &lt;em&gt;post&lt;/em&gt;, &lt;em&gt;gallery&lt;/em&gt;, or&lt;br /&gt;
+&lt;em&gt;project&lt;/em&gt; for various rendering.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Current Materialize version is &lt;code&gt;0.97.0&lt;/code&gt;.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Current Font Awesome version is &lt;code&gt;4.4.0&lt;/code&gt;.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Current SideComments.js version is &lt;code&gt;0.0.3&lt;/code&gt;.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Current Masonry.js version is &lt;code&gt;3.3.1&lt;/code&gt;.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Current imagesLoaded.js version is &lt;code&gt;3.1.8&lt;/code&gt;.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Current Modernizr.js version is &lt;code&gt;2.8.3&lt;/code&gt;.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Current Highlight.js version is &lt;code&gt;8.7&lt;/code&gt; and contains all 130 languages.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Current lazysizes.js version is &lt;code&gt;1.2.0&lt;/code&gt;.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Current ls.noscript.js version is &lt;code&gt;1.2.0&lt;/code&gt;.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Current lightbox.js version is &lt;code&gt;2.8.1&lt;/code&gt;.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Current infinitescroll.js version is &lt;code&gt;2.1.0&lt;/code&gt;.&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/chipsenkbeil/grid-side/master/images/screenshot.png&#34; alt=&#34;GridSide Theme Screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting Started&lt;/a&gt;&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The Config File&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#setting-the-homepage-header&#34;&gt;Setting the homepage header&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#setting-the-homepage-footer&#34;&gt;Setting the homepage footer&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#adding-homepage-cells&#34;&gt;Adding homepage cells&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#specifying-the-main-menu&#34;&gt;Specifying the main menu&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#creating-a-post&#34;&gt;Creating a post&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#creating-a-project-page&#34;&gt;Creating a project page&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#creating-a-gallery-image&#34;&gt;Creating a gallery image&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#adding-a-custom-post-section&#34;&gt;Adding a custom post section&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#adding-a-custom-project-section&#34;&gt;Adding a custom project section&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#adding-a-custom-gallery-section&#34;&gt;Adding a custom gallery section&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly Finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Inside the folder of your Hugo site run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ mkdir themes
+$ cd themes
+$ git clone https://github.com/chipsenkbeil/grid-side
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For more information read the official &lt;a href=&#34;http://gohugo.io/overview/installing/&#34;&gt;setup guide&lt;/a&gt; of Hugo.&lt;/p&gt;
+
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
+
+&lt;h3 id=&#34;the-config-file&#34;&gt;The Config File&lt;/h3&gt;
+
+&lt;p&gt;Take a look inside the &lt;a href=&#34;https://github.com/chipsenkbeil/grid-side/tree/master/exampleSite&#34;&gt;&lt;code&gt;exampleSite&lt;/code&gt;&lt;/a&gt; folder of this theme.&lt;br /&gt;
+You&amp;rsquo;ll find a file called &lt;a href=&#34;https://github.com/chipsenkbeil/grid-side/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;. To use it, copy the&lt;br /&gt;
+&lt;a href=&#34;https://github.com/chipsenkbeil/grid-side/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt; in the root folder of your Hugo site. The config&lt;br /&gt;
+file contains detailed explanation of each available property. Feel free&lt;br /&gt;
+to customize this theme as you like.&lt;/p&gt;
+
+&lt;h3 id=&#34;setting-the-header&#34;&gt;Setting the header&lt;/h3&gt;
+
+&lt;p&gt;The header of the homepage serves as the main attraction for visitors. You&lt;br /&gt;
+can provide your name, a description, and your email address on top of an&lt;br /&gt;
+image.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[Params.Header]
+
+    name = &amp;quot;Your name&amp;quot;
+    description = &amp;quot;Your description&amp;quot;
+    email = &amp;quot;your@email.com&amp;quot;
+    image = &amp;quot;path/to/your/header/image&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Each field in the header is optional, meaning that you can choose to not&lt;br /&gt;
+provide a name, description, or email. There are additional options you can use&lt;br /&gt;
+in the header section as well! For more information, check out the&lt;br /&gt;
+example &lt;a href=&#34;https://github.com/chipsenkbeil/grid-side/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;setting-the-homepage-footer&#34;&gt;Setting the homepage footer&lt;/h3&gt;
+
+&lt;p&gt;The footer of the homepage serves to provide contact links and other&lt;br /&gt;
+miscellaneous connections from your main website. Each entry is composed of a&lt;br /&gt;
+font awesome icon and a url. The icon is specified via &lt;code&gt;icon_class&lt;/code&gt; and&lt;br /&gt;
+represents the specific font awesome icon. E.g. &lt;code&gt;twitter&lt;/code&gt; becomes&lt;br /&gt;
+&lt;code&gt;fa fa-twitter&lt;/code&gt;. The url is specified via &lt;code&gt;icon_link&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[Params.Footer]
+
+    [[Params.Footer.List]]
+
+        icon_class = &amp;quot;twitter&amp;quot;
+        icon_link = &amp;quot;https://www.twitter.com/...&amp;quot;
+
+    [[Params.Footer.List]]
+
+        icon_class = &amp;quot;github&amp;quot;
+        icon_link = &amp;quot;https://www.github.com/...&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Each field in the header is optional, meaning that you can choose to not&lt;br /&gt;
+provide a name, description, or email. There are additional options you can use&lt;br /&gt;
+in the header section as well! For more information, check out the&lt;br /&gt;
+example &lt;a href=&#34;https://github.com/chipsenkbeil/grid-side/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;adding-homepage-cells&#34;&gt;Adding homepage cells&lt;/h3&gt;
+
+&lt;p&gt;The other main aspect of the homepage is the homepage cells, or the grid of&lt;br /&gt;
+images below your header. Each cell contains an image depicting its content&lt;br /&gt;
+along with a title that is visible upon hovering over it. Each cell acts as a&lt;br /&gt;
+hyperlink to other content on your site.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[Params.Cells]
+
+    [[Params.Cells.List]]
+
+        name = &amp;quot;Section name&amp;quot;
+        link = &amp;quot;/some/path/on/your/site&amp;quot;
+        image = &amp;quot;/some/image/file&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There are additional options you can use for each cell as well! For more&lt;br /&gt;
+information, check out the example &lt;a href=&#34;https://github.com/chipsenkbeil/grid-side/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;specifying-the-main-menu&#34;&gt;Specifying the main menu&lt;/h3&gt;
+
+&lt;p&gt;The main menu used on all list templates is specified via the menu name,&lt;br /&gt;
+&amp;laquo;Main&amp;raquo;. The fastest way to set your menu is to specify the &lt;code&gt;SectionPagesMenu&lt;/code&gt;&lt;br /&gt;
+option at the root of your config.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;SectionPagesMenu = &amp;quot;Main&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;creating-a-post&#34;&gt;Creating a post&lt;/h3&gt;
+
+&lt;p&gt;Each post in a post section should have the following front matter:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;+++
+title = &amp;quot;Post title&amp;quot;
+date = &amp;quot;YYYY-MM-DD&amp;quot;
+tags = [ &amp;quot;tag1&amp;quot;, &amp;quot;tag2&amp;quot;, ... ]
+categories = [ &amp;quot;category1&amp;quot;, ... ]
++++
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Additionally, you can specify an image via the front matter &lt;code&gt;image = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;creating-a-project-page&#34;&gt;Creating a project page&lt;/h3&gt;
+
+&lt;p&gt;Each project in a project section should have the following front matter:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;+++
+title = &amp;quot;Project title&amp;quot;
+tags = [ &amp;quot;tag1&amp;quot;, &amp;quot;tag2&amp;quot;, ... ]
+categories = [ &amp;quot;category1&amp;quot;, ... ]
++++
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Furthermore, an image should be provided via &lt;code&gt;image = &amp;quot;url&amp;quot;&lt;/code&gt; for more visual&lt;br /&gt;
+effect. If one is not provided, a placeholder will be used.&lt;/p&gt;
+
+&lt;p&gt;Additionally, you can provide videos as an alternative to an image, which will&lt;br /&gt;
+be displayed using the HTML5 video tag. Each of the following is optional:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;+++
+video_mp4 = &amp;quot;/path/to/mp4&amp;quot;
+video_webm = &amp;quot;/path/to/webm&amp;quot;
+video_ogv = &amp;quot;/path/to/ogv&amp;quot;
+video_3gp = &amp;quot;/path/to/3gp&amp;quot;
+video_fallback = &amp;quot;/path/to/image&amp;quot;
++++
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The video fallback option is used both as the poster of the loading HTML5 video&lt;br /&gt;
+and as the filler image if HTML5 video is not supported by the browser.&lt;/p&gt;
+
+&lt;h3 id=&#34;creating-a-gallery-image&#34;&gt;Creating a gallery image&lt;/h3&gt;
+
+&lt;p&gt;Each gallery image needs to be specified through the front matter of an&lt;br /&gt;
+individual content item.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;+++
+title = &amp;quot;Image title used in lightbox&amp;quot;
+date = &amp;quot;YYYY-MM-DD&amp;quot;
+image = &amp;quot;/path/to/image&amp;quot;
++++
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;adding-a-custom-post-section&#34;&gt;Adding a custom post section&lt;/h3&gt;
+
+&lt;p&gt;By default, the theme provides a custom view of &lt;code&gt;post/&lt;/code&gt;. If you would like&lt;br /&gt;
+to have a different section name than post, you can specify the section by&lt;br /&gt;
+creating the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;For layouts/custom_post_section/single.html:
+
+{{ partial &amp;quot;post/single.html&amp;quot; . }}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;For layouts/section/custom_post_section.html:
+
+{{ partial &amp;quot;post/list.html&amp;quot; . }}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;adding-a-custom-project-section&#34;&gt;Adding a custom project section&lt;/h3&gt;
+
+&lt;p&gt;By default, the theme provides a custom view of &lt;code&gt;project/&lt;/code&gt;. If you would like&lt;br /&gt;
+to have a different section name than project, you can specify the section by&lt;br /&gt;
+creating the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;For layouts/custom_project_section/single.html:
+
+{{ partial &amp;quot;project/single.html&amp;quot; . }}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;For layouts/section/custom_project_section.html:
+
+{{ partial &amp;quot;project/list.html&amp;quot; . }}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;adding-a-custom-gallery-section&#34;&gt;Adding a custom gallery section&lt;/h3&gt;
+
+&lt;p&gt;By default, the theme provides a custom view of &lt;code&gt;gallery/&lt;/code&gt;. If you would like&lt;br /&gt;
+to have a different section name than gallery, you can specify the section by&lt;br /&gt;
+creating the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;For layouts/custom_gallery_section/single.html:
+
+{{ partial &amp;quot;gallery/single.html&amp;quot; . }}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;For layouts/section/custom_gallery_section.html:
+
+{{ partial &amp;quot;gallery/list.html&amp;quot; . }}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;nearly-finished&#34;&gt;Nearly Finished&lt;/h3&gt;
+
+&lt;p&gt;In order to see your site in action, run Hugo&amp;rsquo;s built-in local server.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo server -w
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now enter &lt;code&gt;localhost:1313&lt;/code&gt; in the address bar of your browser.&lt;/p&gt;
+
+&lt;h2 id=&#34;contributing&#34;&gt;Contributing&lt;/h2&gt;
+
+&lt;p&gt;Report any bugs using the &lt;a href=&#34;https://github.com/chipsenkbeil/grid-side/issues&#34;&gt;issue tracker&lt;/a&gt;. Submit your own bug&lt;br /&gt;
+fixes or feature additions via a &lt;a href=&#34;https://github.com/chipsenkbeil/grid-side/pulls&#34;&gt;pull request&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;This theme is released under the MIT License. For more information read the&lt;br /&gt;
+&lt;a href=&#34;https://github.com/chipsenkbeil/grid-side/blob/master/LICENSE&#34;&gt;license&lt;/a&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/hugo-mdl/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/hugo-mdl/</guid>
+            <description>
+
+&lt;h1 id=&#34;hugomdl&#34;&gt;HugoMDL&lt;/h1&gt;
+
+&lt;p&gt;HugoMDL is a multipage responsibe blog/portfolio theme for &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;. The theme is based on the&lt;br /&gt;
+&lt;a href=&#34;http://www.getmdl.io/&#34;&gt;Material Design Lite&lt;/a&gt; sample blog layout.&lt;/p&gt;
+
+&lt;p&gt;At present it suits my needs, but feel free to help improve this theme by forking a copy and submitting a pull request.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/jchatkinson/HugoMDL/master/images/screenshot.png&#34; alt=&#34;HugoMDL Homepage Screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/jchatkinson/HugoMDL/master/images/projects.png&#34; alt=&#34;HugoMDL Projects Screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/jchatkinson/HugoMDL/master/images/post.png&#34; alt=&#34; HugoMDL Post Screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Inside the folder of your Hugo site run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ mkdir themes
+$ cd themes
+$ git clone https://github.com/jchatkinson/HugoMDL
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For more information read the official &lt;a href=&#34;//gohugo.io/overview/installing/&#34;&gt;setup guide&lt;/a&gt; of Hugo.&lt;/p&gt;
+
+&lt;p&gt;(Note for myself)&lt;br /&gt;
+To develop on c9, add the hugo binary to the workspace, then add it to the path using &lt;code&gt;export PATH=$PATH:/home/ubuntu/workspace/hugo&lt;/code&gt;&lt;br /&gt;
+To serve the site from c9, cd to site root and use &lt;code&gt;hugo server --bind=&amp;quot;0.0.0.0&amp;quot; --port=8080  --watch --disableLiveReload&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;configure-the-theme&#34;&gt;Configure the Theme&lt;/h2&gt;
+
+&lt;p&gt;There are a few different places you need to configure&lt;/p&gt;
+
+&lt;h3 id=&#34;site-wide-configuration&#34;&gt;Site-wide configuration&lt;/h3&gt;
+
+&lt;p&gt;Look at the &lt;code&gt;exampleSite\config.toml&lt;/code&gt; file for the relevent site parameters you need to fill out&lt;/p&gt;
+
+&lt;h3 id=&#34;background-image&#34;&gt;Background Image&lt;/h3&gt;
+
+&lt;p&gt;Simply replace &lt;code&gt;\static\images\background.jpg&lt;/code&gt; with a background of your choice.&lt;/p&gt;
+
+&lt;h3 id=&#34;about-page&#34;&gt;About page&lt;/h3&gt;
+
+&lt;p&gt;Look at the &lt;code&gt;exampleSite\about.md&lt;/code&gt; file for an example &amp;lsquo;About&amp;rsquo; page.&lt;/p&gt;
+
+&lt;h3 id=&#34;posts&#34;&gt;Posts&lt;/h3&gt;
+
+&lt;p&gt;Posts use the following front-matter:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+title: &amp;quot;First Post&amp;quot;
+description: &amp;quot;first post with Hugo website engine&amp;quot;
+date: &amp;quot;2015-08-18&amp;quot;
+categories:
+    - &amp;quot;post&amp;quot;
+tags:
+    - &amp;quot;meta&amp;quot;
+    - &amp;quot;test&amp;quot;
+cardthumbimage: &amp;quot;/images/default.jpg&amp;quot; #optional: default solid color if unset
+cardheaderimage: &amp;quot;/images/default.jpg&amp;quot; #optional: default solid color if unset
+cardbackground: &amp;quot;#263238&amp;quot; #optional: card background color; only shows when no image specified
+#cardtitlecolor: &amp;quot;#fafafa&amp;quot; #optional: can be changed to make text visible over card image
+&amp;quot;author&amp;quot;:
+    name: &amp;quot;Firstname Lastname&amp;quot;
+    description: &amp;quot;Writer of stuff&amp;quot;
+    website: &amp;quot;http://example.com/&amp;quot;
+    email: &amp;quot;firstname@example.com&amp;quot;
+    twitter: &amp;quot;https://twitter.com/&amp;quot;
+    github: &amp;quot;https://github.com/&amp;quot;
+    image: &amp;quot;/images/avatar-64x64.png&amp;quot;
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;cardthumbimage&lt;/code&gt; is used as the card media on the front page. If unset, a solid color will be displayed.&lt;br /&gt;
+&lt;code&gt;cardheaderimage&lt;/code&gt; is used as the card media on the post page. If unset, a solid color will be displayed.&lt;br /&gt;
+&lt;code&gt;cardbackground&lt;/code&gt; is used as the solid color if no image is specified. If unset, the default theme color is displayed.&lt;br /&gt;
+&lt;code&gt;cardtitlecolor&lt;/code&gt; is used to modify the default white title color (for instance, if you have a light colored background)&lt;br /&gt;
+&lt;code&gt;author&lt;/code&gt; parameters are used to populate the card and post with author&amp;rsquo;s data&lt;/p&gt;
+
+&lt;h3 id=&#34;projects&#34;&gt;Projects&lt;/h3&gt;
+
+&lt;p&gt;Projects have similar frontmatter to posts.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+title: &amp;quot;My Project Title&amp;quot;
+description: &amp;quot;Description of the sample project&amp;quot; #optional
+cardthumbimage: &amp;quot;/images/default.jpg&amp;quot; #optional: default solid color if unset
+cardheaderimage: &amp;quot;/images/default.jpg&amp;quot; #optional: default solid color if unset
+cardbackground: &amp;quot;#263238&amp;quot; #optional: card background color; only shows when no image specified
+#cardtitlecolor: &amp;quot;#fafafa&amp;quot; #optional: can be changed to make text visible over card image
+repo: &amp;quot;http://github.com/&amp;quot; #optional: no icon appears if unset
+web: &amp;quot;http://github.com/&amp;quot; #optional: no icon appears if unset
+date: &amp;quot;2015-08-18&amp;quot;
+categories:
+    - &amp;quot;project&amp;quot;
+tags:
+    - &amp;quot;meta&amp;quot;
+    - &amp;quot;project&amp;quot;
+&amp;quot;author&amp;quot;: # used to fill out the project page
+    name: &amp;quot;Firstname Lastname&amp;quot;
+    description: &amp;quot;Writer of stuff&amp;quot;
+    website: &amp;quot;http://example.com/&amp;quot;
+    email: &amp;quot;firstname@example.com&amp;quot;
+    twitter: &amp;quot;https://twitter.com/&amp;quot;
+    github: &amp;quot;https://github.com/&amp;quot;
+    image: &amp;quot;/images/avatar-64x64.png&amp;quot;
+
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;This theme is released under the Apache License 2.0. It uses content from Google&amp;rsquo;s material design lite project, also released under Apache License 2.0.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

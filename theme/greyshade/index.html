@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Port of octopress&#39;s greyshade theme to Hugo">
+        <link rel="alternate" href="/feed.xml" type="application/rss+xml" title="tyche.cc">
+        <link rel="icon" href="http://tyche.cc//favicon.ico">
+        <title> - tyche.cc</title>
+        <link rel="stylesheet" href="http://tyche.cc//css/highlight.js.min.css">
+        <link rel="stylesheet" href="http://tyche.cc//css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://tyche.cc//css/bootstrap-theme.css">
+        <link rel="stylesheet" href="http://tyche.cc//css/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="http://tyche.cc//css/theme.css">
+        <link rel="stylesheet" href="http://tyche.cc//css/hugo-org.css">
+    </head>
+
+<body role="document">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://tyche.cc//">tyche.cc</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li ><a href="http://tyche.cc//">主页</a></li>
+                    
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">常用链接<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                        
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">官方文档<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                        
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+<div class="container">
+    <div id="theme-header">
+        <img src="/images/greyshade.screenshot.png" class="screenshot-blurred" />
+        <div class="dark-overlay"></div>
+        <div class="row">
+            <div class="col-md-6 col-sm-6 screenshot-container"><img src="/images/greyshade.screenshot.png" class="screenshot-normal" /></div>
+            <div class="col-md-6 col-sm-6 theme-details">
+                <h1>Greyshade</h1>
+                <p class="description">Port of octopress&#39;s greyshade theme to Hugo</p>
+                <ul class="theme-meta">
+                    
+                        
+                            <li><span class="label">Author:</span> <a href="http://cxfksword.github.io">cxfksword</a></li>
+                        
+                    
+                    
+                        <li><span class="label">Minimum Hugo Version:</span> <span class="value">0.14</span></li>
+                    
+                    
+                        <li><span class="label">License:</span> <a href="http://sm.mit-license.org/">MIT</a></li>
+                    
+                    
+                        <li>
+                            <span class="label">Tags:</span>
+                            
+                            <a href="/tags/blog">blog</a>
+                            
+                            <a href="/tags/octopress">octopress</a>
+                            
+                        </li>
+                    
+                </ul>
+            </div>
+
+            <div class="theme-buttons">
+
+                
+                <a class="btn btn-info btn-lg" href="https://github.com/cxfksword/greyshade.git"><i class="fa fa-download"></i> Download</a>
+                
+
+                
+                <a class="btn btn-success btn-lg" href="/theme/greyshade/"><i class="fa fa-road"></i> Demo</a>
+                
+
+                
+                <a class="btn btn-dark btn-lg" href="https://github.com/cxfksword/greyshade"><i class="fa fa-home"></i> Homepage</a>
+                
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        
+
+<h1 id="greyshade">Greyshade</h1>
+
+<p><a href="http://github.com/shashankmehta/greyshade">Greyshade</a> is a minimal, responsive theme ported from Octopress.</p>
+
+<p>For demo, check out websites from the <a href="https://github.com/shashankmehta/greyshade/wiki/Sites-using-Greyshade/">wiki</a></p>
+
+<p><img src="/images/screenshot_mobile.png" alt="mobile view" /></p>
+
+<p><img src="/images/screenshot.png" alt="screenshot" /></p>
+
+<h3 id="features">Features</h3>
+
+<ol>
+<li>Responsive design.<br /></li>
+<li>Fancybox integration<br /></li>
+<li>Gravatar support thanks to <a href="https://github.com/zhigang1992">Zhigang Fang</a>. Add your email id to <code>_config.yml</code> and your profile picture will appear in the left nav. If you don&rsquo;t want your email to be visible in the HTML code, you can provide the MD5 hashed value of your email as <a href="https://gravatar.com/site/implement/hash/">expected</a> by Gravatar with an <code>email_md5</code> entry in <code>_config.yml</code><br /></li>
+<li><a href="http://schema.org/">Schema.org</a> support thanks to <a href="https://github.com/nathanshox">Nathan Shaughnessy</a><br />
+<br />
+<br /></li>
+</ol>
+
+<h3 id="setup">Setup</h3>
+
+<ol>
+<li>Fork or <a href="https://github.com/cxfksword/greyshade/archive/master.zip">download</a> this theme repo<br /></li>
+<li>Add config to your site <code>config.toml</code> file<br />
+<br /></li>
+</ol>
+
+<pre><code>baseurl = &quot;http://gohugo.io/&quot;
+languageCode = &quot;en-us&quot;
+title = &quot;your blog title&quot;
+
+[author]
+name = &quot;hugo&quot;
+# email will use for gravatar
+email = &quot;&quot;
+
+[taxonomies]
+category = &quot;categories&quot;
+
+[params]
+# site description, will show under navigation
+description = &quot;&quot;
+
+# RSS / Email (optional) subscription links (change if using something like Feedburner)
+subscribe_rss = &quot;/index.xml&quot;
+subscribe_email = &quot;&quot;
+
+# social links
+facebook_user = &quot;&quot;
+googleplus_user = &quot;&quot;
+twitter_user = &quot;&quot;
+github_user = &quot;&quot;
+coderwall_user = &quot;&quot;
+stackoverflow_user = &quot;&quot;
+stackoverflow_user_id = &quot;&quot;
+linkedin_user = &quot;&quot;
+pinterest_user = &quot;&quot;
+delicious_user = &quot;&quot;
+pinboard_user = &quot;&quot;
+quora_user = &quot;&quot;
+instagram_user = &quot;&quot;
+behance_user = &quot;&quot;
+douban_user = &quot;&quot;
+
+# share links
+facebook_like = true
+twitter_tweet_button = true
+google_plus_one = &quot;true&quot;
+addthis_profile_id = &quot;&quot;
+
+# Disqus Comments
+disqus_short_name = &quot;&quot;
+disqus_show_comment_count = false
+
+# google analytics
+google_analytics_tracking_id = &quot;&quot;
+</code></pre>
+
+<h3 id="license">License</h3>
+
+<p>MIT: <a href="http://sm.mit-license.org/">http://sm.mit-license.org</a></p>
+
+<h3 id="author">Author</h3>
+
+<p><strong>Shashank Mehtal</strong><br />
+- <a href="https://github.com/shashankmehta">https://github.com/shashankmehta</a></p>
+
+<h3 id="ported-by">Ported By</h3>
+
+<p><strong>cxfksword</strong><br />
+- <a href="https://github.com/cxfksword">https://github.com/cxfksword</a></p>
+
+    </div>
+
+
+
+<hr />
+
+<div class="row">
+    <div class="col-sm-12">
+        
+	    <div class="text-center">
+        
+		    <p class="doc-footer-em"><a href="#">回到顶部↑</a></p>
+	    </div>
+	</div>
+</div>
+
+</div> 
+
+<footer class="doc-footer">
+	
+    <p>Copyright (c) 2016. All rights reserved. Generated by <a href="http://gohugo.io/">Hugo</a></p>
+</footer>
+
+
+
+<script src="http://tyche.cc//js/jquery-1.11.2.min.js"></script>
+<script src="http://tyche.cc//js/bootstrap.min.js"></script>
+
+<script src="http://tyche.cc//js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="http://tyche.cc//js/ie10-viewport-bug-workaround.js"></script>
+
+</body>
+</html>
+

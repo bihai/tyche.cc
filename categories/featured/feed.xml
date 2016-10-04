@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/categories/featured/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/journal/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/journal/</guid>
+            <description>
+
+&lt;h1 id=&#34;journal&#34;&gt;Journal&lt;/h1&gt;
+
+&lt;p&gt;Journal is a single column theme for &lt;a href=&#34;http://hugo.spf13.com/&#34;&gt;hugo&lt;/a&gt; based on &lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Twitter Bootstrap&lt;/a&gt; and a css styling from &lt;a href=&#34;http://bootswatch.com/&#34;&gt;Bootswatch&lt;/a&gt; the &lt;a href=&#34;http://bootswatch.com/journal/&#34;&gt;Journal theme&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It is a simple template containing a nice header menu bar and content area. Default the theme support 2 types of content.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;pages (used for About/Resume pages)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;posts (used for standard blogposts)&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h1&gt;
+
+&lt;h2 id=&#34;index-page&#34;&gt;Index Page&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://mpas.github.io/hosted/img/hugo-journal/index.png&#34; alt=&#34;index&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;post-page&#34;&gt;Post Page&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://mpas.github.io/hosted/img/hugo-journal/post.png&#34; alt=&#34;post&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;list-page&#34;&gt;List Page&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://mpas.github.io/hosted/img/hugo-journal/list.png&#34; alt=&#34;list&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;how-to-use&#34;&gt;How to use&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mpas/hugo-journal/archive/master.zip&#34;&gt;Download the repository&lt;/a&gt; and extract to your hugo working directory (&lt;dir&gt;/themes/&lt;themename&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Or read more on the main Hugo site -&amp;gt; &lt;a href=&#34;http://hugo.spf13.com/themes/installing&#34;&gt;Installing Hugo Themes&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;license&#34;&gt;License&lt;/h1&gt;
+
+&lt;p&gt;Open sourced under the MIT license.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

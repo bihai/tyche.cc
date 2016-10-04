@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/hugo/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/gindoro/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/gindoro/</guid>
+            <description>
+
+&lt;h4 id=&#34;gindoro&#34;&gt;gindoro&lt;/h4&gt;
+
+&lt;h5 id=&#34;a-minimalistic-hugo-blogging-theme-in-6k&#34;&gt;a minimalistic Hugo blogging theme in &amp;lt; 6K&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://dipaolo.conner.sh&#34;&gt;example site&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;only two pages – index and post&lt;/p&gt;
+
+&lt;p&gt;no syntax highlighting (but code blocks do look nice regardless!)&lt;/p&gt;
+
+&lt;p&gt;LaTeX support built in (using KaTeX via CDN for fast rendering)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/gindoro-index-screenshot.png&#34; alt=&#34;front page screenshot&#34; /&gt;&lt;br /&gt;
+&lt;img src=&#34;images/gindoro-screenshot.png&#34; alt=&#34;screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;installation&#34;&gt;installation&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;configuration&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;config.toml can include the following parameters (below is a complete example that will function as-is.) The example results in the above site with footer links to github and contact:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;baseurl = &amp;quot;http://dipaolo.conner.sh&amp;quot;
+languageCode = &amp;quot;en-us&amp;quot;
+title = &amp;quot;conner dipaolo&amp;quot;
+
+[params]
+  Description = &amp;quot;build cool shit.&amp;quot;
+  Author = &amp;quot;conner dipaolo&amp;quot;
+  GithubUser = &amp;quot;cdipaolo&amp;quot;
+  Email = &amp;quot;cdipaolo96@gmail.com&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;starting a new blog&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;these instructions are strikingly similar to &lt;a href=&#34;http://gohugo.io/overview/quickstart/&#34;&gt;the Hugo quickstart guide&lt;/a&gt;!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hugo new site path/to/site
+$ cd path/to/site
+
+# make a post (can edit later!)
+$ hugo new hello-world.md
+
+# install theme
+$ git clone https://github.com/cdipaolo/gindoro themes
+
+# run site!
+$ hugo server -t gindoro --buildDrafts
+2 pages created
+0 tags created
+0 categories created
+in 5 ms
+Serving pages from exampleHugoSite/public
+Web Server is available at http://localhost:1313
+Press Ctrl+C to stop
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/hugo-base-theme/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/hugo-base-theme/</guid>
+            <description>
+
+&lt;h1 id=&#34;hugo-base-theme&#34;&gt;Hugo base theme&lt;/h1&gt;
+
+&lt;p&gt;Hugo theme based on &lt;a href=&#34;https://gohugo.io&#34;&gt;gohugo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-use&#34;&gt;How to use&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Place a image in &lt;code&gt;static/img/&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Create posts to display your services. Use the follow as an example:&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;post&#34;&gt;post&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;+++
+date = 2014-10-13T20:07:19Z
+draft = true
+title = &amp;quot;First&amp;quot;
+description = &amp;quot;Ceci est mon premier post \n bla bla bla&amp;quot;
+weight = 1
+icon = &amp;quot;pacman&amp;quot;
++++
+
+Hello first post
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;carrousel&#34;&gt;carrousel&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;+++
+date = 2014-10-13T19:54:21Z
+draft = true
+title = &amp;quot;About&amp;quot;
+weight = 5
+icon = &amp;quot;circlestar&amp;quot;
+[[carousel]]
+  quote = &amp;quot;First quote&amp;quot;
+  author  =&amp;quot;John Do&amp;quot;
+  url = &amp;quot;&amp;quot;
+  quote_date = &amp;quot;13 August&amp;quot;
+[[carousel]]
+  quote = &amp;quot;Second quote&amp;quot;
+  author  =&amp;quot;Nhoj Od&amp;quot;
+  url = &amp;quot;&amp;quot;
+  quote_date = &amp;quot;14 August&amp;quot;
++++
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;
+
+&lt;p&gt;View gohugo.io theme in action &lt;a href=&#34;https://gohugo.io&#34;&gt;here&lt;/a&gt;&lt;br /&gt;
+View audrey-carpentras.com in action &lt;a href=&#34;http://audrey-carpentras.com/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;===&lt;/p&gt;
+
+&lt;p&gt;Work also with YAML header&lt;/p&gt;
+
+&lt;p&gt;For more Hugo details, read &lt;a href=&#34;http://gohugo.io/overview/introduction/&#34;&gt;documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;config&#34;&gt;Config&lt;/h2&gt;
+
+&lt;p&gt;Example of config.toml file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;baseurl = &amp;quot;http://yourSiteHere&amp;quot;
+languageCode = &amp;quot;fr-fr&amp;quot;
+title = &amp;quot;my new web site&amp;quot;
+[params]
+  description = &amp;quot;I &amp;lt;3 making web site&amp;quot;
+  mainIcon = &amp;quot;/img/hugo.png&amp;quot;
+
+[[params.social]]
+    title = &amp;quot;twitter&amp;quot;
+    url = &amp;quot;https://twitter.com/SBootstrap&amp;quot;
+[[params.social]]
+    title = &amp;quot;github&amp;quot;
+    url = &amp;quot;https://github.com/IronSummitMedia/startbootstrap&amp;quot;
+[[params.social]]
+    title = &amp;quot;linkedin&amp;quot;
+    url = &amp;quot;&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

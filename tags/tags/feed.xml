@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/tags/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/vienna/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/vienna/</guid>
+            <description>
+
+&lt;h1 id=&#34;vienna&#34;&gt;Vienna&lt;/h1&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;Vienna is a simple and clean blog theme for &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.&lt;br /&gt;
+Notable features are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Simple and clean design&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Client side source code highlighting&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Social links (Twitter, Facebook, GitHub, LinkedIn, Instagram, Keybase)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Support for tags&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Analytics with Google Analytics or Mixpanel&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Responsive design&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Font Awesome icons&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;In your hugo site directory, run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ mkdir themes
+$ cd themes
+$ git clone https://github.com/keichi/vienna
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Vienna is also included in the &lt;code&gt;spf13/hugoThemes&lt;/code&gt; repository.&lt;/p&gt;
+
+&lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt;
+
+&lt;p&gt;You may specify following options in &lt;code&gt;config.toml&lt;/code&gt; of your site to make use of&lt;br /&gt;
+this theme&amp;rsquo;s features.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;baseurl = &amp;quot;Your site URL&amp;quot;
+languageCode = &amp;quot;en-us&amp;quot;
+title = &amp;quot;Your site title&amp;quot;
+# Copyright notice. This is displayer in the footer.
+copyright = &amp;quot;&amp;amp;copy; Copyright notice&amp;quot;
+
+[params]
+    # Social accounts. Link to these accounts are displayed in the header and
+    # footer.
+    twitter = &amp;quot;Your Twitter username&amp;quot;
+    github = &amp;quot;Your GitHub username&amp;quot;
+    linkedin = &amp;quot;Your LinkedIn username&amp;quot;
+    googleplus = &amp;quot;Your Google+ user id&amp;quot;
+    facebook = &amp;quot;Your Facebook username&amp;quot;
+    stackoverflow = &amp;quot;Your Stackoverflow user id (number)&amp;quot;
+    keybase = &amp;quot;Your keybase.io username&amp;quot;
+    instagram = &amp;quot;Your Instagram username&amp;quot;
+    # Disqus shortname
+    disqus = &amp;quot;Your disqus shortname&amp;quot;
+    # Google Analytics API key.
+    ga_api_key = &amp;quot;Your Google Analytics tracking id&amp;quot;
+    # Mixpanel API key.
+    mixpanel_api_key = &amp;quot;Your Mixpanel API key&amp;quot;
+    author = &amp;quot;Your Name&amp;quot;
+    avatar = &amp;quot;/path/to/avatar&amp;quot;
+    contact = &amp;quot;Your contact link (ex. mailto:foo@example.com)&amp;quot;
+    bio = &amp;quot;Your short bio&amp;quot;
+    # Short subtitle/tagline. This is displayed in the header.
+    subtitle = &amp;quot;Short subtitle/tagline of your blog&amp;quot;
+    themecolor = &amp;quot;#hexcolor&amp;quot; # Defines the tab color in Chrome for Android.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+
+&lt;p&gt;Use hugo&amp;rsquo;s &lt;code&gt;-t vienna&lt;/code&gt; or &lt;code&gt;--theme=vienna&lt;/code&gt; option with hugo commands.&lt;br /&gt;
+Example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ hugo server -t vienna -w -D
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/customizable/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/strata/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/strata/</guid>
+            <description>
+
+&lt;h1 id=&#34;strata-theme&#34;&gt;Strata Theme&lt;/h1&gt;
+
+&lt;p&gt;The Strata theme is a responsive and minimal one-page-portfolio based on the self-named template made by &lt;a href=&#34;//html5up.net/&#34;&gt;HTML5UP&lt;/a&gt;. Noteworthy features of this Hugo theme are a custom about section, a portfolio with gallery for photographs or client works and a contact form.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/digitalcraftsman/hugo-strata-theme/dev/images/screenshot.png&#34; alt=&#34;Screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#sidebar&#34;&gt;Sidebar&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#build-up-your-portfolio&#34;&gt;Build up your portfolio&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Inside the folder of your Hugo site run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ mkdir themes
+$ cd themes
+$ git clone git@github.com:digitalcraftsman/hugo-strata-theme.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For more information read the official &lt;a href=&#34;//gohugo.io/overview/installing/&#34;&gt;setup guide&lt;/a&gt; of Hugo.&lt;/p&gt;
+
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting started&lt;/h2&gt;
+
+&lt;p&gt;After installing the Strata Theme successfully it requires a just a few more steps to get your site finally running.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-config-file&#34;&gt;The config file&lt;/h3&gt;
+
+&lt;p&gt;Take a look inside the &lt;a href=&#34;https://github.com/digitalcraftsman/hugo-strata-theme/tree/dev/exampleSite&#34;&gt;&lt;code&gt;exampleSite&lt;/code&gt;&lt;/a&gt; folder of this theme. You&amp;rsquo;ll find a file called &lt;a href=&#34;//github.com/digitalcraftsman/hugo-strata-theme/blob/dev/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;. To use it, copy the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-strata-theme/blob/dev/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt; in the root folder of your Hugo site. Feel free to customize this theme as you like.&lt;/p&gt;
+
+&lt;h3 id=&#34;sidebar&#34;&gt;Sidebar&lt;/h3&gt;
+
+&lt;p&gt;The sidebar provides a small overview of who you are. One of the first elements that will be spottet is the avatar in the sidebar. Replace it with a nice picture of you by either swapping the &lt;a href=&#34;https://github.com/digitalcraftsman/hugo-strata-theme/blob/dev/static/images/avatar.jpg&#34;&gt;&lt;code&gt;avatar.jpg&lt;/code&gt;&lt;/a&gt; or by setting a new path to an image in &lt;a href=&#34;//github.com/digitalcraftsman/hugo-strata-theme/blob/dev/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[params.sidebar]
+    avatar = &amp;quot;avatar.jpg&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The path is relative to &lt;a href=&#34;https://github.com/digitalcraftsman/hugo-strata-theme/tree/dev/static/images&#34;&gt;&lt;code&gt;./static/images&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Last but not least add a few words about you and your work.&lt;/p&gt;
+
+&lt;h3 id=&#34;build-up-your-portfolio&#34;&gt;Build up your portfolio&lt;/h3&gt;
+
+&lt;p&gt;As photograph or freelancer, your most important piece in the resume is the work you&amp;rsquo;ve done. Within the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-strata-theme/blob/dev/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt; add the following snippet to add a new item to the gallery:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[params.portfolio]
+
+        # The images and thumbnails are stored under static/images
+        # Create and change subfolders as you like
+        [[params.portfolio.gallery]]
+            image = &amp;quot;fulls/01.jpg&amp;quot;
+            thumb = &amp;quot;thumbs/01.jpg&amp;quot;
+            title = &amp;quot;Lorem ipsum dolor.&amp;quot;
+            description = &amp;quot;Lorem ipsum dolor sit amet.&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/h3&gt;
+
+&lt;p&gt;Since this page will be static, you can use &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt; as proxy to send the actual email. Each month, visitors can send you up to one thousand emails without incurring extra charges. Begin the setup by following the steps below:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Enter your email address under &amp;lsquo;email&amp;rsquo; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-strata-theme/blob/dev/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Upload the generated site to your server&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Send a dummy email yourself to confirm your account&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Click the confirm link in the email from &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re done. Happy mailing!&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;nearly-finished&#34;&gt;Nearly finished&lt;/h3&gt;
+
+&lt;p&gt;In order to see your site in action, run Hugo&amp;rsquo;s built-in local server.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo server -w
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now enter &lt;a href=&#34;//localhost:1313&#34;&gt;&lt;code&gt;localhost:1313&lt;/code&gt;&lt;/a&gt; in the address bar of your browser.&lt;/p&gt;
+
+&lt;h2 id=&#34;contributing&#34;&gt;Contributing&lt;/h2&gt;
+
+&lt;p&gt;Did you found a bug or got an idea for a new feature? Feel free to use the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-strata-theme/issues&#34;&gt;issue tracker&lt;/a&gt; to let me know. Or make directly a &lt;a href=&#34;//github.com/digitalcraftsman/hugo-strata-theme/pulls&#34;&gt;pull request&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;This theme is released under the Creative Commons Attribution 3.0 Unported  License. For more information read the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-strata-theme/blob/dev/LICENSE.md&#34;&gt;License&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;annotations&#34;&gt;Annotations&lt;/h2&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&#34;//github.com/spf13&#34;&gt;Steve Francia&lt;/a&gt; for creating &lt;a href=&#34;//gohugo.io&#34;&gt;Hugo&lt;/a&gt; and the awesome community around the project.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Hugo uses the excellent Go html/template library for
+its template engine. It is an extremely lightweight engine that provides a very
+small amount of logic. In our experience it is just the right amount of
+logic to be able to create a good static website. If you have used other
+template systems from different languages or frameworks, you will find a lot of
+similarities in Go templates.
+This document is a brief primer on using Go templates.">
+        <link rel="alternate" href="/feed.xml" type="application/rss+xml" title="tyche.cc">
+        <link rel="icon" href="http://tyche.cc//favicon.ico">
+        <title>Go Template Primer - tyche.cc</title>
+        <link rel="stylesheet" href="http://tyche.cc//css/highlight.js.min.css">
+        <link rel="stylesheet" href="http://tyche.cc//css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://tyche.cc//css/bootstrap-theme.css">
+        <link rel="stylesheet" href="http://tyche.cc//css/font-awesome/css/font-awesome.min.css" />
+        
+        <link rel="stylesheet" href="http://tyche.cc//css/hugo-org.css">
+    </head>
+
+<body role="document">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://tyche.cc//">tyche.cc</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li ><a href="http://tyche.cc//">主页</a></li>
+                    
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">常用链接<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                        
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">官方文档<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                        
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+<div class="container-fluid">
+
+<div class="row">
+    <div class="col-xs-12 col-sm-3">
+        
+<aside>
+    <div class="well">
+        
+        <div class="pull-right">Hugo v0.15.0(翻译中...)</div>
+        <ul class="nav nav-list">
+            
+            
+            
+            <li>
+                <label class="tree-toggle nav-header">归档-Archive</label>
+                <ul class="nav nav-list">
+                    <li>
+                        <a href="/post/">归档-Archive</a>
+                    </li>
+                </ul>
+            
+            </li>
+            
+            
+            <li>
+                <label class="tree-toggle nav-header">关于-About Me</label>
+                <ul class="nav nav-list">
+                    
+                    <li>
+                        <a href="/doc/meta/release-notes/">Release Notes</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/meta/roadmap/">Hugo Roadmap</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/meta/license/">License</a>
+                    </li>
+                    
+                </ul>
+            
+            </li>
+            
+            
+            <li>
+                <label class="tree-toggle nav-header">community</label>
+                <ul class="nav nav-list">
+                    
+                    <li>
+                        <a href="/doc/community/mailing-list/">Mailing List</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/community/contributing/">Contributing to Hugo</a>
+                    </li>
+                    
+                </ul>
+            
+            </li>
+            
+            
+            <li>
+                <label class="tree-toggle nav-header">content</label>
+                <ul class="nav nav-list">
+                    
+                    <li>
+                        <a href="/doc/content/organization/">Organization</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/content/supported-formats/">Supported Formats</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/content/front-matter/">Front Matter</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/content/sections/">Sections</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/content/types/">Types</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/content/archetypes/">Archetypes</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/content/ordering/">Ordering</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/content/summaries/">Summaries</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/content/example/">Example</a>
+                    </li>
+                    
+                </ul>
+            
+            </li>
+            
+            
+            <li>
+                <label class="tree-toggle nav-header">extras</label>
+                <ul class="nav nav-list">
+                    
+                    <li>
+                        <a href="/doc/extras/aliases/">Aliases</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/extras/analytics/">Analytics</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/extras/builders/">Builders</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/extras/comments/">Comments</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/extras/crossreferences/">Cross-References</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/extras/livereload/">LiveReload</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/extras/menus/">Menus</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/extras/permalinks/">Permalinks</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/extras/pagination/">Pagination</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/extras/scratch/">Scratch</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/extras/shortcodes/">Shortcodes</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/extras/datafiles/">Data Files</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/extras/highlighting/">Syntax Highlighting</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/extras/datadrivencontent/">Data-driven Content</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/extras/toc/">Table of Contents</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/extras/localfiles/">Traversing Local Files</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/extras/urls/">URLs</a>
+                    </li>
+                    
+                </ul>
+            
+            </li>
+            
+            
+            <li>
+                <label class="tree-toggle nav-header">getting started</label>
+                <ul class="nav nav-list">
+                    
+                    <li>
+                        <a href="/doc/overview/introduction/">Introduction</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/overview/quickstart/">Quickstart</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/overview/installing/">Installing Hugo</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/overview/usage/">Using Hugo</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/overview/configuration/">Configuration</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/overview/source-directory/">Source Organization</a>
+                    </li>
+                    
+                </ul>
+            
+            </li>
+            
+            
+            <li>
+                <label class="tree-toggle nav-header">layout</label>
+                <ul class="nav nav-list">
+                    
+                    <li>
+                        <a href="/doc/templates/overview/">Overview</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/templates/go-templates/">Go Template Primer</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/templates/ace/">Ace templates</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/templates/amber/">Amber templates</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/templates/functions/">Functions</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/templates/variables/">Variables</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/templates/content/">Single Content</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/templates/list/">List of Content</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/templates/homepage/">Homepage</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/templates/terms/">Taxonomy Terms</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/templates/views/">Content Views</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/templates/partials/">Partial Templates</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/templates/rss/">RSS</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/templates/sitemap/">Sitemap</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/templates/404/">Custom 404 page</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/templates/debugging/">Debugging</a>
+                    </li>
+                    
+                </ul>
+            
+            </li>
+            
+            
+            <li>
+                <label class="tree-toggle nav-header">taxonomy</label>
+                <ul class="nav nav-list">
+                    
+                    <li>
+                        <a href="/doc/taxonomies/overview/">Overview</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/taxonomies/usage/">Usage</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/taxonomies/displaying/">Displaying</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/taxonomies/templates/">Templates</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/taxonomies/ordering/">Ordering</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/taxonomies/methods/">Structure &amp; Methods</a>
+                    </li>
+                    
+                </ul>
+            
+            </li>
+            
+            
+            <li>
+                <label class="tree-toggle nav-header">themes</label>
+                <ul class="nav nav-list">
+                    
+                    <li>
+                        <a href="/doc/themes/overview/">Themes Overview</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/themes/installing/">Installing Themes</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/themes/usage/">Using a Theme</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/themes/customizing/">Customizing a Theme</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/themes/creation/">Creating a Theme</a>
+                    </li>
+                    
+                </ul>
+            
+            </li>
+            
+            
+            <li>
+                <label class="tree-toggle nav-header">troubleshooting</label>
+                <ul class="nav nav-list">
+                    
+                    <li>
+                        <a href="/doc/troubleshooting/overview/">Troubleshooting Overview</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/troubleshooting/strange-eof-error/">Strange EOF error</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/troubleshooting/categories-with-accented-characters/">Accented Categories</a>
+                    </li>
+                    
+                </ul>
+            
+            </li>
+            
+            
+            <li>
+                <label class="tree-toggle nav-header">tutorials</label>
+                <ul class="nav nav-list">
+                    
+                    <li>
+                        <a href="/doc/tutorials/automated-deployments/">Automated deployments</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/tutorials/creating-a-new-theme/">Creating a New Theme</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/tutorials/github-pages-blog/">Hosting on GitHub</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/tutorials/installing-on-mac/">Installing on Mac</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/tutorials/installing-on-windows/">Installing on Windows</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/tutorials/mathjax/">MathJax Support</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/tutorials/migrate-from-jekyll/">Migrating from Jekyll</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/doc/tutorials/create-a-multilingual-site/">Multilingual Site</a>
+                    </li>
+                    
+                </ul>
+            
+            </li>
+            
+            
+              
+            <li>
+                <a href="https://github.com/coderzh/gohugo.org/edit/master/content/doc/templates/go-templates.md" target="blank">
+                <i class='fa fa-edit'></i>修改此文章</a>
+            </li>
+            
+            
+        </ul>
+    </div>
+</aside>
+
+
+    </div>
+    <div class="col-xs-12 col-sm-9 doc-main">
+        <main role="main">
+            <article>
+                <a id="title"></a>
+                <h1 class="doc-entry-title">Go Template Primer</h1>
+                <section>
+                    
+
+<p>Hugo uses the excellent <a href="http://golang.org/">Go</a> <a href="http://golang.org/pkg/html/template/">html/template</a> library for<br />
+its template engine. It is an extremely lightweight engine that provides a very<br />
+small amount of logic. In our experience it is just the right amount of<br />
+logic to be able to create a good static website. If you have used other<br />
+template systems from different languages or frameworks, you will find a lot of<br />
+similarities in Go templates.</p>
+
+<p>This document is a brief primer on using Go templates. The <a href="http://golang.org/pkg/html/template/">Go docs</a><br />
+go into more depth and cover features that aren&rsquo;t mentioned here.</p>
+
+<h2 id="introduction-to-go-templates">Introduction to Go Templates</h2>
+
+<p>Go templates provide an extremely simple template language. It adheres to the<br />
+belief that only the most basic of logic belongs in the template or view layer.<br />
+One consequence of this simplicity is that Go templates parse very quickly.</p>
+
+<p>A unique characteristic of Go templates is they are content aware. Variables and<br />
+content will be sanitized depending on the context of where they are used. More<br />
+details can be found in the <a href="http://golang.org/pkg/html/template/">Go docs</a>.</p>
+
+<h2 id="basic-syntax">Basic Syntax</h2>
+
+<p>Go lang templates are HTML files with the addition of variables and<br />
+functions.</p>
+
+<p><strong>Go variables and functions are accessible within {{ }}</strong></p>
+
+<p>Accessing a predefined variable &laquo;foo&raquo;:</p>
+
+<pre><code>{{ foo }}
+</code></pre>
+
+<p><strong>Parameters are separated using spaces</strong></p>
+
+<p>Calling the <code>add</code> function with input of 1, 2:</p>
+
+<pre><code>{{ add 1 2 }}
+</code></pre>
+
+<p><strong>Methods and fields are accessed via dot notation</strong></p>
+
+<p>Accessing the Page Parameter &laquo;bar&raquo;</p>
+
+<pre><code>{{ .Params.bar }}
+</code></pre>
+
+<p><strong>Parentheses can be used to group items together</strong></p>
+
+<pre><code>{{ if or (isset .Params &quot;alt&quot;) (isset .Params &quot;caption&quot;) }} Caption {{ end }}
+</code></pre>
+
+<h2 id="variables">Variables</h2>
+
+<p>Each Go template has a struct (object) made available to it. In Hugo, each<br />
+template is passed either a page or a node struct depending on which type of<br />
+page you are rendering. More details are available on the<br />
+<a href="/layout/variables/">variables</a> page.</p>
+
+<p>A variable is accessed by referencing the variable name.</p>
+
+<pre><code>&lt;title&gt;{{ .Title }}&lt;/title&gt;
+</code></pre>
+
+<p>Variables can also be defined and referenced.</p>
+
+<pre><code>{{ $address := &quot;123 Main St.&quot;}}
+{{ $address }}
+</code></pre>
+
+<h2 id="functions">Functions</h2>
+
+<p>Go template ships with a few functions which provide basic functionality. The Go<br />
+template system also provides a mechanism for applications to extend the<br />
+available functions with their own. <a href="/layout/functions/">Hugo template<br />
+functions</a> provide some additional functionality we believe<br />
+are useful for building websites. Functions are called by using their name<br />
+followed by the required parameters separated by spaces. Template<br />
+functions cannot be added without recompiling Hugo.</p>
+
+<p><strong>Example 1: Adding numbers</strong></p>
+
+<pre><code>{{ add 1 2 }}
+</code></pre>
+
+<p><strong>Example 2: Comparing numbers</strong></p>
+
+<pre><code>{{ lt 1 2 }}
+</code></pre>
+
+<p>(There are more boolean operators, detailed in the<br />
+<a href="http://golang.org/pkg/text/template/#hdr-Functions">template documentation</a>.)</p>
+
+<h2 id="includes">Includes</h2>
+
+<p>When including another template, you will pass to it the data it will be<br />
+able to access. To pass along the current context, please remember to<br />
+include a trailing dot. The templates location will always be starting at<br />
+the /layout/ directory within Hugo.</p>
+
+<p><strong>Example:</strong></p>
+
+<pre><code>{{ template &quot;partials/header.html&quot; . }}
+</code></pre>
+
+<p>And, starting with Hugo v0.12, you may also use the <code>partial</code> call<br />
+for <a href="/doc/templates/partials/">partial templates</a>:</p>
+
+<pre><code>{{ partial &quot;header.html&quot; . }}
+</code></pre>
+
+<h2 id="logic">Logic</h2>
+
+<p>Go templates provide the most basic iteration and conditional logic.</p>
+
+<h3 id="iteration">Iteration</h3>
+
+<p>Just like in Go, the Go templates make heavy use of <code>range</code> to iterate over<br />
+a map, array or slice. The following are different examples of how to use<br />
+range.</p>
+
+<p><strong>Example 1: Using Context</strong></p>
+
+<pre><code>{{ range array }}
+    {{ . }}
+{{ end }}
+</code></pre>
+
+<p><strong>Example 2: Declaring value variable name</strong></p>
+
+<pre><code>{{range $element := array}}
+    {{ $element }}
+{{ end }}
+</code></pre>
+
+<p><strong>Example 2: Declaring key and value variable name</strong></p>
+
+<pre><code>{{range $index, $element := array}}
+    {{ $index }}
+    {{ $element }}
+{{ end }}
+</code></pre>
+
+<h3 id="conditionals">Conditionals</h3>
+
+<p><code>if</code>, <code>else</code>, <code>with</code>, <code>or</code> &amp; <code>and</code> provide the framework for handling conditional<br />
+logic in Go Templates. Like <code>range</code>, each statement is closed with <code>end</code>.</p>
+
+<p>Go Templates treat the following values as false:</p>
+
+<ul>
+<li>false<br /></li>
+<li>0<br /></li>
+<li>any array, slice, map, or string of length zero<br />
+<br /></li>
+</ul>
+
+<p><strong>Example 1: <code>if</code></strong></p>
+
+<pre><code>{{ if isset .Params &quot;title&quot; }}&lt;h4&gt;{{ index .Params &quot;title&quot; }}&lt;/h4&gt;{{ end }}
+</code></pre>
+
+<p><strong>Example 2: <code>if</code> … <code>else</code></strong></p>
+
+<pre><code>{{ if isset .Params &quot;alt&quot; }}
+    {{ index .Params &quot;alt&quot; }}
+{{else}}
+    {{ index .Params &quot;caption&quot; }}
+{{ end }}
+</code></pre>
+
+<p><strong>Example 3: <code>and</code> &amp; <code>or</code></strong></p>
+
+<pre><code>{{ if and (or (isset .Params &quot;title&quot;) (isset .Params &quot;caption&quot;)) (isset .Params &quot;attr&quot;)}}
+</code></pre>
+
+<p><strong>Example 4: <code>with</code></strong></p>
+
+<p>An alternative way of writing &laquo;<code>if</code>&raquo; and then referencing the same value<br />
+is to use &laquo;<code>with</code>&raquo; instead. <code>with</code> rebinds the context <code>.</code> within its scope,<br />
+and skips the block if the variable is absent.</p>
+
+<p>The first example above could be simplified as:</p>
+
+<pre><code>{{ with .Params.title }}&lt;h4&gt;{{ . }}&lt;/h4&gt;{{ end }}
+</code></pre>
+
+<p><strong>Example 5: <code>if</code> … <code>else if</code></strong></p>
+
+<pre><code>{{ if isset .Params &quot;alt&quot; }}
+    {{ index .Params &quot;alt&quot; }}
+{{ else if isset .Params &quot;caption&quot; }}
+    {{ index .Params &quot;caption&quot; }}
+{{ end }}
+</code></pre>
+
+<h2 id="pipes">Pipes</h2>
+
+<p>One of the most powerful components of Go templates is the ability to<br />
+stack actions one after another. This is done by using pipes. Borrowed<br />
+from Unix pipes, the concept is simple, each pipeline&rsquo;s output becomes the<br />
+input of the following pipe.</p>
+
+<p>Because of the very simple syntax of Go templates, the pipe is essential<br />
+to being able to chain together function calls. One limitation of the<br />
+pipes is that they only can work with a single value and that value<br />
+becomes the last parameter of the next pipeline.</p>
+
+<p>A few simple examples should help convey how to use the pipe.</p>
+
+<p><strong>Example 1:</strong></p>
+
+<pre><code>{{ if eq 1 1 }} Same {{ end }}
+</code></pre>
+
+<p>is the same as</p>
+
+<pre><code>{{ eq 1 1 | if }} Same {{ end }}
+</code></pre>
+
+<p>It does look odd to place the <code>if</code> at the end, but it does provide a good<br />
+illustration of how to use the pipes.</p>
+
+<p><strong>Example 2:</strong></p>
+
+<pre><code>{{ index .Params &quot;disqus_url&quot; | html }}
+</code></pre>
+
+<p>Access the page parameter called &laquo;disqus_url&raquo; and escape the HTML.</p>
+
+<p>The <code>index</code> function is a <a href="http://golang.org/">Go</a> built-in, and you can read about it <a href="http://golang.org/pkg/text/template/">here</a>. <code>index</code>:</p>
+
+<blockquote>
+<p>&hellip;returns the result of indexing its first argument by the following arguments. Thus &laquo;index x 1 2 3&raquo; is, in Go syntax, <code>x[1][2][3]</code>. Each indexed item must be a map, slice, or array.</p>
+</blockquote>
+
+<p><strong>Example 3:</strong></p>
+
+<pre><code>{{ if or (or (isset .Params &quot;title&quot;) (isset .Params &quot;caption&quot;)) (isset .Params &quot;attr&quot;)}}
+Stuff Here
+{{ end }}
+</code></pre>
+
+<p>Could be rewritten as</p>
+
+<pre><code>{{  isset .Params &quot;caption&quot; | or isset .Params &quot;title&quot; | or isset .Params &quot;attr&quot; | if }}
+Stuff Here
+{{ end }}
+</code></pre>
+
+<h3 id="internet-explorer-conditional-comments-using-pipes">Internet Explorer conditional comments using Pipes</h3>
+
+<p>By default, Go Templates remove HTML comments from output. This has the unfortunate side effect of removing Internet Explorer conditional comments. As a workaround, use something like this:</p>
+
+<pre><code>{{ &quot;&lt;!--[if lt IE 9]&gt;&quot; | safeHTML }}
+  &lt;script src=&quot;html5shiv.js&quot;&gt;&lt;/script&gt;
+{{ &quot;&lt;![endif]--&gt;&quot; | safeHTML }}
+</code></pre>
+
+<p>Alternatively, use the backtick (<code>`</code>) to quote the IE conditional comments, avoiding the tedious task of escaping every double quotes (<code>&quot;</code>) inside, as demonstrated in the <a href="http://golang.org/pkg/text/template/#hdr-Examples">examples</a> in the Go text/template documentation, e.g.:</p>
+
+<pre><code>{{ `&lt;!--[if lt IE 7]&gt;&lt;html class=&quot;no-js lt-ie9 lt-ie8 lt-ie7&quot;&gt;&lt;![endif]--&gt;` | safeHTML }}
+</code></pre>
+
+<h2 id="context-a-k-a-the-dot">Context (a.k.a. the dot)</h2>
+
+<p>The most easily overlooked concept to understand about Go templates is that <code>{{ . }}</code><br />
+always refers to the current context. In the top level of your template, this<br />
+will be the data set made available to it. Inside of a iteration, however, it will have<br />
+the value of the current item. When inside of a loop, the context has changed:<br />
+<code>{{ . }}</code> will no longer refer to the data available to the entire page. If you need<br />
+to<br />
+access this from within the loop, you will likely want to do one of the following:</p>
+
+<ol>
+<li><p>Set it to a variable instead of depending on the context.  For example:</p>
+
+<pre><code>{{ $title := .Site.Title }}
+{{ range .Params.tags }}
+  &lt;li&gt;
+    &lt;a href=&quot;{{ $baseurl }}/tags/{{ . | urlize }}&quot;&gt;{{ . }}&lt;/a&gt;
+    - {{ $title }}
+  &lt;/li&gt;
+{{ end }}
+</code></pre>
+
+<p>Notice how once we have entered the loop the value of <code>{{ . }}</code> has changed. We<br />
+have defined a variable outside of the loop so we have access to it from within<br />
+the loop.</p></li>
+
+<li><p>Use <code>$.</code> to access the global context from anywhere.<br />
+Here is an equivalent example:</p>
+
+<pre><code>{{ range .Params.tags }}
+  &lt;li&gt;
+    &lt;a href=&quot;{{ $baseurl }}/tags/{{ . | urlize }}&quot;&gt;{{ . }}&lt;/a&gt;
+    - {{ $.Site.Title }}
+  &lt;/li&gt;
+{{ end }}
+</code></pre>
+
+<p>This is because <code>$</code>, a special variable, is set to the starting value<br />
+of <code>.</code> the dot by default,<br />
+a <a href="http://golang.org/pkg/text/template/#hdr-Variables">documented feature</a><br />
+of Go text/template.  Very handy, eh?</p>
+
+<blockquote>
+<p>However, this little magic would cease to work if someone were to<br />
+mischievously redefine <code>$</code>, e.g. <code>{{ $ := .Site }}</code>.<br />
+<em>(No, don&rsquo;t do it!)</em><br />
+You may, of course, recover from this mischief by using <code>{{ $ := . }}</code><br />
+in a global context to reset <code>$</code> to its default value.</p>
+</blockquote></li>
+</ol>
+
+<h1 id="hugo-parameters">Hugo Parameters</h1>
+
+<p>Hugo provides the option of passing values to the template language<br />
+through the site configuration (for sitewide values), or through the meta<br />
+data of each specific piece of content. You can define any values of any<br />
+type (supported by your front matter/config format) and use them however<br />
+you want to inside of your templates.</p>
+
+<h2 id="using-content-page-parameters">Using Content (page) Parameters</h2>
+
+<p>In each piece of content, you can provide variables to be used by the<br />
+templates. This happens in the <a href="/doc/content/front-matter/">front matter</a>.</p>
+
+<p>An example of this is used in this documentation site. Most of the pages<br />
+benefit from having the table of contents provided. Sometimes the TOC just<br />
+doesn&rsquo;t make a lot of sense. We&rsquo;ve defined a variable in our front matter<br />
+of some pages to turn off the TOC from being displayed.</p>
+
+<p>Here is the example front matter:</p>
+
+<pre><code>---
+title: &quot;Permalinks&quot;
+lastmod: 2015-11-30
+date: &quot;2013-11-18&quot;
+aliases:
+  - &quot;/doc/permalinks/&quot;
+groups: [&quot;extras&quot;]
+groups_weight: 30
+notoc: true
+---
+</code></pre>
+
+<p>Here is the corresponding code inside of the template:</p>
+
+<pre><code>  {{ if not .Params.notoc }}
+    &lt;div id=&quot;toc&quot; class=&quot;well col-md-4 col-sm-6&quot;&gt;
+    {{ .TableOfContents }}
+    &lt;/div&gt;
+  {{ end }}
+</code></pre>
+
+<h2 id="using-site-config-parameters">Using Site (config) Parameters</h2>
+
+<p>In your top-level configuration file (e.g., <code>config.yaml</code>) you can define site<br />
+parameters, which are values which will be available to you in partials.</p>
+
+<p>For instance, you might declare:</p>
+
+<pre><code class="language-yaml">params:
+  CopyrightHTML: &quot;Copyright &amp;#xA9; 2013 John Doe. All Rights Reserved.&quot;
+  TwitterUser: &quot;spf13&quot;
+  SidebarRecentLimit: 5
+</code></pre>
+
+<p>Within a footer layout, you might then declare a <code>&lt;footer&gt;</code> which is only<br />
+provided if the <code>CopyrightHTML</code> parameter is provided, and if it is given,<br />
+you would declare it to be HTML-safe, so that the HTML entity is not escaped<br />
+again.  This would let you easily update just your top-level config file each<br />
+January 1st, instead of hunting through your templates.</p>
+
+<pre><code>{{if .Site.Params.CopyrightHTML}}&lt;footer&gt;
+&lt;div class=&quot;text-center&quot;&gt;{{.Site.Params.CopyrightHTML | safeHTML}}&lt;/div&gt;
+&lt;/footer&gt;{{end}}
+</code></pre>
+
+<p>An alternative way of writing the &laquo;<code>if</code>&raquo; and then referencing the same value<br />
+is to use &laquo;<code>with</code>&raquo; instead. With rebinds the context <code>.</code> within its scope,<br />
+and skips the block if the variable is absent:</p>
+
+<pre><code>{{with .Site.Params.TwitterUser}}&lt;span class=&quot;twitter&quot;&gt;
+&lt;a href=&quot;https://twitter.com/{{.}}&quot; rel=&quot;author&quot;&gt;
+&lt;img src=&quot;/images/twitter.png&quot; width=&quot;48&quot; height=&quot;48&quot; title=&quot;Twitter: {{.}}&quot;
+ alt=&quot;Twitter&quot;&gt;&lt;/a&gt;
+&lt;/span&gt;{{end}}
+</code></pre>
+
+<p>Finally, if you want to pull &laquo;magic constants&raquo; out of your layouts, you can do<br />
+so, such as in this example:</p>
+
+<pre><code>&lt;nav class=&quot;recent&quot;&gt;
+  &lt;h1&gt;Recent Posts&lt;/h1&gt;
+  &lt;ul&gt;{{range first .Site.Params.SidebarRecentLimit .Site.Pages}}
+    &lt;li&gt;&lt;a href=&quot;{{.RelPermalink}}&quot;&gt;{{.Title}}&lt;/a&gt;&lt;/li&gt;
+  {{end}}&lt;/ul&gt;
+&lt;/nav&gt;
+</code></pre>
+
+<h1 id="template-example-show-only-upcoming-events">Template example: Show only upcoming events</h1>
+
+<p>Go allows you to do more than what&rsquo;s shown here.  Using Hugo&rsquo;s<br />
+<a href="/doc/templates/functions/#toc_4"><code>where</code></a> function and Go built-ins, we can list<br />
+only the items from <code>content/events/</code> whose date (set in the front matter) is in<br />
+the future:</p>
+
+<pre><code>&lt;h4&gt;Upcoming Events&lt;/h4&gt;
+&lt;ul class=&quot;upcoming-events&quot;&gt;
+{{ range where .Data.Pages.ByDate &quot;Section&quot; &quot;events&quot; }}
+  {{ if ge .Date.Unix .Now.Unix }}
+    &lt;li&gt;&lt;span class=&quot;event-type&quot;&gt;{{ .Type | title }} —&lt;/span&gt;
+      {{ .Title }}
+      on &lt;span class=&quot;event-date&quot;&gt;
+      {{ .Date.Format &quot;2 January at 3:04pm&quot; }}&lt;/span&gt;
+      at {{ .Params.place }}
+    &lt;/li&gt;
+  {{ end }}
+{{ end }}
+</code></pre>
+
+                </section>
+            </article>
+        </main>
+        <br />
+        
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 text-center">
+                
+                <a href="/doc/templates/overview">&lt; 上一篇</a>
+                
+            </div>
+            <div class="col-xs-6 col-sm-6 text-center">
+                
+                <a href="/doc/templates/ace">下一篇 &gt;</a>
+                
+            </div>
+        </div>
+        
+    </div> 
+</div>
+
+
+
+<hr />
+
+<div class="row">
+    <div class="col-sm-12">
+        
+	    <div class="text-center">
+        
+		    <p class="doc-footer-em"><a href="#">回到顶部↑</a></p>
+	    </div>
+	</div>
+</div>
+
+</div> 
+
+<footer class="doc-footer">
+	
+    <p>Copyright (c) 2016. All rights reserved. Generated by <a href="http://gohugo.io/">Hugo</a></p>
+</footer>
+
+
+
+<script src="http://tyche.cc//js/jquery-1.11.2.min.js"></script>
+<script src="http://tyche.cc//js/bootstrap.min.js"></script>
+
+<script src="http://tyche.cc//js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="http://tyche.cc//js/ie10-viewport-bug-workaround.js"></script>
+
+</body>
+</html>
+

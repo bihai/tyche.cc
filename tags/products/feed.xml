@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/products/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/landing-page-hugo/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/landing-page-hugo/</guid>
+            <description>
+
+&lt;h1 id=&#34;landing-page-theme-for-hugo&#34;&gt;Landing Page Theme for Hugo&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; theme based on the&lt;br /&gt;
+&lt;a href=&#34;https://github.com/swcool/landing-page-theme&#34;&gt;landing-page theme for Jekyll&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;how-to-use&#34;&gt;How to use&lt;/h1&gt;
+
+&lt;h2 id=&#34;background-images&#34;&gt;Background Images&lt;/h2&gt;
+
+&lt;p&gt;Override the default intro and contact backgrounds by putting images in these files:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;img/intro-bg.jpg&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;img/contact-bg.jpg&lt;/code&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;about-section&#34;&gt;About Section&lt;/h2&gt;
+
+&lt;p&gt;Create a markdown file named &lt;code&gt;content/services/about/about.md&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;---
+Title: About Us
+Draft: false
+---
+
+WidgetCo is the world leader in widget production.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;services-section&#34;&gt;Services Section&lt;/h2&gt;
+
+&lt;p&gt;Create a markdown file describing a service you offer in &lt;code&gt;content/services/&lt;/code&gt; - e.g. &lt;code&gt;content/services/widgets.md&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;---
+Title: Customized Widgets
+Img: widgets.png
+Category: Services
+Draft: false
+---
+
+We specialize in bespoke widgets, built to your specification.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then place a matching image in &lt;code&gt;static/img/services/&lt;/code&gt; - e.g. &lt;code&gt;static/img/services/widgets.png&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;social-contact-buttons&#34;&gt;Social Contact Buttons&lt;/h2&gt;
+
+&lt;p&gt;Contact buttons will be automatically created if one or more&lt;br /&gt;
+&lt;code&gt;[[params.social]]&lt;/code&gt; is configured in &lt;code&gt;config.toml&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;baseurl = &amp;quot;http://yourdomain.com&amp;quot;
+languageCode = &amp;quot;en-us&amp;quot;
+title = &amp;quot;WidgetCo Inc&amp;quot;
+[params]
+	description = &amp;quot;The best widgets in the world!&amp;quot;
+
+[[params.social]]
+	title = &amp;quot;email&amp;quot;
+	icon = &amp;quot;envelope-o&amp;quot;
+	url = &amp;quot;mailto:bushbama@whitehouse.gov&amp;quot;
+[[params.social]]
+	title = &amp;quot;twitter&amp;quot;
+	icon = &amp;quot;twitter&amp;quot;
+	url = &amp;quot;https://twitter.com/SBootstrap&amp;quot;
+[[params.social]]
+	title = &amp;quot;github&amp;quot;
+	icon = &amp;quot;github&amp;quot;
+	url = &amp;quot;https://github.com/IronSummitMedia/startbootstrap&amp;quot;
+[[params.social]]
+	title = &amp;quot;linkedin&amp;quot;
+	icon = &amp;quot;linkedin&amp;quot;
+	url = &amp;quot;http://linkedin.com/yourusername&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;title&lt;/code&gt; parameter sets the text to be displayed on the contact button&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;icon&lt;/code&gt; parameter sets which &lt;a href=&#34;http://fortawesome.github.io/Font-Awesome/icons/&#34;&gt;Font Awesome icon&lt;/a&gt;&lt;br /&gt;
+will be displayed.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;google-analytics&#34;&gt;Google Analytics&lt;/h2&gt;
+
+&lt;p&gt;Google Analytics support is automatically enabled if you set the&lt;br /&gt;
+&lt;code&gt;googleAnalytics&lt;/code&gt; param in &lt;code&gt;config.toml&lt;/code&gt; to your Google Analytics tracking ID.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[params]
+googleAnalytics = &amp;quot;UA-12345678-1&amp;quot;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;demo&#34;&gt;Demo&lt;/h1&gt;
+
+&lt;p&gt;View this equivalent jekyll theme in action &lt;a href=&#34;https://swcool.github.io/landing-page-theme&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;screenshot&#34;&gt;Screenshot&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/swcool/landing-page-theme/master/img/screenshot.png&#34; alt=&#34;screenshot&#34; /&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

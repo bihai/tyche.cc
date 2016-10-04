@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/post/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/hugo-multi-bootswatch/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/hugo-multi-bootswatch/</guid>
+            <description>
+
+&lt;h1 id=&#34;hugo-multi-bootswatch-theme&#34;&gt;Hugo Multi Bootswatch Theme&lt;/h1&gt;
+
+&lt;p&gt;Hugo Multi BootSwatch Theme is a single column theme for &lt;a href=&#34;http://hugo.spf13.com/&#34;&gt;hugo&lt;/a&gt; based on &lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Twitter Bootstrap&lt;/a&gt; and a css styling from &lt;a href=&#34;http://bootswatch.com/&#34;&gt;Bootswatch&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It is a simple template containing a nice header menu bar and content area. Default the theme support 2 types of content.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;pages (used for About/Resume pages)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;posts (used for standard blogposts)&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#usage&#34;&gt;Usage&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#configuration&#34;&gt;Configuration&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#colour-themes&#34;&gt;Built-in colour themes&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#screenshots&#34;&gt;Screenshots&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;#themed-screenshots&#34;&gt;Themed screenshots&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#cerulean&#34;&gt;Cerulean&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#cosmo&#34;&gt;Cosmo&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#cyborg&#34;&gt;Cyborg&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#default&#34;&gt;Default&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#flatly&#34;&gt;Flatly&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#journal&#34;&gt;Journal&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#lumen&#34;&gt;Lumen&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#paper&#34;&gt;Paper&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#readable&#34;&gt;Readable&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#sandstone&#34;&gt;Sandstone&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#simplex&#34;&gt;Simplex&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#slate&#34;&gt;Slate&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#spacelab&#34;&gt;Spacelab&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#superhero&#34;&gt;Superhero&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#united&#34;&gt;United&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#yeti&#34;&gt;Yeti&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;#questions-ideas-bugs-pull-requests&#34;&gt;Questions, ideas, bugs, pull requests?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;$ cd your_site_repo/
+$ mkdir themes
+$ cd themes
+$ git clone https://github.com/mpas/hugo-multi-bootswatch.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;See the &lt;a href=&#34;http://gohugo.io/themes/installing&#34;&gt;official Hugo themes documentation&lt;/a&gt; for more info.&lt;/p&gt;
+
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+
+&lt;p&gt;This theme expects a relatively standard Hugo blog/personal site layout:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;.
+└── content
+    ├── post
+    |   ├── post1.md
+    |   └── post2.md
+    └── page
+        ├── license.md      // this is used in the footer link
+        ├── about.md        // used in the header
+        └── resume.md       // used in the header
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Just run &lt;code&gt;hugo --theme=hugo-multi-bootswatch&lt;/code&gt; to generate your site!&lt;/p&gt;
+
+&lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt;
+
+&lt;p&gt;An example of what your site&amp;rsquo;s &lt;code&gt;config.toml&lt;/code&gt; could look like. All theme-specific parameters are under &lt;code&gt;[params]&lt;/code&gt; and standard Hugo parameters are used where possible.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;baseurl     = &amp;quot;http://example.com&amp;quot;  # the baseurl for your website
+title       = &amp;quot;Your site title&amp;quot;     # blog title
+paginate    = 10                    # the number of posts on a page
+
+[permalinks]
+    # Optional. Change the permalink format for the &#39;post&#39; content type.
+    # The format shown here is the same one Jekyll/Octopress uses by default.
+    post = &amp;quot;/blog/:year/:month/:day/:title/&amp;quot;
+
+[params]
+    # name of the site author; used in header meta information
+    author = &amp;quot;&amp;lt;authorname&amp;gt;&amp;quot;
+
+    # social links, used in footer, these must be full URLs.
+    twitter = &amp;quot;https://twitter.com/&amp;lt;username&amp;gt;&amp;quot;
+    github = &amp;quot;https://github.com/&amp;lt;username&amp;gt;&amp;quot;
+    facebook = &amp;quot;https://www.facebook.com/&amp;lt;username&amp;gt;&amp;quot;
+    delicious = &amp;quot;https://delicious.com/&amp;lt;username&amp;gt;&amp;quot;
+
+[params.theme]
+    inverse = false     # indicating if the theme should use inversed colors
+    name = &amp;quot;cerulean&amp;quot;   # name of the theme to use
+
+    # list of possible theme names that can be used
+    # name = &amp;quot;cerulean&amp;quot;
+    # name = &amp;quot;cosmo&amp;quot;
+    # name = &amp;quot;cyborg&amp;quot;
+    # name = &amp;quot;default&amp;quot;
+    # name = &amp;quot;flatly&amp;quot;
+    # name = &amp;quot;journal&amp;quot;
+    # name = &amp;quot;lumen&amp;quot;
+    # name = &amp;quot;paper&amp;quot;
+    # name = &amp;quot;readable&amp;quot;
+    # name = &amp;quot;sandstone&amp;quot;
+    # name = &amp;quot;simplex&amp;quot;
+    # name = &amp;quot;slate&amp;quot;
+    # name = &amp;quot;spacelabs&amp;quot;
+    # name = &amp;quot;superhero&amp;quot;
+    # name = &amp;quot;united&amp;quot;
+    # name = &amp;quot;yeti&amp;quot;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;colour-themes&#34;&gt;Colour themes&lt;/h2&gt;
+
+&lt;p&gt;All the available color themes from &lt;a href=&#34;http://bootswatch.com/&#34;&gt;Bootswatch&lt;/a&gt; are available. Please checkout Bootswatch to see what theme you want to use.&lt;/p&gt;
+
+&lt;h2 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h2&gt;
+
+&lt;h3 id=&#34;index-page&#34;&gt;Index Page&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/index.png&#34; alt=&#34;index&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;post-page&#34;&gt;Post Page&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/post.png&#34; alt=&#34;post&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;list-page&#34;&gt;List Page&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/list.png&#34; alt=&#34;list&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;themed-screenshots&#34;&gt;Themed Screenshots&lt;/h2&gt;
+
+&lt;h3 id=&#34;cerulean&#34;&gt;Cerulean&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;normal:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/cerulean.png&#34; alt=&#34;index&#34; /&gt;&lt;br /&gt;
+&lt;em&gt;inversed:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/cerulean.png&#34; alt=&#34;index&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;cosmo&#34;&gt;Cosmo&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;normal:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/cosmo.png&#34; alt=&#34;index&#34; /&gt;&lt;br /&gt;
+&lt;em&gt;inversed:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/cosmo.png&#34; alt=&#34;index&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;cyborg&#34;&gt;Cyborg&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;normal:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/cyborg.png&#34; alt=&#34;index&#34; /&gt;&lt;br /&gt;
+&lt;em&gt;inversed:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/cyborg.png&#34; alt=&#34;index&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;default&#34;&gt;Default&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;normal:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/default.png&#34; alt=&#34;index&#34; /&gt;&lt;br /&gt;
+&lt;em&gt;inversed:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/default.png&#34; alt=&#34;index&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;flatly&#34;&gt;Flatly&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;normal:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/flatly.png&#34; alt=&#34;index&#34; /&gt;&lt;br /&gt;
+&lt;em&gt;inversed:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/flatly.png&#34; alt=&#34;index&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;journal&#34;&gt;Journal&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;normal:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/journal.png&#34; alt=&#34;index&#34; /&gt;&lt;br /&gt;
+&lt;em&gt;inversed:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/journal.png&#34; alt=&#34;index&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;lumen&#34;&gt;Lumen&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;normal:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/lumen.png&#34; alt=&#34;index&#34; /&gt;&lt;br /&gt;
+&lt;em&gt;inversed:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/lumen.png&#34; alt=&#34;index&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;paper&#34;&gt;Paper&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;normal:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/paper.png&#34; alt=&#34;index&#34; /&gt;&lt;br /&gt;
+&lt;em&gt;inversed:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/paper.png&#34; alt=&#34;index&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;readable&#34;&gt;Readable&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;normal:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/readable.png&#34; alt=&#34;index&#34; /&gt;&lt;br /&gt;
+&lt;em&gt;inversed:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/readable.png&#34; alt=&#34;index&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;sandstone&#34;&gt;Sandstone&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;normal:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/sandstone.png&#34; alt=&#34;index&#34; /&gt;&lt;br /&gt;
+&lt;em&gt;inversed:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/sandstone.png&#34; alt=&#34;index&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;simplex&#34;&gt;Simplex&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;normal:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/simplex.png&#34; alt=&#34;index&#34; /&gt;&lt;br /&gt;
+&lt;em&gt;inversed:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/simplex.png&#34; alt=&#34;index&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;slate&#34;&gt;Slate&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;normal:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/slate.png&#34; alt=&#34;index&#34; /&gt;&lt;br /&gt;
+&lt;em&gt;inversed:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/slate.png&#34; alt=&#34;index&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;spacelab&#34;&gt;Spacelab&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;normal:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/spacelab.png&#34; alt=&#34;index&#34; /&gt;&lt;br /&gt;
+&lt;em&gt;inversed:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/spacelab.png&#34; alt=&#34;index&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;superhero&#34;&gt;Superhero&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;normal:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/superhero.png&#34; alt=&#34;index&#34; /&gt;&lt;br /&gt;
+&lt;em&gt;inversed:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/superhero.png&#34; alt=&#34;index&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;united&#34;&gt;United&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;normal:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/united.png&#34; alt=&#34;index&#34; /&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/united.png&#34; alt=&#34;index&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;yeti&#34;&gt;Yeti&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;normal:&lt;/em&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_false/yeti.png&#34; alt=&#34;index&#34; /&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/mpas/hugo-multi-bootswatch/master/images/inverse_true/yeti.png&#34; alt=&#34;index&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;questions-ideas-bugs-pull-requests&#34;&gt;Questions, ideas, bugs, pull requests?&lt;/h2&gt;
+
+&lt;p&gt;All feedback is welcome! Head over to the &lt;a href=&#34;https://github.com/mpas/hugo-multi-bootswatch/issues&#34;&gt;issue tracker&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;Open sourced under the &lt;a href=&#34;https://github.com/mpas/hugo-multi-bootswatch/blob/master/LICENSE.md&#34;&gt;MIT license&lt;/a&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/journal/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/journal/</guid>
+            <description>
+
+&lt;h1 id=&#34;journal&#34;&gt;Journal&lt;/h1&gt;
+
+&lt;p&gt;Journal is a single column theme for &lt;a href=&#34;http://hugo.spf13.com/&#34;&gt;hugo&lt;/a&gt; based on &lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Twitter Bootstrap&lt;/a&gt; and a css styling from &lt;a href=&#34;http://bootswatch.com/&#34;&gt;Bootswatch&lt;/a&gt; the &lt;a href=&#34;http://bootswatch.com/journal/&#34;&gt;Journal theme&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It is a simple template containing a nice header menu bar and content area. Default the theme support 2 types of content.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;pages (used for About/Resume pages)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;posts (used for standard blogposts)&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h1&gt;
+
+&lt;h2 id=&#34;index-page&#34;&gt;Index Page&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://mpas.github.io/hosted/img/hugo-journal/index.png&#34; alt=&#34;index&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;post-page&#34;&gt;Post Page&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://mpas.github.io/hosted/img/hugo-journal/post.png&#34; alt=&#34;post&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;list-page&#34;&gt;List Page&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://mpas.github.io/hosted/img/hugo-journal/list.png&#34; alt=&#34;list&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;how-to-use&#34;&gt;How to use&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mpas/hugo-journal/archive/master.zip&#34;&gt;Download the repository&lt;/a&gt; and extract to your hugo working directory (&lt;dir&gt;/themes/&lt;themename&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Or read more on the main Hugo site -&amp;gt; &lt;a href=&#34;http://hugo.spf13.com/themes/installing&#34;&gt;Installing Hugo Themes&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;license&#34;&gt;License&lt;/h1&gt;
+
+&lt;p&gt;Open sourced under the MIT license.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

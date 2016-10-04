@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Cup on tyche.cc</title>
-        <link>http://tyche.cc/categories/cup/</link>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/categories/cup/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,44 +10,44 @@
         
         <item>
             <title>Another Cup</title>
-            <link>http://tyche.cc/customproject/anothercup/</link>
+            <link>http://tyche.cc/post/customproject/anothercup/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/customproject/anothercup/</guid>
-            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
+            <guid>http://tyche.cc/post/customproject/anothercup/</guid>
+            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter&lt;br /&gt;
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
         </item>
         
         <item>
             <title>Another Cup</title>
-            <link>http://tyche.cc/project/anothercup/</link>
+            <link>http://tyche.cc/post/project/anothercup/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/project/anothercup/</guid>
-            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
+            <guid>http://tyche.cc/post/project/anothercup/</guid>
+            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter&lt;br /&gt;
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
         </item>
         
         <item>
             <title>Cup</title>
-            <link>http://tyche.cc/customproject/cup/</link>
+            <link>http://tyche.cc/post/customproject/cup/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/customproject/cup/</guid>
-            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
+            <guid>http://tyche.cc/post/customproject/cup/</guid>
+            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter&lt;br /&gt;
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
         </item>
         
         <item>
             <title>Cup</title>
-            <link>http://tyche.cc/project/cup/</link>
+            <link>http://tyche.cc/post/project/cup/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/project/cup/</guid>
-            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
+            <guid>http://tyche.cc/post/project/cup/</guid>
+            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter&lt;br /&gt;
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
         </item>

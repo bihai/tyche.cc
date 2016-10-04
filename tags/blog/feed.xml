@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/blog/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title>gntech.se</title>
+            <link>http://tyche.cc/showcase/gntech/</link>
+            <pubDate>Sat, 13 Feb 2016 21:47:27 &#43;0100</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/gntech/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>jorgennilsson.com</title>
+            <link>http://tyche.cc/showcase/jorgennilsson/</link>
+            <pubDate>Thu, 11 Feb 2016 23:41:27 &#43;0100</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/jorgennilsson/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>shelan.org</title>
+            <link>http://tyche.cc/showcase/shelan/</link>
+            <pubDate>Sun, 07 Feb 2016 10:30:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/shelan/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>Data Pipeline Architect</title>
+            <link>http://tyche.cc/showcase/datapipelinearchitect/</link>
+            <pubDate>Thu, 04 Feb 2016 18:30:07 -0500</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/datapipelinearchitect/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>David Allen</title>
+            <link>http://tyche.cc/showcase/davidrallen/</link>
+            <pubDate>Wed, 03 Feb 2016 11:49:07 -0500</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/davidrallen/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>Rakuten Tech Blog</title>
+            <link>http://tyche.cc/showcase/rakutentech/</link>
+            <pubDate>Wed, 20 Jan 2016 07:32:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/rakutentech/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>emilyhorsman.com</title>
+            <link>http://tyche.cc/showcase/emilyhorsman/</link>
+            <pubDate>Sat, 09 Jan 2016 01:00:10 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/emilyhorsman/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>Coding Journal</title>
+            <link>http://tyche.cc/showcase/coding-journal/</link>
+            <pubDate>Wed, 23 Dec 2015 11:42:00 &#43;0100</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/coding-journal/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>Camunda Blog</title>
+            <link>http://tyche.cc/showcase/camunda-blog/</link>
+            <pubDate>Tue, 01 Dec 2015 04:20:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/camunda-blog/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>gadgetplayboy.com</title>
+            <link>http://tyche.cc/showcase/gadgetplayboy/</link>
+            <pubDate>Sun, 29 Nov 2015 07:16:53 -0500</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/gadgetplayboy/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>bugtrackers.io</title>
+            <link>http://tyche.cc/showcase/bugtrackers/</link>
+            <pubDate>Tue, 27 Oct 2015 09:02:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/bugtrackers/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>ninjaducks.in</title>
+            <link>http://tyche.cc/showcase/ninjaducks/</link>
+            <pubDate>Sat, 24 Oct 2015 14:06:00 &#43;0530</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/ninjaducks/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>maximeguitare.com</title>
+            <link>http://tyche.cc/showcase/maximeguitare/</link>
+            <pubDate>Mon, 05 Oct 2015 17:15:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/maximeguitare/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>RIDING BYTES</title>
+            <link>http://tyche.cc/showcase/ridingbytes/</link>
+            <pubDate>Sun, 27 Sep 2015 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/ridingbytes/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>&lt;span lang=&#34;zh-CN&#34;&gt;语林灵&lt;/span&gt; (Yulinling)</title>
+            <link>http://tyche.cc/showcase/yulinling/</link>
+            <pubDate>Wed, 09 Sep 2015 21:42:00 -0400</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/yulinling/</guid>
+            <description></description>
+        </item>
+        
+    </channel>
+</rss>

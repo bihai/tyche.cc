@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/dev/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/simple-hugo/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/simple-hugo/</guid>
+            <description>
+
+&lt;h1 id=&#34;alert&#34;&gt;Alert&lt;/h1&gt;
+
+&lt;p&gt;Work in progress.&lt;/p&gt;
+
+&lt;h1 id=&#34;simple-hugo&#34;&gt;Simple Hugo&lt;/h1&gt;
+
+&lt;p&gt;A simple &lt;a href=&#34;http://gohugo.io/&#34;&gt;hugo&lt;/a&gt; theme.&lt;/p&gt;
+
+&lt;h4 id=&#34;params&#34;&gt;Params&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;For add new links on navbar see &lt;code&gt;[params.links]&lt;/code&gt;.&lt;br /&gt;
+&lt;code&gt;toml
+[params]
+github = &amp;quot;username&amp;quot;
+twitter = &amp;quot;username&amp;quot;
+email = &amp;quot;email&amp;quot;
+shortDescription = &amp;quot;yada yada yada&amp;quot;
+[params.links]
+[params.links.About]
+  &amp;quot;url&amp;quot; = &amp;quot;/about/&amp;quot;
+  &amp;quot;title&amp;quot; = &amp;quot;About&amp;quot;
+[params.links.ContactMe]
+  &amp;quot;url&amp;quot; = &amp;quot;/contact/&amp;quot;
+  &amp;quot;title&amp;quot; = &amp;quot;Contact Me&amp;quot;
+&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

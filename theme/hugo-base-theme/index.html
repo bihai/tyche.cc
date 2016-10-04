@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Theme inspired by gohugo.io">
+        <link rel="alternate" href="/feed.xml" type="application/rss+xml" title="tyche.cc">
+        <link rel="icon" href="http://tyche.cc//favicon.ico">
+        <title> - tyche.cc</title>
+        <link rel="stylesheet" href="http://tyche.cc//css/highlight.js.min.css">
+        <link rel="stylesheet" href="http://tyche.cc//css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://tyche.cc//css/bootstrap-theme.css">
+        <link rel="stylesheet" href="http://tyche.cc//css/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="http://tyche.cc//css/theme.css">
+        <link rel="stylesheet" href="http://tyche.cc//css/hugo-org.css">
+    </head>
+
+<body role="document">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://tyche.cc//">tyche.cc</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li ><a href="http://tyche.cc//">主页</a></li>
+                    
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">常用链接<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                        
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">官方文档<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                        
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+<div class="container">
+    <div id="theme-header">
+        <img src="/images/hugo-base-theme.screenshot.png" class="screenshot-blurred" />
+        <div class="dark-overlay"></div>
+        <div class="row">
+            <div class="col-md-6 col-sm-6 screenshot-container"><img src="/images/hugo-base-theme.screenshot.png" class="screenshot-normal" /></div>
+            <div class="col-md-6 col-sm-6 theme-details">
+                <h1>Hugo Base</h1>
+                <p class="description">Theme inspired by gohugo.io</p>
+                <ul class="theme-meta">
+                    
+                        
+                            <li><span class="label">Author:</span> <span class="value">crakjie</span></li>
+                        
+                    
+                    
+                        <li><span class="label">Minimum Hugo Version:</span> <span class="value">0.12</span></li>
+                    
+                    
+                        <li><span class="label">License:</span> <span class="value">MIT</span></li>
+                    
+                    
+                        <li>
+                            <span class="label">Tags:</span>
+                            
+                            <a href="/tags/landing-page">landing page</a>
+                            
+                            <a href="/tags/hugo">hugo</a>
+                            
+                        </li>
+                    
+                </ul>
+            </div>
+
+            <div class="theme-buttons">
+
+                
+                <a class="btn btn-info btn-lg" href="https://github.com/crakjie/hugo-base-theme.git"><i class="fa fa-download"></i> Download</a>
+                
+
+                
+                <a class="btn btn-success btn-lg" href="/theme/hugo-base-theme/"><i class="fa fa-road"></i> Demo</a>
+                
+
+                
+                <a class="btn btn-dark btn-lg" href="https://github.com/crakjie/hugo-base-theme"><i class="fa fa-home"></i> Homepage</a>
+                
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        
+
+<h1 id="hugo-base-theme">Hugo base theme</h1>
+
+<p>Hugo theme based on <a href="https://gohugo.io">gohugo</a></p>
+
+<h2 id="how-to-use">How to use</h2>
+
+<ul>
+<li>Place a image in <code>static/img/</code><br /></li>
+<li>Create posts to display your services. Use the follow as an example:<br />
+<br /></li>
+</ul>
+
+<h3 id="post">post</h3>
+
+<pre><code class="language-toml">+++
+date = 2014-10-13T20:07:19Z
+draft = true
+title = &quot;First&quot;
+description = &quot;Ceci est mon premier post \n bla bla bla&quot;
+weight = 1
+icon = &quot;pacman&quot;
++++
+
+Hello first post
+</code></pre>
+
+<h3 id="carrousel">carrousel</h3>
+
+<pre><code class="language-toml">+++
+date = 2014-10-13T19:54:21Z
+draft = true
+title = &quot;About&quot;
+weight = 5
+icon = &quot;circlestar&quot;
+[[carousel]]
+  quote = &quot;First quote&quot;
+  author  =&quot;John Do&quot;
+  url = &quot;&quot;
+  quote_date = &quot;13 August&quot;
+[[carousel]]
+  quote = &quot;Second quote&quot;
+  author  =&quot;Nhoj Od&quot;
+  url = &quot;&quot;
+  quote_date = &quot;14 August&quot;
++++
+</code></pre>
+
+<h2 id="demo">Demo</h2>
+
+<p>View gohugo.io theme in action <a href="https://gohugo.io">here</a><br />
+View audrey-carpentras.com in action <a href="http://audrey-carpentras.com/">here</a></p>
+
+<p>===</p>
+
+<p>Work also with YAML header</p>
+
+<p>For more Hugo details, read <a href="http://gohugo.io/overview/introduction/">documentation</a>.</p>
+
+<h2 id="config">Config</h2>
+
+<p>Example of config.toml file:</p>
+
+<pre><code class="language-toml">baseurl = &quot;http://yourSiteHere&quot;
+languageCode = &quot;fr-fr&quot;
+title = &quot;my new web site&quot;
+[params]
+  description = &quot;I &lt;3 making web site&quot;
+  mainIcon = &quot;/img/hugo.png&quot;
+
+[[params.social]]
+    title = &quot;twitter&quot;
+    url = &quot;https://twitter.com/SBootstrap&quot;
+[[params.social]]
+    title = &quot;github&quot;
+    url = &quot;https://github.com/IronSummitMedia/startbootstrap&quot;
+[[params.social]]
+    title = &quot;linkedin&quot;
+    url = &quot;&quot;
+</code></pre>
+
+    </div>
+
+
+
+<hr />
+
+<div class="row">
+    <div class="col-sm-12">
+        
+	    <div class="text-center">
+        
+		    <p class="doc-footer-em"><a href="#">回到顶部↑</a></p>
+	    </div>
+	</div>
+</div>
+
+</div> 
+
+<footer class="doc-footer">
+	
+    <p>Copyright (c) 2016. All rights reserved. Generated by <a href="http://gohugo.io/">Hugo</a></p>
+</footer>
+
+
+
+<script src="http://tyche.cc//js/jquery-1.11.2.min.js"></script>
+<script src="http://tyche.cc//js/bootstrap.min.js"></script>
+
+<script src="http://tyche.cc//js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="http://tyche.cc//js/ie10-viewport-bug-workaround.js"></script>
+
+</body>
+</html>
+

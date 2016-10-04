@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/octopress/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/greyshade/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/greyshade/</guid>
+            <description>
+
+&lt;h1 id=&#34;greyshade&#34;&gt;Greyshade&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://github.com/shashankmehta/greyshade&#34;&gt;Greyshade&lt;/a&gt; is a minimal, responsive theme ported from Octopress.&lt;/p&gt;
+
+&lt;p&gt;For demo, check out websites from the &lt;a href=&#34;https://github.com/shashankmehta/greyshade/wiki/Sites-using-Greyshade/&#34;&gt;wiki&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://tyche.cc/images/screenshot_mobile.png&#34; alt=&#34;mobile view&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://tyche.cc/images/screenshot.png&#34; alt=&#34;screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Responsive design.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Fancybox integration&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Gravatar support thanks to &lt;a href=&#34;https://github.com/zhigang1992&#34;&gt;Zhigang Fang&lt;/a&gt;. Add your email id to &lt;code&gt;_config.yml&lt;/code&gt; and your profile picture will appear in the left nav. If you don&amp;rsquo;t want your email to be visible in the HTML code, you can provide the MD5 hashed value of your email as &lt;a href=&#34;https://gravatar.com/site/implement/hash/&#34;&gt;expected&lt;/a&gt; by Gravatar with an &lt;code&gt;email_md5&lt;/code&gt; entry in &lt;code&gt;_config.yml&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://schema.org/&#34;&gt;Schema.org&lt;/a&gt; support thanks to &lt;a href=&#34;https://github.com/nathanshox&#34;&gt;Nathan Shaughnessy&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;setup&#34;&gt;Setup&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Fork or &lt;a href=&#34;https://github.com/cxfksword/greyshade/archive/master.zip&#34;&gt;download&lt;/a&gt; this theme repo&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Add config to your site &lt;code&gt;config.toml&lt;/code&gt; file&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;baseurl = &amp;quot;http://gohugo.io/&amp;quot;
+languageCode = &amp;quot;en-us&amp;quot;
+title = &amp;quot;your blog title&amp;quot;
+
+[author]
+name = &amp;quot;hugo&amp;quot;
+# email will use for gravatar
+email = &amp;quot;&amp;quot;
+
+[taxonomies]
+category = &amp;quot;categories&amp;quot;
+
+[params]
+# site description, will show under navigation
+description = &amp;quot;&amp;quot;
+
+# RSS / Email (optional) subscription links (change if using something like Feedburner)
+subscribe_rss = &amp;quot;/index.xml&amp;quot;
+subscribe_email = &amp;quot;&amp;quot;
+
+# social links
+facebook_user = &amp;quot;&amp;quot;
+googleplus_user = &amp;quot;&amp;quot;
+twitter_user = &amp;quot;&amp;quot;
+github_user = &amp;quot;&amp;quot;
+coderwall_user = &amp;quot;&amp;quot;
+stackoverflow_user = &amp;quot;&amp;quot;
+stackoverflow_user_id = &amp;quot;&amp;quot;
+linkedin_user = &amp;quot;&amp;quot;
+pinterest_user = &amp;quot;&amp;quot;
+delicious_user = &amp;quot;&amp;quot;
+pinboard_user = &amp;quot;&amp;quot;
+quora_user = &amp;quot;&amp;quot;
+instagram_user = &amp;quot;&amp;quot;
+behance_user = &amp;quot;&amp;quot;
+douban_user = &amp;quot;&amp;quot;
+
+# share links
+facebook_like = true
+twitter_tweet_button = true
+google_plus_one = &amp;quot;true&amp;quot;
+addthis_profile_id = &amp;quot;&amp;quot;
+
+# Disqus Comments
+disqus_short_name = &amp;quot;&amp;quot;
+disqus_show_comment_count = false
+
+# google analytics
+google_analytics_tracking_id = &amp;quot;&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;license&#34;&gt;License&lt;/h3&gt;
+
+&lt;p&gt;MIT: &lt;a href=&#34;http://sm.mit-license.org/&#34;&gt;http://sm.mit-license.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;author&#34;&gt;Author&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Shashank Mehtal&lt;/strong&gt;&lt;br /&gt;
+- &lt;a href=&#34;https://github.com/shashankmehta&#34;&gt;https://github.com/shashankmehta&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;ported-by&#34;&gt;Ported By&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;cxfksword&lt;/strong&gt;&lt;br /&gt;
+- &lt;a href=&#34;https://github.com/cxfksword&#34;&gt;https://github.com/cxfksword&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

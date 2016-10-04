@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/bootswatch/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/hugo-bootswatch/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/hugo-bootswatch/</guid>
+            <description>
+
+&lt;h1 id=&#34;hugo-bootswatch&#34;&gt;Hugo-bootswatch&lt;/h1&gt;
+
+&lt;p&gt;Hugo-bootswatch is a &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; theme based on &lt;a href=&#34;http://bootswatch.com/&#34;&gt;Bootswatch&lt;/a&gt;, which themes &lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Bootstrap 3&lt;/a&gt;. As such, Hugo-bootswatch will work as a Bootstrap theme, and also allows simple updating to support any Bootswatch customizations. Hugo-bootswatch comes with Bootstrap 3.3.2 and the bootswatch.js is already included. Customizing the Bootswatch theme is as easy as downloading the Bootswatch-customized bootstrap.min.css file (details below).&lt;/p&gt;
+
+&lt;p&gt;Hugo-bootswatch expects &lt;a href=&#34;http://gohugo.io/content/sections/&#34;&gt;section organization&lt;/a&gt;, which are loaded as navbar links in the header, and placed in a &amp;laquo;Sections&amp;raquo; dropdown.&lt;/p&gt;
+
+&lt;p&gt;Hugo-bootswatch was originally built for documentation, so it is missing a lot of blog-type support (most notably the concept of authors). A &amp;lsquo;post&amp;rsquo; archetype may make sense to accommodate this if there is interest.&lt;/p&gt;
+
+&lt;h2 id=&#34;customization&#34;&gt;Customization&lt;/h2&gt;
+
+&lt;p&gt;Hugo-bootswatch is made for customization, and it is easiest to customize by using your own &lt;code&gt;static/css/hugo-bootswatch.css&lt;/code&gt; and &lt;code&gt;static/css/bootstrap.min.css&lt;/code&gt; files. Note that these files are not empty, so the overriding file will need to accommodate any existing content by inclusion or replacement.&lt;/p&gt;
+
+&lt;h3 id=&#34;bootswatch&#34;&gt;Bootswatch&lt;/h3&gt;
+
+&lt;p&gt;Visit &lt;a href=&#34;http://bootswatch.com/&#34;&gt;Bootswatch&lt;/a&gt; and choose the theme you like. Download the available &lt;code&gt;bootstrap.min.css&lt;/code&gt; replacement and place it in &lt;code&gt;static/css/bootstrap.min.css&lt;/code&gt; to override the default (Bootstrap 3.3.2) file.&lt;/p&gt;
+
+&lt;h3 id=&#34;hugo-bootswatch-1&#34;&gt;Hugo-bootswatch&lt;/h3&gt;
+
+&lt;p&gt;Make any changes that are particular to your site in &lt;code&gt;static/css/hugo-bootswatch.css&lt;/code&gt;. This will automatically apply your customizations to the site.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

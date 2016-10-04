@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/creative/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/creative/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/creative/</guid>
+            <description>
+
+&lt;h1 id=&#34;creative-theme&#34;&gt;Creative Theme&lt;/h1&gt;
+
+&lt;p&gt;Creative Theme is a one page portfolio for creatives based on the &lt;a href=&#34;//github.com/IronSummitMedia/startbootstrap-creative&#34;&gt;original Bootstrap theme&lt;/a&gt; by &lt;a href=&#34;//github.com/davidtmiller&#34;&gt;David Miller&lt;/a&gt;. Noteworthy features of this Hugo theme are several content sections and a responsive portfolio grid with hover effects and full page portfolio item modals.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/digitalcraftsman/hugo-creative-theme/dev/images/screenshot.png&#34; alt=&#34;Hugo Creative Theme Screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#change-the-hero-background&#34;&gt;Change the hero background&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#add-your-services&#34;&gt;Add your services&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Inside the folder of your Hugo site run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ mkdir themes
+$ cd themes
+$ git clone https://github.com/digitalcraftsman/hugo-creative-theme
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For more information read the official &lt;a href=&#34;//gohugo.io/overview/installing/&#34;&gt;setup guide&lt;/a&gt; of Hugo.&lt;/p&gt;
+
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting started&lt;/h2&gt;
+
+&lt;p&gt;After installing the Creative Theme successfully it requires a just a few more steps to get your site running.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-config-file&#34;&gt;The config file&lt;/h3&gt;
+
+&lt;p&gt;Take a look inside the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/tree/master/exampleSite&#34;&gt;&lt;code&gt;exampleSite&lt;/code&gt;&lt;/a&gt; folder of this theme. You&amp;rsquo;ll find a file called &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To use it, copy the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/blob/dev/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt; in the root folder of your Hugo site. Feel free to change strings as you like to customize your website.&lt;/p&gt;
+
+&lt;h3 id=&#34;change-the-hero-background&#34;&gt;Change the hero background&lt;/h3&gt;
+
+&lt;p&gt;The hero acts as an eye-catcher for your site. So consider to give him a nice background. You just need to replace the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/blob/master/static/img/header.jpg&#34;&gt;&lt;code&gt;header.jpg&lt;/code&gt;&lt;/a&gt; at &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/tree/master/static/img&#34;&gt;&lt;code&gt;static/img&lt;/code&gt;&lt;/a&gt; with your own. But it&amp;rsquo;s important that you use the same filename.&lt;/p&gt;
+
+&lt;h3 id=&#34;add-your-services&#34;&gt;Add your services&lt;/h3&gt;
+
+&lt;p&gt;This section should show your capabilities and skills. You can change the services under  at &lt;code&gt;[params.services.list]&lt;/code&gt; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/blob/dev/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;All icons using Fontawesome&amp;rsquo;s icon font. Look at the website of &lt;a href=&#34;//fortawesome.github.io/Font-Awesome/icons/&#34;&gt;Fontawesome&lt;/a&gt; for more icons. The icons are represented by their corresponding CSS class. A skill is defined like this example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[[params.services.list]]
+    icon = &amp;quot;fa-diamond&amp;quot;
+    title = &amp;quot;Sturdy Templates&amp;quot;
+    description = &amp;quot;Our templates are updated regularly so they don&#39;t break.&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;create-your-portfolio&#34;&gt;Create your portfolio&lt;/h3&gt;
+
+&lt;p&gt;Beside the config file, there is in &lt;code&gt;data&lt;/code&gt; another subfolder called &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/tree/master/exampleSite/data/projects&#34;&gt;&lt;code&gt;projects&lt;/code&gt;&lt;/a&gt; which hosts the files that will appear as your projects in the portfolio section. Such a project file might look like &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/blob/dev/exampleSite/data/projects/2014-07-05-project-1.yaml&#34;&gt;this one&lt;/a&gt; written in YAML:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;modalID: 1
+title: Project 1
+date: 2014-07-05
+img: 1.jpg
+client: Start Bootstrap
+clientLink: &amp;quot;#&amp;quot;
+category: Web Development
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis adipisci architecto obcaecati sit voluptas ipsam, deleniti neque placeat tenetur cum tempore velit.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Copy the folder &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/tree/master/exampleSite/data/projects&#34;&gt;&lt;code&gt;projects&lt;/code&gt;&lt;/a&gt; inside the &lt;code&gt;data&lt;/code&gt; folder in the &lt;strong&gt;root&lt;/strong&gt; directory of your site. Let&amp;rsquo;s make some changes to show your work.&lt;/p&gt;
+
+&lt;p&gt;Pay attention to the &lt;code&gt;modalID&lt;/code&gt;. It must be a unique integer and be incremented with each new project you want to add to the portfolio. Otherwise, the corresponding modal can&amp;rsquo;t be rendered.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, you can use Markdown syntax for URLs like here &lt;code&gt;[text](//url.to/source)&lt;/code&gt; in the description.&lt;/p&gt;
+
+&lt;p&gt;To give your projects an image, save those under &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/tree/master/static/img/portfolio&#34;&gt;&lt;code&gt;static/img/portfolio&lt;/code&gt;&lt;/a&gt;. The dimensions should be 650 x 350 pixels. Don&amp;rsquo;t forget to set the &lt;strong&gt;filename&lt;/strong&gt; under &amp;lsquo;img&amp;rsquo; in your project.&lt;/p&gt;
+
+&lt;h3 id=&#34;nearly-finished&#34;&gt;Nearly finished&lt;/h3&gt;
+
+&lt;p&gt;In order to see your site in action, run Hugo&amp;rsquo;s built-in local server.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo server -w
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now enter &lt;code&gt;localhost:1313&lt;/code&gt; in the address bar of your browser.&lt;/p&gt;
+
+&lt;h2 id=&#34;contributing&#34;&gt;Contributing&lt;/h2&gt;
+
+&lt;p&gt;Did you found a bug or got an idea for a new feature? Feel free to use the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/issues&#34;&gt;issue tracker&lt;/a&gt; to let me know. Or make directly a &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/pulls&#34;&gt;pull request&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;This theme is released under the Apache License 2.0 For more information read the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-creative-theme/blob/master/LICENSE&#34;&gt;License&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;annotations&#34;&gt;Annotations&lt;/h2&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&#34;//github.com/spf13&#34;&gt;Steve Francia&lt;/a&gt; for creating Hugo and the awesome community around the project.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

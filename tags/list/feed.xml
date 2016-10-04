@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/list/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/aglaus/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/aglaus/</guid>
+            <description>
+
+&lt;h1 id=&#34;aglaus&#34;&gt;Aglaus&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;Sorry, I do not have a good at English.
+It is naive English, but please acknowledge.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Aglaus is a single-column theme for &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/dim0627/hugo_theme_aglaus/master/images/top.png&#34; alt=&#34;Aglaus Screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/dim0627/hugo_theme_aglaus/master/images/bottom.png&#34; alt=&#34;Aglaus Screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/dim0627/hugo_theme_aglaus/master/images/post.png&#34; alt=&#34;Aglaus Screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Google Analytics&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Gravatar Profile&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Disqus&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;SNS Links(Facebook, Twitter, GitHub)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Share Button&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Eye-catching Image&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Tagging&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Related Post&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;installation&#34;&gt;Installation&lt;/h1&gt;
+
+&lt;p&gt;Referred from &lt;a href=&#34;https://github.com/spf13/hugoThemes#installing-themes&#34;&gt;hugoThemes#Installing Themes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;installing-with-other-all-themes&#34;&gt;Installing with other all themes&lt;/h2&gt;
+
+&lt;p&gt;If you would like to install all of the available hugo themes, simply clone the entire repository from within your working directory.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone --recursive https://github.com/spf13/hugoThemes.git themes
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;installing-a-single-theme&#34;&gt;Installing a single theme&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;mkdir themes
+cd themes
+git clone https://github.com/dim0627/hugo_theme_aglaus aglaus
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;build-with-aglaus&#34;&gt;Build with Aglaus&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo server -t aglaus
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;configuration&#34;&gt;Configuration&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;config.yaml&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;BaseURL: &amp;quot;http://example.com&amp;quot;
+LanguageCode: &amp;quot;en-us&amp;quot;
+Title: &amp;quot;Aglaus&amp;quot;
+
+Params:
+  Author: &amp;quot;Your name.&amp;quot;
+  Birth: &amp;quot;Sun, Feb 26, 1989&amp;quot;
+  DateForm: &amp;quot;Mon, Jan 2, 2006&amp;quot;
+  GoogleAnalyticsUserID: &amp;quot;Your ID.&amp;quot;
+  GravatarHash: &amp;quot;Your Hash.&amp;quot;
+  Facebook: &amp;quot;Your ID.&amp;quot;
+  Twitter: &amp;quot;Your ID.&amp;quot;
+  Github: &amp;quot;Your ID.&amp;quot;
+  ShowRelatedPost: True
+  Disqus: &amp;quot;Your Disqus.&amp;quot;
+  SyntaxHighlightTheme: &amp;quot;solarized_dark.min.css&amp;quot;
+
+Indexes:
+  tag: &amp;quot;tags&amp;quot;
+
+permalinks:
+  post: /blog/:year/:month/:day/:title/
+
+MetadataFormat: &amp;quot;yaml&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Example : &lt;a href=&#34;https://github.com/dim0627/dim0627.github.io/blob/source/config.yaml&#34;&gt;My config.yaml&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;example post&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
+title: &amp;quot;Post title here&amp;quot;
+eyecatch: &amp;quot;hugo.png&amp;quot; # Eye-cathinc image from [static/images/***]
+date: 2014-09-17
+comments: true
+tags: [gitHub, octopress, jekyll]
+---
+
+Contents here
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;read-more-details&#34;&gt;Read more details&lt;/h1&gt;
+
+&lt;p&gt;Please read this.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2015/01/06/about-aglaus/&#34;&gt;http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2015/01/06/about-aglaus/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;contact-us&#34;&gt;Contact us&lt;/h1&gt;
+
+&lt;p&gt;Please mail to &lt;code&gt;dim0627@gmail.com&lt;/code&gt; or SNS.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/daisuke.tsuji.735&#34;&gt;https://www.facebook.com/daisuke.tsuji.735&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/dim0627&#34;&gt;https://twitter.com/dim0627&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

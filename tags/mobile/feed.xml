@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/mobile/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/tinyce/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/tinyce/</guid>
+            <description>
+
+&lt;h1 id=&#34;tinyce&#34;&gt;Tinyce&lt;/h1&gt;
+
+&lt;p&gt;Tinyce is a general-purpose &lt;a href=&#34;http://hugo.spf13.com&#34;&gt;Hugo&lt;/a&gt; theme.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cloud.githubusercontent.com/assets/4419992/3867787/120f0158-2011-11e4-9f50-0ccfa162cdd2.png&#34; alt=&#34;screenshot - 08092014 - 07 02 07 pm&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can check the live version &lt;a href=&#34;http://roperzh.github.io/tinyce-hugo-theme/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;getting-started&#34;&gt;Getting started&lt;/h1&gt;
+
+&lt;p&gt;Once you have Hugo up and running, you must:&lt;/p&gt;
+
+&lt;p&gt;Create a Hugo project:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hugo new site my-site
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And then install tinyce:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ cd themes
+$ git clone https://github.com/roperzh/tinyce-hugo-theme
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;If you are using Hugo v0.11 or below, please read &lt;a href=&#34;https://github.com/roperzh/tinyce-hugo-theme/#usage-with-hugo-v011-and-below&#34;&gt;this&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Now you can set tinyce as the default theme for your site by adding this line&lt;br /&gt;
+in the &lt;code&gt;config&lt;/code&gt; file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;theme = &amp;quot;tinyce-hugo-theme&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Or you can start the server with:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;hugo server --theme=tinyce-hugo-theme --buildDrafts --watch
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;setting-variables&#34;&gt;Setting Variables&lt;/h1&gt;
+
+&lt;p&gt;Tinyce needs a custom archetype in order to work properly, behind the covers&lt;br /&gt;
+you will only need to define two new variables in the front matter section of&lt;br /&gt;
+your contents.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;color&lt;/strong&gt; : the color associated with the post, valid colors are: &lt;code&gt;red&lt;/code&gt;,&lt;br /&gt;
+&lt;code&gt;green&lt;/code&gt;, &lt;code&gt;blue&lt;/code&gt;, &lt;code&gt;yellow&lt;/code&gt;, &lt;code&gt;orange&lt;/code&gt; and &lt;code&gt;grey&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;icon&lt;/strong&gt; : a valid font-awesome icon name, without the &lt;code&gt;fa-&lt;/code&gt; prefix. For example,&lt;br /&gt;
+instead of &lt;code&gt;fa-heart&lt;/code&gt;, you only need to put &lt;code&gt;heart&lt;/code&gt;. &lt;a href=&#34;http://fortawesome.github.io/Font-Awesome/cheatsheet/&#34;&gt;here&lt;/a&gt;&lt;br /&gt;
+is a cheatsheet of valid icons.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Example&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;+++
+Categories = [&amp;quot;Development&amp;quot;, &amp;quot;GoLang&amp;quot;]
+Description = &amp;quot;My short description&amp;quot;
+Tags = [&amp;quot;Development&amp;quot;, &amp;quot;golang&amp;quot;]
+color = &amp;quot;green&amp;quot;
+icon = &amp;quot;heart&amp;quot;
+title = &amp;quot;Go is cool&amp;quot;
+date = 2014-08-09T05:04:40Z
++++
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;usage-with-hugo-v0-11-and-below&#34;&gt;Usage with Hugo v0.11 and below&lt;/h1&gt;
+
+&lt;p&gt;The latest version of the theme includes some features bundled with Hugo v0.12,&lt;br /&gt;
+if you are using an old version, please install tinyce like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ cd themes
+$ git clone https://github.com/roperzh/tinyce-hugo-theme
+$ cd tinyce-hugo-theme
+$ git checkout 08a497
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That&amp;rsquo;s it!&lt;/p&gt;
+
+&lt;h1 id=&#34;contributing&#34;&gt;Contributing&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Fork it&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Create your feature branch (&lt;code&gt;git checkout -b my-new-feature&lt;/code&gt;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Commit your changes (&lt;code&gt;git commit -am &#39;Add some feature&#39;&lt;/code&gt;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Push to the branch (&lt;code&gt;git push origin my-new-feature&lt;/code&gt;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Create new Pull Request&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

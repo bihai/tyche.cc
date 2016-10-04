@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/minimal/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/cocoa/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/cocoa/</guid>
+            <description>
+
+&lt;h1 id=&#34;cocoa&#34;&gt;Cocoa&lt;/h1&gt;
+
+&lt;p&gt;A &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; theme with clear typograhy for easy, disturbance-free reading.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nishanths/cooca-hugo-theme/master/images/tn.png&#34; width=&#34;500px&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#setup&#34;&gt;Setup&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#theme&#34;&gt;Theme&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#screenshots&#34;&gt;Screenshots&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#extras&#34;&gt;Extras&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#example-sites&#34;&gt;Example Sites&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;setup&#34;&gt;Setup&lt;/h1&gt;
+
+&lt;p&gt;From the root of your Hugo site, clone the theme into &lt;code&gt;themes/cocoa&lt;/code&gt; by running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ mkdir themes
+$ cd themes
+$ git clone https://github.com/nishanths/cocoa-hugo-theme.git cocoa
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then, generate static files by running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo -t cocoa
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;theme&#34;&gt;Theme&lt;/h1&gt;
+
+&lt;h2 id=&#34;creating-content&#34;&gt;Creating Content&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Posts should go under a &lt;code&gt;content/posts&lt;/code&gt; directory. Typically you would run:&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo new posts/newpost.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fixed pages such as an About page should preferably go under a &lt;code&gt;content/fixed&lt;/code&gt; or be present at the root of the &lt;code&gt;contents&lt;/code&gt; directory.&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo new fixed/about.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;fonts-and-colors&#34;&gt;Fonts and Colors&lt;/h2&gt;
+
+&lt;p&gt;The primary font face is Proxima Nova in 400 and 700 weights. If you own the font, create a font face declarations like in the example below, and place it in the path specified in &lt;a href=&#34;#site-variables&#34;&gt;&lt;code&gt;.Site.Params.WebfontsFile&lt;/code&gt;&lt;/a&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;@font-face {
+	font-family: &#39;ProximaNova&#39;;
+	font-weight: normal;
+	font-style: normal;
+	src: url(&#39;webfonts/2F00B2_0_0.eot&#39;);
+	src: url(&#39;webfonts/2F00B2_0_0.eot?#iefix&#39;) format(&#39;embedded-opentype&#39;),
+	     url(&#39;webfonts/2F00B2_0_0.woff2&#39;) format(&#39;woff2&#39;),
+	     url(&#39;webfonts/2F00B2_0_0.woff&#39;) format(&#39;woff&#39;),
+	     url(&#39;webfonts/2F00B2_0_0.ttf&#39;) format(&#39;truetype&#39;);
+}
+  
+@font-face {
+	font-family: &#39;ProximaNova&#39;;
+	font-weight: bold;
+	font-style: normal;
+	src: url(&#39;webfonts/2F00B2_1_0.eot&#39;);
+	src: url(&#39;webfonts/2F00B2_1_0.eot?#iefix&#39;) format(&#39;embedded-opentype&#39;),
+		  url(&#39;webfonts/2F00B2_1_0.woff2&#39;) format(&#39;woff2&#39;),
+		  url(&#39;webfonts/2F00B2_1_0.woff&#39;) format(&#39;woff&#39;),
+		  url(&#39;webfonts/2F00B2_1_0.ttf&#39;) format(&#39;truetype&#39;);
+}
+ 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you do not provide Proxima Nova files, the fallback font face—Source Sans Pro—will be automatically used from Google Fonts. The primary monospace font face is Ubuntu Mono from Google Fonts.&lt;/p&gt;
+
+&lt;p&gt;The main colors are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;#333333&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;#b7b7b7&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;#21bb5b&lt;/code&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For syntax highlighting, set &lt;code&gt;pygmentsuseclasses = true&lt;/code&gt; in your &lt;code&gt;config.toml&lt;/code&gt;. Syntax highlighting classes in &lt;code&gt;css/pygments.css&lt;/code&gt; are from &lt;a href=&#34;https://github.com/richleland/pygments-css/blob/master/default.css&#34;&gt;&lt;code&gt;default.css&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;site-variables&#34;&gt;Site Variables&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add the following params in &lt;code&gt;config.toml&lt;/code&gt; to customize your site.&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The only required key is &lt;code&gt;DateForm&lt;/code&gt;.&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[params]
+Author = &amp;quot;Firstname Lastname&amp;quot;
+DateForm = &amp;quot;Jan 2, 2006&amp;quot; # required
+Description = &amp;quot;eat, sleep, rave, repeat&amp;quot;
+Email = &amp;quot;username@hogwarts.edu&amp;quot;
+Facebook = &amp;quot;//facebook.com/username&amp;quot;
+FaviconFile = &amp;quot;img/myicon.ico&amp;quot; # relative to static/ directory, defaults to the icon at themes/cocoa/img/favicon.ico
+GATracker = &amp;quot;&amp;lt;Google-Analytics-ID&amp;gt;&amp;quot;
+GitHub = &amp;quot;//github.com/username&amp;quot;
+Lang = &amp;quot;en&amp;quot; # &amp;lt;body lang=&amp;quot;en&amp;quot;&amp;gt;
+LinkedIn = &amp;quot;//linkedin.com/in/username&amp;quot;
+Twitter = &amp;quot;//twitter.com/username&amp;quot;
+WebfontsFile = &amp;quot;css/mywebfontsfile.css&amp;quot; # relative to static/ directory, defaults to empty string 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;extras&#34;&gt;Extras&lt;/h1&gt;
+
+&lt;h2 id=&#34;less-files&#34;&gt;Less files&lt;/h2&gt;
+
+&lt;p&gt;The &lt;code&gt;.less&lt;/code&gt; files used to generate &lt;code&gt;main.css&lt;/code&gt; are available at the root of the repository. Running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ lessc main.less static/css/main.css
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;should do the trick.&lt;/p&gt;
+
+&lt;h1 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h1&gt;
+
+&lt;h6 id=&#34;single-post&#34;&gt;single post&lt;/h6&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nishanths/cooca-hugo-theme/master/images/screenshot.png&#34; width=&#34;700px&#34;&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;example-sites&#34;&gt;Example Sites&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://nishanths.me&#34;&gt;http://nishanths.me&lt;/a&gt; • &lt;a href=&#34;https://github.com/nishanths/&#34;&gt;source&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nishanths/nishanths.me/pulls&#34;&gt;Add yours by submitting a pull request&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;contributing&#34;&gt;Contributing&lt;/h1&gt;
+
+&lt;p&gt;Pull requests are welcome!&lt;/p&gt;
+
+&lt;h1 id=&#34;license&#34;&gt;License&lt;/h1&gt;
+
+&lt;p&gt;Licensed under the MIT License. See the &lt;a href=&#34;https://github.com/nishanths/cocoa-hugo-theme/blob/master/LICENSE.md&#34;&gt;LICENSE&lt;/a&gt; file for more details.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/crisp/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/crisp/</guid>
+            <description>
+
+&lt;h1 id=&#34;crisp&#34;&gt;Crisp&lt;/h1&gt;
+
+&lt;p&gt;A minimalist, responsive, and open-source theme for &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; by &lt;a href=&#34;http://kathyqian.com&#34;&gt;Kathy Qian&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.github.com/kathyqian/crisp-ghost-theme/master/screenshots/index.png&#34; alt=&#34;Index&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;editing-follow-buttons&#34;&gt;Editing Follow Buttons&lt;/h3&gt;
+
+&lt;p&gt;Crisp uses Font Awesome for icons. See the Font Awesome documentation for the &lt;a href=&#34;http://fortawesome.github.io/Font-Awesome/icons/&#34;&gt;full list of icons&lt;/a&gt; and &lt;a href=&#34;http://fortawesome.github.io/Font-Awesome/examples/&#34;&gt;usage tips&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I have placed some common buttons in &lt;strong&gt;follow.hbs&lt;/strong&gt;, with more options in the commented out sections. Make sure to replace the &lt;code&gt;username&lt;/code&gt; in the URLs so the links point to your profiles.&lt;/p&gt;
+
+&lt;h3 id=&#34;features-changelog-and-technical-notes&#34;&gt;Features, Changelog, and Technical Notes&lt;/h3&gt;
+
+&lt;p&gt;Please see the &lt;a href=&#34;https://github.com/kathyqian/crisp-ghost-theme/wiki/&#34;&gt;wiki&lt;/a&gt; for details regarding previous releases.&lt;/p&gt;
+
+&lt;h3 id=&#34;credits&#34;&gt;Credits&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://kathyqian.com&#34;&gt;Kathy Qian&lt;/a&gt; for its initial Ghost theme.&lt;/p&gt;
+
+&lt;p&gt;Many thanks to &lt;a href=&#34;http://twitter.com/davegandy&#34;&gt;@davegandy&lt;/a&gt; for the &lt;a href=&#34;https://github.com/FortAwesome/Font-Awesome&#34;&gt;Font Awesome&lt;/a&gt; icons used throughout the theme.&lt;/p&gt;
+
+&lt;p&gt;Social sharing buttons are a modified version of the &lt;a href=&#34;https://github.com/kni-labs/rrssb&#34;&gt;Ridiculously Responsive Social Sharing Buttons&lt;/a&gt; by &lt;a href=&#34;http://www.twitter.com/dbox&#34;&gt;@dbox&lt;/a&gt; and &lt;a href=&#34;http://www.twitter.com/seagoat&#34;&gt;@seagoat&lt;/a&gt;. Great job, guys!&lt;/p&gt;
+
+&lt;h3 id=&#34;license&#34;&gt;License&lt;/h3&gt;
+
+&lt;p&gt;This theme is licensed under the &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;Creative Commons Attribution-ShareAlike 4.0 International&lt;/a&gt; license. Go crazy on the customizations, distribute to your friends, just give me some credit. Feel free to modify the footer text, though I would really appreciate it if you could keep at least one of the links intact.&lt;/p&gt;
+
+&lt;h3 id=&#34;caution&#34;&gt;Caution&lt;/h3&gt;
+
+&lt;p&gt;Related documents only works with my Hugo fork &lt;a href=&#34;https://github.com/zenithar/hugo&#34;&gt;zenithar/hugo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;more-screenshots&#34;&gt;More Screenshots&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.github.com/kathyqian/crisp-ghost-theme/master/screenshots/post.png&#34; alt=&#34;Post&#34; /&gt;&lt;br /&gt;
+&lt;img src=&#34;https://raw.github.com/kathyqian/crisp-ghost-theme/master/screenshots/post-2.png&#34; alt=&#34;Comments&#34; /&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/detox/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/detox/</guid>
+            <description>
+
+&lt;h1 id=&#34;detox&#34;&gt;Detox&lt;/h1&gt;
+
+&lt;p&gt;Detox is a beautiful theme, originally created to work with &lt;a href=&#34;http://www.ghost.org&#34;&gt;Ghost&lt;/a&gt;. I wanted a copy of this theme for use with &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.eatablueberry.com/detox.html&#34;&gt;The original&lt;/a&gt; can be downloaded from &lt;a href=&#34;http://www.eatablueberry.com&#34;&gt;Blueberry&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://oswaldoacauan.mit-license.org/&#34;&gt;MIT License&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/gindoro/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/gindoro/</guid>
+            <description>
+
+&lt;h4 id=&#34;gindoro&#34;&gt;gindoro&lt;/h4&gt;
+
+&lt;h5 id=&#34;a-minimalistic-hugo-blogging-theme-in-6k&#34;&gt;a minimalistic Hugo blogging theme in &amp;lt; 6K&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://dipaolo.conner.sh&#34;&gt;example site&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;only two pages – index and post&lt;/p&gt;
+
+&lt;p&gt;no syntax highlighting (but code blocks do look nice regardless!)&lt;/p&gt;
+
+&lt;p&gt;LaTeX support built in (using KaTeX via CDN for fast rendering)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/gindoro-index-screenshot.png&#34; alt=&#34;front page screenshot&#34; /&gt;&lt;br /&gt;
+&lt;img src=&#34;images/gindoro-screenshot.png&#34; alt=&#34;screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;installation&#34;&gt;installation&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;configuration&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;config.toml can include the following parameters (below is a complete example that will function as-is.) The example results in the above site with footer links to github and contact:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;baseurl = &amp;quot;http://dipaolo.conner.sh&amp;quot;
+languageCode = &amp;quot;en-us&amp;quot;
+title = &amp;quot;conner dipaolo&amp;quot;
+
+[params]
+  Description = &amp;quot;build cool shit.&amp;quot;
+  Author = &amp;quot;conner dipaolo&amp;quot;
+  GithubUser = &amp;quot;cdipaolo&amp;quot;
+  Email = &amp;quot;cdipaolo96@gmail.com&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;starting a new blog&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;these instructions are strikingly similar to &lt;a href=&#34;http://gohugo.io/overview/quickstart/&#34;&gt;the Hugo quickstart guide&lt;/a&gt;!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hugo new site path/to/site
+$ cd path/to/site
+
+# make a post (can edit later!)
+$ hugo new hello-world.md
+
+# install theme
+$ git clone https://github.com/cdipaolo/gindoro themes
+
+# run site!
+$ hugo server -t gindoro --buildDrafts
+2 pages created
+0 tags created
+0 categories created
+in 5 ms
+Serving pages from exampleHugoSite/public
+Web Server is available at http://localhost:1313
+Press Ctrl+C to stop
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/hikari/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/hikari/</guid>
+            <description>
+
+&lt;h1 id=&#34;hikari-theme&#34;&gt;Hikari theme&lt;/h1&gt;
+
+&lt;p&gt;Hikari is a simple theme for bloggers, whose minimalism tries to focus readers on the content. It&amp;rsquo;s a port of &lt;a href=&#34;//github.com/mx3m&#34;&gt;Mathieu Mayer-Mazzoli&lt;/a&gt;&amp;rsquo;s orignal &lt;a href=&#34;//github.com/mx3m/hikari-for-Jekyll&#34;&gt;Hikari theme&lt;/a&gt; made for Jekyll. Noteworthy features are the integration of a comment-system powered by Disqus, optional statistics via Google Analytics, support for RSS and syntax highlighting for source code in blog posts.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/digitalcraftsman/hugo-hikari-theme/dev/images/screenshot.png&#34; alt=&#34;Screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#setup&#34;&gt;Setup&lt;/a&gt;&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#disqus&#34;&gt;Disqus&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#google-analytics&#34;&gt;Google Analytics&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Inside the folder of your Hugo site run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ mkdir themes
+$ cd themes
+$ git clone git@github.com:digitalcraftsman/hugo-hikari-theme.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For more information read the official &lt;a href=&#34;//gohugo.io/overview/installing/&#34;&gt;setup guide&lt;/a&gt; of Hugo.&lt;/p&gt;
+
+&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+
+&lt;h3 id=&#34;the-config-file&#34;&gt;The config file&lt;/h3&gt;
+
+&lt;p&gt;Take a look inside the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-hikari-theme/tree/dev/exampleSite&#34;&gt;&lt;code&gt;exampleSite&lt;/code&gt;&lt;/a&gt; folder of this theme. You&amp;rsquo;ll find a file called &lt;a href=&#34;//github.com/digitalcraftsman/hugo-hikari-theme/blob/dev/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To use it, copy the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-hikari-theme/blob/dev/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt; in the root folder of your Hugo site. Feel free to change strings as you like to customize your website.&lt;/p&gt;
+
+&lt;h3 id=&#34;disqus&#34;&gt;Disqus&lt;/h3&gt;
+
+&lt;p&gt;This theme features a comment system powered by Disqus too. Just add your Disqus-shortname to the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-hikari-theme/blob/dev/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt; and let readers respond to your blog posts.&lt;/p&gt;
+
+&lt;h3 id=&#34;google-analytics&#34;&gt;Google Analytics&lt;/h3&gt;
+
+&lt;p&gt;In order to get statistics about your blog and it&amp;rsquo;s visitors, just enter your tracking code in the corresponding field in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-hikari-theme/blob/dev/exampleSite/config.toml&#34;&gt;configs&lt;/a&gt;. As with Disqus, the use of Google Analytics is completely optional.&lt;/p&gt;
+
+&lt;h3 id=&#34;nearly-finished&#34;&gt;Nearly finished&lt;/h3&gt;
+
+&lt;p&gt;In order to see your site in action, run Hugo&amp;rsquo;s built-in local server.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo server -w
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now enter &lt;a href=&#34;http://localhost:1313&#34;&gt;&lt;code&gt;localhost:1313&lt;/code&gt;&lt;/a&gt; in the address bar of your browser.&lt;/p&gt;
+
+&lt;h2 id=&#34;contributing&#34;&gt;Contributing&lt;/h2&gt;
+
+&lt;p&gt;Did you found a bug or got an idea for a new feature? Feel free to use the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-hikari-theme/issues&#34;&gt;issue tracker&lt;/a&gt; to let me know. Or make directly a &lt;a href=&#34;//github.com/digitalcraftsman/hugo-hikari-theme/pulls&#34;&gt;pull request&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;This theme is released under the MIT license. For more information read the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-hikari-theme/blob/master/LICENSE.MD&#34;&gt;License&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;annotations&#34;&gt;Annotations&lt;/h2&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&#34;//github.com/spf13&#34;&gt;Steve Francia&lt;/a&gt; for creating Hugo and the awesome community around the project.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/slim/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/slim/</guid>
+            <description>
+
+&lt;h1 id=&#34;slim&#34;&gt;Slim&lt;/h1&gt;
+
+&lt;p&gt;Slim is a minimal, clean and beautiful theme for &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zhe/hugo-theme-slim/master/images/screenshot.png&#34; alt=&#34;Slim screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://zhezhang.co&#34;&gt;Demo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;mkdir themes
+cd themes
+git clone https://github.com/zhe/hugo-theme-slim slim
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;See the &lt;a href=&#34;http://gohugo.io/themes/installing&#34;&gt;official docs&lt;/a&gt; for more information.&lt;/p&gt;
+
+&lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt;
+
+&lt;p&gt;You could add &lt;code&gt;params&lt;/code&gt; into your site&amp;rsquo;s &lt;code&gt;config.toml&lt;/code&gt; file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[params]
+  Subtitle = &amp;quot;Your site&#39;s subtitle/tagline&amp;quot;
+  GithubID = &amp;quot;Your Github ID&amp;quot;
+  TwitterID = &amp;quot;Your Twitter ID&amp;quot;
+  AnalyticsID = &amp;quot;Your Google Analytics tracking code&amp;quot;
+  Summary = true  # takes true or false
+  Content = false  # takes true or false
+  # if both are set to true, summary is shown.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;if you use &lt;code&gt;config.yaml&lt;/code&gt;, it could look like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;params:
+  Subtitle: &amp;quot;Your site&#39;s subtitle/tagline&amp;quot;
+  GithubID: &amp;quot;Your Github ID&amp;quot;
+  TwitterID: &amp;quot;Your Twitter ID&amp;quot;
+  AnalyticsID: &amp;quot;Your Google Analytics tracking code&amp;quot;
+  Summary: true # takes true or false
+  Content: false # takes true or false
+  # if both are set to true, summary is shown
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;build-your-site&#34;&gt;Build your site&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo server -t slim
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;Open sourced under &lt;a href=&#34;https://github.com/zhe/hugo-theme-slim/blob/master/LICENSE.md&#34;&gt;MIT license&lt;/a&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/steam/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/steam/</guid>
+            <description>
+
+&lt;h1 id=&#34;steam&#34;&gt;Steam&lt;/h1&gt;
+
+&lt;p&gt;Steam is a minimal and customizable theme for bloggers and was developed by &lt;a href=&#34;//github.com/epistrephein&#34;&gt;Tommaso Barbato&lt;/a&gt;. He created it as a slightly adapted version of the &lt;a href=&#34;//github.com/sethlilly/Vapor&#34;&gt;Vapor&lt;/a&gt; Ghost theme by &lt;a href=&#34;//github.com/sethlilly&#34;&gt;Seth Lilly&lt;/a&gt;. Noteworthy features of this Hugo port are the integration of a comment-system either powered by Disqus or Google Plus, the customizable appearance by changing theme colors, support for RSS feeds, syntax highlighting for source code and the optional use of Google Analytics. Enough to read. Let&amp;rsquo;s take the first steps to get started.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/digitalcraftsman/hugo-steam-theme/dev/images/screenshot.png&#34; alt=&#34;Screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#add-links-to-the-navigation&#34;&gt;Add links to the navigation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#customize-theme-colors&#34;&gt;Customize theme colors&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#comments&#34;&gt;Comments&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Inside the folder of your Hugo site run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ mkdir themes
+$ cd themes
+$ git clone git@github.com:digitalcraftsman/hugo-steam-theme.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For more information read the official &lt;a href=&#34;//gohugo.io/overview/installing/&#34;&gt;setup guide&lt;/a&gt; of Hugo.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-config-file&#34;&gt;The config file&lt;/h3&gt;
+
+&lt;p&gt;Take a look inside the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-steam-theme/blob/dev/exampleSite/&#34;&gt;&lt;code&gt;exampleSite&lt;/code&gt;&lt;/a&gt; folder of this theme. You&amp;rsquo;ll find a file called &lt;a href=&#34;//github.com/digitalcraftsman/hugo-steam-theme/blob/dev/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To use it, copy the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-steam-theme/blob/dev/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt; in the root folder of your Hugo site. Feel free to change strings as you like to customize your website.&lt;/p&gt;
+
+&lt;h2 id=&#34;add-links-to-the-navigation&#34;&gt;Add links to the navigation&lt;/h2&gt;
+
+&lt;p&gt;You can add custom pages like this by adding &lt;code&gt;menu = &amp;quot;main&amp;quot;&lt;/code&gt; in the frontmatter:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;+++
+date  = &amp;quot;2015-08-22&amp;quot;
+title = &amp;quot;About me&amp;quot;
+menu  = &amp;quot;main&amp;quot;
++++
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If no document contains menu = &amp;laquo;main&amp;raquo; in the frontmatter than the navigation will not be shown&lt;/p&gt;
+
+&lt;h2 id=&#34;customize-theme-colors&#34;&gt;Customize theme colors&lt;/h2&gt;
+
+&lt;p&gt;This theme features four different theme colors (green as default, blue, red and orange) that change the appearance of you Hugo site slightly. Just set the &lt;code&gt;themeColor&lt;/code&gt; variable to the color you like.&lt;/p&gt;
+
+&lt;p&gt;Furthermore you can create your own theme. Under &lt;a href=&#34;//github.com/digitalcraftsman/hugo-steam-theme/tree/dev/layouts/partials/themes&#34;&gt;&lt;code&gt;layouts/partials/themes&lt;/code&gt;&lt;/a&gt; you&amp;rsquo;ll find a stylesheet template called &lt;a href=&#34;//github.com/digitalcraftsman/hugo-steam-theme/blob/dev/layouts/partials/themes/custom-theme.html&#34;&gt;&lt;code&gt;custom-theme.html&lt;/code&gt;&lt;/a&gt;. Customize the colors as you like and save the new theme with the schema &lt;code&gt;&amp;lt;myNewColor&amp;gt;-theme.html&lt;/code&gt; within the same folder. As you can see, the color is the prefix of the stylesheet template. Therefore you just need to set &lt;code&gt;themeColor&lt;/code&gt; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-steam-theme/blob/dev/exampleSite/config.toml&#34;&gt;&lt;code&gt;configs&lt;/code&gt;&lt;/a&gt;) to that self-defined prefix.&lt;/p&gt;
+
+&lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
+
+&lt;p&gt;This theme features a comment system that&amp;rsquo;s either powered by Disqus or Google Plus. Enable one of those services by setting the &lt;code&gt;comments&lt;/code&gt; variable in the the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-steam-theme/blob/dev/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt; to &lt;code&gt;disqus&lt;/code&gt; or &lt;code&gt;googleplus&lt;/code&gt;. In order to use Disqus you need to enter your shortname in disqusShortname at the top of the configuration file too.&lt;/p&gt;
+
+&lt;h2 id=&#34;nearly-finished&#34;&gt;Nearly finished&lt;/h2&gt;
+
+&lt;p&gt;In order to see your site in action, run Hugo&amp;rsquo;s built-in local server.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo server -w
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now enter &lt;a href=&#34;http://localhost:1313&#34;&gt;&lt;code&gt;localhost:1313&lt;/code&gt;&lt;/a&gt; in the address bar of your browser.&lt;/p&gt;
+
+&lt;h2 id=&#34;contributing&#34;&gt;Contributing&lt;/h2&gt;
+
+&lt;p&gt;Did you found a bug or got an idea for a new feature? Feel free to use the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-steam-theme/issues&#34;&gt;issue tracker&lt;/a&gt; to let me know. Or make directly a &lt;a href=&#34;//github.com/digitalcraftsman/hugo-steam-theme/pulls&#34;&gt;pull request&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;This theme is released under the MIT license. For more information read the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-steam-theme/blob/master/LICENSE.md&#34;&gt;License&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;annotations&#34;&gt;Annotations&lt;/h2&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&#34;//github.com/spf13&#34;&gt;Steve Francia&lt;/a&gt; for creating Hugo and the awesome community around the project.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

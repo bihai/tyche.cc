@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="a simple and responsive theme to show your bio, blog, and projects - based on Google&#39;s Material Design Lite library">
+        <link rel="alternate" href="/feed.xml" type="application/rss+xml" title="tyche.cc">
+        <link rel="icon" href="http://tyche.cc//favicon.ico">
+        <title> - tyche.cc</title>
+        <link rel="stylesheet" href="http://tyche.cc//css/highlight.js.min.css">
+        <link rel="stylesheet" href="http://tyche.cc//css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://tyche.cc//css/bootstrap-theme.css">
+        <link rel="stylesheet" href="http://tyche.cc//css/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="http://tyche.cc//css/theme.css">
+        <link rel="stylesheet" href="http://tyche.cc//css/hugo-org.css">
+    </head>
+
+<body role="document">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://tyche.cc//">tyche.cc</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li ><a href="http://tyche.cc//">主页</a></li>
+                    
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">常用链接<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                        
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">官方文档<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                        
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+<div class="container">
+    <div id="theme-header">
+        <img src="/images/hugo-mdl.screenshot.png" class="screenshot-blurred" />
+        <div class="dark-overlay"></div>
+        <div class="row">
+            <div class="col-md-6 col-sm-6 screenshot-container"><img src="/images/hugo-mdl.screenshot.png" class="screenshot-normal" /></div>
+            <div class="col-md-6 col-sm-6 theme-details">
+                <h1>HugoMDL</h1>
+                <p class="description">a simple and responsive theme to show your bio, blog, and projects - based on Google&#39;s Material Design Lite library</p>
+                <ul class="theme-meta">
+                    
+                        
+                            <li><span class="label">Author:</span> <a href="http://jatkinson.me">Jeremy Atkinson</a></li>
+                        
+                    
+                    
+                        <li><span class="label">Minimum Hugo Version:</span> <span class="value">0.14</span></li>
+                    
+                    
+                        <li><span class="label">License:</span> <a href="https://github.com/jchatkinson/HugoMDL/blob/master/LICENSE.md">Apache 2.0</a></li>
+                    
+                    
+                        <li>
+                            <span class="label">Tags:</span>
+                            
+                            <a href="/tags/blog">blog</a>
+                            
+                            <a href="/tags/projects">projects</a>
+                            
+                            <a href="/tags/portfolio">portfolio</a>
+                            
+                            <a href="/tags/Material-Design-Lite">material design lite</a>
+                            
+                            <a href="/tags/MDL">mdl</a>
+                            
+                            <a href="/tags/Material-Design">material design</a>
+                            
+                        </li>
+                    
+                </ul>
+            </div>
+
+            <div class="theme-buttons">
+
+                
+                <a class="btn btn-info btn-lg" href="https://github.com/jchatkinson/HugoMDL.git"><i class="fa fa-download"></i> Download</a>
+                
+
+                
+                <a class="btn btn-success btn-lg" href="/theme/hugo-mdl/"><i class="fa fa-road"></i> Demo</a>
+                
+
+                
+                <a class="btn btn-dark btn-lg" href="http://jatkinson.me"><i class="fa fa-home"></i> Homepage</a>
+                
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        
+
+<h1 id="hugomdl">HugoMDL</h1>
+
+<p>HugoMDL is a multipage responsibe blog/portfolio theme for <a href="http://gohugo.io">Hugo</a>. The theme is based on the<br />
+<a href="http://www.getmdl.io/">Material Design Lite</a> sample blog layout.</p>
+
+<p>At present it suits my needs, but feel free to help improve this theme by forking a copy and submitting a pull request.</p>
+
+<p><img src="https://raw.githubusercontent.com/jchatkinson/HugoMDL/master/images/screenshot.png" alt="HugoMDL Homepage Screenshot" /></p>
+
+<p><img src="https://raw.githubusercontent.com/jchatkinson/HugoMDL/master/images/projects.png" alt="HugoMDL Projects Screenshot" /></p>
+
+<p><img src="https://raw.githubusercontent.com/jchatkinson/HugoMDL/master/images/post.png" alt=" HugoMDL Post Screenshot" /></p>
+
+<h2 id="installation">Installation</h2>
+
+<p>Inside the folder of your Hugo site run:</p>
+
+<pre><code>$ mkdir themes
+$ cd themes
+$ git clone https://github.com/jchatkinson/HugoMDL
+</code></pre>
+
+<p>For more information read the official <a href="//gohugo.io/overview/installing/">setup guide</a> of Hugo.</p>
+
+<p>(Note for myself)<br />
+To develop on c9, add the hugo binary to the workspace, then add it to the path using <code>export PATH=$PATH:/home/ubuntu/workspace/hugo</code><br />
+To serve the site from c9, cd to site root and use <code>hugo server --bind=&quot;0.0.0.0&quot; --port=8080  --watch --disableLiveReload</code></p>
+
+<h2 id="configure-the-theme">Configure the Theme</h2>
+
+<p>There are a few different places you need to configure</p>
+
+<h3 id="site-wide-configuration">Site-wide configuration</h3>
+
+<p>Look at the <code>exampleSite\config.toml</code> file for the relevent site parameters you need to fill out</p>
+
+<h3 id="background-image">Background Image</h3>
+
+<p>Simply replace <code>\static\images\background.jpg</code> with a background of your choice.</p>
+
+<h3 id="about-page">About page</h3>
+
+<p>Look at the <code>exampleSite\about.md</code> file for an example &lsquo;About&rsquo; page.</p>
+
+<h3 id="posts">Posts</h3>
+
+<p>Posts use the following front-matter:</p>
+
+<pre><code>---
+title: &quot;First Post&quot;
+description: &quot;first post with Hugo website engine&quot;
+date: &quot;2015-08-18&quot;
+categories:
+    - &quot;post&quot;
+tags:
+    - &quot;meta&quot;
+    - &quot;test&quot;
+cardthumbimage: &quot;/images/default.jpg&quot; #optional: default solid color if unset
+cardheaderimage: &quot;/images/default.jpg&quot; #optional: default solid color if unset
+cardbackground: &quot;#263238&quot; #optional: card background color; only shows when no image specified
+#cardtitlecolor: &quot;#fafafa&quot; #optional: can be changed to make text visible over card image
+&quot;author&quot;:
+    name: &quot;Firstname Lastname&quot;
+    description: &quot;Writer of stuff&quot;
+    website: &quot;http://example.com/&quot;
+    email: &quot;firstname@example.com&quot;
+    twitter: &quot;https://twitter.com/&quot;
+    github: &quot;https://github.com/&quot;
+    image: &quot;/images/avatar-64x64.png&quot;
+---
+</code></pre>
+
+<p><code>cardthumbimage</code> is used as the card media on the front page. If unset, a solid color will be displayed.<br />
+<code>cardheaderimage</code> is used as the card media on the post page. If unset, a solid color will be displayed.<br />
+<code>cardbackground</code> is used as the solid color if no image is specified. If unset, the default theme color is displayed.<br />
+<code>cardtitlecolor</code> is used to modify the default white title color (for instance, if you have a light colored background)<br />
+<code>author</code> parameters are used to populate the card and post with author&rsquo;s data</p>
+
+<h3 id="projects">Projects</h3>
+
+<p>Projects have similar frontmatter to posts.</p>
+
+<pre><code>---
+title: &quot;My Project Title&quot;
+description: &quot;Description of the sample project&quot; #optional
+cardthumbimage: &quot;/images/default.jpg&quot; #optional: default solid color if unset
+cardheaderimage: &quot;/images/default.jpg&quot; #optional: default solid color if unset
+cardbackground: &quot;#263238&quot; #optional: card background color; only shows when no image specified
+#cardtitlecolor: &quot;#fafafa&quot; #optional: can be changed to make text visible over card image
+repo: &quot;http://github.com/&quot; #optional: no icon appears if unset
+web: &quot;http://github.com/&quot; #optional: no icon appears if unset
+date: &quot;2015-08-18&quot;
+categories:
+    - &quot;project&quot;
+tags:
+    - &quot;meta&quot;
+    - &quot;project&quot;
+&quot;author&quot;: # used to fill out the project page
+    name: &quot;Firstname Lastname&quot;
+    description: &quot;Writer of stuff&quot;
+    website: &quot;http://example.com/&quot;
+    email: &quot;firstname@example.com&quot;
+    twitter: &quot;https://twitter.com/&quot;
+    github: &quot;https://github.com/&quot;
+    image: &quot;/images/avatar-64x64.png&quot;
+
+---
+</code></pre>
+
+<h2 id="license">License</h2>
+
+<p>This theme is released under the Apache License 2.0. It uses content from Google&rsquo;s material design lite project, also released under Apache License 2.0.</p>
+
+    </div>
+
+
+
+<hr />
+
+<div class="row">
+    <div class="col-sm-12">
+        
+	    <div class="text-center">
+        
+		    <p class="doc-footer-em"><a href="#">回到顶部↑</a></p>
+	    </div>
+	</div>
+</div>
+
+</div> 
+
+<footer class="doc-footer">
+	
+    <p>Copyright (c) 2016. All rights reserved. Generated by <a href="http://gohugo.io/">Hugo</a></p>
+</footer>
+
+
+
+<script src="http://tyche.cc//js/jquery-1.11.2.min.js"></script>
+<script src="http://tyche.cc//js/bootstrap.min.js"></script>
+
+<script src="http://tyche.cc//js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="http://tyche.cc//js/ie10-viewport-bug-workaround.js"></script>
+
+</body>
+</html>
+

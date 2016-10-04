@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/gallery/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/hugo-icarus/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/hugo-icarus/</guid>
+            <description>
+
+&lt;h1 id=&#34;icarus&#34;&gt;Icarus&lt;/h1&gt;
+
+&lt;p&gt;Icarus is a responsive and customizable theme for bloggers. It&amp;rsquo;s a port of the same-named theme for &lt;a href=&#34;//hexo.io&#34;&gt;Hexo&lt;/a&gt; made by &lt;a href=&#34;https://github.com/ppoffice&#34;&gt;Ruipeng Zhang&lt;/a&gt;. Noteworthy features of this Hugo theme are the integration of a comment-system powered by Disqus, localization (l10n) support, syntax highlighting for source code, optional widgets for the sidebar and a handful &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34;&gt;shortcodes&lt;/a&gt; to make your life easier.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/digitalcraftsman/hugo-icarus-theme/master/images/screenshot.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;get-the-theme&#34;&gt;Get the theme&lt;/h2&gt;
+
+&lt;p&gt;I assume you&amp;rsquo;ve Git installed. Inside the folder of your Hugo site run&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ mkdir themes
+$ cd themes
+$ git clone git@github.com:digitalcraftsman/hugo-icarus-theme.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You should see a folder called &lt;code&gt;hugo-icarus-theme&lt;/code&gt; inside the &lt;code&gt;themes&lt;/code&gt; directory, that we created a few moments ago. For more information read the official &lt;a href=&#34;https://gohugo.io/overview/installing/&#34;&gt;setup guide&lt;/a&gt; of Hugo.&lt;/p&gt;
+
+&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+
+&lt;p&gt;In the next step navigate to the &lt;code&gt;exampleSite&lt;/code&gt; folder at &lt;code&gt;themes/hugo-icarus-theme/exampleSite/&lt;/code&gt;. It&amp;rsquo;s structure shoud look similar to this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;exampleSite
+├── config.toml
+├── content
+│   └── post
+│       ├── creating-a-new-theme.md
+│       ├── go-is-for-lovers.md
+│       ├── hugo-is-for-lovers.md
+│       ├── introducing-icarus-and-its-features.md
+│       ├── linked-post.md
+│       └── migrate-from-jekyll.md
+├── data
+│   └── l10n.toml
+└── static
+    └── banners
+        └── placeholder.png
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In order to get your site running, you need to copy &lt;code&gt;config.toml&lt;/code&gt; and &lt;code&gt;data/l10n.toml&lt;/code&gt; into the root folders.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-config-file&#34;&gt;The config file&lt;/h2&gt;
+
+&lt;p&gt;Now, let us take a look into the &lt;code&gt;config.toml&lt;/code&gt;. Feel free to play around with the settings.&lt;/p&gt;
+
+&lt;h3 id=&#34;comments&#34;&gt;Comments&lt;/h3&gt;
+
+&lt;p&gt;The opional comment system is powered by Disqus. Enter your shortname to enable the comment section under your posts.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;disqusShortname = &amp;quot;&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;menu&#34;&gt;Menu&lt;/h3&gt;
+
+&lt;p&gt;You can also define the items menu entries as you like. First, let us link a post that you&amp;rsquo;ve written. We can do this in the frontmatter of the post&amp;rsquo;s content file by setting &lt;code&gt;menu&lt;/code&gt; to &lt;code&gt;main&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;+++
+menu = &amp;quot;main&amp;quot;
++++
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Furthermore, we can add entries that don&amp;rsquo;t link to posts. Back in the &lt;code&gt;config.toml&lt;/code&gt; you&amp;rsquo;ll find a section for the menus:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[[params.menu]]
+    before = true
+    label  = &amp;quot;Home&amp;quot;
+    link   = &amp;quot;/&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Define a label and enter the URL to resource you want to link. With &lt;code&gt;before&lt;/code&gt; you can decide wether the link should appear before &lt;strong&gt;or&lt;/strong&gt; after all linked posts in the menu. Therefore, &lt;code&gt;Home&lt;/code&gt; appears before the linked post.&lt;/p&gt;
+
+&lt;h3 id=&#34;tell-me-who-you-re&#34;&gt;Tell me who you&amp;rsquo;re&lt;/h3&gt;
+
+&lt;p&gt;This theme also provides a profile section on the left. Add your social network accounts to the profile section on the left by entering your username under &lt;code&gt;social&lt;/code&gt;. The links to your account will be create automatically.&lt;/p&gt;
+
+&lt;h3 id=&#34;widgets&#34;&gt;Widgets&lt;/h3&gt;
+
+&lt;p&gt;Beside the profile section you can add widgets on the right sidebar. The following widgets are available:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;recent articles&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;category list&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;tag list&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;tag cloud&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can deactivate them under &lt;code&gt;params.widgets&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[params.widgets]
+    recent_articles = false
+    categories = true
+    tags = true
+    tag_cloud = true
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;localization-l10n&#34;&gt;Localization (l10n)&lt;/h2&gt;
+
+&lt;p&gt;You don&amp;rsquo;t blog in english and you want to translate the theme into your native locale? No problem. Take a look in the &lt;code&gt;data&lt;/code&gt; folder and you&amp;rsquo;ll find a file &lt;code&gt;l10n.toml&lt;/code&gt; that we&amp;rsquo;ve copied at the beginning. It contains all strings related to the theme. Just replace the original strings with your own.&lt;/p&gt;
+
+&lt;h2 id=&#34;linking-thumbnails&#34;&gt;Linking thumbnails&lt;/h2&gt;
+
+&lt;p&gt;After creating a new post you can define a banner by entering the relative path to the image.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;banner = &amp;quot;banners/placeholder.png&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This way you can store them either next to the content file or in the &lt;code&gt;static&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;h2 id=&#34;mathematical-equations&#34;&gt;Mathematical equations&lt;/h2&gt;
+
+&lt;p&gt;In case you need to display equations you can insert your Latex or MathML code and it works out of the box thanks to &lt;a href=&#34;https://www.mathjax.org&#34;&gt;MathJax&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;shortcodes&#34;&gt;Shortcodes&lt;/h2&gt;
+
+&lt;p&gt;Last but not least I included some useful &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34;&gt;shortcodes&lt;/a&gt; to make your like easier.&lt;/p&gt;
+
+&lt;h3 id=&#34;gallery&#34;&gt;Gallery&lt;/h3&gt;
+
+&lt;p&gt;This way you can include a gallery into your post. Copy the code below into your content file and enter the relative paths to your images.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; gallery
+    &amp;quot;/banners/placeholder.png&amp;quot;
+    &amp;quot;/banners/placeholder.png&amp;quot;
+    &amp;quot;/banners/placeholder.png&amp;quot;
+&amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;github-gists&#34;&gt;Github Gists&lt;/h3&gt;
+
+&lt;p&gt;Enter the id of your gist and you&amp;rsquo;re ready to go.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt;  gist &amp;quot;85f59771b5ae1e2091a8&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Note, that this only works with public gists since authentification is not supported.&lt;/p&gt;
+
+&lt;h3 id=&#34;jsfidde&#34;&gt;JSFidde&lt;/h3&gt;
+
+&lt;p&gt;It works the same with JSFiddle examples you want to showcase. The parameter &lt;code&gt;id&lt;/code&gt; consists of the username and id of the example.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; jsfiddle id=&amp;quot;zalun/NmudS&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As descibed in the &lt;a href=&#34;http://doc.jsfiddle.net/use/embedding.html&#34;&gt;docs of JSFiddle&lt;/a&gt;, you can define which tabs will be shown. Enter the tabs you want to see separated by a comma in the &lt;code&gt;tabs&lt;/code&gt; parameter.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; jsfiddle id=&amp;quot;zalun/NmudS&amp;quot; tabs=&amp;quot;html,result&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;vimeo-and-youtube&#34;&gt;Vimeo and Youtube&lt;/h3&gt;
+
+&lt;p&gt;The embedding of videos from Vimeo and Youtube is also supported.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; youtube &amp;quot;w7Ft2ymGmfc&amp;quot; &amp;gt;}}
+
+{{&amp;lt; vimeo &amp;quot;137643804&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;nearly-finished&#34;&gt;Nearly finished&lt;/h2&gt;
+
+&lt;p&gt;In order to see your site in action, run Hugo&amp;rsquo;s built-in local server.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo server -w
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now enter &lt;a href=&#34;//localhost:1313&#34;&gt;&lt;code&gt;localhost:1313&lt;/code&gt;&lt;/a&gt; in the address bar of your browser.&lt;/p&gt;
+
+&lt;h2 id=&#34;contributing&#34;&gt;Contributing&lt;/h2&gt;
+
+&lt;p&gt;Did you found a bug or got an idea for a new feature? Feel free to use the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-icarus-theme/issues&#34;&gt;issue tracker&lt;/a&gt; to let me know. Or make directly a &lt;a href=&#34;//github.com/digitalcraftsman/hugo-icarus-theme/pulls&#34;&gt;pull request&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;This theme is released under the MIT license. For more information read the &lt;a href=&#34;https://github.com/digitalcraftsman/hugo-icarus-theme/blob/master/LICENSE.md&#34;&gt;license&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;annotations&#34;&gt;Annotations&lt;/h2&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&#34;//github.com/spf13&#34;&gt;Steve Francia&lt;/a&gt; for creating Hugo and the awesome community around the project.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/hugo-uno/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/hugo-uno/</guid>
+            <description>
+
+&lt;h1 id=&#34;hugo-uno&#34;&gt;hugo-uno&lt;/h1&gt;
+
+&lt;p&gt;A responsive hugo theme with awesome font&amp;rsquo;s, charts and light-box galleries, the theme is based on &lt;a href=&#34;https://github.com/daleanthony/Uno&#34;&gt;Uno&lt;/a&gt; for ghost.&lt;br /&gt;
+A example site is available at &lt;a href=&#34;http://fredrikloch.me&#34;&gt;fredrikloch.me&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A Swedish translation is available in the branch feature/swedish&lt;/p&gt;
+
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+
+&lt;p&gt;The following is a short tutorial on the usage of some features in the theme.&lt;/p&gt;
+
+&lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt;
+
+&lt;p&gt;To take full advantage of the features in this theme you can add variables to your site config file, the following is the example config from the example site:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;languageCode = &amp;quot;en-us&amp;quot;
+contentdir = &amp;quot;content&amp;quot;
+publishdir = &amp;quot;public&amp;quot;
+builddrafts = false
+baseurl = &amp;quot;http://fredrikloch.me/&amp;quot;
+canonifyurls = true
+title = &amp;quot;Fredrik Loch&amp;quot;
+author = &amp;quot;Fredrik Loch&amp;quot;
+copyright = &amp;quot;This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.&amp;quot;
+
+
+[indexes]
+   category = &amp;quot;categories&amp;quot;
+   tag = &amp;quot;tags&amp;quot;
+[Params]
+  AuthorName = &amp;quot;Fredrik&amp;quot;
+  github = &amp;quot;Senjindarashiva&amp;quot;
+  bitbucket = &amp;quot;floch&amp;quot;
+  flickr = &amp;quot;senjin&amp;quot;
+  twitter = &amp;quot;senjindarshiva&amp;quot;
+  email = &amp;quot;fredrik.loch@outlook.com&amp;quot;
+  description = &amp;quot;&amp;quot;
+  cv = &amp;quot;/pages/cv&amp;quot;
+  muut = &amp;quot;fredrikloch&amp;quot;
+  linkedin = &amp;quot;fredrikloch&amp;quot;
+  cover = &amp;quot;/images/background-cover.jpg&amp;quot;
+  logo = &amp;quot;/img/logo-1.jpg&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you prefer to use discourse replace the &amp;laquo;muut&amp;raquo; line with the following(remember the trailing slash)&lt;/p&gt;
+
+&lt;p&gt;&amp;rdquo;&amp;rsquo;&lt;br /&gt;
+  discourse = &amp;laquo;&lt;a href=&#34;http://discourse.yoursite.com/&amp;quot;&#34;&gt;http://discourse.yoursite.com/&amp;quot;&lt;/a&gt;&lt;br /&gt;
+&amp;rdquo;&amp;rsquo;&lt;/p&gt;
+
+&lt;h2 id=&#34;charts&#34;&gt;Charts&lt;/h2&gt;
+
+&lt;p&gt;To create charts I use &lt;a href=&#34;https://github.com/nnnick/Chart.js&#34;&gt;Chart.js&lt;/a&gt; which can be configured through basic js files. To add a chart to a post use the following short-code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{% chart id=&amp;quot;basicChart&amp;quot; width=860 height=400 js=&amp;quot;../../js/chartData.js&amp;quot; %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Where the javascript file specified contains the data for the chart, a basic example could look like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$(function(){
+  var chartData = {
+      labels: [&amp;quot;Jekyll&amp;quot;, &amp;quot;Hugo&amp;quot;, &amp;quot;Wintersmith&amp;quot;],
+      datasets: [
+          {
+              label: &amp;quot;Mean build time&amp;quot;,
+              fillColor: &amp;quot;#E1EDD7&amp;quot;,
+              strokeColor: &amp;quot;#E1EDD7&amp;quot;,
+              highlightFill: &amp;quot;#C1D8AB&amp;quot;,
+              highlightStroke: &amp;quot;#C1D8AB&amp;quot;,
+              data: [784, 100, 5255]
+          }
+      ]
+  };
+  var ctx = $(&amp;quot;#chartData&amp;quot;).get(0).getContext(&amp;quot;2d&amp;quot;);
+  var myBarChart = new Chart(ctx).Bar(data1, {
+      scaleBeginAtZero : true,
+      responsive: true,
+      maintainAspectRatio: false,
+    }
+  );
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A running example can be found in my comparison between &lt;a href=&#34;http://fredrikloch.me/post/2014-08-12-Jekyll-and-its-alternatives-from-a-site-generation-point-of-view/&#34;&gt;Jekyll, Hugo and Winthersmith&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;gallery&#34;&gt;Gallery&lt;/h2&gt;
+
+&lt;p&gt;To add a gallery to the site we use basic html together with &lt;a href=&#34;http://sachinchoolur.github.io/lightGallery/index.html&#34;&gt;lightGallery&lt;/a&gt; to create a responsive light-box gallery.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;ul style=&amp;quot;list-style: none;&amp;quot; id=&amp;quot;lightGallery&amp;quot;&amp;gt;
+    &amp;lt;li data-src=&amp;quot;pathToImg.jpg&amp;quot;&amp;gt;
+        &amp;lt;img src=&amp;quot;pathToThumb.jpg&amp;quot;&amp;gt;&amp;lt;/img&amp;gt;
+    &amp;lt;/li&amp;gt;
+    &amp;lt;li data-src=&amp;quot;pathToImg.jpg&amp;quot;&amp;gt;
+        &amp;lt;img src=&amp;quot;pathToThumb.jpg&amp;quot;&amp;gt;&amp;lt;/img&amp;gt;
+    &amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+
+&amp;lt;script src=../../js/lightGallery.min.js&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script&amp;gt;
+    $(&amp;quot;#lightGallery&amp;quot;).lightGallery();
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A running example can be found in my short &lt;a href=&#34;http://fredrikloch.me/post/Lightbox image&#39;s and a short review of hugo/&#34;&gt;review of hugo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Cover page&lt;/strong&gt;&lt;br /&gt;
+The landing page for Hugo-Uno is a full screen &amp;lsquo;cover&amp;rsquo; featuring your avatar, blog title, mini-bio and cover image.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Built with SASS, using BEM&lt;/strong&gt;&lt;br /&gt;
+If you know HTML and CSS making modifications to the theme should be super simple.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Responsive&lt;/strong&gt;&lt;br /&gt;
+Hugo-Uno looks great on all devices, even those weird phablets that nobody buys.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Moot comments&lt;/strong&gt;&lt;br /&gt;
+Moot integration allows users to comment on your posts.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Font-awesome icons&lt;/strong&gt;&lt;br /&gt;
+For more information on available icons: &lt;a href=&#34;http://fortawesome.github.io/Font-Awesome/&#34;&gt;font-awesome&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;No-JS fallback&lt;/strong&gt;&lt;br /&gt;
+While JS is widely used, some themes and websites don&amp;rsquo;t provide fallback for when no JS is available (I&amp;rsquo;m looking at you &lt;a href=&#34;http://blog.squarespace.com/&#34;&gt;Squarespace&lt;/a&gt;). If for some weird reason a visitor has JS disabled your blog will still be usable.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://creativecommons.org/licenses/by/4.0/&#34;&gt;Creative Commons Attribution 4.0 International&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;development&#34;&gt;Development&lt;/h2&gt;
+
+&lt;p&gt;In order to develop or make changes to the theme you will need to have the sass compiler and bourbon both installed.&lt;/p&gt;
+
+&lt;p&gt;To check installation run the following commands from a terminal and you should see the &lt;code&gt;&amp;gt; cli output&lt;/code&gt; but your version numbers may vary.&lt;/p&gt;
+
+&lt;p&gt;** SASS **&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;
+sass -v
+&amp;gt; Sass 3.3.4 (Maptastic Maple)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If for some reason SASS isn&amp;rsquo;t installed follow the instructions from the &lt;a href=&#34;http://sass-lang.com/install&#34;&gt;Sass install page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;** Bourbon **&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;
+bourbon help
+&amp;gt; Bourbon 3.1.8
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If Bourbon isn&amp;rsquo;t installed follow the installation instructions on the &lt;a href=&#34;http://bourbon.io&#34;&gt;Bourbon website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Once installation is verified we will need to go mount the bourbon mixins into the &lt;code&gt;scss&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;p&gt;From the project root run &lt;code&gt;bourbon install&lt;/code&gt; with the correct path&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;bourbon install --path assets/scss
+&amp;gt; bourbon files installed to assets/scss/bourbon/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now that we have the bourbon mixins inside of the &lt;code&gt;scss&lt;/code&gt; src folder we can now use the sass cli command to watch the scss files for changes and recompile them.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sass --watch assets/scss:assets/css
+&amp;gt;&amp;gt;&amp;gt;&amp;gt; Sass is watching for changes. Press Ctrl-C to stop.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To minify the css files use the following command in the assets folder&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;curl -X POST -s --data-urlencode &#39;input@css/uno.css&#39; http://cssminifier.com/raw &amp;gt; css/uno.min.css
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/redlounge/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/redlounge/</guid>
+            <description>
+
+&lt;h1 id=&#34;red-lounge&#34;&gt;Red Lounge&lt;/h1&gt;
+
+&lt;p&gt;This is an open-source Hugo theme designed by &lt;a href=&#34;http://www.twitter.com/shift8creative&#34;&gt;@shift8creative&lt;/a&gt; to be responsive and clean. It uses Pure.css and contains a few web fonts from Google as well as Font Awesome icons.&lt;br /&gt;
+So despite it being simple, it has a lot of flexibility in terms of typography and design elements. It&amp;rsquo;s also quite configurable as it has a few variables to change the&lt;br /&gt;
+appearance and features of the pages. By default, excess features (and JavaScript) is not included.&lt;/p&gt;
+
+&lt;h2 id=&#34;configuration-and-options&#34;&gt;Configuration and Options&lt;/h2&gt;
+
+&lt;h3 id=&#34;sidebar-title-tagline-params&#34;&gt;Sidebar Title &amp;amp; Tagline Params&lt;/h3&gt;
+
+&lt;p&gt;The sidebar can be configured with your main site config using params. For example, in &lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[params]
+	sidebartitle = &amp;quot;My Site&amp;quot;
+	sidebartagline = &amp;quot;Is super awesome&amp;quot;
+    sidebarphoto = &amp;quot;/img/photo.png&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This three properites will not be shown if not set. You will want to keep these lines short since there&amp;rsquo;s limited space.&lt;br /&gt;
+Alternatively you could add custom HTML using the &lt;code&gt;sidebarheader.html&lt;/code&gt; partial and keep those values empty strings.&lt;/p&gt;
+
+&lt;h3 id=&#34;menus&#34;&gt;Menus&lt;/h3&gt;
+
+&lt;p&gt;There are a few menus this theme allows you to define (all optional) in your main config.&lt;/p&gt;
+
+&lt;p&gt;Main - This menu is pretty basic and goes on the left panel under the site title and description. It contains red markers to separate items and call attention to the&lt;br /&gt;
+fact that it is more important than the other lists/menus that you may have on your site. It is optional, but always shows a link to the home page.&lt;br /&gt;
+This would be a good place to link to your various sections.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[[menu.main]]
+    name = &amp;quot;Blog&amp;quot;
+    url = &amp;quot;/posts&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Social - This menu goes underneath the main menu and was originally designed to contain links out to social media accounts, RSS, etc. making use of Font Awesome.&lt;br /&gt;
+However, you can use it for whatever you want. Just keep in mind space is limited here on the left panel.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[[menu.social]]
+	pre = &amp;quot;&amp;lt;i class=&#39;fa fa-twitter&#39;&amp;gt;&amp;lt;/i&amp;gt;&amp;quot;
+    url = &amp;quot;http://www.twitter.com/shift8creative&amp;quot;
+    identifier = &amp;quot;twitter&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Footer - The footer menu might also contain links to social media accounts&amp;hellip;It&amp;rsquo;s up to you. It appears right above the copyright notice at the bottom of each page.&lt;br /&gt;
+This menu is simply plain text links centered and they are gray to match the footer. So there&amp;rsquo;s less attention being drawn here. Perhaps good for notices, terms of service, etc.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[[menu.footer]]
+    name = &amp;quot;Blog&amp;quot;
+    url = &amp;quot;/posts&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;categories&#34;&gt;Categories&lt;/h3&gt;
+
+&lt;p&gt;Some assembly required here.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;.Params.categories&lt;/code&gt; coming from front-matter are displayed as tags on list pages with boxes. By default they are all going to be gray with white text. The coloring is up to you.&lt;/p&gt;
+
+&lt;p&gt;Each label will have the following class: &lt;code&gt;class=&amp;quot;post-category post-category-{{ . | urlize }}&amp;quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Note the name is going to be urlized. So for example: &lt;code&gt;post-category-technology&lt;/code&gt; or &lt;code&gt;post-category-golang&lt;/code&gt; and so on. This allows you to create your own CSS around the&lt;br /&gt;
+categories you end up defining. You can then set the background color to be something specific and then all instances of that category label will match.&lt;/p&gt;
+
+&lt;p&gt;You can easily include a categories CSS file, without modifying template partials, by using the site config params. Something like the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[params]
+	categoriescss = &amp;quot;/css/my-categories.css&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will be included in the header.html file before headend.html partial, so you can still include additional code in that partial afterward.&lt;/p&gt;
+
+&lt;h3 id=&#34;comments&#34;&gt;Comments&lt;/h3&gt;
+
+&lt;p&gt;Comments use Disqus, so the main config needs to define &lt;code&gt;disqusShortname&lt;/code&gt; like normal. However, each page can disable comments from appearing with front matter. Simply set&lt;br /&gt;
+&lt;code&gt;nocomment = true&lt;/code&gt; and they will be hidden.&lt;/p&gt;
+
+&lt;h3 id=&#34;lightbox&#34;&gt;Lightbox&lt;/h3&gt;
+
+&lt;p&gt;Lightbox is included with the theme but won&amp;rsquo;t be available for use (not even linked in the HTML) unless you enable it. This way it stays out of the way and saves on bandwidth.&lt;br /&gt;
+Should you decide you want to use it, simply add to your front-matter: &lt;code&gt;lightbox = true&lt;/code&gt; and then in your markdown you&amp;rsquo;ll need add links with a &lt;code&gt;data-lightbox&lt;/code&gt; attribute.&lt;br /&gt;
+Markdown wants to add titles when you add quotes so the syntax is a little weird. Alternatively, you can use HTML (which is likely easier in this case). So the following should&lt;br /&gt;
+use images in your &lt;code&gt;static&lt;/code&gt; directory:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;/image.jpg&amp;quot; title=&amp;quot;&amp;quot; data-lightbox=&amp;quot;set1&amp;quot; data-title=&amp;quot;This is my caption&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;/image-thumbnail.jpg&amp;quot; alt=&amp;quot;&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Also note that Lightbox requires jQuery, so turning this on for a page or archetype will also link jQuery in the head section of your pages from Google&amp;rsquo;s CDN.&lt;/p&gt;
+
+&lt;h3 id=&#34;hiding-showing-things&#34;&gt;Hiding &amp;amp; Showing Things&lt;/h3&gt;
+
+&lt;p&gt;Comments can be hidden on a per page basis with &lt;code&gt;nocomment = true&lt;/code&gt; but there&amp;rsquo;s also some other things that can be hidden. Sometimes simply by not defining them, other times&lt;br /&gt;
+by explicitly setting variables. They are as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;nodate = true&lt;/code&gt; Hides the date on a page&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;noauthor = true&lt;/code&gt; Hides the author (which may simply be defined per page, but also could be set higher up in the config, so this overrides)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;noread = true&lt;/code&gt; Hides the read time displayed on list pages&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;nopaging = true&lt;/code&gt; Hides the next/prev links that navigate through pages&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;notoc = true&lt;/code&gt; Hides the table of contents from a page&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;totop = true&lt;/code&gt; Shows a &amp;laquo;To Top&amp;raquo; link, fixed in the top right of the page after scrolling beyond 1000px, that takes the user back to the top of the page (not shown by default)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;socialsharing = true&lt;/code&gt; Shows social media sharing buttons from a partial template (which can be overwritten)&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;other-params&#34;&gt;Other Params&lt;/h3&gt;
+
+&lt;p&gt;Aside from the above variables that hide/show things, there are a few other variables that this theme will look for and use. These can be placed in any front matter. In some cases&lt;br /&gt;
+ you&amp;rsquo;ll want to define these in the archetypes so you don&amp;rsquo;t need to keep defining the values. These are all optional of course.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ogimage&lt;/code&gt; OpenGraph image tag&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ogtitle&lt;/code&gt; OpenGraph title tag (if not set, will use &lt;code&gt;.Title&lt;/code&gt;)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ogdescription&lt;/code&gt; OpenGraph description tag (if not set, will use &lt;code&gt;.Description&lt;/code&gt; - also used the same way for meta description)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;banner&lt;/code&gt; A banner image for a page that sits above the title and stretches across the width of the page&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bannerheight&lt;/code&gt; An optional height for the banner image wrapper to help cut off larger images (specified as just a number, none by default)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bannerfill&lt;/code&gt; If set true, this will attempt to fill the available width of the content area with the banner image by applying a 100% width to the image style&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bannerinline&lt;/code&gt; Use this instead to place a banner image after the title, author, tags, etc. which floats to the right of the content (does not use the fill/height params)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;thumbnail&lt;/code&gt; Set this to an image path if you want to show a thumbnail with pages in the list view; originally intended for author avatars, any small image could work (50x50 pixels)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;author&lt;/code&gt; The author name&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;authorlink&lt;/code&gt; A link for the author&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;authorlinktarget&lt;/code&gt; The link target, ie. &amp;laquo;_blank&amp;raquo; (useful if the link goes to an external site or something)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;authortwitter&lt;/code&gt; The full URL to the author&amp;rsquo;s Twitter profile (opens in a new window)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;authorlinkedin&lt;/code&gt; The full URL to the author&amp;rsquo;s LinkedIn profile (opens in a new window)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;authorfacebook&lt;/code&gt; The full URL to the author&amp;rsquo;s Facebook page/profile (opens in a new window)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;authorgoogleplus&lt;/code&gt; The full URL to the author&amp;rsquo;s Google+ page/profile (opens in a new window)&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;template-partials&#34;&gt;Template Partials&lt;/h3&gt;
+
+&lt;p&gt;There are a few partials being used so that key areas can be easily overwritten.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;doctype.html&lt;/code&gt; This contains the HTML document declaration and you may wish to change it from the default value of english for language, add namespaces, etc.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;header.html&lt;/code&gt; This contains the &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; portion of the page&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;meta.html&lt;/code&gt; This contains some basic meta tags, feel free to modify as needed (within header.html)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;og.html&lt;/code&gt; OpenGraph only meta tags (within header.html)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;headend.html&lt;/code&gt; This easily provides the ability to add custom style sheets and JavaScript right before &lt;code&gt;&amp;lt;/head&amp;gt;&lt;/code&gt; to override styles, etc. (within header.html)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;authorsocial.html&lt;/code&gt; If an author is set this template partial will be used to optionally show links to their social media profiles if also set (within single.html)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;socialsharing.html&lt;/code&gt; Allows you to change what&amp;rsquo;s displayed when &lt;code&gt;socialsharing = true&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sidebar.html&lt;/code&gt; The sidebar which is already pretty customizable with site params and menus, but can also easily be changed if need be&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sidebarheader.html&lt;/code&gt; Placed above the h1 and h2 elements in the sidebar (which will appear if your site config was set), allowing for further sidebar header adjustments&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;singletop.html&lt;/code&gt; Placed at the top of the page for single.html (but under the banner)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;listtop.html&lt;/code&gt; Placed at the top of the page for list.html&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;footer.html&lt;/code&gt; The footer&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bodyend.html&lt;/code&gt; Right before &lt;code&gt;&amp;lt;/body&amp;gt;&lt;/code&gt; (within list.html, single.html, and index.html - be sure to include it when/if overwriting with your own index.html)&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

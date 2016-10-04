@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/clear/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/cocoa/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/cocoa/</guid>
+            <description>
+
+&lt;h1 id=&#34;cocoa&#34;&gt;Cocoa&lt;/h1&gt;
+
+&lt;p&gt;A &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; theme with clear typograhy for easy, disturbance-free reading.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nishanths/cooca-hugo-theme/master/images/tn.png&#34; width=&#34;500px&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#setup&#34;&gt;Setup&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#theme&#34;&gt;Theme&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#screenshots&#34;&gt;Screenshots&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#extras&#34;&gt;Extras&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#example-sites&#34;&gt;Example Sites&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;setup&#34;&gt;Setup&lt;/h1&gt;
+
+&lt;p&gt;From the root of your Hugo site, clone the theme into &lt;code&gt;themes/cocoa&lt;/code&gt; by running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ mkdir themes
+$ cd themes
+$ git clone https://github.com/nishanths/cocoa-hugo-theme.git cocoa
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then, generate static files by running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo -t cocoa
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;theme&#34;&gt;Theme&lt;/h1&gt;
+
+&lt;h2 id=&#34;creating-content&#34;&gt;Creating Content&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Posts should go under a &lt;code&gt;content/posts&lt;/code&gt; directory. Typically you would run:&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo new posts/newpost.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fixed pages such as an About page should preferably go under a &lt;code&gt;content/fixed&lt;/code&gt; or be present at the root of the &lt;code&gt;contents&lt;/code&gt; directory.&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo new fixed/about.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;fonts-and-colors&#34;&gt;Fonts and Colors&lt;/h2&gt;
+
+&lt;p&gt;The primary font face is Proxima Nova in 400 and 700 weights. If you own the font, create a font face declarations like in the example below, and place it in the path specified in &lt;a href=&#34;#site-variables&#34;&gt;&lt;code&gt;.Site.Params.WebfontsFile&lt;/code&gt;&lt;/a&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;@font-face {
+	font-family: &#39;ProximaNova&#39;;
+	font-weight: normal;
+	font-style: normal;
+	src: url(&#39;webfonts/2F00B2_0_0.eot&#39;);
+	src: url(&#39;webfonts/2F00B2_0_0.eot?#iefix&#39;) format(&#39;embedded-opentype&#39;),
+	     url(&#39;webfonts/2F00B2_0_0.woff2&#39;) format(&#39;woff2&#39;),
+	     url(&#39;webfonts/2F00B2_0_0.woff&#39;) format(&#39;woff&#39;),
+	     url(&#39;webfonts/2F00B2_0_0.ttf&#39;) format(&#39;truetype&#39;);
+}
+  
+@font-face {
+	font-family: &#39;ProximaNova&#39;;
+	font-weight: bold;
+	font-style: normal;
+	src: url(&#39;webfonts/2F00B2_1_0.eot&#39;);
+	src: url(&#39;webfonts/2F00B2_1_0.eot?#iefix&#39;) format(&#39;embedded-opentype&#39;),
+		  url(&#39;webfonts/2F00B2_1_0.woff2&#39;) format(&#39;woff2&#39;),
+		  url(&#39;webfonts/2F00B2_1_0.woff&#39;) format(&#39;woff&#39;),
+		  url(&#39;webfonts/2F00B2_1_0.ttf&#39;) format(&#39;truetype&#39;);
+}
+ 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you do not provide Proxima Nova files, the fallback font face—Source Sans Pro—will be automatically used from Google Fonts. The primary monospace font face is Ubuntu Mono from Google Fonts.&lt;/p&gt;
+
+&lt;p&gt;The main colors are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;#333333&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;#b7b7b7&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;#21bb5b&lt;/code&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For syntax highlighting, set &lt;code&gt;pygmentsuseclasses = true&lt;/code&gt; in your &lt;code&gt;config.toml&lt;/code&gt;. Syntax highlighting classes in &lt;code&gt;css/pygments.css&lt;/code&gt; are from &lt;a href=&#34;https://github.com/richleland/pygments-css/blob/master/default.css&#34;&gt;&lt;code&gt;default.css&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;site-variables&#34;&gt;Site Variables&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add the following params in &lt;code&gt;config.toml&lt;/code&gt; to customize your site.&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The only required key is &lt;code&gt;DateForm&lt;/code&gt;.&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[params]
+Author = &amp;quot;Firstname Lastname&amp;quot;
+DateForm = &amp;quot;Jan 2, 2006&amp;quot; # required
+Description = &amp;quot;eat, sleep, rave, repeat&amp;quot;
+Email = &amp;quot;username@hogwarts.edu&amp;quot;
+Facebook = &amp;quot;//facebook.com/username&amp;quot;
+FaviconFile = &amp;quot;img/myicon.ico&amp;quot; # relative to static/ directory, defaults to the icon at themes/cocoa/img/favicon.ico
+GATracker = &amp;quot;&amp;lt;Google-Analytics-ID&amp;gt;&amp;quot;
+GitHub = &amp;quot;//github.com/username&amp;quot;
+Lang = &amp;quot;en&amp;quot; # &amp;lt;body lang=&amp;quot;en&amp;quot;&amp;gt;
+LinkedIn = &amp;quot;//linkedin.com/in/username&amp;quot;
+Twitter = &amp;quot;//twitter.com/username&amp;quot;
+WebfontsFile = &amp;quot;css/mywebfontsfile.css&amp;quot; # relative to static/ directory, defaults to empty string 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;extras&#34;&gt;Extras&lt;/h1&gt;
+
+&lt;h2 id=&#34;less-files&#34;&gt;Less files&lt;/h2&gt;
+
+&lt;p&gt;The &lt;code&gt;.less&lt;/code&gt; files used to generate &lt;code&gt;main.css&lt;/code&gt; are available at the root of the repository. Running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ lessc main.less static/css/main.css
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;should do the trick.&lt;/p&gt;
+
+&lt;h1 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h1&gt;
+
+&lt;h6 id=&#34;single-post&#34;&gt;single post&lt;/h6&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nishanths/cooca-hugo-theme/master/images/screenshot.png&#34; width=&#34;700px&#34;&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;example-sites&#34;&gt;Example Sites&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://nishanths.me&#34;&gt;http://nishanths.me&lt;/a&gt; • &lt;a href=&#34;https://github.com/nishanths/&#34;&gt;source&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nishanths/nishanths.me/pulls&#34;&gt;Add yours by submitting a pull request&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;contributing&#34;&gt;Contributing&lt;/h1&gt;
+
+&lt;p&gt;Pull requests are welcome!&lt;/p&gt;
+
+&lt;h1 id=&#34;license&#34;&gt;License&lt;/h1&gt;
+
+&lt;p&gt;Licensed under the MIT License. See the &lt;a href=&#34;https://github.com/nishanths/cocoa-hugo-theme/blob/master/LICENSE.md&#34;&gt;LICENSE&lt;/a&gt; file for more details.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

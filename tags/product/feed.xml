@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/product/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/hugo-incorporated/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/hugo-incorporated/</guid>
+            <description>
+
+&lt;h1 id=&#34;hugo-incorporated&#34;&gt;Hugo Incorporated&lt;/h1&gt;
+
+&lt;p&gt;Modern Hugo based blog, based entirely on &lt;a href=&#34;https://github.com/kippt/jekyll-incorporated&#34;&gt;jekyll-incorporated&lt;/a&gt;. Great for companies, products or anything. See jekyll-incorporated live at &lt;a href=&#34;http://blog.sendtoinc.com&#34;&gt;blog.sendtoinc.com&lt;/a&gt;. See hugo-incorporated live at &lt;a href=&#34;http://blog.nilproductions.com&#34;&gt;blog.nilproductions.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;installation-usage&#34;&gt;Installation &amp;amp; Usage&lt;/h2&gt;
+
+&lt;p&gt;Hugo-incorporated requires Hugo 0.12-DEV or newer. If your content is not displaying after running &lt;code&gt;hugo server&lt;/code&gt;, be sure that your version (&lt;code&gt;hugo version&lt;/code&gt;) is at least 0.12-DEV.&lt;/p&gt;
+
+&lt;p&gt;Markdown Content goes in content/post/title.md. Then:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo server -w
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The stylesheet is included in static/css. If you want substantial customizations you should use the scss directory and install sass (and Ruby). At the moment, this is entirely optional, since I&amp;rsquo;m commiting the final stylesheet. Note that if you make customizations to main.css, then rebuild with sass, those changes could get lost.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;bundle install
+sass scss/main.scss static/css/main.css
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;More hugo-specific details available at &lt;a href=&#34;http://hugo.spf13.com/&#34;&gt;hugo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt;
+
+&lt;p&gt;Hugo-incorporated specific configuration options are available in [config.yaml].&lt;/p&gt;
+
+&lt;p&gt;Edit: config.yaml (general options), main.css (theme colors &amp;amp; fonts)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo-incorporated/
+├── config.yaml
+├── _scss/
+    ├── main.scss
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;Note: when editing config.yaml, you need to restart hugo to see the changes.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;authors&#34;&gt;Authors&lt;/h2&gt;
+
+&lt;p&gt;Originally built as a Jekyll theme for &lt;a href=&#34;https://sendtoinc.com&#34;&gt;sendtoinc.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Karri Saarinen&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/karrisaarinen&#34;&gt;http://twitter.com/karrisaarinen&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/ksaa&#34;&gt;http://github.com/ksaa&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Jori Lallo&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/jorilallo&#34;&gt;http://twitter.com/jorilallo&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/jorilallo&#34;&gt;http://github.com/jorde&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ported to Hugo:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Nicholas Whittier&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[&lt;a href=&#34;http://twitter.com/nw_iw&#34;&gt;http://twitter.com/nw_iw&lt;/a&gt;]&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;[&lt;a href=&#34;http://github.com/imperialwicket&#34;&gt;http://github.com/imperialwicket&lt;/a&gt;]&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;todo&#34;&gt;Todo:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Document publishing&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Offer sass-less version (Remove ruby entirely?)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Fix feeds and 404 pages&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Confirm core functionality&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="A classic sidebar hugo theme">
+        <link rel="alternate" href="/feed.xml" type="application/rss+xml" title="tyche.cc">
+        <link rel="icon" href="http://tyche.cc//favicon.ico">
+        <title> - tyche.cc</title>
+        <link rel="stylesheet" href="http://tyche.cc//css/highlight.js.min.css">
+        <link rel="stylesheet" href="http://tyche.cc//css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://tyche.cc//css/bootstrap-theme.css">
+        <link rel="stylesheet" href="http://tyche.cc//css/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="http://tyche.cc//css/theme.css">
+        <link rel="stylesheet" href="http://tyche.cc//css/hugo-org.css">
+    </head>
+
+<body role="document">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://tyche.cc//">tyche.cc</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li ><a href="http://tyche.cc//">主页</a></li>
+                    
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">常用链接<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                        
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">官方文档<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                        
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+<div class="container">
+    <div id="theme-header">
+        <img src="/images/hurock.screenshot.png" class="screenshot-blurred" />
+        <div class="dark-overlay"></div>
+        <div class="row">
+            <div class="col-md-6 col-sm-6 screenshot-container"><img src="/images/hurock.screenshot.png" class="screenshot-normal" /></div>
+            <div class="col-md-6 col-sm-6 theme-details">
+                <h1>hurock</h1>
+                <p class="description">A classic sidebar hugo theme</p>
+                <ul class="theme-meta">
+                    
+                        
+                            <li><span class="label">Author:</span> <a href="http://titi.github.io">Thibault ROHMER</a></li>
+                        
+                    
+                    
+                    
+                        <li><span class="label">License:</span> <a href="https://github.com/titi/hurock/LICENSE">MIT</a></li>
+                    
+                    
+                        <li>
+                            <span class="label">Tags:</span>
+                            
+                            <a href="/tags/blog">blog</a>
+                            
+                            <a href="/tags/personal">personal</a>
+                            
+                        </li>
+                    
+                </ul>
+            </div>
+
+            <div class="theme-buttons">
+
+                
+                <a class="btn btn-info btn-lg" href="https://github.com/TiTi/hurock"><i class="fa fa-download"></i> Download</a>
+                
+
+                
+                <a class="btn btn-success btn-lg" href="/theme/hurock/"><i class="fa fa-road"></i> Demo</a>
+                
+
+                
+                <a class="btn btn-dark btn-lg" href="https://github.com/titi/hurock"><i class="fa fa-home"></i> Homepage</a>
+                
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        
+
+<h1 id="hurock">hurock</h1>
+
+<p>A classic sidebar Hugo theme</p>
+
+<p><a href="https://titi.github.io/">My personnal Hugo blog</a></p>
+
+<h1 id="screenshots">Screenshots</h1>
+
+<p>index.html:</p>
+
+<p><img src="https://raw.githubusercontent.com/titi/hurock/master/images/screenshot1.png" width="800" /></p>
+
+<p>List view:</p>
+
+<p><img src="https://raw.githubusercontent.com/titi/hurock/master/images/screenshot2.png" width="800" /></p>
+
+<p>Content view:</p>
+
+<p><img src="https://raw.githubusercontent.com/titi/hurock/master/images/screenshot3.png" width="800" /></p>
+
+<p>404 error page:</p>
+
+<p><img src="https://raw.githubusercontent.com/titi/hurock/master/images/screenshot4.png" width="800" /></p>
+
+<h1 id="concept">Concept</h1>
+
+<ul>
+<li>No external ressources (js/css/fonts)<br /></li>
+<li>Easy to add stuff in header/footer<br /></li>
+<li>Syntax highlight on client side using <a href="https://highlightjs.org/">highlight.js</a><br /></li>
+<li>Shortcodes for vimeo/youtube/gist<br /></li>
+<li>W3C valid<br />
+
+<ul>
+<li>Clean HTML<br /></li>
+<li>Sidebar after content<br /></li>
+<li>CSS in head, JS before end of body<br />
+<br /></li>
+</ul></li>
+</ul>
+
+<p>Theme mostly insipred on theme <code>nofancy</code> but also: <code>hyde-x</code>, <code>lanyon</code>, <code>liquorice</code>, <code>purehugo</code>, <code>redlounge</code>.</p>
+
+<h1 id="config">Config</h1>
+
+<pre><code class="language-toml">baseurl = &quot;http://example.com&quot;
+title = &quot;Your site title&quot;
+
+[author]
+  name = &quot;Your Name&quot;
+  email = &quot;&quot;
+  
+  github = &quot;&quot;
+  twitter = &quot;&quot;
+  facebook = &quot;&quot;
+  googleplus = &quot;&quot;
+  linkedin = &quot;&quot;
+  gaID = &quot;Google Analytics Tracking ID&quot;
+
+[params]
+  Description = &quot;text under logo&quot;
+  # Optional
+  disqusShortname = &quot;&quot;
+  highlight_theme = &quot;tomorrow-night&quot;
+  notoc = true
+
+
+# Optional sections:
+[permalinks]
+  posts = &quot;/:year/:month/:filename/&quot;
+
+[blackfriday]
+  plainIdAnchors = true
+</code></pre>
+
+<ul>
+<li>You can change the <code>highlight.js</code> theme, see <code>highlight_theme</code> parameter, but you&rsquo;ll have to add the corresponding css in your <code>static/highlight/</code> folder.<br /></li>
+<li><code>notoc</code> means no TableOfContents. It is used to hide the table of contents. Indeed, in case you&rsquo;re using the permalinks parameter, the table of contents links are not working with current Hugo version (0.13).<br /></li>
+</ul>
+
+    </div>
+
+
+
+<hr />
+
+<div class="row">
+    <div class="col-sm-12">
+        
+	    <div class="text-center">
+        
+		    <p class="doc-footer-em"><a href="#">回到顶部↑</a></p>
+	    </div>
+	</div>
+</div>
+
+</div> 
+
+<footer class="doc-footer">
+	
+    <p>Copyright (c) 2016. All rights reserved. Generated by <a href="http://gohugo.io/">Hugo</a></p>
+</footer>
+
+
+
+<script src="http://tyche.cc//js/jquery-1.11.2.min.js"></script>
+<script src="http://tyche.cc//js/bootstrap.min.js"></script>
+
+<script src="http://tyche.cc//js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="http://tyche.cc//js/ie10-viewport-bug-workaround.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/material/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/material-lite/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/material-lite/</guid>
+            <description>
+
+&lt;h1 id=&#34;material-design-lite-inspired-theme-for-hugo&#34;&gt;Material Design Lite inspired theme for hugo&lt;/h1&gt;
+
+&lt;p&gt;This is a theme for &lt;a href=&#34;http://gohugo.io&#34;&gt;hugo&lt;/a&gt;, a static site generator. It is based on the &lt;a href=&#34;http://www.getmdl.io/templates/&#34;&gt;blog template&lt;/a&gt; of Google&amp;rsquo;s &lt;a href=&#34;http://www.getmdl.io&#34;&gt;Material Design Lite&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://app.wercker.com/project/bykey/242df4252d594182e3ccc5b3dac3205e&#34;&gt;&lt;img src=&#34;https://app.wercker.com/status/242df4252d594182e3ccc5b3dac3205e/m/master&#34; alt=&#34;wercker status&#34; title=&#34;wercker status&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;Like the original template, this theme&amp;rsquo;s license is Apache 2.0.&lt;/p&gt;
+
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+
+&lt;h3 id=&#34;content-organization-features&#34;&gt;Content organization &amp;amp; features&lt;/h3&gt;
+
+&lt;p&gt;This theme does currently &lt;strong&gt;not support&lt;/strong&gt; lists, categories, tags&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;This theme is optimized to use 2 content types: &lt;code&gt;post&lt;/code&gt;s and &lt;code&gt;page&lt;/code&gt;s. Pages are automatically displayed in the dropdown list beneath the author and posts are displayed on the homepage.&lt;/p&gt;
+
+&lt;p&gt;You can add a &lt;code&gt;description&lt;/code&gt; and an &lt;code&gt;image&lt;/code&gt; to a post or page using the front matter.&lt;/p&gt;
+
+&lt;h4 id=&#34;some-features&#34;&gt;Some features&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;posts can have featured images&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;header contains tags for &lt;a href=&#34;http://ogp.me/&#34;&gt;Open Graph&lt;/a&gt; and &lt;a href=&#34;https://dev.twitter.com/cards/overview&#34;&gt;Twitter Cards&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;links to profiles on Facebook, Twitter, Google Plus&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;customizable share button&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;pagination&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;customizable background image/color&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;customizable design (colors)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;responsive design&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;code highlighting&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;configuration-variables&#34;&gt;Configuration variables&lt;/h3&gt;
+
+&lt;p&gt;These are the supported site parameters:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;TwitterUser = &amp;quot;YourTwitterUsername&amp;quot;
+FacebookUser = &amp;quot;YourFacebookUsername&amp;quot;
+GooglePlusUser = &amp;quot;YourGooglePlusUsername&amp;quot;
+copyright = &amp;quot;&amp;amp;copy; a short copyright statement&amp;quot;
+author = &amp;quot;John Doe&amp;quot;
+background = &amp;quot;a relative or absolute URL to a background image&amp;quot;
+bgcolor = &amp;quot;a background color; will be ignored if you use background&amp;quot;
+primary = &amp;quot;indigo&amp;quot;
+accent = &amp;quot;pink&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;Primary&lt;/em&gt; and &lt;em&gt;accent&lt;/em&gt; define the colors of the design. Check &lt;a href=&#34;http://www.getmdl.io/customize/index.html&#34;&gt;the MDL customizer&lt;/a&gt; to see the supported colors.&lt;/p&gt;
+
+&lt;h3 id=&#34;share-button-configuration&#34;&gt;Share button configuration&lt;/h3&gt;
+
+&lt;p&gt;Create a file called &lt;em&gt;share.html&lt;/em&gt; in &lt;em&gt;layouts/partials/&lt;/em&gt; to override the configuration for the share button.&lt;/p&gt;
+
+&lt;p&gt;This is the default configuration. This button uses a plugin called &lt;em&gt;carrot&lt;/em&gt; to share to different networks.  recommend keeping the &lt;code&gt;ui&lt;/code&gt; part as is and only modifying the &lt;code&gt;networks&lt;/code&gt; part. Check &lt;a href=&#34;https://github.com/carrot/share-button/wiki/Configuration-Options&#34;&gt;this link&lt;/a&gt; for detailed instructions.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;script&amp;gt;
+    // See https://github.com/carrot/share-button/wiki/Configuration-Options
+    $(function() {
+        var config =
+            {
+                ui: {
+                    flyout: &amp;quot;middle left&amp;quot;,
+                    button_text: &amp;quot;&amp;lt;i class=&#39;material-icons&#39;&amp;gt;share&amp;lt;/i&amp;gt;&amp;quot;
+                }
+        };
+        var share = new Share(&amp;quot;.share&amp;quot;, config);
+    });
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;header-tags&#34;&gt;Header tags&lt;/h3&gt;
+
+&lt;p&gt;If you want to add extra tags to the &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; of your page, you can create a file called &lt;em&gt;header-extra.html&lt;/em&gt; in &lt;em&gt;layouts/partials/&lt;/em&gt; and add your extra content to that file.&lt;/p&gt;
+
+&lt;h2 id=&#34;contributing&#34;&gt;Contributing&lt;/h2&gt;
+
+&lt;p&gt;This theme is very basic and I welcome all contributions and feedback. Please create an issue or a pull request to contribute.&lt;/p&gt;
+
+&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;
+
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/SamuelDebruyn/hugo-theme-example&#34;&gt;https://github.com/SamuelDebruyn/hugo-theme-example&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;website&#34;&gt;Website&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://materialexample.sa.muel.be/&#34;&gt;http://materialexample.sa.muel.be/&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

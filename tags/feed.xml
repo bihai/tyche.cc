@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/liquorice/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/liquorice/</guid>
+            <description>
+
+&lt;h1 id=&#34;liquorice&#34;&gt;liquorice&lt;/h1&gt;
+
+&lt;p&gt;Liquorice is a small black and white theme for &lt;a href=&#34;https://github.com/spf13/hugo&#34;&gt;Hugo&lt;/a&gt; (a fast and modern static website engine).&lt;/p&gt;
+
+&lt;h3 id=&#34;dependencies&#34;&gt;Dependencies&lt;/h3&gt;
+
+&lt;p&gt;Liquorice needs at least version 0.12 of Hugo, as it uses features such as partials.&lt;/p&gt;
+
+&lt;h3 id=&#34;partials&#34;&gt;Partials&lt;/h3&gt;
+
+&lt;p&gt;There are a few partials that is of great interest to override&lt;/p&gt;
+
+&lt;h4 id=&#34;author&#34;&gt;author&lt;/h4&gt;
+
+&lt;p&gt;The author partial is added at the end of each single page (such as blog posts) and by default only prints the name of the author registered in the site params, e.g. in your &lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[params]
+    author = &amp;quot;Markus&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In order to override and have your own markup appended to single pages, just create the file &lt;code&gt;layouts/partials/author.html&lt;/code&gt; and roll your own.&lt;/p&gt;
+
+&lt;h3 id=&#34;shortcodes&#34;&gt;Shortcodes&lt;/h3&gt;
+
+&lt;p&gt;Liquorice comes with these additional shortcodes:&lt;/p&gt;
+
+&lt;h4 id=&#34;gist&#34;&gt;gist&lt;/h4&gt;
+
+&lt;p&gt;Include a Github gist using their JavaScript include.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{% gist e572b28c9a0eef0b2763 %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Where the first parameter is the gist id.&lt;/p&gt;
+
+&lt;h3 id=&#34;building&#34;&gt;Building&lt;/h3&gt;
+
+&lt;p&gt;There is not much to build, but the theme CSS is minified using the node tool &lt;a href=&#34;https://github.com/GoalSmashers/clean-css&#34;&gt;clean-css&lt;/a&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cleancss -o static/css/liquorice.min.css static/css/liquorice.css
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;Any change in styles needs to result in a minification!&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;license&#34;&gt;License&lt;/h1&gt;
+
+&lt;p&gt;Liquorice is released under the MIT license, see LICENSE for details.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/liquorice/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/liquorice/</guid>
+            <description>
+
+&lt;h1 id=&#34;liquorice&#34;&gt;liquorice&lt;/h1&gt;
+
+&lt;p&gt;Liquorice is a small black and white theme for &lt;a href=&#34;https://github.com/spf13/hugo&#34;&gt;Hugo&lt;/a&gt; (a fast and modern static website engine).&lt;/p&gt;
+
+&lt;h3 id=&#34;dependencies&#34;&gt;Dependencies&lt;/h3&gt;
+
+&lt;p&gt;Liquorice needs at least version 0.12 of Hugo, as it uses features such as partials.&lt;/p&gt;
+
+&lt;h3 id=&#34;partials&#34;&gt;Partials&lt;/h3&gt;
+
+&lt;p&gt;There are a few partials that is of great interest to override&lt;/p&gt;
+
+&lt;h4 id=&#34;author&#34;&gt;author&lt;/h4&gt;
+
+&lt;p&gt;The author partial is added at the end of each single page (such as blog posts) and by default only prints the name of the author registered in the site params, e.g. in your &lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[params]
+    author = &amp;quot;Markus&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In order to override and have your own markup appended to single pages, just create the file &lt;code&gt;layouts/partials/author.html&lt;/code&gt; and roll your own.&lt;/p&gt;
+
+&lt;h3 id=&#34;shortcodes&#34;&gt;Shortcodes&lt;/h3&gt;
+
+&lt;p&gt;Liquorice comes with these additional shortcodes:&lt;/p&gt;
+
+&lt;h4 id=&#34;gist&#34;&gt;gist&lt;/h4&gt;
+
+&lt;p&gt;Include a Github gist using their JavaScript include.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{% gist e572b28c9a0eef0b2763 %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Where the first parameter is the gist id.&lt;/p&gt;
+
+&lt;h3 id=&#34;building&#34;&gt;Building&lt;/h3&gt;
+
+&lt;p&gt;There is not much to build, but the theme CSS is minified using the node tool &lt;a href=&#34;https://github.com/GoalSmashers/clean-css&#34;&gt;clean-css&lt;/a&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cleancss -o static/css/liquorice.min.css static/css/liquorice.css
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;Any change in styles needs to result in a minification!&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;license&#34;&gt;License&lt;/h1&gt;
+
+&lt;p&gt;Liquorice is released under the MIT license, see LICENSE for details.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/company/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title>Data Pipeline Architect</title>
+            <link>http://tyche.cc/showcase/datapipelinearchitect/</link>
+            <pubDate>Thu, 04 Feb 2016 18:30:07 -0500</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/datapipelinearchitect/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>Rakuten Tech Blog</title>
+            <link>http://tyche.cc/showcase/rakutentech/</link>
+            <pubDate>Wed, 20 Jan 2016 07:32:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/rakutentech/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>Camunda Blog</title>
+            <link>http://tyche.cc/showcase/camunda-blog/</link>
+            <pubDate>Tue, 01 Dec 2015 04:20:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/camunda-blog/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>Camunda Docs</title>
+            <link>http://tyche.cc/showcase/camunda-docs/</link>
+            <pubDate>Tue, 01 Dec 2015 04:20:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/camunda-docs/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>RIDING BYTES</title>
+            <link>http://tyche.cc/showcase/ridingbytes/</link>
+            <pubDate>Sun, 27 Sep 2015 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/ridingbytes/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>greenitglobe.com</title>
+            <link>http://tyche.cc/showcase/gig/</link>
+            <pubDate>Mon, 24 Aug 2015 07:32:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/gig/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>eSolia.com</title>
+            <link>http://tyche.cc/showcase/esolia-com/</link>
+            <pubDate>Tue, 07 Jul 2015 04:32:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/esolia-com/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>eSolia.pro</title>
+            <link>http://tyche.cc/showcase/esolia-pro/</link>
+            <pubDate>Tue, 07 Jul 2015 04:32:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/esolia-pro/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>Vamp.io</title>
+            <link>http://tyche.cc/showcase/vamp/</link>
+            <pubDate>Thu, 26 Jun 2014 15:45:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/vamp/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>CloudShark</title>
+            <link>http://tyche.cc/showcase/cloudshark/</link>
+            <pubDate>Thu, 27 Mar 2014 09:45:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/cloudshark/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>Chimera Art Space</title>
+            <link>http://tyche.cc/showcase/chimera-art-space/</link>
+            <pubDate>Wed, 02 Oct 2013 07:32:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/chimera-art-space/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/agency/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/agency/</guid>
+            <description>
+
+&lt;h1 id=&#34;agency-theme&#34;&gt;Agency Theme&lt;/h1&gt;
+
+&lt;p&gt;Agency Theme is a one page portfolio for companies and freelancers based on the &lt;a href=&#34;//github.com/IronSummitMedia/startbootstrap-agency&#34;&gt;original Bootstrap theme&lt;/a&gt; by &lt;a href=&#34;//github.com/davidtmiller&#34;&gt;David Miller&lt;/a&gt;. This Hugo theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a timeline, and a contact form.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/digitalcraftsman/hugo-agency-theme/master/images/screenshot.png&#34; alt=&#34;Hugo Agency Theme screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#change-the-hero-background&#34;&gt;Change the hero background&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#present-your-skills&#34;&gt;Present your skills&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#show-what-happened&#34;&gt;Show what happened&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#introduce-your-team&#34;&gt;Introduce your team&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#list-your-clients&#34;&gt;List your clients&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Inside the folder of your Hugo site run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ mkdir themes
+$ cd themes
+$ git clone https://github.com/digitalcraftsman/hugo-agency-theme
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For more information read the official &lt;a href=&#34;//gohugo.io/overview/installing/&#34;&gt;setup guide&lt;/a&gt; of Hugo.&lt;/p&gt;
+
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting started&lt;/h2&gt;
+
+&lt;p&gt;After installing the Agency Theme successfully it requires a just a few more steps to get your site running.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-config-file&#34;&gt;The config file&lt;/h3&gt;
+
+&lt;p&gt;Take a look inside the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/tree/master/exampleSite&#34;&gt;&lt;code&gt;exampleSite&lt;/code&gt;&lt;/a&gt; folder of this theme. You&amp;rsquo;ll find a file called &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;. To use it, copy the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt; in the root folder of your Hugo site. Feel free to change the strings in this theme.&lt;/p&gt;
+
+&lt;h3 id=&#34;change-the-hero-background&#34;&gt;Change the hero background&lt;/h3&gt;
+
+&lt;p&gt;The hero acts as an eye-catcher for your site. So consider to give him a nice background. You just need to replace the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/static/img/header-bg.jpg&#34;&gt;&lt;code&gt;header-bg.jpg&lt;/code&gt;&lt;/a&gt; at &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/tree/master/static/img&#34;&gt;&lt;code&gt;static/img&lt;/code&gt;&lt;/a&gt; with your own background image. But it&amp;rsquo;s important that you keep the original filename.&lt;/p&gt;
+
+&lt;h3 id=&#34;present-your-skills&#34;&gt;Present your skills&lt;/h3&gt;
+
+&lt;p&gt;This section should show your capabilities and skills. You can change the services at &lt;code&gt;[params.services.list]&lt;/code&gt; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;All icons are part of Fontawesome&amp;rsquo;s icon font. Look at the website of &lt;a href=&#34;//fortawesome.github.io/Font-Awesome/icons/&#34;&gt;Fontawesome&lt;/a&gt; for more icons. The icons are represented by their corresponding CSS class of Fontawesome. A skill is defined like this example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[[params.services.list]]
+      icon = &amp;quot;fa-shopping-cart&amp;quot;
+      title = &amp;quot;E-Commerce&amp;quot;
+      description = &amp;quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;create-your-portfolio&#34;&gt;Create your portfolio&lt;/h3&gt;
+
+&lt;p&gt;Beside the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;, there is under &lt;code&gt;data&lt;/code&gt; another subfolder called &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/tree/master/exampleSite/data/projects&#34;&gt;&lt;code&gt;projects&lt;/code&gt;&lt;/a&gt; which hosts the files that will appear as your projects in the portfolio section. Such a project file might look like &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/data/projects/2014-07-05-project-1.yaml&#34;&gt;this one&lt;/a&gt; written in YAML:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;modalID: 1
+title: Round Icons
+subtitle: Lorem ipsum dolor sit amet consectetur.
+date: 2014-07-05
+img: roundicons.png
+preview: roundicons-preview.png
+client: Start Bootstrap
+clientLink: &amp;quot;#&amp;quot;
+category: Graphic Design
+description: Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo! &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;**Want these icons in this portfolio item sample?** You can download 60 of them for free, courtesy of [RoundIcons.com](//getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc), or you can purchase the 1500 icon set [here](//getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc).
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Copy &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/tree/master/exampleSite/data/projects&#34;&gt;&lt;code&gt;projects&lt;/code&gt;&lt;/a&gt; inside the &lt;code&gt;data&lt;/code&gt; folder in the &lt;strong&gt;root&lt;/strong&gt; directory of your site. Let&amp;rsquo;s make some changes.&lt;/p&gt;
+
+&lt;p&gt;Pay attention to the &lt;code&gt;modalID&lt;/code&gt;. It must be a unique integer and be incremented with each new project you want to add to the portfolio. Otherwise, the corresponding modal can&amp;rsquo;t be rendered.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, you can use Markdown syntax for URLs like here &lt;code&gt;[text](//url.to/source)&lt;/code&gt; in the description.&lt;/p&gt;
+
+&lt;p&gt;To give your projects an image, save those under &lt;a href=&#34;github.com/digitalcraftsman/hugo-agency-theme/tree/master/static/img/portfolio&#34;&gt;&lt;code&gt;static/img/portfolio&lt;/code&gt;&lt;/a&gt;. Don&amp;rsquo;t forget to set the appropriate &lt;strong&gt;filename&lt;/strong&gt; under &lt;code&gt;img&lt;/code&gt; in your project.&lt;/p&gt;
+
+&lt;h3 id=&#34;show-what-happened&#34;&gt;Show what happened&lt;/h3&gt;
+
+&lt;p&gt;This theme features a timeline for important events in your company or your career too. You can add a new event by copying the following snippet to the &lt;code&gt;[params.about]&lt;/code&gt; section in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[[params.about.events]]
+      img = &amp;quot;1.jpg&amp;quot;
+      date = &amp;quot;2009-2011&amp;quot;
+      title = &amp;quot;Our Humble Beginnings&amp;quot;
+      description = &amp;quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The image set under &lt;code&gt;img&lt;/code&gt; needs to be stored at &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/tree/master/static/img/about&#34;&gt;&lt;code&gt;static/img/about&lt;/code&gt;&lt;/a&gt;. The events will be listed from the top to the bottom.&lt;/p&gt;
+
+&lt;h3 id=&#34;introduce-your-team&#34;&gt;Introduce your team&lt;/h3&gt;
+
+&lt;p&gt;Let the visitors or potential clients know who you are. To add a team member paste the code below into the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;. The &lt;code&gt;img&lt;/code&gt; field refers to the shown image. Paste those of you or your colleages into &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/tree/master/static/img/team&#34;&gt;&lt;code&gt;static/img/team&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[[params.team.members]]
+    img = &amp;quot;1.jpg&amp;quot;
+    name = &amp;quot;Kay Garland&amp;quot;
+    position = &amp;quot;Lead Designer&amp;quot;
+    social = [
+        [&amp;quot;fa-twitter&amp;quot;, &amp;quot;#&amp;quot;],
+        [&amp;quot;fa-facebook&amp;quot;, &amp;quot;#&amp;quot;],
+        [&amp;quot;fa-linkedin&amp;quot;, &amp;quot;#&amp;quot;]
+    ]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As you can see there&amp;rsquo;s an option to link individual social networks. The first index of the array represents the icon (or CSS class) of &lt;a href=&#34;//fortawesome.github.io/Font-Awesome/icons/&#34;&gt;Fontawesome&lt;/a&gt;. The last index is simply the link to the social network profiles.&lt;/p&gt;
+
+&lt;h3 id=&#34;list-your-clients&#34;&gt;List your clients&lt;/h3&gt;
+
+&lt;p&gt;You can also show some of your clients. To do so, paste the client&amp;rsquo;s logos into &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/tree/master/static/img/logos&#34;&gt;&lt;code&gt;static/img/logos&lt;/code&gt;&lt;/a&gt; and add the example below to the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[[params.clients]]
+    logo = &amp;quot;designmodo.jpg&amp;quot;
+    link = &amp;quot;#&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;The logos require a dimension of 200 x 50 pixels.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/h3&gt;
+
+&lt;p&gt;Since this page will be static, you can use &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt; as proxy to send the actual email. Each month, visitors can send you up to one thousand emails without incurring extra charges. Begin the setup by following the steps below:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Enter your email address under &amp;lsquo;email&amp;rsquo; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Upload the generated site to your server&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Send a dummy email yourself to confirm your account&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Click the confirm link in the email from &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re done. Happy mailing!&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;nearly-finished&#34;&gt;Nearly finished&lt;/h3&gt;
+
+&lt;p&gt;In order to see your site in action, run Hugo&amp;rsquo;s built-in local server.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ hugo server -w
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now enter &lt;code&gt;localhost:1313&lt;/code&gt; in the address bar of your browser.&lt;/p&gt;
+
+&lt;h2 id=&#34;contributing&#34;&gt;Contributing&lt;/h2&gt;
+
+&lt;p&gt;Did you found a bug or got an idea for a new feature? Feel free to use the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/issues&#34;&gt;issue tracker&lt;/a&gt; to let me know. Or make directly a &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/pulls&#34;&gt;pull request&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;This theme is released under the Apache License 2.0 For more information read the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/LICENSE&#34;&gt;License&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;annotations&#34;&gt;Annotations&lt;/h2&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&#34;//github.com/spf13&#34;&gt;Steve Francia&lt;/a&gt; for creating Hugo and the awesome community around the project.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/herring-cove/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/herring-cove/</guid>
+            <description>
+
+&lt;h1 id=&#34;herring-cove&#34;&gt;Herring Cove&lt;/h1&gt;
+
+&lt;p&gt;Herring Cove is a clean and responsive &lt;a href=&#34;//gohugo.io&#34;&gt;Hugo&lt;/a&gt; theme based on the &lt;a href=&#34;http://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt; theme of the same name.&lt;/p&gt;
+
+&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fixed Sidebar with social links&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Minimal design&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Comments by Disqus&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Social Sharing abilities&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Easy to configure&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Based on Bootstrap&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://tyche.cc/images/screenshot1.png&#34; alt=&#34;screenshot&#34; /&gt;&lt;br /&gt;
+&lt;img src=&#34;http://tyche.cc/images/screenshot2.png&#34; alt=&#34;screenshot&#34; /&gt;&lt;br /&gt;
+&lt;img src=&#34;http://tyche.cc/images/screenshot-landing.png&#34; alt=&#34;screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;setup&#34;&gt;Setup&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Install Hugo&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Fork or &lt;a href=&#34;//github.com/spf13/herring-cove/archive/master.zip&#34;&gt;download&lt;/a&gt; this theme repo&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Edit the config file in the root directory of your site&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;download&#34;&gt;Download&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;//github.com/spf13/herring-cove/archive/master.zip&#34;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;license&#34;&gt;License&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;//opensource.org/licenses/MIT&#34;&gt;MIT&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;author&#34;&gt;Author&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Ravi Patel&lt;/strong&gt;&lt;br /&gt;
+- &lt;a href=&#34;https://github.com/arnp&#34;&gt;https://github.com/arnp&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;ported-by&#34;&gt;Ported By&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Steve Francia&lt;/strong&gt;&lt;br /&gt;
+- &lt;a href=&#34;https://github.com/spf13&#34;&gt;https://github.com/spf13&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Herring Cove is always a work in progress and as such, I hope to clean up the code and add features as time permits. Feel free to add your own additions.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;What&amp;rsquo;s with the name?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;//www.capecodbeachchair.com/beachguide/index.cfm?page=3&amp;amp;BeachID=5&#34;&gt;Herring Cove&lt;/a&gt; is a beach on Cape Cod in Provincetown, Massachusetts. If you&amp;rsquo;re in the area, be sure to check it out!&lt;/p&gt;
+
+&lt;h2 id=&#34;additional-features-by&#34;&gt;Additional features by&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Maikel Bollemeijer&lt;/strong&gt;&lt;br /&gt;
+- &lt;a href=&#34;https://github.com/mbollemeijer&#34;&gt;https://github.com/mbollemeijer&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Profile picture parameter&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Links in the menus are generated through params in the config&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Landingpage&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Below an example of the yaml config&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;params:
+  ProfilePicture: &amp;quot;pathOrUrlToImage&amp;quot;
+  links:
+    Home : &amp;quot;/&amp;quot;
+    Blog: &amp;quot;/blog/&amp;quot;
+    About: &amp;quot;/about/&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;landing-page&#34;&gt;Landing page&lt;/h2&gt;
+
+&lt;p&gt;If you want to enable the landing page make sure you have the following params in your config.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;params:
+  ProfilePicture: &amp;quot;pathToImageOrUrlToImage&amp;quot;
+  enableLandingPage: true
+  landingPageRedirectUrl: &amp;quot;/about/&amp;quot;
+  AuthorName: &amp;quot;John Doe&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/hugo-incorporated/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/hugo-incorporated/</guid>
+            <description>
+
+&lt;h1 id=&#34;hugo-incorporated&#34;&gt;Hugo Incorporated&lt;/h1&gt;
+
+&lt;p&gt;Modern Hugo based blog, based entirely on &lt;a href=&#34;https://github.com/kippt/jekyll-incorporated&#34;&gt;jekyll-incorporated&lt;/a&gt;. Great for companies, products or anything. See jekyll-incorporated live at &lt;a href=&#34;http://blog.sendtoinc.com&#34;&gt;blog.sendtoinc.com&lt;/a&gt;. See hugo-incorporated live at &lt;a href=&#34;http://blog.nilproductions.com&#34;&gt;blog.nilproductions.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;installation-usage&#34;&gt;Installation &amp;amp; Usage&lt;/h2&gt;
+
+&lt;p&gt;Hugo-incorporated requires Hugo 0.12-DEV or newer. If your content is not displaying after running &lt;code&gt;hugo server&lt;/code&gt;, be sure that your version (&lt;code&gt;hugo version&lt;/code&gt;) is at least 0.12-DEV.&lt;/p&gt;
+
+&lt;p&gt;Markdown Content goes in content/post/title.md. Then:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo server -w
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The stylesheet is included in static/css. If you want substantial customizations you should use the scss directory and install sass (and Ruby). At the moment, this is entirely optional, since I&amp;rsquo;m commiting the final stylesheet. Note that if you make customizations to main.css, then rebuild with sass, those changes could get lost.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;bundle install
+sass scss/main.scss static/css/main.css
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;More hugo-specific details available at &lt;a href=&#34;http://hugo.spf13.com/&#34;&gt;hugo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt;
+
+&lt;p&gt;Hugo-incorporated specific configuration options are available in [config.yaml].&lt;/p&gt;
+
+&lt;p&gt;Edit: config.yaml (general options), main.css (theme colors &amp;amp; fonts)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo-incorporated/
+├── config.yaml
+├── _scss/
+    ├── main.scss
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;Note: when editing config.yaml, you need to restart hugo to see the changes.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;authors&#34;&gt;Authors&lt;/h2&gt;
+
+&lt;p&gt;Originally built as a Jekyll theme for &lt;a href=&#34;https://sendtoinc.com&#34;&gt;sendtoinc.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Karri Saarinen&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/karrisaarinen&#34;&gt;http://twitter.com/karrisaarinen&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/ksaa&#34;&gt;http://github.com/ksaa&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Jori Lallo&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/jorilallo&#34;&gt;http://twitter.com/jorilallo&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/jorilallo&#34;&gt;http://github.com/jorde&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ported to Hugo:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Nicholas Whittier&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[&lt;a href=&#34;http://twitter.com/nw_iw&#34;&gt;http://twitter.com/nw_iw&lt;/a&gt;]&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;[&lt;a href=&#34;http://github.com/imperialwicket&#34;&gt;http://github.com/imperialwicket&lt;/a&gt;]&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;todo&#34;&gt;Todo:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Document publishing&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Offer sass-less version (Remove ruby entirely?)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Fix feeds and 404 pages&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Confirm core functionality&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/hyde/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/hyde/</guid>
+            <description>
+
+&lt;h1 id=&#34;hyde&#34;&gt;Hyde&lt;/h1&gt;
+
+&lt;p&gt;Hyde is a brazen two-column &lt;a href=&#34;http://hugo.spf13.com&#34;&gt;hugo&lt;/a&gt; theme based on the &lt;a href=&#34;http://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt; theme of the same name.&lt;br /&gt;
+It pairs a prominent sidebar with uncomplicated content.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png&#34; alt=&#34;Hyde screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#options&#34;&gt;Options&lt;/a&gt;&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#sidebar-menu&#34;&gt;Sidebar menu&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#sticky-sidebar-content&#34;&gt;Sticky sidebar content&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#themes&#34;&gt;Themes&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#reverse-layout&#34;&gt;Reverse layout&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#disqus&#34;&gt;Disqus&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#author&#34;&gt;Author&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#ported-by&#34;&gt;Ported by&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;options&#34;&gt;Options&lt;/h2&gt;
+
+&lt;p&gt;Hyde includes some customizable options, typically applied via classes on the &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; element.&lt;/p&gt;
+
+&lt;h3 id=&#34;sidebar-menu&#34;&gt;Sidebar menu&lt;/h3&gt;
+
+&lt;p&gt;Create a list of nav links in the sidebar by assigning &amp;laquo;menu=main&amp;raquo; in the front matter.&lt;/p&gt;
+
+&lt;h3 id=&#34;sticky-sidebar-content&#34;&gt;Sticky sidebar content&lt;/h3&gt;
+
+&lt;p&gt;By default Hyde ships with a sidebar that affixes it&amp;rsquo;s content to the bottom of the sidebar. You can optionally disabled this by removing the &lt;code&gt;.sidebar-sticky&lt;/code&gt; class from the sidebar&amp;rsquo;s &lt;code&gt;.container&lt;/code&gt;. Sidebar content will then normally flow from top to bottom.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;!-- Default sidebar --&amp;gt;
+&amp;lt;div class=&amp;quot;sidebar&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;container sidebar-sticky&amp;quot;&amp;gt;
+    ...
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;!-- Modified sidebar --&amp;gt;
+&amp;lt;div class=&amp;quot;sidebar&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt;
+    ...
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;themes&#34;&gt;Themes&lt;/h3&gt;
+
+&lt;p&gt;Hyde ships with eight optional themes based on the &lt;a href=&#34;https://github.com/chriskempson/base16&#34;&gt;base16 color scheme&lt;/a&gt;. Apply a theme to change the color scheme (mostly applies to sidebar and links).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://f.cloud.github.com/assets/98681/1831229/42b0b354-7384-11e3-8462-31b8df193fe5.png&#34; alt=&#34;Hyde in red&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are eight themes available at this time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://f.cloud.github.com/assets/98681/1817044/e5b0ec06-6f68-11e3-83d7-acd1942797a1.png&#34; alt=&#34;Hyde theme classes&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To use a theme, add the &lt;code&gt;themeColor&lt;/code&gt; variable under &lt;code&gt;params&lt;/code&gt;, like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TOML&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;theme = &amp;quot;hyde&amp;quot;
+
+[params]
+  themeColor = &amp;quot;theme-base-09&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;YAML&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;theme: &amp;quot;hyde&amp;quot;
+
+params:
+  themeColor: &amp;quot;theme-base-09&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To create your own theme, look to the Themes section of &lt;a href=&#34;https://github.com/poole/hyde/blob/master/public/css/hyde.css&#34;&gt;included CSS file&lt;/a&gt;. Copy any existing theme (they&amp;rsquo;re only a few lines of CSS), rename it, and change the provided colors.&lt;/p&gt;
+
+&lt;h3 id=&#34;reverse-layout&#34;&gt;Reverse layout&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://f.cloud.github.com/assets/98681/1831230/42b0d3ac-7384-11e3-8d54-2065afd03f9e.png&#34; alt=&#34;Hyde with reverse layout&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hyde&amp;rsquo;s page orientation can be reversed with a single class.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;body class=&amp;quot;layout-reverse&amp;quot;&amp;gt;
+  ...
+&amp;lt;/body&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;disqus&#34;&gt;Disqus&lt;/h3&gt;
+
+&lt;p&gt;You can optionally enable a comment system powered by Disqus for the posts. Simply add the variable &lt;code&gt;disqusShortname&lt;/code&gt; to the &lt;code&gt;params&lt;/code&gt; in your config file.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TOML&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[params]
+  disqusShortname = &amp;quot;spf13&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;YAML&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;params:
+  disqusShortname: &amp;quot;spf13&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;author&#34;&gt;Author&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Mark Otto&lt;/strong&gt;&lt;br /&gt;
+- &lt;a href=&#34;https://github.com/mdo&#34;&gt;https://github.com/mdo&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&#34;https://twitter.com/mdo&#34;&gt;https://twitter.com/mdo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;ported-by&#34;&gt;Ported By&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Steve Francia&lt;/strong&gt;&lt;br /&gt;
+- &lt;a href=&#34;https://github.com/spf13&#34;&gt;https://github.com/spf13&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&#34;https://twitter.com/spf13&#34;&gt;https://twitter.com/spf13&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;Open sourced under the &lt;a href=&#34;LICENSE.md&#34;&gt;MIT license&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;3&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

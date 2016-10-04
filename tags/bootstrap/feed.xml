@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/bootstrap/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title>cdnoverview.com</title>
+            <link>http://tyche.cc/showcase/cdnoverview/</link>
+            <pubDate>Wed, 17 Feb 2016 15:19:08 &#43;0100</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/cdnoverview/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>arresteddevops</title>
+            <link>http://tyche.cc/showcase/arresteddevops/</link>
+            <pubDate>Fri, 20 Nov 2015 01:46:33 -0600</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/arresteddevops/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>Launchcode Software Studios</title>
+            <link>http://tyche.cc/showcase/launchcode5/</link>
+            <pubDate>Sat, 01 Nov 2014 07:32:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/launchcode5/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>Andrew S Codispoti</title>
+            <link>http://tyche.cc/showcase/asc/</link>
+            <pubDate>Wed, 22 Jan 2014 07:32:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/asc/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>Chimera Art Space</title>
+            <link>http://tyche.cc/showcase/chimera-art-space/</link>
+            <pubDate>Wed, 02 Oct 2013 07:32:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/chimera-art-space/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title>Hugo</title>
+            <link>http://tyche.cc/showcase/hugo/</link>
+            <pubDate>Mon, 01 Jul 2013 07:32:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/showcase/hugo/</guid>
+            <description></description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/beg/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/beg/</guid>
+            <description>
+
+&lt;h1 id=&#34;beg&#34;&gt;Beg&lt;/h1&gt;
+
+&lt;p&gt;Beg is a double-column theme for &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Inspired by &lt;a href=&#34;https://github.com/kAworu/octostrap3&#34;&gt;kAworu/octostrap3&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/dim0627/hugo_theme_beg/master/images/top.png&#34; alt=&#34;Beg Screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Google Analytics&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Disqus&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;SNS Links(Facebook, Twitter, GitHub)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Share Button&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Tagging&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Related Post&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;installation&#34;&gt;Installation&lt;/h1&gt;
+
+&lt;p&gt;Referred from &lt;a href=&#34;https://github.com/spf13/hugoThemes#installing-themes&#34;&gt;hugoThemes#Installing Themes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;installing-with-other-all-themes&#34;&gt;Installing with other all themes&lt;/h2&gt;
+
+&lt;p&gt;If you would like to install all of the available hugo themes, simply clone the entire repository from within your working directory.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone --recursive https://github.com/spf13/hugoThemes.git themes
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;installing-a-single-theme&#34;&gt;Installing a single theme&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;mkdir themes
+cd themes
+git clone https://github.com/dim0627/hugo_theme_beg beg
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;build-with-beg&#34;&gt;Build with Beg&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo server -t beg
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;configuration&#34;&gt;Configuration&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;config.yaml&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;BaseUrl: &amp;quot;http://yet.unresolved.xyz&amp;quot;
+LanguageCode: &amp;quot;en-us&amp;quot;
+Title: &amp;quot;Beg&amp;quot;
+
+Params:
+  Author: &amp;quot;Daisuke Tsuji&amp;quot;
+  DateForm: &amp;quot;Mon, Jan 2, 2006&amp;quot;
+  GoogleAnalyticsUserID: &amp;quot;UA-55005303-5&amp;quot;
+  Facebook: &amp;quot;daisuke.tsuji.735&amp;quot;
+  Twitter: &amp;quot;dim0627&amp;quot;
+  Github: &amp;quot;dim0627&amp;quot;
+  ShowRelatedPost: True
+  Disqus: &amp;quot;unresolved&amp;quot;
+  SyntaxHighlightTheme: &amp;quot;github.min.css&amp;quot;
+
+Indexes:
+  tag: &amp;quot;tags&amp;quot;
+
+permalinks:
+  post: /blog/:year/:month/:day/:slug/
+
+MetadataFormat: &amp;quot;yaml&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Example : &lt;a href=&#34;https://github.com/dim0627/hugo_theme_beg/blob/source/config.yaml&#34;&gt;My config.yaml&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;example post&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;+++
+title: &amp;quot;Post title here&amp;quot;
+date: 2014-09-17
+comments: true
+tags: [&amp;quot;gitHub&amp;quot;, &amp;quot;octopress&amp;quot;, &amp;quot;jekyll&amp;quot;]
++++
+
+Contents here
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;contact-us&#34;&gt;Contact us&lt;/h1&gt;
+
+&lt;p&gt;Please mail to &lt;code&gt;dim0627@gmail.com&lt;/code&gt; or SNS.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/daisuke.tsuji.735&#34;&gt;https://www.facebook.com/daisuke.tsuji.735&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/dim0627&#34;&gt;https://twitter.com/dim0627&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/bootie-docs/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/bootie-docs/</guid>
+            <description>
+
+&lt;h1 id=&#34;bootie-docs&#34;&gt;Bootie Docs&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Bootie Docs&lt;/strong&gt; is a simple &lt;a href=&#34;http://gohugo.io/&#34;&gt;hugo&lt;/a&gt; theme for documentation.&lt;br /&gt;
+The name &amp;laquo;bootie&amp;raquo; comes from &lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Bootstrap&lt;/a&gt; CSS.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/key-amb/hugo-theme-bootie-docs/master/images/tn.png&#34; alt=&#34;Bootie Docs screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can see demo and full documentation at &lt;a href=&#34;http://key-amb.github.io/bootie-docs-demo/&#34;&gt;http://key-amb.github.io/bootie-docs-demo/&lt;/a&gt; .&lt;/p&gt;
+
+&lt;h2 id=&#34;contents&#34;&gt;CONTENTS&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#quickstart&#34;&gt;QUICKSTART&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#options&#34;&gt;OPTIONS&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#limitation&#34;&gt;LIMITATION&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#dependencies&#34;&gt;DEPENDENCIES&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;LICENSE&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;quickstart&#34;&gt;QUICKSTART&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;hugo new _index.md&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Edit &lt;code&gt;content/_index.md&lt;/code&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Then the content appears on top page.&lt;/p&gt;
+
+&lt;h2 id=&#34;options&#34;&gt;OPTIONS&lt;/h2&gt;
+
+&lt;p&gt;You can customize the menu items in the header navigation bar by configuring &lt;code&gt;params.mainMenu&lt;/code&gt; in your &lt;em&gt;config.toml&lt;/em&gt; (or &lt;em&gt;config.yaml&lt;/em&gt;).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# example of config.toml
+[params]
+  mainMenu = [&amp;quot;about&amp;quot;, &amp;quot;usage&amp;quot;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;All other options and usages are described at the documentation site &amp;ndash; &lt;a href=&#34;http://key-amb.github.io/bootie-docs-demo/&#34;&gt;http://key-amb.github.io/bootie-docs-demo/&lt;/a&gt; .&lt;/p&gt;
+
+&lt;h2 id=&#34;limitation&#34;&gt;LIMITATION&lt;/h2&gt;
+
+&lt;p&gt;Because &lt;em&gt;Bootie Docs&lt;/em&gt; is developed for documentation, it lacks many blog-type facilities such as RSS feeds, pagination of posts and so on.&lt;/p&gt;
+
+&lt;h2 id=&#34;dependencies&#34;&gt;DEPENDENCIES&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Bootie Docs&lt;/strong&gt; includes following libraries:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Bootstrap&lt;/a&gt; v3.3.4 &amp;hellip; Well-known CSS framework.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jquery.com/&#34;&gt;jQuery&lt;/a&gt; v1.11.2 &amp;hellip; Requried by &lt;em&gt;Bootstrap&lt;/em&gt;.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://highlightjs.org/&#34;&gt;highlight.js&lt;/a&gt; v8.5 &amp;hellip; For syntax highlighting.&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;LICENSE&lt;/h2&gt;
+
+&lt;p&gt;Copyright &amp;copy; 2015 YASUTAKE Kiyoshi.&lt;br /&gt;
+Released under the MIT License.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/hugo-bootswatch/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/hugo-bootswatch/</guid>
+            <description>
+
+&lt;h1 id=&#34;hugo-bootswatch&#34;&gt;Hugo-bootswatch&lt;/h1&gt;
+
+&lt;p&gt;Hugo-bootswatch is a &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; theme based on &lt;a href=&#34;http://bootswatch.com/&#34;&gt;Bootswatch&lt;/a&gt;, which themes &lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Bootstrap 3&lt;/a&gt;. As such, Hugo-bootswatch will work as a Bootstrap theme, and also allows simple updating to support any Bootswatch customizations. Hugo-bootswatch comes with Bootstrap 3.3.2 and the bootswatch.js is already included. Customizing the Bootswatch theme is as easy as downloading the Bootswatch-customized bootstrap.min.css file (details below).&lt;/p&gt;
+
+&lt;p&gt;Hugo-bootswatch expects &lt;a href=&#34;http://gohugo.io/content/sections/&#34;&gt;section organization&lt;/a&gt;, which are loaded as navbar links in the header, and placed in a &amp;laquo;Sections&amp;raquo; dropdown.&lt;/p&gt;
+
+&lt;p&gt;Hugo-bootswatch was originally built for documentation, so it is missing a lot of blog-type support (most notably the concept of authors). A &amp;lsquo;post&amp;rsquo; archetype may make sense to accommodate this if there is interest.&lt;/p&gt;
+
+&lt;h2 id=&#34;customization&#34;&gt;Customization&lt;/h2&gt;
+
+&lt;p&gt;Hugo-bootswatch is made for customization, and it is easiest to customize by using your own &lt;code&gt;static/css/hugo-bootswatch.css&lt;/code&gt; and &lt;code&gt;static/css/bootstrap.min.css&lt;/code&gt; files. Note that these files are not empty, so the overriding file will need to accommodate any existing content by inclusion or replacement.&lt;/p&gt;
+
+&lt;h3 id=&#34;bootswatch&#34;&gt;Bootswatch&lt;/h3&gt;
+
+&lt;p&gt;Visit &lt;a href=&#34;http://bootswatch.com/&#34;&gt;Bootswatch&lt;/a&gt; and choose the theme you like. Download the available &lt;code&gt;bootstrap.min.css&lt;/code&gt; replacement and place it in &lt;code&gt;static/css/bootstrap.min.css&lt;/code&gt; to override the default (Bootstrap 3.3.2) file.&lt;/p&gt;
+
+&lt;h3 id=&#34;hugo-bootswatch-1&#34;&gt;Hugo-bootswatch&lt;/h3&gt;
+
+&lt;p&gt;Make any changes that are particular to your site in &lt;code&gt;static/css/hugo-bootswatch.css&lt;/code&gt;. This will automatically apply your customizations to the site.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/startbootstrap-clean-blog/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/startbootstrap-clean-blog/</guid>
+            <description>
+
+&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+
+&lt;p&gt;Hugo theme based on &lt;a href=&#34;http://startbootstrap.com/template-overviews/clean-blog/&#34;&gt;Start Bootstrap Clean Blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/humboldtux/startbootstrap-clean-blog/master/images/tn.png&#34; alt=&#34;Screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+
+&lt;h3 id=&#34;as-is&#34;&gt;As is&lt;/h3&gt;
+
+&lt;p&gt;You can use the site as is, it will work. You can for example use it with &lt;a href=&#34;https://github.com/spf13/HugoBasicExample&#34;&gt;HugoBasicExample&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;full-features&#34;&gt;full features&lt;/h4&gt;
+
+&lt;p&gt;If you want to have all the features and pages of the original theme, you will need a similar &lt;em&gt;config.toml&lt;/em&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;baseurl = &amp;quot;http://humboldtux.github.io/sbcb-demo&amp;quot;
+title = &amp;quot;Start Bootstrap Clean Blog&amp;quot;
+canonifyurls = true
+paginate = 10
+theme = &amp;quot;startbootstrap-clean-blog&amp;quot;
+languageCode = &amp;quot;en-us&amp;quot;
+copyright = &amp;quot;Code released under the Apache 2.0 license.&amp;quot;
+
+[author]
+  name = &amp;quot;Benoît Benedetti&amp;quot;
+    
+[params]
+  DateForm = &amp;quot;Mon, Jan 2, 2006&amp;quot;
+  Description = &amp;quot;Your site description&amp;quot;
+  Author = &amp;quot;Benoît Benedetti&amp;quot;
+  email = &amp;quot;benoit.benedetti@gmail.com&amp;quot;
+  Ganalytics = &amp;quot;XX-00000000-0&amp;quot;
+              
+[[params.social]]
+  title = &amp;quot;twitter&amp;quot;
+  url = &amp;quot;https://twitter.com/humboldtux&amp;quot;
+[[params.social]]
+  title = &amp;quot;github&amp;quot;
+  url = &amp;quot;https://github.com/humboldtux&amp;quot;
+[[params.social]]
+  title = &amp;quot;facebook&amp;quot;
+  url = &amp;quot;https://www.facebook.com/FACEBOOKHANDLE&amp;quot;
+                                      
+[[menu.main]]
+  name = &amp;quot;home&amp;quot;
+  url = &amp;quot;/&amp;quot;
+  weight = -200
+[[menu.main]]
+  name = &amp;quot;Archives&amp;quot;
+  url = &amp;quot;/post/&amp;quot;
+  weight = -180
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can find a &lt;a href=&#34;http://humboldtux.github.io/sbcb-demo/&#34;&gt;Demo site&lt;/a&gt;, and have a look at the source on the&lt;br /&gt;
+&lt;a href=&#34;https://github.com/humboldtux/sbcb-demo&#34;&gt;repo site&lt;/a&gt; for configuration parameters.&lt;/p&gt;
+
+&lt;h3 id=&#34;custom&#34;&gt;Custom&lt;/h3&gt;
+
+&lt;p&gt;You can have a look at my &lt;a href=&#34;http://www.humboldtux.net&#34;&gt;personal website&lt;/a&gt;, where i customize it and use it in a different way than the original theme.&lt;/p&gt;
+
+&lt;h2 id=&#34;todo&#34;&gt;TODO&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;multi-language support:&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;encoding&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/hugo/tree/master/examples/multilingual&#34;&gt;https://github.com/spf13/hugo/tree/master/examples/multilingual&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/t/multiple-language-websites/537&#34;&gt;http://discuss.gohugo.io/t/multiple-language-websites/537&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/t/hugo-multisite-workflow/103&#34;&gt;http://discuss.gohugo.io/t/hugo-multisite-workflow/103&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&amp;laquo;Edit on github&amp;raquo; feature &lt;a href=&#34;http://discuss.gohugo.io/t/how-to-implement-edit-this-page-on-github/1166&#34;&gt;http://discuss.gohugo.io/t/how-to-implement-edit-this-page-on-github/1166&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Display archive posts per year/month&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;dynamic configuration of email for JS contact form&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Advanced pagination, make pagination button look like older posts button&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;pre and next links in post &lt;a href=&#34;https://github.com/antzucaro/az.com/blob/master/layouts/_default/single.html&#34;&gt;https://github.com/antzucaro/az.com/blob/master/layouts/_default/single.html&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Suggested links at the bottom of post&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;use post title as post image name&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;mailing list subscription form&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Google search form&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/t/how-are-you-implementing-site-search/986&#34;&gt;http://discuss.gohugo.io/t/how-are-you-implementing-site-search/986&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;multi author support, authors list page, author page&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;use {{ .Content }} for 404.html&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;deploy workflow&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Makefile&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/t/deployment-workflow/90&#34;&gt;http://discuss.gohugo.io/t/deployment-workflow/90&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/t/my-deployment-process/807&#34;&gt;http://discuss.gohugo.io/t/my-deployment-process/807&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/t/automated-hugo-deployments-anywhere-using-wercker/539&#34;&gt;http://discuss.gohugo.io/t/automated-hugo-deployments-anywhere-using-wercker/539&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;updatedate post metadata for updated post&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;comment system support: disqus, Discourse, Kaiju&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Syntax highlighting&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Less support&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;post series : &lt;a href=&#34;http://discuss.gohugo.io/t/creating-post-series/1115&#34;&gt;http://discuss.gohugo.io/t/creating-post-series/1115&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Add menu entry for taxonomies&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;DRY template&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/vienna/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/vienna/</guid>
+            <description>
+
+&lt;h1 id=&#34;vienna&#34;&gt;Vienna&lt;/h1&gt;
+
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;Vienna is a simple and clean blog theme for &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.&lt;br /&gt;
+Notable features are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Simple and clean design&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Client side source code highlighting&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Social links (Twitter, Facebook, GitHub, LinkedIn, Instagram, Keybase)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Support for tags&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Analytics with Google Analytics or Mixpanel&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Responsive design&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Font Awesome icons&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;In your hugo site directory, run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ mkdir themes
+$ cd themes
+$ git clone https://github.com/keichi/vienna
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Vienna is also included in the &lt;code&gt;spf13/hugoThemes&lt;/code&gt; repository.&lt;/p&gt;
+
+&lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt;
+
+&lt;p&gt;You may specify following options in &lt;code&gt;config.toml&lt;/code&gt; of your site to make use of&lt;br /&gt;
+this theme&amp;rsquo;s features.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;baseurl = &amp;quot;Your site URL&amp;quot;
+languageCode = &amp;quot;en-us&amp;quot;
+title = &amp;quot;Your site title&amp;quot;
+# Copyright notice. This is displayer in the footer.
+copyright = &amp;quot;&amp;amp;copy; Copyright notice&amp;quot;
+
+[params]
+    # Social accounts. Link to these accounts are displayed in the header and
+    # footer.
+    twitter = &amp;quot;Your Twitter username&amp;quot;
+    github = &amp;quot;Your GitHub username&amp;quot;
+    linkedin = &amp;quot;Your LinkedIn username&amp;quot;
+    googleplus = &amp;quot;Your Google+ user id&amp;quot;
+    facebook = &amp;quot;Your Facebook username&amp;quot;
+    stackoverflow = &amp;quot;Your Stackoverflow user id (number)&amp;quot;
+    keybase = &amp;quot;Your keybase.io username&amp;quot;
+    instagram = &amp;quot;Your Instagram username&amp;quot;
+    # Disqus shortname
+    disqus = &amp;quot;Your disqus shortname&amp;quot;
+    # Google Analytics API key.
+    ga_api_key = &amp;quot;Your Google Analytics tracking id&amp;quot;
+    # Mixpanel API key.
+    mixpanel_api_key = &amp;quot;Your Mixpanel API key&amp;quot;
+    author = &amp;quot;Your Name&amp;quot;
+    avatar = &amp;quot;/path/to/avatar&amp;quot;
+    contact = &amp;quot;Your contact link (ex. mailto:foo@example.com)&amp;quot;
+    bio = &amp;quot;Your short bio&amp;quot;
+    # Short subtitle/tagline. This is displayed in the header.
+    subtitle = &amp;quot;Short subtitle/tagline of your blog&amp;quot;
+    themecolor = &amp;quot;#hexcolor&amp;quot; # Defines the tab color in Chrome for Android.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+
+&lt;p&gt;Use hugo&amp;rsquo;s &lt;code&gt;-t vienna&lt;/code&gt; or &lt;code&gt;--theme=vienna&lt;/code&gt; option with hugo commands.&lt;br /&gt;
+Example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ hugo server -t vienna -w -D
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

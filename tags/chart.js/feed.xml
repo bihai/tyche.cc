@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/chart.js/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/hugo-uno/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/hugo-uno/</guid>
+            <description>
+
+&lt;h1 id=&#34;hugo-uno&#34;&gt;hugo-uno&lt;/h1&gt;
+
+&lt;p&gt;A responsive hugo theme with awesome font&amp;rsquo;s, charts and light-box galleries, the theme is based on &lt;a href=&#34;https://github.com/daleanthony/Uno&#34;&gt;Uno&lt;/a&gt; for ghost.&lt;br /&gt;
+A example site is available at &lt;a href=&#34;http://fredrikloch.me&#34;&gt;fredrikloch.me&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A Swedish translation is available in the branch feature/swedish&lt;/p&gt;
+
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+
+&lt;p&gt;The following is a short tutorial on the usage of some features in the theme.&lt;/p&gt;
+
+&lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt;
+
+&lt;p&gt;To take full advantage of the features in this theme you can add variables to your site config file, the following is the example config from the example site:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;languageCode = &amp;quot;en-us&amp;quot;
+contentdir = &amp;quot;content&amp;quot;
+publishdir = &amp;quot;public&amp;quot;
+builddrafts = false
+baseurl = &amp;quot;http://fredrikloch.me/&amp;quot;
+canonifyurls = true
+title = &amp;quot;Fredrik Loch&amp;quot;
+author = &amp;quot;Fredrik Loch&amp;quot;
+copyright = &amp;quot;This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.&amp;quot;
+
+
+[indexes]
+   category = &amp;quot;categories&amp;quot;
+   tag = &amp;quot;tags&amp;quot;
+[Params]
+  AuthorName = &amp;quot;Fredrik&amp;quot;
+  github = &amp;quot;Senjindarashiva&amp;quot;
+  bitbucket = &amp;quot;floch&amp;quot;
+  flickr = &amp;quot;senjin&amp;quot;
+  twitter = &amp;quot;senjindarshiva&amp;quot;
+  email = &amp;quot;fredrik.loch@outlook.com&amp;quot;
+  description = &amp;quot;&amp;quot;
+  cv = &amp;quot;/pages/cv&amp;quot;
+  muut = &amp;quot;fredrikloch&amp;quot;
+  linkedin = &amp;quot;fredrikloch&amp;quot;
+  cover = &amp;quot;/images/background-cover.jpg&amp;quot;
+  logo = &amp;quot;/img/logo-1.jpg&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you prefer to use discourse replace the &amp;laquo;muut&amp;raquo; line with the following(remember the trailing slash)&lt;/p&gt;
+
+&lt;p&gt;&amp;rdquo;&amp;rsquo;&lt;br /&gt;
+  discourse = &amp;laquo;&lt;a href=&#34;http://discourse.yoursite.com/&amp;quot;&#34;&gt;http://discourse.yoursite.com/&amp;quot;&lt;/a&gt;&lt;br /&gt;
+&amp;rdquo;&amp;rsquo;&lt;/p&gt;
+
+&lt;h2 id=&#34;charts&#34;&gt;Charts&lt;/h2&gt;
+
+&lt;p&gt;To create charts I use &lt;a href=&#34;https://github.com/nnnick/Chart.js&#34;&gt;Chart.js&lt;/a&gt; which can be configured through basic js files. To add a chart to a post use the following short-code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{% chart id=&amp;quot;basicChart&amp;quot; width=860 height=400 js=&amp;quot;../../js/chartData.js&amp;quot; %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Where the javascript file specified contains the data for the chart, a basic example could look like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$(function(){
+  var chartData = {
+      labels: [&amp;quot;Jekyll&amp;quot;, &amp;quot;Hugo&amp;quot;, &amp;quot;Wintersmith&amp;quot;],
+      datasets: [
+          {
+              label: &amp;quot;Mean build time&amp;quot;,
+              fillColor: &amp;quot;#E1EDD7&amp;quot;,
+              strokeColor: &amp;quot;#E1EDD7&amp;quot;,
+              highlightFill: &amp;quot;#C1D8AB&amp;quot;,
+              highlightStroke: &amp;quot;#C1D8AB&amp;quot;,
+              data: [784, 100, 5255]
+          }
+      ]
+  };
+  var ctx = $(&amp;quot;#chartData&amp;quot;).get(0).getContext(&amp;quot;2d&amp;quot;);
+  var myBarChart = new Chart(ctx).Bar(data1, {
+      scaleBeginAtZero : true,
+      responsive: true,
+      maintainAspectRatio: false,
+    }
+  );
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A running example can be found in my comparison between &lt;a href=&#34;http://fredrikloch.me/post/2014-08-12-Jekyll-and-its-alternatives-from-a-site-generation-point-of-view/&#34;&gt;Jekyll, Hugo and Winthersmith&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;gallery&#34;&gt;Gallery&lt;/h2&gt;
+
+&lt;p&gt;To add a gallery to the site we use basic html together with &lt;a href=&#34;http://sachinchoolur.github.io/lightGallery/index.html&#34;&gt;lightGallery&lt;/a&gt; to create a responsive light-box gallery.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;ul style=&amp;quot;list-style: none;&amp;quot; id=&amp;quot;lightGallery&amp;quot;&amp;gt;
+    &amp;lt;li data-src=&amp;quot;pathToImg.jpg&amp;quot;&amp;gt;
+        &amp;lt;img src=&amp;quot;pathToThumb.jpg&amp;quot;&amp;gt;&amp;lt;/img&amp;gt;
+    &amp;lt;/li&amp;gt;
+    &amp;lt;li data-src=&amp;quot;pathToImg.jpg&amp;quot;&amp;gt;
+        &amp;lt;img src=&amp;quot;pathToThumb.jpg&amp;quot;&amp;gt;&amp;lt;/img&amp;gt;
+    &amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+
+&amp;lt;script src=../../js/lightGallery.min.js&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script&amp;gt;
+    $(&amp;quot;#lightGallery&amp;quot;).lightGallery();
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A running example can be found in my short &lt;a href=&#34;http://fredrikloch.me/post/Lightbox image&#39;s and a short review of hugo/&#34;&gt;review of hugo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Cover page&lt;/strong&gt;&lt;br /&gt;
+The landing page for Hugo-Uno is a full screen &amp;lsquo;cover&amp;rsquo; featuring your avatar, blog title, mini-bio and cover image.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Built with SASS, using BEM&lt;/strong&gt;&lt;br /&gt;
+If you know HTML and CSS making modifications to the theme should be super simple.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Responsive&lt;/strong&gt;&lt;br /&gt;
+Hugo-Uno looks great on all devices, even those weird phablets that nobody buys.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Moot comments&lt;/strong&gt;&lt;br /&gt;
+Moot integration allows users to comment on your posts.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Font-awesome icons&lt;/strong&gt;&lt;br /&gt;
+For more information on available icons: &lt;a href=&#34;http://fortawesome.github.io/Font-Awesome/&#34;&gt;font-awesome&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;No-JS fallback&lt;/strong&gt;&lt;br /&gt;
+While JS is widely used, some themes and websites don&amp;rsquo;t provide fallback for when no JS is available (I&amp;rsquo;m looking at you &lt;a href=&#34;http://blog.squarespace.com/&#34;&gt;Squarespace&lt;/a&gt;). If for some weird reason a visitor has JS disabled your blog will still be usable.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://creativecommons.org/licenses/by/4.0/&#34;&gt;Creative Commons Attribution 4.0 International&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;development&#34;&gt;Development&lt;/h2&gt;
+
+&lt;p&gt;In order to develop or make changes to the theme you will need to have the sass compiler and bourbon both installed.&lt;/p&gt;
+
+&lt;p&gt;To check installation run the following commands from a terminal and you should see the &lt;code&gt;&amp;gt; cli output&lt;/code&gt; but your version numbers may vary.&lt;/p&gt;
+
+&lt;p&gt;** SASS **&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;
+sass -v
+&amp;gt; Sass 3.3.4 (Maptastic Maple)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If for some reason SASS isn&amp;rsquo;t installed follow the instructions from the &lt;a href=&#34;http://sass-lang.com/install&#34;&gt;Sass install page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;** Bourbon **&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;
+bourbon help
+&amp;gt; Bourbon 3.1.8
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If Bourbon isn&amp;rsquo;t installed follow the installation instructions on the &lt;a href=&#34;http://bourbon.io&#34;&gt;Bourbon website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Once installation is verified we will need to go mount the bourbon mixins into the &lt;code&gt;scss&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;p&gt;From the project root run &lt;code&gt;bourbon install&lt;/code&gt; with the correct path&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;bourbon install --path assets/scss
+&amp;gt; bourbon files installed to assets/scss/bourbon/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now that we have the bourbon mixins inside of the &lt;code&gt;scss&lt;/code&gt; src folder we can now use the sass cli command to watch the scss files for changes and recompile them.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sass --watch assets/scss:assets/css
+&amp;gt;&amp;gt;&amp;gt;&amp;gt; Sass is watching for changes. Press Ctrl-C to stop.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To minify the css files use the following command in the assets folder&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;curl -X POST -s --data-urlencode &#39;input@css/uno.css&#39; http://cssminifier.com/raw &amp;gt; css/uno.min.css
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/single-page/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/hugoscroll/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/hugoscroll/</guid>
+            <description>
+
+&lt;h1 id=&#34;hugo-scroll&#34;&gt;Hugo Scroll&lt;/h1&gt;
+
+&lt;p&gt;A live example of this theme is running at this site &lt;a href=&#34;http://hugoscroll.fredrikloch.me&#34;&gt;hugoscroll.fredrikloch.me&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;using-scroll&#34;&gt;Using scroll&lt;/h2&gt;
+
+&lt;p&gt;To get started with hugo you first need to download the &lt;a href=&#34;http://gohugo.io&#34;&gt;binaries&lt;/a&gt;, whith these in place it is easy to get started.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Init site
+hugo new site My_New_Cool_Venture
+cd My_New_Cool_Venture
+
+# Get this cool theme
+git clone https://github.com/SenjinDarashiva/hugoscroll themes/hugoscroll
+
+# Start the watching your folder
+hugo --buildDrafts --theme=&amp;quot;hugoscroll&amp;quot; --watch server
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With this done you can start creating posts, for this theme theme there is some specific information that needs to be added to your&lt;br /&gt;
+post header. For the first and the last post you need to add a class definition, the headers for this page look like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;+++
+title = &amp;quot;What is this&amp;quot;
+description = &amp;quot;First post&amp;quot;
+weight = 1
+type = &amp;quot;post&amp;quot;
+class=&amp;quot;post first&amp;quot;
++++
+
++++
+title = &amp;quot;Finaly!&amp;quot;
+description = &amp;quot;Last Post&amp;quot;
+weight = 100
+type = &amp;quot;post&amp;quot;
+class=&amp;quot;post last&amp;quot;
++++
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Every standard post must contain a weight between the weight of the first and the last to ensure correct ordering, in this case this&lt;br /&gt;
+allows us to use any number between 2 &amp;ndash; 99&lt;/p&gt;
+
+&lt;h2 id=&#34;site-config&#34;&gt;Site config&lt;/h2&gt;
+
+&lt;p&gt;Apart from the regular config you can specify the following parameters to get extra features in the theme&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[Params]
+  github = &amp;quot;Senjindarashiva&amp;quot;
+  bitbucket = &amp;quot;floch&amp;quot;
+  flickr = &amp;quot;senjin&amp;quot;
+  twitter = &amp;quot;senjindarshiva&amp;quot;
+  email = &amp;quot;fredrik.loch@outlook.com&amp;quot;
+  description = &amp;quot;&amp;quot;
+  linkedin = &amp;quot;fredrikloch&amp;quot;
+  cover = &amp;quot;/images/background-cover.jpg&amp;quot;
+  logo = &amp;quot;/img/logo-1.jpg&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;developing-hugoscroll&#34;&gt;Developing hugoscroll&lt;/h1&gt;
+
+&lt;p&gt;In order to develop or make changes to the theme you will need to have the sass compiler and bourbon both installed.&lt;/p&gt;
+
+&lt;p&gt;To check installation run the following commands from a terminal and you should see the &lt;code&gt;&amp;gt; cli output&lt;/code&gt; but your version numbers may vary.&lt;/p&gt;
+
+&lt;h4 id=&#34;sass&#34;&gt;SASS&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sass -v
+&amp;gt; Sass 3.3.4 (Maptastic Maple)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If for some reason SASS isn&amp;rsquo;t installed follow the instructions from the &lt;a href=&#34;http://sass-lang.com/install&#34;&gt;Sass install page&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;bourbon&#34;&gt;Bourbon&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;bourbon help
+&amp;gt; Bourbon 3.1.8
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If Bourbon isn&amp;rsquo;t installed follow the installation instructions on the &lt;a href=&#34;http://bourbon.io&#34;&gt;Bourbon website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Once installation is verified we will need to go mount the bourbon mixins into the &lt;code&gt;scss&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;p&gt;From the project root run &lt;code&gt;bourbon install&lt;/code&gt; with the correct path&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;bourbon install --path static/scss
+&amp;gt; bourbon files installed to static/scss/bourbon/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now that we have the bourbon mixins inside of the &lt;code&gt;scss&lt;/code&gt; src folder we can now use the sass cli command to watch the scss files for changes and recompile them.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sass --watch static/scss:static/css
+&amp;gt;&amp;gt;&amp;gt;&amp;gt; Sass is watching for changes. Press Ctrl-C to stop.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To minify the css files use the following command in the statics folder&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;curl -X POST -s --data-urlencode &#39;input@css/base.css&#39; http://cssminifier.com/raw &amp;gt; css/base.min.css
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;font-awesome-icons&#34;&gt;Font-awesome icons&lt;/h2&gt;
+
+&lt;p&gt;For more information on available icons: &lt;a href=&#34;http://fortawesome.github.io/Font-Awesome/&#34;&gt;font-awesome&lt;/a&gt;&lt;br /&gt;
+The files supplied with this theme have a minor alteration to work around an issue with adblocks and social icons.&lt;br /&gt;
+The changes means that the following classes is used:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;fa-tt &amp;ndash; twitter&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;fa-fb &amp;ndash; facebook&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;fa-ll &amp;ndash; linkedin&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

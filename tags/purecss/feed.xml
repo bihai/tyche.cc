@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/purecss/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/purehugo/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/purehugo/</guid>
+            <description>
+
+&lt;h1 id=&#34;purehugo&#34;&gt;purehugo&lt;/h1&gt;
+
+&lt;p&gt;Hugo theme based on &lt;a href=&#34;http://purecss.io/&#34;&gt;purecss&lt;/a&gt; from Yahoo. The theme is based on &lt;a href=&#34;http://purecss.io/layouts/blog/&#34;&gt;the purecss blog layout example&lt;/a&gt;, is responsive and has a few more features: pagination (if enabled), responsive images (through a shortcode), google analytics, disqus comments and even a mini-asset-pipeline using gulp. If you end up using it, I&amp;rsquo;d love to see what you do with it so please give me a shout on &lt;a href=&#34;https://twitter.com/dragos_plesca&#34;&gt;twitter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;config-file&#34;&gt;Config file&lt;/h3&gt;
+
+&lt;p&gt;The config file for the demo site looks like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;baseurl = &amp;quot;http://dplesca.github.io/purehugo/&amp;quot;
+languageCode = &amp;quot;en-us&amp;quot;
+title = &amp;quot;purehugo&amp;quot;
+theme = &amp;quot;purehugo&amp;quot;
+Paginate = 10
+disqusShortname = &amp;quot;xxxx&amp;quot;
+
+[params]
+  twitterName = &amp;quot;dragos_plesca&amp;quot;
+  githubName = &amp;quot;dplesca&amp;quot;
+  description = &amp;quot;Demo site for a hugo theme&amp;quot;
+  google_analytics = &amp;quot;UA-xxxxxx-xx&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Notice the configuration necessary for disqus comments (just setting the disqusShortname), the twitter and github handlers (for the site sidebar), the site description and enabling Google Analytics reporting.&lt;/p&gt;
+
+&lt;h3 id=&#34;syntax-highlighting&#34;&gt;Syntax Highlighting&lt;/h3&gt;
+
+&lt;p&gt;Syntax highlighting is enabled by default and it uses the nice &lt;a href=&#34;http://craig.is/making/rainbows&#34;&gt;rainbow js&lt;/a&gt; library. All you need to do is to let rainbow.js the language of the highlighted code, using something like ```&lt;code&gt;go&lt;/code&gt; when writing the code in markdown.&lt;/p&gt;
+
+&lt;h3 id=&#34;reponsive-images&#34;&gt;Reponsive Images&lt;/h3&gt;
+
+&lt;p&gt;For responsive images you could use the built-in responsive image shortcode (without the &lt;code&gt;/**/&lt;/code&gt; characters):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{% img-responsive &amp;quot;http://example.com/image.jpg&amp;quot; %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;screenshot&#34;&gt;Screenshot&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/Dsj41Rz.png&#34; alt=&#34;Screenshot&#34; /&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/black-white/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/slim/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/slim/</guid>
+            <description>
+
+&lt;h1 id=&#34;slim&#34;&gt;Slim&lt;/h1&gt;
+
+&lt;p&gt;Slim is a minimal, clean and beautiful theme for &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zhe/hugo-theme-slim/master/images/screenshot.png&#34; alt=&#34;Slim screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://zhezhang.co&#34;&gt;Demo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;mkdir themes
+cd themes
+git clone https://github.com/zhe/hugo-theme-slim slim
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;See the &lt;a href=&#34;http://gohugo.io/themes/installing&#34;&gt;official docs&lt;/a&gt; for more information.&lt;/p&gt;
+
+&lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt;
+
+&lt;p&gt;You could add &lt;code&gt;params&lt;/code&gt; into your site&amp;rsquo;s &lt;code&gt;config.toml&lt;/code&gt; file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[params]
+  Subtitle = &amp;quot;Your site&#39;s subtitle/tagline&amp;quot;
+  GithubID = &amp;quot;Your Github ID&amp;quot;
+  TwitterID = &amp;quot;Your Twitter ID&amp;quot;
+  AnalyticsID = &amp;quot;Your Google Analytics tracking code&amp;quot;
+  Summary = true  # takes true or false
+  Content = false  # takes true or false
+  # if both are set to true, summary is shown.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;if you use &lt;code&gt;config.yaml&lt;/code&gt;, it could look like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;params:
+  Subtitle: &amp;quot;Your site&#39;s subtitle/tagline&amp;quot;
+  GithubID: &amp;quot;Your Github ID&amp;quot;
+  TwitterID: &amp;quot;Your Twitter ID&amp;quot;
+  AnalyticsID: &amp;quot;Your Google Analytics tracking code&amp;quot;
+  Summary: true # takes true or false
+  Content: false # takes true or false
+  # if both are set to true, summary is shown
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;build-your-site&#34;&gt;Build your site&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo server -t slim
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;Open sourced under &lt;a href=&#34;https://github.com/zhe/hugo-theme-slim/blob/master/LICENSE.md&#34;&gt;MIT license&lt;/a&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

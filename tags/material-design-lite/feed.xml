@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/material-design-lite/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/hugo-mdl/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/hugo-mdl/</guid>
+            <description>
+
+&lt;h1 id=&#34;hugomdl&#34;&gt;HugoMDL&lt;/h1&gt;
+
+&lt;p&gt;HugoMDL is a multipage responsibe blog/portfolio theme for &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;. The theme is based on the&lt;br /&gt;
+&lt;a href=&#34;http://www.getmdl.io/&#34;&gt;Material Design Lite&lt;/a&gt; sample blog layout.&lt;/p&gt;
+
+&lt;p&gt;At present it suits my needs, but feel free to help improve this theme by forking a copy and submitting a pull request.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/jchatkinson/HugoMDL/master/images/screenshot.png&#34; alt=&#34;HugoMDL Homepage Screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/jchatkinson/HugoMDL/master/images/projects.png&#34; alt=&#34;HugoMDL Projects Screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/jchatkinson/HugoMDL/master/images/post.png&#34; alt=&#34; HugoMDL Post Screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Inside the folder of your Hugo site run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ mkdir themes
+$ cd themes
+$ git clone https://github.com/jchatkinson/HugoMDL
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For more information read the official &lt;a href=&#34;//gohugo.io/overview/installing/&#34;&gt;setup guide&lt;/a&gt; of Hugo.&lt;/p&gt;
+
+&lt;p&gt;(Note for myself)&lt;br /&gt;
+To develop on c9, add the hugo binary to the workspace, then add it to the path using &lt;code&gt;export PATH=$PATH:/home/ubuntu/workspace/hugo&lt;/code&gt;&lt;br /&gt;
+To serve the site from c9, cd to site root and use &lt;code&gt;hugo server --bind=&amp;quot;0.0.0.0&amp;quot; --port=8080  --watch --disableLiveReload&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;configure-the-theme&#34;&gt;Configure the Theme&lt;/h2&gt;
+
+&lt;p&gt;There are a few different places you need to configure&lt;/p&gt;
+
+&lt;h3 id=&#34;site-wide-configuration&#34;&gt;Site-wide configuration&lt;/h3&gt;
+
+&lt;p&gt;Look at the &lt;code&gt;exampleSite\config.toml&lt;/code&gt; file for the relevent site parameters you need to fill out&lt;/p&gt;
+
+&lt;h3 id=&#34;background-image&#34;&gt;Background Image&lt;/h3&gt;
+
+&lt;p&gt;Simply replace &lt;code&gt;\static\images\background.jpg&lt;/code&gt; with a background of your choice.&lt;/p&gt;
+
+&lt;h3 id=&#34;about-page&#34;&gt;About page&lt;/h3&gt;
+
+&lt;p&gt;Look at the &lt;code&gt;exampleSite\about.md&lt;/code&gt; file for an example &amp;lsquo;About&amp;rsquo; page.&lt;/p&gt;
+
+&lt;h3 id=&#34;posts&#34;&gt;Posts&lt;/h3&gt;
+
+&lt;p&gt;Posts use the following front-matter:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+title: &amp;quot;First Post&amp;quot;
+description: &amp;quot;first post with Hugo website engine&amp;quot;
+date: &amp;quot;2015-08-18&amp;quot;
+categories:
+    - &amp;quot;post&amp;quot;
+tags:
+    - &amp;quot;meta&amp;quot;
+    - &amp;quot;test&amp;quot;
+cardthumbimage: &amp;quot;/images/default.jpg&amp;quot; #optional: default solid color if unset
+cardheaderimage: &amp;quot;/images/default.jpg&amp;quot; #optional: default solid color if unset
+cardbackground: &amp;quot;#263238&amp;quot; #optional: card background color; only shows when no image specified
+#cardtitlecolor: &amp;quot;#fafafa&amp;quot; #optional: can be changed to make text visible over card image
+&amp;quot;author&amp;quot;:
+    name: &amp;quot;Firstname Lastname&amp;quot;
+    description: &amp;quot;Writer of stuff&amp;quot;
+    website: &amp;quot;http://example.com/&amp;quot;
+    email: &amp;quot;firstname@example.com&amp;quot;
+    twitter: &amp;quot;https://twitter.com/&amp;quot;
+    github: &amp;quot;https://github.com/&amp;quot;
+    image: &amp;quot;/images/avatar-64x64.png&amp;quot;
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;cardthumbimage&lt;/code&gt; is used as the card media on the front page. If unset, a solid color will be displayed.&lt;br /&gt;
+&lt;code&gt;cardheaderimage&lt;/code&gt; is used as the card media on the post page. If unset, a solid color will be displayed.&lt;br /&gt;
+&lt;code&gt;cardbackground&lt;/code&gt; is used as the solid color if no image is specified. If unset, the default theme color is displayed.&lt;br /&gt;
+&lt;code&gt;cardtitlecolor&lt;/code&gt; is used to modify the default white title color (for instance, if you have a light colored background)&lt;br /&gt;
+&lt;code&gt;author&lt;/code&gt; parameters are used to populate the card and post with author&amp;rsquo;s data&lt;/p&gt;
+
+&lt;h3 id=&#34;projects&#34;&gt;Projects&lt;/h3&gt;
+
+&lt;p&gt;Projects have similar frontmatter to posts.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+title: &amp;quot;My Project Title&amp;quot;
+description: &amp;quot;Description of the sample project&amp;quot; #optional
+cardthumbimage: &amp;quot;/images/default.jpg&amp;quot; #optional: default solid color if unset
+cardheaderimage: &amp;quot;/images/default.jpg&amp;quot; #optional: default solid color if unset
+cardbackground: &amp;quot;#263238&amp;quot; #optional: card background color; only shows when no image specified
+#cardtitlecolor: &amp;quot;#fafafa&amp;quot; #optional: can be changed to make text visible over card image
+repo: &amp;quot;http://github.com/&amp;quot; #optional: no icon appears if unset
+web: &amp;quot;http://github.com/&amp;quot; #optional: no icon appears if unset
+date: &amp;quot;2015-08-18&amp;quot;
+categories:
+    - &amp;quot;project&amp;quot;
+tags:
+    - &amp;quot;meta&amp;quot;
+    - &amp;quot;project&amp;quot;
+&amp;quot;author&amp;quot;: # used to fill out the project page
+    name: &amp;quot;Firstname Lastname&amp;quot;
+    description: &amp;quot;Writer of stuff&amp;quot;
+    website: &amp;quot;http://example.com/&amp;quot;
+    email: &amp;quot;firstname@example.com&amp;quot;
+    twitter: &amp;quot;https://twitter.com/&amp;quot;
+    github: &amp;quot;https://github.com/&amp;quot;
+    image: &amp;quot;/images/avatar-64x64.png&amp;quot;
+
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;This theme is released under the Apache License 2.0. It uses content from Google&amp;rsquo;s material design lite project, also released under Apache License 2.0.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

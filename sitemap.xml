@@ -7,12 +7,12 @@
     </url>
     
     <url>
-        <loc>http://tyche.cc/customproject/video/</loc>
+        <loc>http://tyche.cc/post/customproject/video/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/project/video/</loc>
+        <loc>http://tyche.cc/post/project/video/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -22,13 +22,413 @@
     </url>
     
     <url>
-        <loc>http://tyche.cc/post/2016/2016-09-25-Welcome%20to%20tyche.cc/</loc>
+        <loc>http://tyche.cc/post/2016/2016-09-25-Welcome%20to%20tyche/</loc>
         <lastmod>2016-09-25T18:53:52+08:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/custompost/info/</loc>
-        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
+        <loc>http://tyche.cc/showcase/cdnoverview/</loc>
+        <lastmod>2016-02-17T15:19:08+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/gntech/</loc>
+        <lastmod>2016-02-13T21:47:27+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/jorgennilsson/</loc>
+        <lastmod>2016-02-11T23:41:27+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/shelan/</loc>
+        <lastmod>2016-02-07T10:30:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/datapipelinearchitect/</loc>
+        <lastmod>2016-02-04T18:30:07-05:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/davidrallen/</loc>
+        <lastmod>2016-02-03T11:49:07-05:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/leepenney/</loc>
+        <lastmod>2016-01-24T16:10:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/webstudylist/</loc>
+        <lastmod>2016-01-21T23:33:01+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/rakutentech/</loc>
+        <lastmod>2016-01-20T07:32:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/javaunion/</loc>
+        <lastmod>2016-01-20T01:28:16+08:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/emilyhorsman/</loc>
+        <lastmod>2016-01-09T01:00:10+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/coding-journal/</loc>
+        <lastmod>2015-12-23T11:42:00+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/camunda-blog/</loc>
+        <lastmod>2015-12-01T04:20:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/camunda-docs/</loc>
+        <lastmod>2015-12-01T04:20:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/gadgetplayboy/</loc>
+        <lastmod>2015-11-29T07:16:53-05:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_en</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_benchmark</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_benchmark</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_check</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_check</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_check_ulimit</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_check_ulimit</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_config</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_config</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_convert</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_convert</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_convert_tojson</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_convert_tojson</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_convert_totoml</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_convert_totoml</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_convert_toyaml</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_convert_toyaml</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_gen</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_gen</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_gen_autocomplete</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_gen_autocomplete</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_gen_doc</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_gen_doc</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_gen_man</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_gen_man</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_import</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_import</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_import_jekyll</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_import_jekyll</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_list</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_list</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_list_drafts</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_list_drafts</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_list_future</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_list_future</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_new</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_new</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_new_site</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_new_site</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_new_theme</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_new_theme</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_server</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_server</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_undraft</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_undraft</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_version</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_version</loc>
+        <lastmod>2015-11-25T23:10:39+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/goin5minutes/</loc>
+        <lastmod>2015-11-20T20:46:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/arresteddevops/</loc>
+        <lastmod>2015-11-20T01:46:33-06:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/readtext/</loc>
+        <lastmod>2015-11-16T08:36:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/losslesslife/</loc>
+        <lastmod>2015-11-15T11:20:00-08:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/bugtrackers/</loc>
+        <lastmod>2015-10-27T09:02:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/ninjaducks/</loc>
+        <lastmod>2015-10-24T14:06:00+05:30</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/maximeguitare/</loc>
+        <lastmod>2015-10-05T17:15:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/ridingbytes/</loc>
+        <lastmod>2015-09-27T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/yulinling/</loc>
+        <lastmod>2015-09-09T21:42:00-04:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/richardsumilang/</loc>
+        <lastmod>2015-09-07T00:12:00-07:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/humboldtux/</loc>
+        <lastmod>2015-09-06T18:32:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/nodesk/</loc>
+        <lastmod>2015-08-26T22:33:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/gig/</loc>
+        <lastmod>2015-08-24T07:32:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/chinese-grammar/</loc>
+        <lastmod>2015-08-23T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_genautocomplete/</loc>
+        <lastmod>2015-08-04T03:11:10-06:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_gendoc/</loc>
+        <lastmod>2015-08-04T03:11:10-06:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/commands/hugo_help/</loc>
+        <lastmod>2015-08-04T03:11:10-06:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/arqueart/</loc>
+        <lastmod>2015-08-01T09:00:00+00:00</lastmod>
     </url>
     
     <url>
@@ -37,7 +437,7 @@
     </url>
     
     <url>
-        <loc>http://tyche.cc/custompost/redirect/</loc>
+        <loc>http://tyche.cc/post/custompost/info/</loc>
         <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
@@ -47,183 +447,128 @@
     </url>
     
     <url>
-        <loc>http://tyche.cc/customgallery/anothercar/</loc>
+        <loc>http://tyche.cc/post/custompost/redirect/</loc>
         <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/customgallery/anothercup/</loc>
+        <loc>http://tyche.cc/post/customgallery/anothercar/</loc>
         <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/customgallery/anotherdrone/</loc>
+        <loc>http://tyche.cc/post/customgallery/anothercup/</loc>
         <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/customgallery/anotherfood/</loc>
+        <loc>http://tyche.cc/post/customgallery/anotherdrone/</loc>
         <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/customgallery/anotherjars/</loc>
+        <loc>http://tyche.cc/post/customgallery/anotherfood/</loc>
         <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/customgallery/anotherphone/</loc>
+        <loc>http://tyche.cc/post/customgallery/anotherjars/</loc>
         <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/customgallery/car/</loc>
+        <loc>http://tyche.cc/post/customgallery/anotherphone/</loc>
         <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/customgallery/cup/</loc>
+        <loc>http://tyche.cc/post/customgallery/car/</loc>
         <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/customgallery/drone/</loc>
+        <loc>http://tyche.cc/post/customgallery/cup/</loc>
         <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/customgallery/food/</loc>
+        <loc>http://tyche.cc/post/customgallery/drone/</loc>
         <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/customgallery/jars/</loc>
+        <loc>http://tyche.cc/post/customgallery/food/</loc>
         <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/customgallery/phone/</loc>
+        <loc>http://tyche.cc/post/customgallery/jars/</loc>
         <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/gallery/anothercar/</loc>
+        <loc>http://tyche.cc/post/customgallery/phone/</loc>
         <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/gallery/anothercup/</loc>
+        <loc>http://tyche.cc/post/gallery/anothercar/</loc>
         <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/gallery/anotherdrone/</loc>
+        <loc>http://tyche.cc/post/gallery/anothercup/</loc>
         <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/gallery/anotherfood/</loc>
+        <loc>http://tyche.cc/post/gallery/anotherdrone/</loc>
         <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/gallery/anotherjars/</loc>
+        <loc>http://tyche.cc/post/gallery/anotherfood/</loc>
         <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/gallery/anotherphone/</loc>
+        <loc>http://tyche.cc/post/gallery/anotherjars/</loc>
         <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/gallery/car/</loc>
+        <loc>http://tyche.cc/post/gallery/anotherphone/</loc>
         <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/gallery/cup/</loc>
+        <loc>http://tyche.cc/post/gallery/car/</loc>
         <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/gallery/drone/</loc>
+        <loc>http://tyche.cc/post/gallery/cup/</loc>
         <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/gallery/food/</loc>
+        <loc>http://tyche.cc/post/gallery/drone/</loc>
         <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/gallery/jars/</loc>
+        <loc>http://tyche.cc/post/gallery/food/</loc>
         <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/gallery/phone/</loc>
+        <loc>http://tyche.cc/post/gallery/jars/</loc>
         <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/custompost/eight/</loc>
-        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://tyche.cc/custompost/eleven/</loc>
-        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://tyche.cc/custompost/five/</loc>
-        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://tyche.cc/custompost/four/</loc>
-        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://tyche.cc/custompost/nine/</loc>
-        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://tyche.cc/custompost/one/</loc>
-        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://tyche.cc/custompost/seven/</loc>
-        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://tyche.cc/custompost/six/</loc>
-        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://tyche.cc/custompost/ten/</loc>
-        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://tyche.cc/custompost/three/</loc>
-        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://tyche.cc/custompost/twelve/</loc>
-        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>http://tyche.cc/custompost/two/</loc>
-        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+        <loc>http://tyche.cc/post/gallery/phone/</loc>
+        <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
     <url>
@@ -287,123 +632,1478 @@
     </url>
     
     <url>
-        <loc>http://tyche.cc/customproject/anothercar/</loc>
+        <loc>http://tyche.cc/post/custompost/eight/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/custompost/eleven/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/custompost/five/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/custompost/four/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/custompost/nine/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/custompost/one/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/custompost/seven/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/custompost/six/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/custompost/ten/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/custompost/three/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/custompost/twelve/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/custompost/two/</loc>
+        <lastmod>2015-07-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/scottcwilson/</loc>
+        <lastmod>2015-07-21T10:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/szymonkatra/</loc>
+        <lastmod>2015-07-10T16:15:00+01:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/samuelbe/</loc>
+        <lastmod>2015-07-08T14:02:16+02:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/esolia-com/</loc>
+        <lastmod>2015-07-07T04:32:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/esolia-pro/</loc>
+        <lastmod>2015-07-07T04:32:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/mariosanchez/</loc>
+        <lastmod>2015-06-20T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/learnoverpass/</loc>
+        <lastmod>2015-06-06T12:51:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/kangkona/</loc>
+        <lastmod>2015-06-04T12:51:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/rick-cogley-info/</loc>
+        <lastmod>2015-05-20T04:32:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/consequently/</loc>
+        <lastmod>2015-02-11T13:21:27+11:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/arianv/</loc>
+        <lastmod>2015-02-06T12:51:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/troubleshooting/overview/</loc>
+        <lastmod>2015-01-18T02:41:52-07:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/troubleshooting/overview_en/</loc>
+        <lastmod>2015-01-18T02:41:52-07:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/thehome/</loc>
+        <lastmod>2014-12-27T20:00:00+07:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/stou/</loc>
+        <lastmod>2014-11-23T01:28:16+07:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/launchcode5/</loc>
+        <lastmod>2014-11-01T07:32:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/fxsitecompat/</loc>
+        <lastmod>2014-08-26T19:40:00-04:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/ucsb/</loc>
+        <lastmod>2014-08-26T14:12:55-04:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/nickoneill/</loc>
+        <lastmod>2014-08-26T12:15:48-04:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/vurt/</loc>
+        <lastmod>2014-08-26T12:09:39-04:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/michaelwhatcott/</loc>
+        <lastmod>2014-08-26T11:47:11-04:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/devmonk/</loc>
+        <lastmod>2014-08-26T11:31:02-04:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/peteraba/</loc>
+        <lastmod>2014-08-26T11:30:57-04:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/chingli/</loc>
+        <lastmod>2014-08-26T11:20:02-04:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/danmux/</loc>
+        <lastmod>2014-08-26T10:55:23-04:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/ninya/</loc>
+        <lastmod>2014-08-26T09:47:00-04:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/tendermint/</loc>
+        <lastmod>2014-08-26T09:34:42-04:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/lk4d4/</loc>
+        <lastmod>2014-08-25T18:59:30-04:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/hackmeeting/</loc>
+        <lastmod>2014-08-25T18:30:40-04:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/npf/</loc>
+        <lastmod>2014-08-21T12:21:18-04:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/vamp/</loc>
+        <lastmod>2014-06-26T15:45:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/techmadeplain/</loc>
+        <lastmod>2014-05-22T19:54:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/yslow-rules/</loc>
+        <lastmod>2014-04-07T10:45:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/cloudshark/</loc>
+        <lastmod>2014-03-27T09:45:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/heyitsalex/</loc>
+        <lastmod>2014-03-09T06:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/kieranhealy/</loc>
+        <lastmod>2014-02-27T20:35:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/antzucaro/</loc>
+        <lastmod>2014-02-03T20:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/asc/</loc>
+        <lastmod>2014-01-22T07:32:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/ifup/</loc>
+        <lastmod>2013-11-02T07:32:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/davidepetilli/</loc>
+        <lastmod>2013-11-01T07:32:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/gogb/</loc>
+        <lastmod>2013-11-01T07:32:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/bepsays/</loc>
+        <lastmod>2013-11-01T07:32:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/chimera-art-space/</loc>
+        <lastmod>2013-10-02T07:32:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/gophercon/</loc>
+        <lastmod>2013-10-01T07:32:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/hugo/</loc>
+        <lastmod>2013-07-01T07:32:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/showcase/spf13/</loc>
+        <lastmod>2013-07-01T07:32:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/agency/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/project/anothercar/</loc>
+        <loc>http://tyche.cc/theme/aglaus/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/customproject/anothercup/</loc>
+        <loc>http://tyche.cc/theme/air/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/project/anothercup/</loc>
+        <loc>http://tyche.cc/theme/angels-ladder/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/customproject/car/</loc>
+        <loc>http://tyche.cc/theme/artists/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/project/car/</loc>
+        <loc>http://tyche.cc/theme/beg/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/customproject/cup/</loc>
+        <loc>http://tyche.cc/theme/bootie-docs/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/project/cup/</loc>
+        <loc>http://tyche.cc/theme/cactus/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/customproject/anotherdrone/</loc>
+        <loc>http://tyche.cc/theme/casper/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/customproject/drone/</loc>
+        <loc>http://tyche.cc/theme/cocoa/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/project/anotherdrone/</loc>
+        <loc>http://tyche.cc/theme/creative/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/project/drone/</loc>
+        <loc>http://tyche.cc/theme/crisp/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/customproject/anotherfood/</loc>
+        <loc>http://tyche.cc/theme/detox/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/customproject/food/</loc>
+        <loc>http://tyche.cc/theme/freelancer/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/project/anotherfood/</loc>
+        <loc>http://tyche.cc/theme/gindoro/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/project/food/</loc>
+        <loc>http://tyche.cc/theme/greyshade/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/customproject/anotherjars/</loc>
+        <loc>http://tyche.cc/theme/grid-side/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/customproject/jars/</loc>
+        <loc>http://tyche.cc/theme/heather-hugo/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/project/anotherjars/</loc>
+        <loc>http://tyche.cc/theme/herring-cove/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/project/jars/</loc>
+        <loc>http://tyche.cc/theme/hikari/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/customproject/anotherphone/</loc>
+        <loc>http://tyche.cc/theme/hugo-base-theme/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/customproject/phone/</loc>
+        <loc>http://tyche.cc/theme/hugo-bootswatch/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/project/anotherphone/</loc>
+        <loc>http://tyche.cc/theme/hugo-h5bp/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>http://tyche.cc/project/phone/</loc>
+        <loc>http://tyche.cc/theme/hugo-icarus/</loc>
         <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/hugo-incorporated/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/hugo-mdl/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/hugo-minimalist/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/hugo-multi-bootswatch/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/hugo-uno/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/hugo-zen/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/hugoscroll/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/hurock/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/hyde-x/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/hyde-y/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/hyde/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/journal/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/landing-page-hugo/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/lanyon/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/liquorice/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/material-design/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/material-lite/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/next/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/nofancy/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/pixyll/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/polymer/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/poopshow/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/projecthub/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/purehugo/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/redlounge/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/robust/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/shiori/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/simple-a/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/simple-hugo/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/slim/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/startbootstrap-clean-blog/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/steam/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/strata/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/tachyons/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/tinyce/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/twentyfourteen/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/theme/vienna/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/customproject/anothercar/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/project/anothercar/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/customproject/anothercup/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/project/anothercup/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/customproject/car/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/project/car/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/customproject/cup/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/project/cup/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/customproject/anotherdrone/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/customproject/drone/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/project/anotherdrone/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/project/drone/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/customproject/anotherfood/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/customproject/food/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/project/anotherfood/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/project/food/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/customproject/anotherjars/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/customproject/jars/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/project/anotherjars/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/project/jars/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/customproject/anotherphone/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/customproject/phone/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/project/anotherphone/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/post/project/phone/</loc>
+        <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/troubleshooting/strange-eof-error/</loc>
+        <lastmod>2015-01-08T16:11:23-07:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/troubleshooting/strange-eof-error_en/</loc>
+        <lastmod>2015-01-08T16:11:23-07:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/overview/introduction/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/overview/introduction_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/tutorials/creating-a-new-theme/</loc>
+        <lastmod>2015-11-26T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/tutorials/creating-a-new-theme_en/</loc>
+        <lastmod>2015-11-26T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/tutorials/create-a-multilingual-site/</loc>
+        <lastmod>2015-07-08T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/tutorials/create-a-multilingual-site_en/</loc>
+        <lastmod>2015-07-08T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/tutorials/installing-on-windows/</loc>
+        <lastmod>2015-03-30T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/tutorials/installing-on-windows_en/</loc>
+        <lastmod>2015-03-30T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/tutorials/installing-on-mac/</loc>
+        <lastmod>2015-02-22T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/tutorials/installing-on-mac_en/</loc>
+        <lastmod>2015-02-22T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/tutorials/automated-deployments/</loc>
+        <lastmod>2015-01-12T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/tutorials/automated-deployments_en/</loc>
+        <lastmod>2015-01-12T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/troubleshooting/categories-with-accented-characters/</loc>
+        <lastmod>2015-01-08T16:32:00-07:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/troubleshooting/categories-with-accented-characters_en/</loc>
+        <lastmod>2015-01-08T16:32:00-07:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/themes/overview/</loc>
+        <lastmod>2014-05-12T10:03:52+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/themes/overview_en/</loc>
+        <lastmod>2014-05-12T10:03:52+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/tutorials/github-pages-blog/</loc>
+        <lastmod>2014-03-21T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/tutorials/github-pages-blog_en/</loc>
+        <lastmod>2014-03-21T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/tutorials/mathjax/</loc>
+        <lastmod>2014-03-20T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/tutorials/mathjax_en/</loc>
+        <lastmod>2014-03-20T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/tutorials/migrate-from-jekyll/</loc>
+        <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/tutorials/migrate-from-jekyll_en/</loc>
+        <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/aliases/</loc>
+        <lastmod>2013-07-09T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/aliases_en/</loc>
+        <lastmod>2013-07-09T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/community/mailing-list/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/community/mailing-list_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/content/organization/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/content/organization_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/taxonomies/overview/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/taxonomies/overview_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/overview/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/overview_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/overview/quickstart/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/overview/quickstart_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/meta/release-notes/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/meta/release-notes_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/analytics/</loc>
+        <lastmod>2016-02-06T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/analytics_en/</loc>
+        <lastmod>2016-02-06T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/content/supported-formats/</loc>
+        <lastmod>2015-08-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/content/supported-formats_en/</loc>
+        <lastmod>2015-08-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/taxonomies/usage/</loc>
+        <lastmod>2014-05-26T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/taxonomies/usage_en/</loc>
+        <lastmod>2014-05-26T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/go-templates/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/go-templates_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/ace/</loc>
+        <lastmod>2014-04-20T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/ace_en/</loc>
+        <lastmod>2014-04-20T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/amber/</loc>
+        <lastmod>2015-07-20T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/amber_en/</loc>
+        <lastmod>2015-07-20T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/builders/</loc>
+        <lastmod>2014-05-26T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/builders_en/</loc>
+        <lastmod>2014-05-26T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/themes/installing/</loc>
+        <lastmod>2014-05-12T10:09:49+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/themes/installing_en/</loc>
+        <lastmod>2014-05-12T10:09:49+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/community/press/</loc>
+        <lastmod>2014-03-24T20:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/community/press_en/</loc>
+        <lastmod>2014-03-24T20:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/taxonomies/displaying/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/taxonomies/displaying_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/content/front-matter/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/content/front-matter_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/functions/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/functions_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/meta/roadmap/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/meta/roadmap_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/overview/installing/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/overview/installing_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/variables/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/variables_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/comments/</loc>
+        <lastmod>2014-05-26T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/comments_en/</loc>
+        <lastmod>2014-05-26T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/themes/usage/</loc>
+        <lastmod>2014-05-12T10:09:27+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/themes/usage_en/</loc>
+        <lastmod>2014-05-12T10:09:27+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/community/contributing/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/community/contributing_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/content/sections/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/content/sections_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/content/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/content_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/taxonomies/templates/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/taxonomies/templates_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/overview/usage/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/overview/usage_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/crossreferences/</loc>
+        <lastmod>2014-11-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/crossreferences_en/</loc>
+        <lastmod>2014-11-25T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/themes/customizing/</loc>
+        <lastmod>2014-05-12T10:09:34+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/themes/customizing_en/</loc>
+        <lastmod>2014-05-12T10:09:34+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/overview/configuration/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/overview/configuration_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/list/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/list_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/content/types/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/content/types_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/livereload/</loc>
+        <lastmod>2014-05-26T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/livereload_en/</loc>
+        <lastmod>2014-05-26T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/content/archetypes/</loc>
+        <lastmod>2014-05-14T02:13:50+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/content/archetypes_en/</loc>
+        <lastmod>2014-05-14T02:13:50+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/themes/creation/</loc>
+        <lastmod>2014-05-12T10:09:17+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/themes/creation_en/</loc>
+        <lastmod>2014-05-12T10:09:17+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/homepage/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/homepage_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/meta/license/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/meta/license_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/overview/source-directory/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/overview/source-directory_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/terms/</loc>
+        <lastmod>2014-05-21T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/terms_en/</loc>
+        <lastmod>2014-05-21T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/menus/</loc>
+        <lastmod>2014-05-14T02:36:37+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/menus_en/</loc>
+        <lastmod>2014-05-14T02:36:37+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/content/ordering/</loc>
+        <lastmod>2014-03-06T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/content/ordering_en/</loc>
+        <lastmod>2014-03-06T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/taxonomies/ordering/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/taxonomies/ordering_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/content/summaries/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/content/summaries_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/permalinks/</loc>
+        <lastmod>2013-11-18T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/permalinks_en/</loc>
+        <lastmod>2013-11-18T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/views/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/views_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/content/example/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/content/example_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/taxonomies/methods/</loc>
+        <lastmod>2014-05-26T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/taxonomies/methods_en/</loc>
+        <lastmod>2014-05-26T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/scratch/</loc>
+        <lastmod>2015-01-22T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/scratch_en/</loc>
+        <lastmod>2015-01-22T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/pagination/</loc>
+        <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/pagination_en/</loc>
+        <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/partials/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/partials_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/shortcodes/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/shortcodes_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/rss/</loc>
+        <lastmod>2015-05-19T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/rss_en/</loc>
+        <lastmod>2015-05-19T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/datafiles/</loc>
+        <lastmod>2015-01-22T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/datafiles_en/</loc>
+        <lastmod>2015-01-22T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/highlighting/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/highlighting_en/</loc>
+        <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/datadrivencontent/</loc>
+        <lastmod>2015-02-14T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/datadrivencontent_en/</loc>
+        <lastmod>2015-02-14T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/sitemap/</loc>
+        <lastmod>2014-05-07T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/sitemap_en/</loc>
+        <lastmod>2014-05-07T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/404/</loc>
+        <lastmod>2013-08-21T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/404_en/</loc>
+        <lastmod>2013-08-21T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/toc/</loc>
+        <lastmod>2013-07-09T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/toc_en/</loc>
+        <lastmod>2013-07-09T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/localfiles/</loc>
+        <lastmod>2015-06-12T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/localfiles_en/</loc>
+        <lastmod>2015-06-12T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/debugging/</loc>
+        <lastmod>2015-05-22T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/templates/debugging_en/</loc>
+        <lastmod>2015-05-22T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/urls/</loc>
+        <lastmod>2014-01-03T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/extras/urls_en/</loc>
+        <lastmod>2014-01-03T00:00:00+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/tools/</loc>
+        <lastmod>2015-09-12T10:40:31+02:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>http://tyche.cc/doc/tools/index_en/</loc>
+        <lastmod>2015-09-12T10:40:31+02:00</lastmod>
     </url>
     
 </urlset>

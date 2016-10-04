@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title> on tyche.cc</title>
+        <link>http://tyche.cc/tags/wordpress/feed/index.xml</link>
+        <language>zh-CN</language>
+        <author>bihai</author>
+        <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
+        <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+        
+        <item>
+            <title></title>
+            <link>http://tyche.cc/theme/twentyfourteen/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+            <author>bihai</author>
+            <guid>http://tyche.cc/theme/twentyfourteen/</guid>
+            <description>
+
+&lt;h1 id=&#34;twenty-fourteen&#34;&gt;Twenty Fourteen&lt;/h1&gt;
+
+&lt;p&gt;Twenty Fourteen is a responsive, two-column &lt;a href=&#34;http://hugo.spf13.com&#34;&gt;hugo&lt;/a&gt; theme based on the &lt;a href=&#34;https://wordpress.org/themes/twentyfourteen&#34;&gt;Wordpress theme&lt;/a&gt; of the same name.&lt;/p&gt;
+
+&lt;p&gt;It features a dark color scheme and a left sidebar.&lt;/p&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;p&gt;A few features specific to this theme.&lt;/p&gt;
+
+&lt;h3 id=&#34;figure-shortcode&#34;&gt;Figure shortcode&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;{{% figure src=&amp;quot;/images/snow.jpg&amp;quot; alt=&amp;quot;A snowy day&amp;quot; caption=&amp;quot;Snowy day&amp;quot; %}}&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;menu&#34;&gt;Menu&lt;/h3&gt;
+
+&lt;p&gt;Put pages in the top navigation bar by adding &lt;code&gt;menu=main&lt;/code&gt; in the page&amp;rsquo;s front matter.&lt;/p&gt;
+
+&lt;h2 id=&#34;author&#34;&gt;Author&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;wordpressdotorg&lt;/strong&gt;&lt;br /&gt;
+- &lt;a href=&#34;https://wordpress.org/themes/twentyfourteen&#34;&gt;https://wordpress.org/themes/twentyfourteen&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&#34;https://themes.trac.wordpress.org/browser/twentyfourteen/1.3&#34;&gt;https://themes.trac.wordpress.org/browser/twentyfourteen/1.3&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;ported-by&#34;&gt;Ported By&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Dan Hersam&lt;/strong&gt;&lt;br /&gt;
+- &lt;a href=&#34;https://github.com/jaden&#34;&gt;https://github.com/jaden&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&#34;http://dan.hersam.com&#34;&gt;http://dan.hersam.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;Open sourced under the &lt;a href=&#34;LICENSE.md&#34;&gt;GPL license&lt;/a&gt; (inherited from the original theme)&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
