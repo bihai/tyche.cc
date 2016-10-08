@@ -81,13 +81,12 @@
 &lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Google Analytics&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Disqus&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;SNS Links(Facebook, Twitter, GitHub)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Share Button&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Tagging&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Related Post&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Google Analytics&lt;/li&gt;
+&lt;li&gt;Disqus&lt;/li&gt;
+&lt;li&gt;SNS Links(Facebook, Twitter, GitHub)&lt;/li&gt;
+&lt;li&gt;Share Button&lt;/li&gt;
+&lt;li&gt;Tagging&lt;/li&gt;
+&lt;li&gt;Related Post&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;installation&#34;&gt;Installation&lt;/h1&gt;
@@ -176,7 +175,7 @@ Contents here
 &lt;h1 id=&#34;bootie-docs&#34;&gt;Bootie Docs&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;Bootie Docs&lt;/strong&gt; is a simple &lt;a href=&#34;http://gohugo.io/&#34;&gt;hugo&lt;/a&gt; theme for documentation.&lt;br /&gt;
-The name &amp;laquo;bootie&amp;raquo; comes from &lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Bootstrap&lt;/a&gt; CSS.&lt;/p&gt;
+The name &amp;ldquo;bootie&amp;rdquo; comes from &lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Bootstrap&lt;/a&gt; CSS.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/key-amb/hugo-theme-bootie-docs/master/images/tn.png&#34; alt=&#34;Bootie Docs screenshot&#34; /&gt;&lt;/p&gt;
 
@@ -185,20 +184,18 @@ The name &amp;laquo;bootie&amp;raquo; comes from &lt;a href=&#34;http://getboots
 &lt;h2 id=&#34;contents&#34;&gt;CONTENTS&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#quickstart&#34;&gt;QUICKSTART&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#options&#34;&gt;OPTIONS&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#limitation&#34;&gt;LIMITATION&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#dependencies&#34;&gt;DEPENDENCIES&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;LICENSE&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#quickstart&#34;&gt;QUICKSTART&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#options&#34;&gt;OPTIONS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#limitation&#34;&gt;LIMITATION&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#dependencies&#34;&gt;DEPENDENCIES&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;LICENSE&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;quickstart&#34;&gt;QUICKSTART&lt;/h2&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;code&gt;hugo new _index.md&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Edit &lt;code&gt;content/_index.md&lt;/code&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hugo new _index.md&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Edit &lt;code&gt;content/_index.md&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;Then the content appears on top page.&lt;/p&gt;
@@ -223,10 +220,9 @@ The name &amp;laquo;bootie&amp;raquo; comes from &lt;a href=&#34;http://getboots
 &lt;p&gt;&lt;strong&gt;Bootie Docs&lt;/strong&gt; includes following libraries:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Bootstrap&lt;/a&gt; v3.3.4 &amp;hellip; Well-known CSS framework.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jquery.com/&#34;&gt;jQuery&lt;/a&gt; v1.11.2 &amp;hellip; Requried by &lt;em&gt;Bootstrap&lt;/em&gt;.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://highlightjs.org/&#34;&gt;highlight.js&lt;/a&gt; v8.5 &amp;hellip; For syntax highlighting.&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Bootstrap&lt;/a&gt; v3.3.4 &amp;hellip; Well-known CSS framework.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jquery.com/&#34;&gt;jQuery&lt;/a&gt; v1.11.2 &amp;hellip; Requried by &lt;em&gt;Bootstrap&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://highlightjs.org/&#34;&gt;highlight.js&lt;/a&gt; v8.5 &amp;hellip; For syntax highlighting.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;license&#34;&gt;LICENSE&lt;/h2&gt;
@@ -248,7 +244,7 @@ Released under the MIT License.&lt;/p&gt;
 
 &lt;p&gt;Hugo-bootswatch is a &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; theme based on &lt;a href=&#34;http://bootswatch.com/&#34;&gt;Bootswatch&lt;/a&gt;, which themes &lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Bootstrap 3&lt;/a&gt;. As such, Hugo-bootswatch will work as a Bootstrap theme, and also allows simple updating to support any Bootswatch customizations. Hugo-bootswatch comes with Bootstrap 3.3.2 and the bootswatch.js is already included. Customizing the Bootswatch theme is as easy as downloading the Bootswatch-customized bootstrap.min.css file (details below).&lt;/p&gt;
 
-&lt;p&gt;Hugo-bootswatch expects &lt;a href=&#34;http://gohugo.io/content/sections/&#34;&gt;section organization&lt;/a&gt;, which are loaded as navbar links in the header, and placed in a &amp;laquo;Sections&amp;raquo; dropdown.&lt;/p&gt;
+&lt;p&gt;Hugo-bootswatch expects &lt;a href=&#34;http://gohugo.io/content/sections/&#34;&gt;section organization&lt;/a&gt;, which are loaded as navbar links in the header, and placed in a &amp;ldquo;Sections&amp;rdquo; dropdown.&lt;/p&gt;
 
 &lt;p&gt;Hugo-bootswatch was originally built for documentation, so it is missing a lot of blog-type support (most notably the concept of authors). A &amp;lsquo;post&amp;rsquo; archetype may make sense to accommodate this if there is interest.&lt;/p&gt;
 
@@ -328,7 +324,7 @@ copyright = &amp;quot;Code released under the Apache 2.0 license.&amp;quot;
   weight = -180
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;You can find a &lt;a href=&#34;http://humboldtux.github.io/sbcb-demo/&#34;&gt;Demo site&lt;/a&gt;, and have a look at the source on the&lt;br /&gt;
+&lt;p&gt;You can find a &lt;a href=&#34;http://humboldtux.github.io/sbcb-demo/&#34;&gt;Demo site&lt;/a&gt;, and have a look at the source on the
 &lt;a href=&#34;https://github.com/humboldtux/sbcb-demo&#34;&gt;repo site&lt;/a&gt; for configuration parameters.&lt;/p&gt;
 
 &lt;h3 id=&#34;custom&#34;&gt;Custom&lt;/h3&gt;
@@ -338,44 +334,44 @@ copyright = &amp;quot;Code released under the Apache 2.0 license.&amp;quot;
 &lt;h2 id=&#34;todo&#34;&gt;TODO&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;multi-language support:&lt;br /&gt;
+&lt;li&gt;multi-language support:
 
 &lt;ul&gt;
-&lt;li&gt;encoding&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/hugo/tree/master/examples/multilingual&#34;&gt;https://github.com/spf13/hugo/tree/master/examples/multilingual&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/t/multiple-language-websites/537&#34;&gt;http://discuss.gohugo.io/t/multiple-language-websites/537&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/t/hugo-multisite-workflow/103&#34;&gt;http://discuss.gohugo.io/t/hugo-multisite-workflow/103&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;encoding&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/hugo/tree/master/examples/multilingual&#34;&gt;https://github.com/spf13/hugo/tree/master/examples/multilingual&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/t/multiple-language-websites/537&#34;&gt;http://discuss.gohugo.io/t/multiple-language-websites/537&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/t/hugo-multisite-workflow/103&#34;&gt;http://discuss.gohugo.io/t/hugo-multisite-workflow/103&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&amp;laquo;Edit on github&amp;raquo; feature &lt;a href=&#34;http://discuss.gohugo.io/t/how-to-implement-edit-this-page-on-github/1166&#34;&gt;http://discuss.gohugo.io/t/how-to-implement-edit-this-page-on-github/1166&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Display archive posts per year/month&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;dynamic configuration of email for JS contact form&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Advanced pagination, make pagination button look like older posts button&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;pre and next links in post &lt;a href=&#34;https://github.com/antzucaro/az.com/blob/master/layouts/_default/single.html&#34;&gt;https://github.com/antzucaro/az.com/blob/master/layouts/_default/single.html&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Suggested links at the bottom of post&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;use post title as post image name&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;mailing list subscription form&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Google search form&lt;br /&gt;
+&lt;li&gt;&amp;ldquo;Edit on github&amp;rdquo; feature &lt;a href=&#34;http://discuss.gohugo.io/t/how-to-implement-edit-this-page-on-github/1166&#34;&gt;http://discuss.gohugo.io/t/how-to-implement-edit-this-page-on-github/1166&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Display archive posts per year/month&lt;/li&gt;
+&lt;li&gt;dynamic configuration of email for JS contact form&lt;/li&gt;
+&lt;li&gt;Advanced pagination, make pagination button look like older posts button&lt;/li&gt;
+&lt;li&gt;pre and next links in post &lt;a href=&#34;https://github.com/antzucaro/az.com/blob/master/layouts/_default/single.html&#34;&gt;https://github.com/antzucaro/az.com/blob/master/layouts/_default/single.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Suggested links at the bottom of post&lt;/li&gt;
+&lt;li&gt;use post title as post image name&lt;/li&gt;
+&lt;li&gt;mailing list subscription form&lt;/li&gt;
+&lt;li&gt;Google search form
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/t/how-are-you-implementing-site-search/986&#34;&gt;http://discuss.gohugo.io/t/how-are-you-implementing-site-search/986&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/t/how-are-you-implementing-site-search/986&#34;&gt;http://discuss.gohugo.io/t/how-are-you-implementing-site-search/986&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;multi author support, authors list page, author page&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;use {{ .Content }} for 404.html&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;deploy workflow&lt;br /&gt;
+&lt;li&gt;multi author support, authors list page, author page&lt;/li&gt;
+&lt;li&gt;use {{ .Content }} for 404.html&lt;/li&gt;
+&lt;li&gt;deploy workflow
 
 &lt;ul&gt;
-&lt;li&gt;Makefile&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/t/deployment-workflow/90&#34;&gt;http://discuss.gohugo.io/t/deployment-workflow/90&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/t/my-deployment-process/807&#34;&gt;http://discuss.gohugo.io/t/my-deployment-process/807&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/t/automated-hugo-deployments-anywhere-using-wercker/539&#34;&gt;http://discuss.gohugo.io/t/automated-hugo-deployments-anywhere-using-wercker/539&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Makefile&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/t/deployment-workflow/90&#34;&gt;http://discuss.gohugo.io/t/deployment-workflow/90&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/t/my-deployment-process/807&#34;&gt;http://discuss.gohugo.io/t/my-deployment-process/807&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/t/automated-hugo-deployments-anywhere-using-wercker/539&#34;&gt;http://discuss.gohugo.io/t/automated-hugo-deployments-anywhere-using-wercker/539&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;updatedate post metadata for updated post&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;comment system support: disqus, Discourse, Kaiju&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Syntax highlighting&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Less support&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;post series : &lt;a href=&#34;http://discuss.gohugo.io/t/creating-post-series/1115&#34;&gt;http://discuss.gohugo.io/t/creating-post-series/1115&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Add menu entry for taxonomies&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;DRY template&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;updatedate post metadata for updated post&lt;/li&gt;
+&lt;li&gt;comment system support: disqus, Discourse, Kaiju&lt;/li&gt;
+&lt;li&gt;Syntax highlighting&lt;/li&gt;
+&lt;li&gt;Less support&lt;/li&gt;
+&lt;li&gt;post series : &lt;a href=&#34;http://discuss.gohugo.io/t/creating-post-series/1115&#34;&gt;http://discuss.gohugo.io/t/creating-post-series/1115&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add menu entry for taxonomies&lt;/li&gt;
+&lt;li&gt;DRY template&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
@@ -392,18 +388,17 @@ copyright = &amp;quot;Code released under the Apache 2.0 license.&amp;quot;
 
 &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 
-&lt;p&gt;Vienna is a simple and clean blog theme for &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.&lt;br /&gt;
+&lt;p&gt;Vienna is a simple and clean blog theme for &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.
 Notable features are:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Simple and clean design&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Client side source code highlighting&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Social links (Twitter, Facebook, GitHub, LinkedIn, Instagram, Keybase)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Support for tags&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Analytics with Google Analytics or Mixpanel&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Responsive design&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Font Awesome icons&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Simple and clean design&lt;/li&gt;
+&lt;li&gt;Client side source code highlighting&lt;/li&gt;
+&lt;li&gt;Social links (Twitter, Facebook, GitHub, LinkedIn, Instagram, Keybase)&lt;/li&gt;
+&lt;li&gt;Support for tags&lt;/li&gt;
+&lt;li&gt;Analytics with Google Analytics or Mixpanel&lt;/li&gt;
+&lt;li&gt;Responsive design&lt;/li&gt;
+&lt;li&gt;Font Awesome icons&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
@@ -419,7 +414,7 @@ $ git clone https://github.com/keichi/vienna
 
 &lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt;
 
-&lt;p&gt;You may specify following options in &lt;code&gt;config.toml&lt;/code&gt; of your site to make use of&lt;br /&gt;
+&lt;p&gt;You may specify following options in &lt;code&gt;config.toml&lt;/code&gt; of your site to make use of
 this theme&amp;rsquo;s features.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;baseurl = &amp;quot;Your site URL&amp;quot;
@@ -456,7 +451,7 @@ copyright = &amp;quot;&amp;amp;copy; Copyright notice&amp;quot;
 
 &lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
 
-&lt;p&gt;Use hugo&amp;rsquo;s &lt;code&gt;-t vienna&lt;/code&gt; or &lt;code&gt;--theme=vienna&lt;/code&gt; option with hugo commands.&lt;br /&gt;
+&lt;p&gt;Use hugo&amp;rsquo;s &lt;code&gt;-t vienna&lt;/code&gt; or &lt;code&gt;--theme=vienna&lt;/code&gt; option with hugo commands.
 Example:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ hugo server -t vienna -w -D

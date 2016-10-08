@@ -25,17 +25,15 @@
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#add-links-to-the-navigation&#34;&gt;Add links to the navigation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#customize-theme-colors&#34;&gt;Customize theme colors&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#comments&#34;&gt;Comments&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#add-links-to-the-navigation&#34;&gt;Add links to the navigation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#customize-theme-colors&#34;&gt;Customize theme colors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#comments&#34;&gt;Comments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
@@ -66,7 +64,7 @@ menu  = &amp;quot;main&amp;quot;
 +++
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;If no document contains menu = &amp;laquo;main&amp;raquo; in the frontmatter than the navigation will not be shown&lt;/p&gt;
+&lt;p&gt;If no document contains menu = &amp;ldquo;main&amp;rdquo; in the frontmatter than the navigation will not be shown&lt;/p&gt;
 
 &lt;h2 id=&#34;customize-theme-colors&#34;&gt;Customize theme colors&lt;/h2&gt;
 

@@ -52,25 +52,23 @@
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;&lt;br /&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#change-the-hero-background&#34;&gt;Change the hero background&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#present-your-skills&#34;&gt;Present your skills&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#show-what-happened&#34;&gt;Show what happened&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#introduce-your-team&#34;&gt;Introduce your team&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#list-your-clients&#34;&gt;List your clients&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#change-the-hero-background&#34;&gt;Change the hero background&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#present-your-skills&#34;&gt;Present your skills&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#show-what-happened&#34;&gt;Show what happened&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#introduce-your-team&#34;&gt;Introduce your team&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#list-your-clients&#34;&gt;List your clients&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
@@ -178,13 +176,11 @@ description: Use this area to describe your project. Lorem ipsum dolor sit amet,
 &lt;p&gt;Since this page will be static, you can use &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt; as proxy to send the actual email. Each month, visitors can send you up to one thousand emails without incurring extra charges. Begin the setup by following the steps below:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Enter your email address under &amp;lsquo;email&amp;rsquo; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Upload the generated site to your server&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Send a dummy email yourself to confirm your account&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Click the confirm link in the email from &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;You&amp;rsquo;re done. Happy mailing!&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Enter your email address under &amp;lsquo;email&amp;rsquo; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Upload the generated site to your server&lt;/li&gt;
+&lt;li&gt;Send a dummy email yourself to confirm your account&lt;/li&gt;
+&lt;li&gt;Click the confirm link in the email from &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re done. Happy mailing!&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&#34;nearly-finished&#34;&gt;Nearly finished&lt;/h3&gt;
@@ -229,25 +225,23 @@ description: Use this area to describe your project. Lorem ipsum dolor sit amet,
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;&lt;br /&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#change-the-hero-background&#34;&gt;Change the hero background&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#add-your-own-logo&#34;&gt;Add your own logo&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#introduce-yourself&#34;&gt;Introduce yourself&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#what-your-clients-think&#34;&gt;What your clients think&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#add-social-networks&#34;&gt;Add social networks&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#change-the-hero-background&#34;&gt;Change the hero background&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#add-your-own-logo&#34;&gt;Add your own logo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#introduce-yourself&#34;&gt;Introduce yourself&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#what-your-clients-think&#34;&gt;What your clients think&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#add-social-networks&#34;&gt;Add social networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
@@ -342,7 +336,7 @@ TYPO: International Design Talks is an annual event held in Berlin, London, and 
 
 &lt;p&gt;The following social network icons are available:&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;twitter&lt;/code&gt;, &lt;code&gt;facebook&lt;/code&gt;, &lt;code&gt;github&lt;/code&gt;, &lt;code&gt;pinterest&lt;/code&gt; &lt;code&gt;google-plus&lt;/code&gt;, &lt;code&gt;linkedin&lt;/code&gt;&lt;br /&gt;
+&lt;p&gt;&lt;code&gt;twitter&lt;/code&gt;, &lt;code&gt;facebook&lt;/code&gt;, &lt;code&gt;github&lt;/code&gt;, &lt;code&gt;pinterest&lt;/code&gt; &lt;code&gt;google-plus&lt;/code&gt;, &lt;code&gt;linkedin&lt;/code&gt;
 &lt;code&gt;youtube&lt;/code&gt;, &lt;code&gt;instagram&lt;/code&gt;, &lt;code&gt;dribbble&lt;/code&gt;, &lt;code&gt;behance&lt;/code&gt;, &lt;code&gt;soundcloud&lt;/code&gt; and &lt;code&gt;vine&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/h3&gt;
@@ -350,13 +344,11 @@ TYPO: International Design Talks is an annual event held in Berlin, London, and 
 &lt;p&gt;Since this page will be static, you can use &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt; as proxy to send the actual email. Each month, visitors can send you up to one thousand emails without incurring extra charges. Begin the setup by following the steps below:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Enter your email address under &amp;lsquo;email&amp;rsquo; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Upload the generated site to your server&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Send a dummy email yourself to confirm your account&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Click the confirm link in the email from &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;You&amp;rsquo;re done. Happy mailing!&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Enter your email address under &amp;lsquo;email&amp;rsquo; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Upload the generated site to your server&lt;/li&gt;
+&lt;li&gt;Send a dummy email yourself to confirm your account&lt;/li&gt;
+&lt;li&gt;Click the confirm link in the email from &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re done. Happy mailing!&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&#34;nearly-finished&#34;&gt;Nearly finished&lt;/h3&gt;
@@ -378,18 +370,17 @@ TYPO: International Design Talks is an annual event held in Berlin, London, and 
 
 &lt;h2 id=&#34;annotations&#34;&gt;Annotations&lt;/h2&gt;
 
-&lt;p&gt;A big thank you to these creators for contributing sample projects for the &amp;laquo;work&amp;raquo; section:&lt;/p&gt;
+&lt;p&gt;A big thank you to these creators for contributing sample projects for the &amp;ldquo;work&amp;rdquo; section:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/14751131/-TYPO-International-Design-Talks&#34;&gt;Micael Butial&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/16750837/Free-80-Crispy-Icons-in-PSD-AI-SVG-Webfont&#34;&gt;Petras Nargėla&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/13745729/Timeline-Page&#34;&gt;Sergey Valiukh&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/15812143/Flat-Mobile-UIUX-Concept-download&#34;&gt;Ayoub Elred&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/16483395/City-IN-website-concept&#34;&gt;Anton Skvortsov&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/13870569/Stripes-Co-Free-icon-Set&#34;&gt;Nick Zoutendijk&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/12748107/Weather-Dashboard-Global-Outlook-UIUX&#34;&gt;Jonathan Quintin&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/15063575/Fresh-It-Up-App-Design&#34;&gt;Jieyu Xiong&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/14751131/-TYPO-International-Design-Talks&#34;&gt;Micael Butial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/16750837/Free-80-Crispy-Icons-in-PSD-AI-SVG-Webfont&#34;&gt;Petras Nargėla&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/13745729/Timeline-Page&#34;&gt;Sergey Valiukh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/15812143/Flat-Mobile-UIUX-Concept-download&#34;&gt;Ayoub Elred&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/16483395/City-IN-website-concept&#34;&gt;Anton Skvortsov&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/13870569/Stripes-Co-Free-icon-Set&#34;&gt;Nick Zoutendijk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/12748107/Weather-Dashboard-Global-Outlook-UIUX&#34;&gt;Jonathan Quintin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/15063575/Fresh-It-Up-App-Design&#34;&gt;Jieyu Xiong&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Also thanks to &lt;a href=&#34;//github.com/spf13&#34;&gt;Steve Francia&lt;/a&gt; for creating &lt;a href=&#34;//gohugo.io&#34;&gt;Hugo&lt;/a&gt; and the awesome community around the project.&lt;/p&gt;
@@ -413,21 +404,19 @@ TYPO: International Design Talks is an annual event held in Berlin, London, and 
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;&lt;br /&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#change-the-hero-background&#34;&gt;Change the hero background&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#add-your-services&#34;&gt;Add your services&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#change-the-hero-background&#34;&gt;Change the hero background&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#add-your-services&#34;&gt;Add your services&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
@@ -529,21 +518,19 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim 
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;&lt;br /&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#add-social-networks&#34;&gt;Add social networks&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#add-social-networks&#34;&gt;Add social networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
@@ -563,7 +550,7 @@ $ git clone https://github.com/digitalcraftsman/hugo-freelancer-theme
 
 &lt;h3 id=&#34;the-config-file&#34;&gt;The config file&lt;/h3&gt;
 
-&lt;p&gt;Take a look inside the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-freelancer-theme/tree/master/exampleSite&#34;&gt;&lt;code&gt;exampleSite&lt;/code&gt;&lt;/a&gt; folder of this theme. You&amp;rsquo;ll find a file called &lt;a href=&#34;//github.com/digitalcraftsman/hugo-freelancer-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;.&lt;br /&gt;
+&lt;p&gt;Take a look inside the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-freelancer-theme/tree/master/exampleSite&#34;&gt;&lt;code&gt;exampleSite&lt;/code&gt;&lt;/a&gt; folder of this theme. You&amp;rsquo;ll find a file called &lt;a href=&#34;//github.com/digitalcraftsman/hugo-freelancer-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;.
 It contains detailed information about the setup of the contact form (&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;or see below&lt;/a&gt;) and the customization of all strings in this theme.&lt;/p&gt;
 
 &lt;p&gt;To use it, copy the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-freelancer-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt; in the root folder of your Hugo site. Feel free to change strings as you like.&lt;/p&gt;
@@ -573,13 +560,11 @@ It contains detailed information about the setup of the contact form (&lt;a href
 &lt;p&gt;Since this page will be static, you can use &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt; as proxy to send the actual email. Each month, visitors can send you up to one thousand emails without incurring extra charges. Begin the setup by following the steps below:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Enter your email address under &amp;lsquo;email&amp;rsquo; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-freelancer-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Upload the generated site to your server&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Send a dummy email yourself to confirm your account&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Click the confirm link in the email from &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;You&amp;rsquo;re done. Happy mailing!&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Enter your email address under &amp;lsquo;email&amp;rsquo; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-freelancer-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Upload the generated site to your server&lt;/li&gt;
+&lt;li&gt;Send a dummy email yourself to confirm your account&lt;/li&gt;
+&lt;li&gt;Click the confirm link in the email from &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re done. Happy mailing!&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&#34;add-social-networks&#34;&gt;Add social networks&lt;/h3&gt;
@@ -646,27 +631,26 @@ description: Use this area of the page to describe your project. The icon above 
 
 &lt;h1 id=&#34;gridside-theme&#34;&gt;GridSide Theme&lt;/h1&gt;
 
-&lt;p&gt;The GridSide theme is a multi-page portfolio and blog utilizing the&lt;br /&gt;
-&lt;a href=&#34;http://www.materializecss.com/&#34;&gt;Materialize&lt;/a&gt; frontend framework. Comments can be added using&lt;br /&gt;
+&lt;p&gt;The GridSide theme is a multi-page portfolio and blog utilizing the
+&lt;a href=&#34;http://www.materializecss.com/&#34;&gt;Materialize&lt;/a&gt; frontend framework. Comments can be added using
 Disqus.&lt;/p&gt;
 
-&lt;p&gt;The theme contains a main page with a single grid of images representing&lt;br /&gt;
-different sections of the website. Sections can be &lt;em&gt;post&lt;/em&gt;, &lt;em&gt;gallery&lt;/em&gt;, or&lt;br /&gt;
+&lt;p&gt;The theme contains a main page with a single grid of images representing
+different sections of the website. Sections can be &lt;em&gt;post&lt;/em&gt;, &lt;em&gt;gallery&lt;/em&gt;, or
 &lt;em&gt;project&lt;/em&gt; for various rendering.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Current Materialize version is &lt;code&gt;0.97.0&lt;/code&gt;.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Current Font Awesome version is &lt;code&gt;4.4.0&lt;/code&gt;.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Current SideComments.js version is &lt;code&gt;0.0.3&lt;/code&gt;.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Current Masonry.js version is &lt;code&gt;3.3.1&lt;/code&gt;.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Current imagesLoaded.js version is &lt;code&gt;3.1.8&lt;/code&gt;.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Current Modernizr.js version is &lt;code&gt;2.8.3&lt;/code&gt;.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Current Highlight.js version is &lt;code&gt;8.7&lt;/code&gt; and contains all 130 languages.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Current lazysizes.js version is &lt;code&gt;1.2.0&lt;/code&gt;.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Current ls.noscript.js version is &lt;code&gt;1.2.0&lt;/code&gt;.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Current lightbox.js version is &lt;code&gt;2.8.1&lt;/code&gt;.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Current infinitescroll.js version is &lt;code&gt;2.1.0&lt;/code&gt;.&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Current Materialize version is &lt;code&gt;0.97.0&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Current Font Awesome version is &lt;code&gt;4.4.0&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Current SideComments.js version is &lt;code&gt;0.0.3&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Current Masonry.js version is &lt;code&gt;3.3.1&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Current imagesLoaded.js version is &lt;code&gt;3.1.8&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Current Modernizr.js version is &lt;code&gt;2.8.3&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Current Highlight.js version is &lt;code&gt;8.7&lt;/code&gt; and contains all 130 languages.&lt;/li&gt;
+&lt;li&gt;Current lazysizes.js version is &lt;code&gt;1.2.0&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Current ls.noscript.js version is &lt;code&gt;1.2.0&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Current lightbox.js version is &lt;code&gt;2.8.1&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Current infinitescroll.js version is &lt;code&gt;2.1.0&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/chipsenkbeil/grid-side/master/images/screenshot.png&#34; alt=&#34;GridSide Theme Screenshot&#34; /&gt;&lt;/p&gt;
@@ -674,26 +658,25 @@ different sections of the website. Sections can be &lt;em&gt;post&lt;/em&gt;, &l
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting Started&lt;/a&gt;&lt;br /&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting Started&lt;/a&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The Config File&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#setting-the-homepage-header&#34;&gt;Setting the homepage header&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#setting-the-homepage-footer&#34;&gt;Setting the homepage footer&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#adding-homepage-cells&#34;&gt;Adding homepage cells&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#specifying-the-main-menu&#34;&gt;Specifying the main menu&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#creating-a-post&#34;&gt;Creating a post&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#creating-a-project-page&#34;&gt;Creating a project page&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#creating-a-gallery-image&#34;&gt;Creating a gallery image&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#adding-a-custom-post-section&#34;&gt;Adding a custom post section&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#adding-a-custom-project-section&#34;&gt;Adding a custom project section&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#adding-a-custom-gallery-section&#34;&gt;Adding a custom gallery section&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly Finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The Config File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#setting-the-homepage-header&#34;&gt;Setting the homepage header&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#setting-the-homepage-footer&#34;&gt;Setting the homepage footer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#adding-homepage-cells&#34;&gt;Adding homepage cells&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#specifying-the-main-menu&#34;&gt;Specifying the main menu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#creating-a-post&#34;&gt;Creating a post&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#creating-a-project-page&#34;&gt;Creating a project page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#creating-a-gallery-image&#34;&gt;Creating a gallery image&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#adding-a-custom-post-section&#34;&gt;Adding a custom post section&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#adding-a-custom-project-section&#34;&gt;Adding a custom project section&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#adding-a-custom-gallery-section&#34;&gt;Adding a custom gallery section&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly Finished&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
@@ -711,16 +694,16 @@ $ git clone https://github.com/chipsenkbeil/grid-side
 
 &lt;h3 id=&#34;the-config-file&#34;&gt;The Config File&lt;/h3&gt;
 
-&lt;p&gt;Take a look inside the &lt;a href=&#34;https://github.com/chipsenkbeil/grid-side/tree/master/exampleSite&#34;&gt;&lt;code&gt;exampleSite&lt;/code&gt;&lt;/a&gt; folder of this theme.&lt;br /&gt;
-You&amp;rsquo;ll find a file called &lt;a href=&#34;https://github.com/chipsenkbeil/grid-side/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;. To use it, copy the&lt;br /&gt;
-&lt;a href=&#34;https://github.com/chipsenkbeil/grid-side/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt; in the root folder of your Hugo site. The config&lt;br /&gt;
-file contains detailed explanation of each available property. Feel free&lt;br /&gt;
+&lt;p&gt;Take a look inside the &lt;a href=&#34;https://github.com/chipsenkbeil/grid-side/tree/master/exampleSite&#34;&gt;&lt;code&gt;exampleSite&lt;/code&gt;&lt;/a&gt; folder of this theme.
+You&amp;rsquo;ll find a file called &lt;a href=&#34;https://github.com/chipsenkbeil/grid-side/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;. To use it, copy the
+&lt;a href=&#34;https://github.com/chipsenkbeil/grid-side/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt; in the root folder of your Hugo site. The config
+file contains detailed explanation of each available property. Feel free
 to customize this theme as you like.&lt;/p&gt;
 
 &lt;h3 id=&#34;setting-the-header&#34;&gt;Setting the header&lt;/h3&gt;
 
-&lt;p&gt;The header of the homepage serves as the main attraction for visitors. You&lt;br /&gt;
-can provide your name, a description, and your email address on top of an&lt;br /&gt;
+&lt;p&gt;The header of the homepage serves as the main attraction for visitors. You
+can provide your name, a description, and your email address on top of an
 image.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[Params.Header]
@@ -731,17 +714,17 @@ image.&lt;/p&gt;
     image = &amp;quot;path/to/your/header/image&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Each field in the header is optional, meaning that you can choose to not&lt;br /&gt;
-provide a name, description, or email. There are additional options you can use&lt;br /&gt;
-in the header section as well! For more information, check out the&lt;br /&gt;
+&lt;p&gt;Each field in the header is optional, meaning that you can choose to not
+provide a name, description, or email. There are additional options you can use
+in the header section as well! For more information, check out the
 example &lt;a href=&#34;https://github.com/chipsenkbeil/grid-side/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;setting-the-homepage-footer&#34;&gt;Setting the homepage footer&lt;/h3&gt;
 
-&lt;p&gt;The footer of the homepage serves to provide contact links and other&lt;br /&gt;
-miscellaneous connections from your main website. Each entry is composed of a&lt;br /&gt;
-font awesome icon and a url. The icon is specified via &lt;code&gt;icon_class&lt;/code&gt; and&lt;br /&gt;
-represents the specific font awesome icon. E.g. &lt;code&gt;twitter&lt;/code&gt; becomes&lt;br /&gt;
+&lt;p&gt;The footer of the homepage serves to provide contact links and other
+miscellaneous connections from your main website. Each entry is composed of a
+font awesome icon and a url. The icon is specified via &lt;code&gt;icon_class&lt;/code&gt; and
+represents the specific font awesome icon. E.g. &lt;code&gt;twitter&lt;/code&gt; becomes
 &lt;code&gt;fa fa-twitter&lt;/code&gt;. The url is specified via &lt;code&gt;icon_link&lt;/code&gt;.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[Params.Footer]
@@ -757,16 +740,16 @@ represents the specific font awesome icon. E.g. &lt;code&gt;twitter&lt;/code&gt;
         icon_link = &amp;quot;https://www.github.com/...&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Each field in the header is optional, meaning that you can choose to not&lt;br /&gt;
-provide a name, description, or email. There are additional options you can use&lt;br /&gt;
-in the header section as well! For more information, check out the&lt;br /&gt;
+&lt;p&gt;Each field in the header is optional, meaning that you can choose to not
+provide a name, description, or email. There are additional options you can use
+in the header section as well! For more information, check out the
 example &lt;a href=&#34;https://github.com/chipsenkbeil/grid-side/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;adding-homepage-cells&#34;&gt;Adding homepage cells&lt;/h3&gt;
 
-&lt;p&gt;The other main aspect of the homepage is the homepage cells, or the grid of&lt;br /&gt;
-images below your header. Each cell contains an image depicting its content&lt;br /&gt;
-along with a title that is visible upon hovering over it. Each cell acts as a&lt;br /&gt;
+&lt;p&gt;The other main aspect of the homepage is the homepage cells, or the grid of
+images below your header. Each cell contains an image depicting its content
+along with a title that is visible upon hovering over it. Each cell acts as a
 hyperlink to other content on your site.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[Params.Cells]
@@ -778,13 +761,13 @@ hyperlink to other content on your site.&lt;/p&gt;
         image = &amp;quot;/some/image/file&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;There are additional options you can use for each cell as well! For more&lt;br /&gt;
+&lt;p&gt;There are additional options you can use for each cell as well! For more
 information, check out the example &lt;a href=&#34;https://github.com/chipsenkbeil/grid-side/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;specifying-the-main-menu&#34;&gt;Specifying the main menu&lt;/h3&gt;
 
-&lt;p&gt;The main menu used on all list templates is specified via the menu name,&lt;br /&gt;
-&amp;laquo;Main&amp;raquo;. The fastest way to set your menu is to specify the &lt;code&gt;SectionPagesMenu&lt;/code&gt;&lt;br /&gt;
+&lt;p&gt;The main menu used on all list templates is specified via the menu name,
+&amp;ldquo;Main&amp;rdquo;. The fastest way to set your menu is to specify the &lt;code&gt;SectionPagesMenu&lt;/code&gt;
 option at the root of your config.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;SectionPagesMenu = &amp;quot;Main&amp;quot;
@@ -815,10 +798,10 @@ categories = [ &amp;quot;category1&amp;quot;, ... ]
 +++
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Furthermore, an image should be provided via &lt;code&gt;image = &amp;quot;url&amp;quot;&lt;/code&gt; for more visual&lt;br /&gt;
+&lt;p&gt;Furthermore, an image should be provided via &lt;code&gt;image = &amp;quot;url&amp;quot;&lt;/code&gt; for more visual
 effect. If one is not provided, a placeholder will be used.&lt;/p&gt;
 
-&lt;p&gt;Additionally, you can provide videos as an alternative to an image, which will&lt;br /&gt;
+&lt;p&gt;Additionally, you can provide videos as an alternative to an image, which will
 be displayed using the HTML5 video tag. Each of the following is optional:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;+++
@@ -830,12 +813,12 @@ video_fallback = &amp;quot;/path/to/image&amp;quot;
 +++
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;The video fallback option is used both as the poster of the loading HTML5 video&lt;br /&gt;
+&lt;p&gt;The video fallback option is used both as the poster of the loading HTML5 video
 and as the filler image if HTML5 video is not supported by the browser.&lt;/p&gt;
 
 &lt;h3 id=&#34;creating-a-gallery-image&#34;&gt;Creating a gallery image&lt;/h3&gt;
 
-&lt;p&gt;Each gallery image needs to be specified through the front matter of an&lt;br /&gt;
+&lt;p&gt;Each gallery image needs to be specified through the front matter of an
 individual content item.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;+++
@@ -847,8 +830,8 @@ image = &amp;quot;/path/to/image&amp;quot;
 
 &lt;h3 id=&#34;adding-a-custom-post-section&#34;&gt;Adding a custom post section&lt;/h3&gt;
 
-&lt;p&gt;By default, the theme provides a custom view of &lt;code&gt;post/&lt;/code&gt;. If you would like&lt;br /&gt;
-to have a different section name than post, you can specify the section by&lt;br /&gt;
+&lt;p&gt;By default, the theme provides a custom view of &lt;code&gt;post/&lt;/code&gt;. If you would like
+to have a different section name than post, you can specify the section by
 creating the following:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;For layouts/custom_post_section/single.html:
@@ -865,8 +848,8 @@ creating the following:&lt;/p&gt;
 
 &lt;h3 id=&#34;adding-a-custom-project-section&#34;&gt;Adding a custom project section&lt;/h3&gt;
 
-&lt;p&gt;By default, the theme provides a custom view of &lt;code&gt;project/&lt;/code&gt;. If you would like&lt;br /&gt;
-to have a different section name than project, you can specify the section by&lt;br /&gt;
+&lt;p&gt;By default, the theme provides a custom view of &lt;code&gt;project/&lt;/code&gt;. If you would like
+to have a different section name than project, you can specify the section by
 creating the following:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;For layouts/custom_project_section/single.html:
@@ -883,8 +866,8 @@ creating the following:&lt;/p&gt;
 
 &lt;h3 id=&#34;adding-a-custom-gallery-section&#34;&gt;Adding a custom gallery section&lt;/h3&gt;
 
-&lt;p&gt;By default, the theme provides a custom view of &lt;code&gt;gallery/&lt;/code&gt;. If you would like&lt;br /&gt;
-to have a different section name than gallery, you can specify the section by&lt;br /&gt;
+&lt;p&gt;By default, the theme provides a custom view of &lt;code&gt;gallery/&lt;/code&gt;. If you would like
+to have a different section name than gallery, you can specify the section by
 creating the following:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;For layouts/custom_gallery_section/single.html:
@@ -910,12 +893,12 @@ creating the following:&lt;/p&gt;
 
 &lt;h2 id=&#34;contributing&#34;&gt;Contributing&lt;/h2&gt;
 
-&lt;p&gt;Report any bugs using the &lt;a href=&#34;https://github.com/chipsenkbeil/grid-side/issues&#34;&gt;issue tracker&lt;/a&gt;. Submit your own bug&lt;br /&gt;
+&lt;p&gt;Report any bugs using the &lt;a href=&#34;https://github.com/chipsenkbeil/grid-side/issues&#34;&gt;issue tracker&lt;/a&gt;. Submit your own bug
 fixes or feature additions via a &lt;a href=&#34;https://github.com/chipsenkbeil/grid-side/pulls&#34;&gt;pull request&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
 
-&lt;p&gt;This theme is released under the MIT License. For more information read the&lt;br /&gt;
+&lt;p&gt;This theme is released under the MIT License. For more information read the
 &lt;a href=&#34;https://github.com/chipsenkbeil/grid-side/blob/master/LICENSE&#34;&gt;license&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
@@ -930,7 +913,7 @@ fixes or feature additions via a &lt;a href=&#34;https://github.com/chipsenkbeil
 
 &lt;h1 id=&#34;hugomdl&#34;&gt;HugoMDL&lt;/h1&gt;
 
-&lt;p&gt;HugoMDL is a multipage responsibe blog/portfolio theme for &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;. The theme is based on the&lt;br /&gt;
+&lt;p&gt;HugoMDL is a multipage responsibe blog/portfolio theme for &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;. The theme is based on the
 &lt;a href=&#34;http://www.getmdl.io/&#34;&gt;Material Design Lite&lt;/a&gt; sample blog layout.&lt;/p&gt;
 
 &lt;p&gt;At present it suits my needs, but feel free to help improve this theme by forking a copy and submitting a pull request.&lt;/p&gt;
@@ -952,8 +935,8 @@ $ git clone https://github.com/jchatkinson/HugoMDL
 
 &lt;p&gt;For more information read the official &lt;a href=&#34;//gohugo.io/overview/installing/&#34;&gt;setup guide&lt;/a&gt; of Hugo.&lt;/p&gt;
 
-&lt;p&gt;(Note for myself)&lt;br /&gt;
-To develop on c9, add the hugo binary to the workspace, then add it to the path using &lt;code&gt;export PATH=$PATH:/home/ubuntu/workspace/hugo&lt;/code&gt;&lt;br /&gt;
+&lt;p&gt;(Note for myself)
+To develop on c9, add the hugo binary to the workspace, then add it to the path using &lt;code&gt;export PATH=$PATH:/home/ubuntu/workspace/hugo&lt;/code&gt;
 To serve the site from c9, cd to site root and use &lt;code&gt;hugo server --bind=&amp;quot;0.0.0.0&amp;quot; --port=8080  --watch --disableLiveReload&lt;/code&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;configure-the-theme&#34;&gt;Configure the Theme&lt;/h2&gt;
@@ -1000,10 +983,10 @@ cardbackground: &amp;quot;#263238&amp;quot; #optional: card background color; on
 ---
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;code&gt;cardthumbimage&lt;/code&gt; is used as the card media on the front page. If unset, a solid color will be displayed.&lt;br /&gt;
-&lt;code&gt;cardheaderimage&lt;/code&gt; is used as the card media on the post page. If unset, a solid color will be displayed.&lt;br /&gt;
-&lt;code&gt;cardbackground&lt;/code&gt; is used as the solid color if no image is specified. If unset, the default theme color is displayed.&lt;br /&gt;
-&lt;code&gt;cardtitlecolor&lt;/code&gt; is used to modify the default white title color (for instance, if you have a light colored background)&lt;br /&gt;
+&lt;p&gt;&lt;code&gt;cardthumbimage&lt;/code&gt; is used as the card media on the front page. If unset, a solid color will be displayed.
+&lt;code&gt;cardheaderimage&lt;/code&gt; is used as the card media on the post page. If unset, a solid color will be displayed.
+&lt;code&gt;cardbackground&lt;/code&gt; is used as the solid color if no image is specified. If unset, the default theme color is displayed.
+&lt;code&gt;cardtitlecolor&lt;/code&gt; is used to modify the default white title color (for instance, if you have a light colored background)
 &lt;code&gt;author&lt;/code&gt; parameters are used to populate the card and post with author&amp;rsquo;s data&lt;/p&gt;
 
 &lt;h3 id=&#34;projects&#34;&gt;Projects&lt;/h3&gt;

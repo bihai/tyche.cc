@@ -20,7 +20,7 @@
 
 &lt;p&gt;Hugo-bootswatch is a &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; theme based on &lt;a href=&#34;http://bootswatch.com/&#34;&gt;Bootswatch&lt;/a&gt;, which themes &lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Bootstrap 3&lt;/a&gt;. As such, Hugo-bootswatch will work as a Bootstrap theme, and also allows simple updating to support any Bootswatch customizations. Hugo-bootswatch comes with Bootstrap 3.3.2 and the bootswatch.js is already included. Customizing the Bootswatch theme is as easy as downloading the Bootswatch-customized bootstrap.min.css file (details below).&lt;/p&gt;
 
-&lt;p&gt;Hugo-bootswatch expects &lt;a href=&#34;http://gohugo.io/content/sections/&#34;&gt;section organization&lt;/a&gt;, which are loaded as navbar links in the header, and placed in a &amp;laquo;Sections&amp;raquo; dropdown.&lt;/p&gt;
+&lt;p&gt;Hugo-bootswatch expects &lt;a href=&#34;http://gohugo.io/content/sections/&#34;&gt;section organization&lt;/a&gt;, which are loaded as navbar links in the header, and placed in a &amp;ldquo;Sections&amp;rdquo; dropdown.&lt;/p&gt;
 
 &lt;p&gt;Hugo-bootswatch was originally built for documentation, so it is missing a lot of blog-type support (most notably the concept of authors). A &amp;lsquo;post&amp;rsquo; archetype may make sense to accommodate this if there is interest.&lt;/p&gt;
 

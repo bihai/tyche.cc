@@ -25,25 +25,23 @@
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;&lt;br /&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#change-the-hero-background&#34;&gt;Change the hero background&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#present-your-skills&#34;&gt;Present your skills&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#show-what-happened&#34;&gt;Show what happened&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#introduce-your-team&#34;&gt;Introduce your team&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#list-your-clients&#34;&gt;List your clients&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#change-the-hero-background&#34;&gt;Change the hero background&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#present-your-skills&#34;&gt;Present your skills&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#show-what-happened&#34;&gt;Show what happened&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#introduce-your-team&#34;&gt;Introduce your team&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#list-your-clients&#34;&gt;List your clients&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
@@ -151,13 +149,11 @@ description: Use this area to describe your project. Lorem ipsum dolor sit amet,
 &lt;p&gt;Since this page will be static, you can use &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt; as proxy to send the actual email. Each month, visitors can send you up to one thousand emails without incurring extra charges. Begin the setup by following the steps below:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Enter your email address under &amp;lsquo;email&amp;rsquo; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Upload the generated site to your server&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Send a dummy email yourself to confirm your account&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Click the confirm link in the email from &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;You&amp;rsquo;re done. Happy mailing!&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Enter your email address under &amp;lsquo;email&amp;rsquo; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Upload the generated site to your server&lt;/li&gt;
+&lt;li&gt;Send a dummy email yourself to confirm your account&lt;/li&gt;
+&lt;li&gt;Click the confirm link in the email from &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re done. Happy mailing!&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&#34;nearly-finished&#34;&gt;Nearly finished&lt;/h3&gt;
@@ -208,15 +204,14 @@ It is naive English, but please acknowledge.
 &lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Google Analytics&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Gravatar Profile&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Disqus&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;SNS Links(Facebook, Twitter, GitHub)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Share Button&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Eye-catching Image&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Tagging&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Related Post&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Google Analytics&lt;/li&gt;
+&lt;li&gt;Gravatar Profile&lt;/li&gt;
+&lt;li&gt;Disqus&lt;/li&gt;
+&lt;li&gt;SNS Links(Facebook, Twitter, GitHub)&lt;/li&gt;
+&lt;li&gt;Share Button&lt;/li&gt;
+&lt;li&gt;Eye-catching Image&lt;/li&gt;
+&lt;li&gt;Tagging&lt;/li&gt;
+&lt;li&gt;Related Post&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;installation&#34;&gt;Installation&lt;/h1&gt;
@@ -313,7 +308,7 @@ Contents here
 
 &lt;h1 id=&#34;air-theme-for-hugo&#34;&gt;AIR theme for hugo&lt;/h1&gt;
 
-&lt;p&gt;Air is a single-column theme for &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.&lt;br /&gt;
+&lt;p&gt;Air is a single-column theme for &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.
 Ported from &lt;a href=&#34;https://github.com/TryGhost/Casper&#34;&gt;Casper theme for Ghost &lt;/a&gt;, &lt;a href=&#34;https://github.com/vjeantet/hugo-theme-casper&#34;&gt;vjeantet/hugo-theme-casper&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
@@ -340,24 +335,22 @@ $ curl 127.0.0.1:1313/hugo-theme-air
 &lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/VincentGarreau/particles.js/&#34;&gt;VincentGarreau/particles.js&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Google Analytics (optional)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Disqus ( can disable comments by content)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Share buttons on Facebook, Twitter, Google (can disable share by content)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Big cover image (optional)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Custom cover by content (optional)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Tagging&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Pagination&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Menu&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/VincentGarreau/particles.js/&#34;&gt;VincentGarreau/particles.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Google Analytics (optional)&lt;/li&gt;
+&lt;li&gt;Disqus ( can disable comments by content)&lt;/li&gt;
+&lt;li&gt;Share buttons on Facebook, Twitter, Google (can disable share by content)&lt;/li&gt;
+&lt;li&gt;Big cover image (optional)&lt;/li&gt;
+&lt;li&gt;Custom cover by content (optional)&lt;/li&gt;
+&lt;li&gt;Tagging&lt;/li&gt;
+&lt;li&gt;Pagination&lt;/li&gt;
+&lt;li&gt;Menu&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;theme-usage-and-asumptions&#34;&gt;Theme usage and asumptions&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;All blog posts are in the &lt;code&gt;post&lt;/code&gt; folder (&lt;code&gt;content/post&lt;/code&gt;)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;The homepage displays a paginated list of contents from the post Section (other contents may be added to main menu, see bellow)&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;All blog posts are in the &lt;code&gt;post&lt;/code&gt; folder (&lt;code&gt;content/post&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;The homepage displays a paginated list of contents from the post Section (other contents may be added to main menu, see bellow)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;installation&#34;&gt;Installation&lt;/h1&gt;
@@ -387,11 +380,11 @@ $ cp config.toml.backup config.toml
 
 &lt;h2 id=&#34;multiple-authors-configuration&#34;&gt;Multiple authors configuration&lt;/h2&gt;
 
-&lt;p&gt;In addition to providing data for a single author as shown in the example above, multiple authors&lt;br /&gt;
-can be configured via data/authors/*.(yml, toml, json) entries. If the key provided in&lt;br /&gt;
-.Site.Params.author matched a data/authors/* entry, it will be used as the default. Overrides&lt;br /&gt;
-per page can be done by a simple author = other_author_key entry in the front matter. For those&lt;br /&gt;
-pages where you want to omit the author block completely, a .Params.noauthor entry is also&lt;br /&gt;
+&lt;p&gt;In addition to providing data for a single author as shown in the example above, multiple authors
+can be configured via data/authors/*.(yml, toml, json) entries. If the key provided in
+.Site.Params.author matched a data/authors/* entry, it will be used as the default. Overrides
+per page can be done by a simple author = other_author_key entry in the front matter. For those
+pages where you want to omit the author block completely, a .Params.noauthor entry is also
 available.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hugo new post/foo.md
@@ -479,62 +472,62 @@ $ curl user.github.io/repository
 &lt;p&gt;static/js/particles.js&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;key | option type / notes | example&lt;br /&gt;
-&amp;mdash;-|&amp;mdash;&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;&lt;br /&gt;
-&lt;code&gt;particles.number.value&lt;/code&gt; | number | &lt;code&gt;40&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.number.density.enable&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.number.density.value_area&lt;/code&gt; | number | &lt;code&gt;800&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.color.value&lt;/code&gt; | HEX (string) &lt;br /&gt; RGB (object) &lt;br /&gt; HSL (object) &lt;br /&gt; array selection (HEX) &lt;br /&gt; random (string) | &lt;code&gt;&amp;quot;#b61924&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;{r:182, g:25, b:36}&lt;/code&gt; &lt;br /&gt;  &lt;code&gt;{h:356, s:76, l:41}&lt;/code&gt; &lt;br /&gt; &lt;code&gt;[&amp;quot;#b61924&amp;quot;, &amp;quot;#333333&amp;quot;, &amp;quot;999999&amp;quot;]&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;random&amp;quot;&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.number.density.value_area&lt;/code&gt; | number | &lt;code&gt;800&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.shape.type&lt;/code&gt; | string &lt;br /&gt; array selection | &lt;code&gt;&amp;quot;circle&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;edge&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;triangle&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;polygon&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;star&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;image&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;[&amp;quot;circle&amp;quot;, &amp;quot;triangle&amp;quot;, &amp;quot;image&amp;quot;]&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.shape.stroke.width&lt;/code&gt; | number | &lt;code&gt;2&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.shape.stroke.color&lt;/code&gt; | HEX (string) | &lt;code&gt;&amp;quot;#222222&amp;quot;&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.shape.polygon.nb_slides&lt;/code&gt; | number | &lt;code&gt;5&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.shape.image.src&lt;/code&gt; | path link &lt;br /&gt; svg / png / gif / jpg | &lt;code&gt;&amp;quot;assets/img/yop.svg&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;http://mywebsite.com/assets/img/yop.png&amp;quot;&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.shape.image.width&lt;/code&gt; | number &lt;br /&gt;(for aspect ratio) | &lt;code&gt;100&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.shape.image.height&lt;/code&gt; | number &lt;br /&gt;(for aspect ratio) | &lt;code&gt;100&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.opacity.value&lt;/code&gt; | number (0 to 1) | &lt;code&gt;0.75&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.opacity.random&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.opacity.anim.enable&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.opacity.anim.speed&lt;/code&gt; | number | &lt;code&gt;3&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.opacity.anim.opacity_min&lt;/code&gt; | number (0 to 1) | &lt;code&gt;0.25&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.opacity.anim.sync&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.size.value&lt;/code&gt; | number | &lt;code&gt;20&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.size.random&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.size.anim.enable&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.size.anim.speed&lt;/code&gt; | number | &lt;code&gt;3&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.size.anim.size_min&lt;/code&gt; | number | &lt;code&gt;0.25&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.size.anim.sync&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.line_linked.enable&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.line_linked.distance&lt;/code&gt; | number | &lt;code&gt;150&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.line_linked.color&lt;/code&gt; | HEX (string) | &lt;code&gt;#ffffff&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.line_linked.opacity&lt;/code&gt; | number (0 to 1) | &lt;code&gt;0.5&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.line_linked.width&lt;/code&gt; | number | &lt;code&gt;1.5&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.move.enable&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.move.speed&lt;/code&gt; | number | &lt;code&gt;4&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.move.direction&lt;/code&gt; | string | &lt;code&gt;&amp;quot;none&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;top&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;top-right&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;right&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;bottom-right&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;bottom&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;bottom-left&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;left&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;top-left&amp;quot;&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.move.random&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.move.straight&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.move.out_mode&lt;/code&gt; | string &lt;br /&gt; (out of canvas) | &lt;code&gt;&amp;quot;out&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;bounce&amp;quot;&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.move.bounce&lt;/code&gt; | boolean &lt;br /&gt; (between particles) | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.move.attract.enable&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.move.attract.rotateX&lt;/code&gt; | number | &lt;code&gt;3000&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;particles.move.attract.rotateY&lt;/code&gt; | number | &lt;code&gt;1500&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;interactivity.detect_on&lt;/code&gt; | string | &lt;code&gt;&amp;quot;canvas&amp;quot;, &amp;quot;window&amp;quot;&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;interactivity.events.onhover.enable&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;interactivity.events.onhover.mode&lt;/code&gt; | string &lt;br /&gt; array selection | &lt;code&gt;&amp;quot;grab&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;bubble&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;repulse&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;[&amp;quot;grab&amp;quot;, &amp;quot;bubble&amp;quot;]&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;interactivity.events.onclick.enable&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;interactivity.events.onclick.mode&lt;/code&gt; | string &lt;br /&gt; array selection | &lt;code&gt;&amp;quot;push&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;remove&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;bubble&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;repulse&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;[&amp;quot;push&amp;quot;, &amp;quot;repulse&amp;quot;]&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;interactivity.events.resize&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;interactivity.events.modes.grab.distance&lt;/code&gt; | number | &lt;code&gt;100&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;interactivity.events.modes.grab.line_linked.opacity&lt;/code&gt; | number (0 to 1) | &lt;code&gt;0.75&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;interactivity.events.modes.bubble.distance&lt;/code&gt; | number | &lt;code&gt;100&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;interactivity.events.modes.bubble.size&lt;/code&gt; | number | &lt;code&gt;40&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;interactivity.events.modes.bubble.duration&lt;/code&gt; | number &lt;br /&gt; (second) | &lt;code&gt;0.4&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;interactivity.events.modes.repulse.distance&lt;/code&gt; | number | &lt;code&gt;200&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;interactivity.events.modes.repulse.duration&lt;/code&gt; | number &lt;br /&gt; (second) | &lt;code&gt;1.2&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;interactivity.events.modes.push.particles_nb&lt;/code&gt; | number | &lt;code&gt;4&lt;/code&gt;&lt;br /&gt;
-&lt;code&gt;interactivity.events.modes.push.particles_nb&lt;/code&gt; | number | &lt;code&gt;4&lt;/code&gt;&lt;br /&gt;
+&lt;p&gt;key | option type / notes | example
+&amp;mdash;-|&amp;mdash;&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;
+&lt;code&gt;particles.number.value&lt;/code&gt; | number | &lt;code&gt;40&lt;/code&gt;
+&lt;code&gt;particles.number.density.enable&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;
+&lt;code&gt;particles.number.density.value_area&lt;/code&gt; | number | &lt;code&gt;800&lt;/code&gt;
+&lt;code&gt;particles.color.value&lt;/code&gt; | HEX (string) &lt;br /&gt; RGB (object) &lt;br /&gt; HSL (object) &lt;br /&gt; array selection (HEX) &lt;br /&gt; random (string) | &lt;code&gt;&amp;quot;#b61924&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;{r:182, g:25, b:36}&lt;/code&gt; &lt;br /&gt;  &lt;code&gt;{h:356, s:76, l:41}&lt;/code&gt; &lt;br /&gt; &lt;code&gt;[&amp;quot;#b61924&amp;quot;, &amp;quot;#333333&amp;quot;, &amp;quot;999999&amp;quot;]&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;random&amp;quot;&lt;/code&gt;
+&lt;code&gt;particles.number.density.value_area&lt;/code&gt; | number | &lt;code&gt;800&lt;/code&gt;
+&lt;code&gt;particles.shape.type&lt;/code&gt; | string &lt;br /&gt; array selection | &lt;code&gt;&amp;quot;circle&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;edge&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;triangle&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;polygon&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;star&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;image&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;[&amp;quot;circle&amp;quot;, &amp;quot;triangle&amp;quot;, &amp;quot;image&amp;quot;]&lt;/code&gt;
+&lt;code&gt;particles.shape.stroke.width&lt;/code&gt; | number | &lt;code&gt;2&lt;/code&gt;
+&lt;code&gt;particles.shape.stroke.color&lt;/code&gt; | HEX (string) | &lt;code&gt;&amp;quot;#222222&amp;quot;&lt;/code&gt;
+&lt;code&gt;particles.shape.polygon.nb_slides&lt;/code&gt; | number | &lt;code&gt;5&lt;/code&gt;
+&lt;code&gt;particles.shape.image.src&lt;/code&gt; | path link &lt;br /&gt; svg / png / gif / jpg | &lt;code&gt;&amp;quot;assets/img/yop.svg&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;http://mywebsite.com/assets/img/yop.png&amp;quot;&lt;/code&gt;
+&lt;code&gt;particles.shape.image.width&lt;/code&gt; | number &lt;br /&gt;(for aspect ratio) | &lt;code&gt;100&lt;/code&gt;
+&lt;code&gt;particles.shape.image.height&lt;/code&gt; | number &lt;br /&gt;(for aspect ratio) | &lt;code&gt;100&lt;/code&gt;
+&lt;code&gt;particles.opacity.value&lt;/code&gt; | number (0 to 1) | &lt;code&gt;0.75&lt;/code&gt;
+&lt;code&gt;particles.opacity.random&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;
+&lt;code&gt;particles.opacity.anim.enable&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;
+&lt;code&gt;particles.opacity.anim.speed&lt;/code&gt; | number | &lt;code&gt;3&lt;/code&gt;
+&lt;code&gt;particles.opacity.anim.opacity_min&lt;/code&gt; | number (0 to 1) | &lt;code&gt;0.25&lt;/code&gt;
+&lt;code&gt;particles.opacity.anim.sync&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;
+&lt;code&gt;particles.size.value&lt;/code&gt; | number | &lt;code&gt;20&lt;/code&gt;
+&lt;code&gt;particles.size.random&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;
+&lt;code&gt;particles.size.anim.enable&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;
+&lt;code&gt;particles.size.anim.speed&lt;/code&gt; | number | &lt;code&gt;3&lt;/code&gt;
+&lt;code&gt;particles.size.anim.size_min&lt;/code&gt; | number | &lt;code&gt;0.25&lt;/code&gt;
+&lt;code&gt;particles.size.anim.sync&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;
+&lt;code&gt;particles.line_linked.enable&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;
+&lt;code&gt;particles.line_linked.distance&lt;/code&gt; | number | &lt;code&gt;150&lt;/code&gt;
+&lt;code&gt;particles.line_linked.color&lt;/code&gt; | HEX (string) | &lt;code&gt;#ffffff&lt;/code&gt;
+&lt;code&gt;particles.line_linked.opacity&lt;/code&gt; | number (0 to 1) | &lt;code&gt;0.5&lt;/code&gt;
+&lt;code&gt;particles.line_linked.width&lt;/code&gt; | number | &lt;code&gt;1.5&lt;/code&gt;
+&lt;code&gt;particles.move.enable&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;
+&lt;code&gt;particles.move.speed&lt;/code&gt; | number | &lt;code&gt;4&lt;/code&gt;
+&lt;code&gt;particles.move.direction&lt;/code&gt; | string | &lt;code&gt;&amp;quot;none&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;top&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;top-right&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;right&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;bottom-right&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;bottom&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;bottom-left&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;left&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;top-left&amp;quot;&lt;/code&gt;
+&lt;code&gt;particles.move.random&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;
+&lt;code&gt;particles.move.straight&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;
+&lt;code&gt;particles.move.out_mode&lt;/code&gt; | string &lt;br /&gt; (out of canvas) | &lt;code&gt;&amp;quot;out&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;bounce&amp;quot;&lt;/code&gt;
+&lt;code&gt;particles.move.bounce&lt;/code&gt; | boolean &lt;br /&gt; (between particles) | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;
+&lt;code&gt;particles.move.attract.enable&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;
+&lt;code&gt;particles.move.attract.rotateX&lt;/code&gt; | number | &lt;code&gt;3000&lt;/code&gt;
+&lt;code&gt;particles.move.attract.rotateY&lt;/code&gt; | number | &lt;code&gt;1500&lt;/code&gt;
+&lt;code&gt;interactivity.detect_on&lt;/code&gt; | string | &lt;code&gt;&amp;quot;canvas&amp;quot;, &amp;quot;window&amp;quot;&lt;/code&gt;
+&lt;code&gt;interactivity.events.onhover.enable&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;
+&lt;code&gt;interactivity.events.onhover.mode&lt;/code&gt; | string &lt;br /&gt; array selection | &lt;code&gt;&amp;quot;grab&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;bubble&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;repulse&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;[&amp;quot;grab&amp;quot;, &amp;quot;bubble&amp;quot;]&lt;/code&gt;
+&lt;code&gt;interactivity.events.onclick.enable&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;
+&lt;code&gt;interactivity.events.onclick.mode&lt;/code&gt; | string &lt;br /&gt; array selection | &lt;code&gt;&amp;quot;push&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;remove&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;bubble&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;&amp;quot;repulse&amp;quot;&lt;/code&gt; &lt;br /&gt; &lt;code&gt;[&amp;quot;push&amp;quot;, &amp;quot;repulse&amp;quot;]&lt;/code&gt;
+&lt;code&gt;interactivity.events.resize&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;
+&lt;code&gt;interactivity.events.modes.grab.distance&lt;/code&gt; | number | &lt;code&gt;100&lt;/code&gt;
+&lt;code&gt;interactivity.events.modes.grab.line_linked.opacity&lt;/code&gt; | number (0 to 1) | &lt;code&gt;0.75&lt;/code&gt;
+&lt;code&gt;interactivity.events.modes.bubble.distance&lt;/code&gt; | number | &lt;code&gt;100&lt;/code&gt;
+&lt;code&gt;interactivity.events.modes.bubble.size&lt;/code&gt; | number | &lt;code&gt;40&lt;/code&gt;
+&lt;code&gt;interactivity.events.modes.bubble.duration&lt;/code&gt; | number &lt;br /&gt; (second) | &lt;code&gt;0.4&lt;/code&gt;
+&lt;code&gt;interactivity.events.modes.repulse.distance&lt;/code&gt; | number | &lt;code&gt;200&lt;/code&gt;
+&lt;code&gt;interactivity.events.modes.repulse.duration&lt;/code&gt; | number &lt;br /&gt; (second) | &lt;code&gt;1.2&lt;/code&gt;
+&lt;code&gt;interactivity.events.modes.push.particles_nb&lt;/code&gt; | number | &lt;code&gt;4&lt;/code&gt;
+&lt;code&gt;interactivity.events.modes.push.particles_nb&lt;/code&gt; | number | &lt;code&gt;4&lt;/code&gt;
 &lt;code&gt;retina_detect&lt;/code&gt; | boolean | &lt;code&gt;true&lt;/code&gt; / &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://raw.githubusercontent.com/VincentGarreau/particles.js/master/README.md&#34;&gt;VincentGarreau/particles.js&lt;/a&gt;&lt;/p&gt;
@@ -570,8 +563,7 @@ $ curl user.github.io/repository
 &lt;h1 id=&#34;contact-me&#34;&gt;Contact me&lt;/h1&gt;
 
 &lt;dl&gt;
-&lt;dt&gt;:beetle: open an issue in github&lt;br /&gt;
-&lt;br /&gt;&lt;/dt&gt;
+&lt;dt&gt;:beetle: open an issue in github&lt;/dt&gt;
 &lt;/dl&gt;
 
 &lt;p&gt;:bird: &lt;a href=&#34;https://twitter.com/syui__&#34;&gt;https://twitter.com/syui__&lt;/a&gt;&lt;/p&gt;
@@ -593,14 +585,13 @@ $ curl user.github.io/repository
 &lt;p&gt;Angel&amp;rsquo;s Ladder is a simple blog theme for Hugo.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Simple and clean design&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Responsive design&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Pagination&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Tagging&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Disqus&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Source code highlighting&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Google Analytics&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Simple and clean design&lt;/li&gt;
+&lt;li&gt;Responsive design&lt;/li&gt;
+&lt;li&gt;Pagination&lt;/li&gt;
+&lt;li&gt;Tagging&lt;/li&gt;
+&lt;li&gt;Disqus&lt;/li&gt;
+&lt;li&gt;Source code highlighting&lt;/li&gt;
+&lt;li&gt;Google Analytics&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;screenshot&#34;&gt;Screenshot&lt;/h2&gt;
@@ -721,7 +712,7 @@ analytics = &amp;quot;UA-XXXXXXXX-X&amp;quot;
 
 &lt;h2 id=&#34;style-customization&#34;&gt;Style Customization&lt;/h2&gt;
 
-&lt;p&gt;The default theme color is &lt;code&gt;#29abe2&lt;/code&gt;.&lt;br /&gt;
+&lt;p&gt;The default theme color is &lt;code&gt;#29abe2&lt;/code&gt;.
 Please change the favorite color.&lt;/p&gt;
 
 &lt;p&gt;For original styles, please edit the &lt;code&gt;layouts/static/custom.css&lt;/code&gt;.&lt;/p&gt;
@@ -759,25 +750,23 @@ Please change the favorite color.&lt;/p&gt;
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;&lt;br /&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#change-the-hero-background&#34;&gt;Change the hero background&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#add-your-own-logo&#34;&gt;Add your own logo&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#introduce-yourself&#34;&gt;Introduce yourself&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#what-your-clients-think&#34;&gt;What your clients think&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#add-social-networks&#34;&gt;Add social networks&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#change-the-hero-background&#34;&gt;Change the hero background&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#add-your-own-logo&#34;&gt;Add your own logo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#introduce-yourself&#34;&gt;Introduce yourself&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#what-your-clients-think&#34;&gt;What your clients think&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#add-social-networks&#34;&gt;Add social networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
@@ -872,7 +861,7 @@ TYPO: International Design Talks is an annual event held in Berlin, London, and 
 
 &lt;p&gt;The following social network icons are available:&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;twitter&lt;/code&gt;, &lt;code&gt;facebook&lt;/code&gt;, &lt;code&gt;github&lt;/code&gt;, &lt;code&gt;pinterest&lt;/code&gt; &lt;code&gt;google-plus&lt;/code&gt;, &lt;code&gt;linkedin&lt;/code&gt;&lt;br /&gt;
+&lt;p&gt;&lt;code&gt;twitter&lt;/code&gt;, &lt;code&gt;facebook&lt;/code&gt;, &lt;code&gt;github&lt;/code&gt;, &lt;code&gt;pinterest&lt;/code&gt; &lt;code&gt;google-plus&lt;/code&gt;, &lt;code&gt;linkedin&lt;/code&gt;
 &lt;code&gt;youtube&lt;/code&gt;, &lt;code&gt;instagram&lt;/code&gt;, &lt;code&gt;dribbble&lt;/code&gt;, &lt;code&gt;behance&lt;/code&gt;, &lt;code&gt;soundcloud&lt;/code&gt; and &lt;code&gt;vine&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/h3&gt;
@@ -880,13 +869,11 @@ TYPO: International Design Talks is an annual event held in Berlin, London, and 
 &lt;p&gt;Since this page will be static, you can use &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt; as proxy to send the actual email. Each month, visitors can send you up to one thousand emails without incurring extra charges. Begin the setup by following the steps below:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Enter your email address under &amp;lsquo;email&amp;rsquo; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Upload the generated site to your server&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Send a dummy email yourself to confirm your account&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Click the confirm link in the email from &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;You&amp;rsquo;re done. Happy mailing!&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Enter your email address under &amp;lsquo;email&amp;rsquo; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Upload the generated site to your server&lt;/li&gt;
+&lt;li&gt;Send a dummy email yourself to confirm your account&lt;/li&gt;
+&lt;li&gt;Click the confirm link in the email from &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re done. Happy mailing!&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&#34;nearly-finished&#34;&gt;Nearly finished&lt;/h3&gt;
@@ -908,18 +895,17 @@ TYPO: International Design Talks is an annual event held in Berlin, London, and 
 
 &lt;h2 id=&#34;annotations&#34;&gt;Annotations&lt;/h2&gt;
 
-&lt;p&gt;A big thank you to these creators for contributing sample projects for the &amp;laquo;work&amp;raquo; section:&lt;/p&gt;
+&lt;p&gt;A big thank you to these creators for contributing sample projects for the &amp;ldquo;work&amp;rdquo; section:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/14751131/-TYPO-International-Design-Talks&#34;&gt;Micael Butial&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/16750837/Free-80-Crispy-Icons-in-PSD-AI-SVG-Webfont&#34;&gt;Petras Nargėla&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/13745729/Timeline-Page&#34;&gt;Sergey Valiukh&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/15812143/Flat-Mobile-UIUX-Concept-download&#34;&gt;Ayoub Elred&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/16483395/City-IN-website-concept&#34;&gt;Anton Skvortsov&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/13870569/Stripes-Co-Free-icon-Set&#34;&gt;Nick Zoutendijk&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/12748107/Weather-Dashboard-Global-Outlook-UIUX&#34;&gt;Jonathan Quintin&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/15063575/Fresh-It-Up-App-Design&#34;&gt;Jieyu Xiong&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/14751131/-TYPO-International-Design-Talks&#34;&gt;Micael Butial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/16750837/Free-80-Crispy-Icons-in-PSD-AI-SVG-Webfont&#34;&gt;Petras Nargėla&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/13745729/Timeline-Page&#34;&gt;Sergey Valiukh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/15812143/Flat-Mobile-UIUX-Concept-download&#34;&gt;Ayoub Elred&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/16483395/City-IN-website-concept&#34;&gt;Anton Skvortsov&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/13870569/Stripes-Co-Free-icon-Set&#34;&gt;Nick Zoutendijk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/12748107/Weather-Dashboard-Global-Outlook-UIUX&#34;&gt;Jonathan Quintin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/15063575/Fresh-It-Up-App-Design&#34;&gt;Jieyu Xiong&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Also thanks to &lt;a href=&#34;//github.com/spf13&#34;&gt;Steve Francia&lt;/a&gt; for creating &lt;a href=&#34;//gohugo.io&#34;&gt;Hugo&lt;/a&gt; and the awesome community around the project.&lt;/p&gt;
@@ -945,13 +931,12 @@ TYPO: International Design Talks is an annual event held in Berlin, London, and 
 &lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Google Analytics&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Disqus&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;SNS Links(Facebook, Twitter, GitHub)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Share Button&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Tagging&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Related Post&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Google Analytics&lt;/li&gt;
+&lt;li&gt;Disqus&lt;/li&gt;
+&lt;li&gt;SNS Links(Facebook, Twitter, GitHub)&lt;/li&gt;
+&lt;li&gt;Share Button&lt;/li&gt;
+&lt;li&gt;Tagging&lt;/li&gt;
+&lt;li&gt;Related Post&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;installation&#34;&gt;Installation&lt;/h1&gt;
@@ -1040,7 +1025,7 @@ Contents here
 &lt;h1 id=&#34;bootie-docs&#34;&gt;Bootie Docs&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;Bootie Docs&lt;/strong&gt; is a simple &lt;a href=&#34;http://gohugo.io/&#34;&gt;hugo&lt;/a&gt; theme for documentation.&lt;br /&gt;
-The name &amp;laquo;bootie&amp;raquo; comes from &lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Bootstrap&lt;/a&gt; CSS.&lt;/p&gt;
+The name &amp;ldquo;bootie&amp;rdquo; comes from &lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Bootstrap&lt;/a&gt; CSS.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/key-amb/hugo-theme-bootie-docs/master/images/tn.png&#34; alt=&#34;Bootie Docs screenshot&#34; /&gt;&lt;/p&gt;
 
@@ -1049,20 +1034,18 @@ The name &amp;laquo;bootie&amp;raquo; comes from &lt;a href=&#34;http://getboots
 &lt;h2 id=&#34;contents&#34;&gt;CONTENTS&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#quickstart&#34;&gt;QUICKSTART&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#options&#34;&gt;OPTIONS&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#limitation&#34;&gt;LIMITATION&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#dependencies&#34;&gt;DEPENDENCIES&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;LICENSE&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#quickstart&#34;&gt;QUICKSTART&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#options&#34;&gt;OPTIONS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#limitation&#34;&gt;LIMITATION&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#dependencies&#34;&gt;DEPENDENCIES&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;LICENSE&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;quickstart&#34;&gt;QUICKSTART&lt;/h2&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;code&gt;hugo new _index.md&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Edit &lt;code&gt;content/_index.md&lt;/code&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hugo new _index.md&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Edit &lt;code&gt;content/_index.md&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;Then the content appears on top page.&lt;/p&gt;
@@ -1087,10 +1070,9 @@ The name &amp;laquo;bootie&amp;raquo; comes from &lt;a href=&#34;http://getboots
 &lt;p&gt;&lt;strong&gt;Bootie Docs&lt;/strong&gt; includes following libraries:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Bootstrap&lt;/a&gt; v3.3.4 &amp;hellip; Well-known CSS framework.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jquery.com/&#34;&gt;jQuery&lt;/a&gt; v1.11.2 &amp;hellip; Requried by &lt;em&gt;Bootstrap&lt;/em&gt;.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://highlightjs.org/&#34;&gt;highlight.js&lt;/a&gt; v8.5 &amp;hellip; For syntax highlighting.&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Bootstrap&lt;/a&gt; v3.3.4 &amp;hellip; Well-known CSS framework.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jquery.com/&#34;&gt;jQuery&lt;/a&gt; v1.11.2 &amp;hellip; Requried by &lt;em&gt;Bootstrap&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://highlightjs.org/&#34;&gt;highlight.js&lt;/a&gt; v8.5 &amp;hellip; For syntax highlighting.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;license&#34;&gt;LICENSE&lt;/h2&gt;
@@ -1117,16 +1099,14 @@ Released under the MIT License.&lt;/p&gt;
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#about-page&#34;&gt;About page&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#disqus&#34;&gt;Disqus&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#about-page&#34;&gt;About page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#disqus&#34;&gt;Disqus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
@@ -1187,10 +1167,10 @@ $ git clone git@github.com:digitalcraftsman/hugo-cactus-theme.git
 
 &lt;h1 id=&#34;casper-theme-for-hugo&#34;&gt;CASPER theme for hugo&lt;/h1&gt;
 
-&lt;p&gt;Casper is a single-column theme for &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.&lt;br /&gt;
+&lt;p&gt;Casper is a single-column theme for &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.
 Ported from &lt;a href=&#34;https://github.com/TryGhost/Casper&#34;&gt;Casper theme for Ghost &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;blog demo : &lt;a href=&#34;http://vjeantet.fr&#34;&gt;http://vjeantet.fr&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;blog demo : &lt;a href=&#34;http://vjeantet.fr&#34;&gt;http://vjeantet.fr&lt;/a&gt;
 blog source : &lt;a href=&#34;https://github.com/vjeantet/vjeantet.fr&#34;&gt;https://github.com/vjeantet/vjeantet.fr&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/vjeantet/hugo-theme-casper/master/images/screen.png&#34; alt=&#34;Hugo Casper Theme screenshot&#34; /&gt;&lt;/p&gt;
@@ -1198,23 +1178,21 @@ blog source : &lt;a href=&#34;https://github.com/vjeantet/vjeantet.fr&#34;&gt;ht
 &lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Google Analytics (optional)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Disqus ( can disable comments by content)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Share buttons on Facebook, Twitter, Google (can disable share by content)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Big cover image (optional)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Custom cover by content (optional)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Tagging&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Pagination&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Menu&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Google Analytics (optional)&lt;/li&gt;
+&lt;li&gt;Disqus ( can disable comments by content)&lt;/li&gt;
+&lt;li&gt;Share buttons on Facebook, Twitter, Google (can disable share by content)&lt;/li&gt;
+&lt;li&gt;Big cover image (optional)&lt;/li&gt;
+&lt;li&gt;Custom cover by content (optional)&lt;/li&gt;
+&lt;li&gt;Tagging&lt;/li&gt;
+&lt;li&gt;Pagination&lt;/li&gt;
+&lt;li&gt;Menu&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;theme-usage-and-asumptions&#34;&gt;Theme usage and asumptions&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;All blog posts are in the &lt;code&gt;post&lt;/code&gt; folder (&lt;code&gt;content/post&lt;/code&gt;)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;The homepage displays a paginated list of contents from the post Section (other contents may be added to main menu, see bellow)&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;All blog posts are in the &lt;code&gt;post&lt;/code&gt; folder (&lt;code&gt;content/post&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;The homepage displays a paginated list of contents from the post Section (other contents may be added to main menu, see bellow)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;installation&#34;&gt;Installation&lt;/h1&gt;
@@ -1266,11 +1244,11 @@ canonifyurls = true
 
 &lt;h2 id=&#34;multiple-authors-configuration&#34;&gt;Multiple authors configuration&lt;/h2&gt;
 
-&lt;p&gt;In addition to providing data for a single author as shown in the example above, multiple authors&lt;br /&gt;
-can be configured via data/authors/*.(yml, toml, json) entries. If the key provided in&lt;br /&gt;
-.Site.Params.author matched a data/authors/* entry, it will be used as the default. Overrides&lt;br /&gt;
-per page can be done by a simple author = other_author_key entry in the front matter. For those&lt;br /&gt;
-pages where you want to omit the author block completely, a .Params.noauthor entry is also&lt;br /&gt;
+&lt;p&gt;In addition to providing data for a single author as shown in the example above, multiple authors
+can be configured via data/authors/*.(yml, toml, json) entries. If the key provided in
+.Site.Params.author matched a data/authors/* entry, it will be used as the default. Overrides
+per page can be done by a simple author = other_author_key entry in the front matter. For those
+pages where you want to omit the author block completely, a .Params.noauthor entry is also
 available.&lt;/p&gt;
 
 &lt;p&gt;Example author definition file:&lt;/p&gt;
@@ -1297,9 +1275,9 @@ Contents here
 
 &lt;h2 id=&#34;menu-configuration&#34;&gt;Menu configuration&lt;/h2&gt;
 
-&lt;p&gt;On top right of the screen, a &amp;laquo;Subscribe&amp;raquo; button is displayed with a link to the RSS feed.&lt;/p&gt;
+&lt;p&gt;On top right of the screen, a &amp;ldquo;Subscribe&amp;rdquo; button is displayed with a link to the RSS feed.&lt;/p&gt;
 
-&lt;p&gt;When you define a menu in the main config file, Then a menu button is displayed instead of the subscribe button&lt;br /&gt;
+&lt;p&gt;When you define a menu in the main config file, Then a menu button is displayed instead of the subscribe button
 When the use clicks the menu button, a sidebar appears and shows the subscribe button and all items defined in the main config file&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -1350,8 +1328,7 @@ Contents here
 &lt;h1 id=&#34;contact-me&#34;&gt;Contact me&lt;/h1&gt;
 
 &lt;dl&gt;
-&lt;dt&gt;:beetle: open an issue in github&lt;br /&gt;
-&lt;br /&gt;&lt;/dt&gt;
+&lt;dt&gt;:beetle: open an issue in github&lt;/dt&gt;
 &lt;/dl&gt;
 
 &lt;p&gt;:bird: &lt;a href=&#34;https://twitter.com/vjeantet&#34;&gt;https://twitter.com/vjeantet&lt;/a&gt;&lt;/p&gt;
@@ -1379,14 +1356,13 @@ Contents here
 &lt;h1 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#setup&#34;&gt;Setup&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#theme&#34;&gt;Theme&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#screenshots&#34;&gt;Screenshots&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#extras&#34;&gt;Extras&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#example-sites&#34;&gt;Example Sites&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#setup&#34;&gt;Setup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#theme&#34;&gt;Theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#screenshots&#34;&gt;Screenshots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#extras&#34;&gt;Extras&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#example-sites&#34;&gt;Example Sites&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;setup&#34;&gt;Setup&lt;/h1&gt;
@@ -1408,16 +1384,14 @@ $ git clone https://github.com/nishanths/cocoa-hugo-theme.git cocoa
 &lt;h2 id=&#34;creating-content&#34;&gt;Creating Content&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Posts should go under a &lt;code&gt;content/posts&lt;/code&gt; directory. Typically you would run:&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Posts should go under a &lt;code&gt;content/posts&lt;/code&gt; directory. Typically you would run:&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;pre&gt;&lt;code&gt;$ hugo new posts/newpost.md
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Fixed pages such as an About page should preferably go under a &lt;code&gt;content/fixed&lt;/code&gt; or be present at the root of the &lt;code&gt;contents&lt;/code&gt; directory.&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Fixed pages such as an About page should preferably go under a &lt;code&gt;content/fixed&lt;/code&gt; or be present at the root of the &lt;code&gt;contents&lt;/code&gt; directory.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;pre&gt;&lt;code&gt;$ hugo new fixed/about.md
@@ -1456,10 +1430,9 @@ $ git clone https://github.com/nishanths/cocoa-hugo-theme.git cocoa
 &lt;p&gt;The main colors are:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;#333333&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;#b7b7b7&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;#21bb5b&lt;/code&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;#333333&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;#b7b7b7&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;#21bb5b&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;For syntax highlighting, set &lt;code&gt;pygmentsuseclasses = true&lt;/code&gt; in your &lt;code&gt;config.toml&lt;/code&gt;. Syntax highlighting classes in &lt;code&gt;css/pygments.css&lt;/code&gt; are from &lt;a href=&#34;https://github.com/richleland/pygments-css/blob/master/default.css&#34;&gt;&lt;code&gt;default.css&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
@@ -1467,11 +1440,10 @@ $ git clone https://github.com/nishanths/cocoa-hugo-theme.git cocoa
 &lt;h2 id=&#34;site-variables&#34;&gt;Site Variables&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Add the following params in &lt;code&gt;config.toml&lt;/code&gt; to customize your site.&lt;br /&gt;
+&lt;li&gt;Add the following params in &lt;code&gt;config.toml&lt;/code&gt; to customize your site.
 
 &lt;ul&gt;
-&lt;li&gt;The only required key is &lt;code&gt;DateForm&lt;/code&gt;.&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;The only required key is &lt;code&gt;DateForm&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1510,9 +1482,8 @@ WebfontsFile = &amp;quot;css/mywebfontsfile.css&amp;quot; # relative to static/ 
 &lt;h1 id=&#34;example-sites&#34;&gt;Example Sites&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://nishanths.me&#34;&gt;http://nishanths.me&lt;/a&gt; • &lt;a href=&#34;https://github.com/nishanths/&#34;&gt;source&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/nishanths/nishanths.me/pulls&#34;&gt;Add yours by submitting a pull request&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://nishanths.me&#34;&gt;http://nishanths.me&lt;/a&gt; • &lt;a href=&#34;https://github.com/nishanths/&#34;&gt;source&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nishanths/nishanths.me/pulls&#34;&gt;Add yours by submitting a pull request&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;contributing&#34;&gt;Contributing&lt;/h1&gt;
@@ -1542,21 +1513,19 @@ WebfontsFile = &amp;quot;css/mywebfontsfile.css&amp;quot; # relative to static/ 
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;&lt;br /&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#change-the-hero-background&#34;&gt;Change the hero background&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#add-your-services&#34;&gt;Add your services&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#change-the-hero-background&#34;&gt;Change the hero background&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#add-your-services&#34;&gt;Add your services&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
@@ -1683,7 +1652,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim 
 
 &lt;h3 id=&#34;more-screenshots&#34;&gt;More Screenshots&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://raw.github.com/kathyqian/crisp-ghost-theme/master/screenshots/post.png&#34; alt=&#34;Post&#34; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.github.com/kathyqian/crisp-ghost-theme/master/screenshots/post.png&#34; alt=&#34;Post&#34; /&gt;
 &lt;img src=&#34;https://raw.github.com/kathyqian/crisp-ghost-theme/master/screenshots/post-2.png&#34; alt=&#34;Comments&#34; /&gt;&lt;/p&gt;
 </description>
         </item>
@@ -1725,21 +1694,19 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim 
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;&lt;br /&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#add-social-networks&#34;&gt;Add social networks&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#add-social-networks&#34;&gt;Add social networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
@@ -1759,7 +1726,7 @@ $ git clone https://github.com/digitalcraftsman/hugo-freelancer-theme
 
 &lt;h3 id=&#34;the-config-file&#34;&gt;The config file&lt;/h3&gt;
 
-&lt;p&gt;Take a look inside the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-freelancer-theme/tree/master/exampleSite&#34;&gt;&lt;code&gt;exampleSite&lt;/code&gt;&lt;/a&gt; folder of this theme. You&amp;rsquo;ll find a file called &lt;a href=&#34;//github.com/digitalcraftsman/hugo-freelancer-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;.&lt;br /&gt;
+&lt;p&gt;Take a look inside the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-freelancer-theme/tree/master/exampleSite&#34;&gt;&lt;code&gt;exampleSite&lt;/code&gt;&lt;/a&gt; folder of this theme. You&amp;rsquo;ll find a file called &lt;a href=&#34;//github.com/digitalcraftsman/hugo-freelancer-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;.
 It contains detailed information about the setup of the contact form (&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;or see below&lt;/a&gt;) and the customization of all strings in this theme.&lt;/p&gt;
 
 &lt;p&gt;To use it, copy the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-freelancer-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt; in the root folder of your Hugo site. Feel free to change strings as you like.&lt;/p&gt;
@@ -1769,13 +1736,11 @@ It contains detailed information about the setup of the contact form (&lt;a href
 &lt;p&gt;Since this page will be static, you can use &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt; as proxy to send the actual email. Each month, visitors can send you up to one thousand emails without incurring extra charges. Begin the setup by following the steps below:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Enter your email address under &amp;lsquo;email&amp;rsquo; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-freelancer-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Upload the generated site to your server&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Send a dummy email yourself to confirm your account&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Click the confirm link in the email from &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;You&amp;rsquo;re done. Happy mailing!&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Enter your email address under &amp;lsquo;email&amp;rsquo; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-freelancer-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Upload the generated site to your server&lt;/li&gt;
+&lt;li&gt;Send a dummy email yourself to confirm your account&lt;/li&gt;
+&lt;li&gt;Click the confirm link in the email from &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re done. Happy mailing!&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&#34;add-social-networks&#34;&gt;Add social networks&lt;/h3&gt;
@@ -1852,7 +1817,7 @@ description: Use this area of the page to describe your project. The icon above 
 
 &lt;p&gt;LaTeX support built in (using KaTeX via CDN for fast rendering)&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;images/gindoro-index-screenshot.png&#34; alt=&#34;front page screenshot&#34; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&#34;images/gindoro-index-screenshot.png&#34; alt=&#34;front page screenshot&#34; /&gt;
 &lt;img src=&#34;images/gindoro-screenshot.png&#34; alt=&#34;screenshot&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;installation&#34;&gt;installation&lt;/h3&gt;

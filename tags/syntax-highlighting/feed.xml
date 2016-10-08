@@ -25,16 +25,14 @@
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#about-page&#34;&gt;About page&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#disqus&#34;&gt;Disqus&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#about-page&#34;&gt;About page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#disqus&#34;&gt;Disqus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
@@ -102,20 +100,18 @@ $ git clone git@github.com:digitalcraftsman/hugo-cactus-theme.git
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#setup&#34;&gt;Setup&lt;/a&gt;&lt;br /&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#setup&#34;&gt;Setup&lt;/a&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#disqus&#34;&gt;Disqus&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#google-analytics&#34;&gt;Google Analytics&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#disqus&#34;&gt;Disqus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#google-analytics&#34;&gt;Google Analytics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
@@ -255,11 +251,10 @@ menu = &amp;quot;main&amp;quot;
 &lt;p&gt;Beside the profile section you can add widgets on the right sidebar. The following widgets are available:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;recent articles&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;category list&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;tag list&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;tag cloud&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;recent articles&lt;/li&gt;
+&lt;li&gt;category list&lt;/li&gt;
+&lt;li&gt;tag list&lt;/li&gt;
+&lt;li&gt;tag cloud&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;You can deactivate them under &lt;code&gt;params.widgets&lt;/code&gt;:&lt;/p&gt;
@@ -373,15 +368,13 @@ menu = &amp;quot;main&amp;quot;
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#localization-l10n&#34;&gt;Localization (l10n)&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#localization-l10n&#34;&gt;Localization (l10n)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;

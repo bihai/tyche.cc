@@ -41,7 +41,7 @@ $ git clone https://github.com/roperzh/tinyce-hugo-theme
 
 &lt;p&gt;&lt;em&gt;If you are using Hugo v0.11 or below, please read &lt;a href=&#34;https://github.com/roperzh/tinyce-hugo-theme/#usage-with-hugo-v011-and-below&#34;&gt;this&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Now you can set tinyce as the default theme for your site by adding this line&lt;br /&gt;
+&lt;p&gt;Now you can set tinyce as the default theme for your site by adding this line
 in the &lt;code&gt;config&lt;/code&gt; file:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;theme = &amp;quot;tinyce-hugo-theme&amp;quot;
@@ -54,16 +54,16 @@ in the &lt;code&gt;config&lt;/code&gt; file:&lt;/p&gt;
 
 &lt;h1 id=&#34;setting-variables&#34;&gt;Setting Variables&lt;/h1&gt;
 
-&lt;p&gt;Tinyce needs a custom archetype in order to work properly, behind the covers&lt;br /&gt;
-you will only need to define two new variables in the front matter section of&lt;br /&gt;
+&lt;p&gt;Tinyce needs a custom archetype in order to work properly, behind the covers
+you will only need to define two new variables in the front matter section of
 your contents.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;color&lt;/strong&gt; : the color associated with the post, valid colors are: &lt;code&gt;red&lt;/code&gt;,&lt;br /&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;color&lt;/strong&gt; : the color associated with the post, valid colors are: &lt;code&gt;red&lt;/code&gt;,
 &lt;code&gt;green&lt;/code&gt;, &lt;code&gt;blue&lt;/code&gt;, &lt;code&gt;yellow&lt;/code&gt;, &lt;code&gt;orange&lt;/code&gt; and &lt;code&gt;grey&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;icon&lt;/strong&gt; : a valid font-awesome icon name, without the &lt;code&gt;fa-&lt;/code&gt; prefix. For example,&lt;br /&gt;
-instead of &lt;code&gt;fa-heart&lt;/code&gt;, you only need to put &lt;code&gt;heart&lt;/code&gt;. &lt;a href=&#34;http://fortawesome.github.io/Font-Awesome/cheatsheet/&#34;&gt;here&lt;/a&gt;&lt;br /&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;icon&lt;/strong&gt; : a valid font-awesome icon name, without the &lt;code&gt;fa-&lt;/code&gt; prefix. For example,
+instead of &lt;code&gt;fa-heart&lt;/code&gt;, you only need to put &lt;code&gt;heart&lt;/code&gt;. &lt;a href=&#34;http://fortawesome.github.io/Font-Awesome/cheatsheet/&#34;&gt;here&lt;/a&gt;
 is a cheatsheet of valid icons.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -83,7 +83,7 @@ date = 2014-08-09T05:04:40Z
 
 &lt;h1 id=&#34;usage-with-hugo-v0-11-and-below&#34;&gt;Usage with Hugo v0.11 and below&lt;/h1&gt;
 
-&lt;p&gt;The latest version of the theme includes some features bundled with Hugo v0.12,&lt;br /&gt;
+&lt;p&gt;The latest version of the theme includes some features bundled with Hugo v0.12,
 if you are using an old version, please install tinyce like this:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ cd themes

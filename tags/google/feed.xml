@@ -39,16 +39,15 @@
 &lt;h4 id=&#34;some-features&#34;&gt;Some features&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;posts can have featured images&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;header contains tags for &lt;a href=&#34;http://ogp.me/&#34;&gt;Open Graph&lt;/a&gt; and &lt;a href=&#34;https://dev.twitter.com/cards/overview&#34;&gt;Twitter Cards&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;links to profiles on Facebook, Twitter, Google Plus&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;customizable share button&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;pagination&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;customizable background image/color&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;customizable design (colors)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;responsive design&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;code highlighting&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;posts can have featured images&lt;/li&gt;
+&lt;li&gt;header contains tags for &lt;a href=&#34;http://ogp.me/&#34;&gt;Open Graph&lt;/a&gt; and &lt;a href=&#34;https://dev.twitter.com/cards/overview&#34;&gt;Twitter Cards&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;links to profiles on Facebook, Twitter, Google Plus&lt;/li&gt;
+&lt;li&gt;customizable share button&lt;/li&gt;
+&lt;li&gt;pagination&lt;/li&gt;
+&lt;li&gt;customizable background image/color&lt;/li&gt;
+&lt;li&gt;customizable design (colors)&lt;/li&gt;
+&lt;li&gt;responsive design&lt;/li&gt;
+&lt;li&gt;code highlighting&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;configuration-variables&#34;&gt;Configuration variables&lt;/h3&gt;

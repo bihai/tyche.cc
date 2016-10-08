@@ -95,11 +95,10 @@ menu = &amp;quot;main&amp;quot;
 &lt;p&gt;Beside the profile section you can add widgets on the right sidebar. The following widgets are available:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;recent articles&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;category list&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;tag list&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;tag cloud&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;recent articles&lt;/li&gt;
+&lt;li&gt;category list&lt;/li&gt;
+&lt;li&gt;tag list&lt;/li&gt;
+&lt;li&gt;tag cloud&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;You can deactivate them under &lt;code&gt;params.widgets&lt;/code&gt;:&lt;/p&gt;
@@ -206,7 +205,7 @@ menu = &amp;quot;main&amp;quot;
 
 &lt;h1 id=&#34;hugo-uno&#34;&gt;hugo-uno&lt;/h1&gt;
 
-&lt;p&gt;A responsive hugo theme with awesome font&amp;rsquo;s, charts and light-box galleries, the theme is based on &lt;a href=&#34;https://github.com/daleanthony/Uno&#34;&gt;Uno&lt;/a&gt; for ghost.&lt;br /&gt;
+&lt;p&gt;A responsive hugo theme with awesome font&amp;rsquo;s, charts and light-box galleries, the theme is based on &lt;a href=&#34;https://github.com/daleanthony/Uno&#34;&gt;Uno&lt;/a&gt; for ghost.
 A example site is available at &lt;a href=&#34;http://fredrikloch.me&#34;&gt;fredrikloch.me&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;A Swedish translation is available in the branch feature/swedish&lt;/p&gt;
@@ -248,11 +247,11 @@ copyright = &amp;quot;This work is licensed under a Creative Commons Attribution
   logo = &amp;quot;/img/logo-1.jpg&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;If you prefer to use discourse replace the &amp;laquo;muut&amp;raquo; line with the following(remember the trailing slash)&lt;/p&gt;
+&lt;p&gt;If you prefer to use discourse replace the &amp;ldquo;muut&amp;rdquo; line with the following(remember the trailing slash)&lt;/p&gt;
 
-&lt;p&gt;&amp;rdquo;&amp;rsquo;&lt;br /&gt;
-  discourse = &amp;laquo;&lt;a href=&#34;http://discourse.yoursite.com/&amp;quot;&#34;&gt;http://discourse.yoursite.com/&amp;quot;&lt;/a&gt;&lt;br /&gt;
-&amp;rdquo;&amp;rsquo;&lt;/p&gt;
+&lt;p&gt;&amp;rdquo;&amp;rsquo;
+  discourse = &amp;ldquo;&lt;a href=&#34;http://discourse.yoursite.com/&amp;quot;&#34;&gt;http://discourse.yoursite.com/&amp;quot;&lt;/a&gt;
+&amp;ldquo;&amp;rsquo;&lt;/p&gt;
 
 &lt;h2 id=&#34;charts&#34;&gt;Charts&lt;/h2&gt;
 
@@ -311,22 +310,22 @@ copyright = &amp;quot;This work is licensed under a Creative Commons Attribution
 
 &lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Cover page&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;Cover page&lt;/strong&gt;
 The landing page for Hugo-Uno is a full screen &amp;lsquo;cover&amp;rsquo; featuring your avatar, blog title, mini-bio and cover image.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Built with SASS, using BEM&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;Built with SASS, using BEM&lt;/strong&gt;
 If you know HTML and CSS making modifications to the theme should be super simple.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Responsive&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;Responsive&lt;/strong&gt;
 Hugo-Uno looks great on all devices, even those weird phablets that nobody buys.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Moot comments&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;Moot comments&lt;/strong&gt;
 Moot integration allows users to comment on your posts.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Font-awesome icons&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;Font-awesome icons&lt;/strong&gt;
 For more information on available icons: &lt;a href=&#34;http://fortawesome.github.io/Font-Awesome/&#34;&gt;font-awesome&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;No-JS fallback&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;No-JS fallback&lt;/strong&gt;
 While JS is widely used, some themes and websites don&amp;rsquo;t provide fallback for when no JS is available (I&amp;rsquo;m looking at you &lt;a href=&#34;http://blog.squarespace.com/&#34;&gt;Squarespace&lt;/a&gt;). If for some weird reason a visitor has JS disabled your blog will still be usable.&lt;/p&gt;
 
 &lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
@@ -388,8 +387,8 @@ bourbon help
 
 &lt;h1 id=&#34;red-lounge&#34;&gt;Red Lounge&lt;/h1&gt;
 
-&lt;p&gt;This is an open-source Hugo theme designed by &lt;a href=&#34;http://www.twitter.com/shift8creative&#34;&gt;@shift8creative&lt;/a&gt; to be responsive and clean. It uses Pure.css and contains a few web fonts from Google as well as Font Awesome icons.&lt;br /&gt;
-So despite it being simple, it has a lot of flexibility in terms of typography and design elements. It&amp;rsquo;s also quite configurable as it has a few variables to change the&lt;br /&gt;
+&lt;p&gt;This is an open-source Hugo theme designed by &lt;a href=&#34;http://www.twitter.com/shift8creative&#34;&gt;@shift8creative&lt;/a&gt; to be responsive and clean. It uses Pure.css and contains a few web fonts from Google as well as Font Awesome icons.
+So despite it being simple, it has a lot of flexibility in terms of typography and design elements. It&amp;rsquo;s also quite configurable as it has a few variables to change the
 appearance and features of the pages. By default, excess features (and JavaScript) is not included.&lt;/p&gt;
 
 &lt;h2 id=&#34;configuration-and-options&#34;&gt;Configuration and Options&lt;/h2&gt;
@@ -404,14 +403,14 @@ appearance and features of the pages. By default, excess features (and JavaScrip
     sidebarphoto = &amp;quot;/img/photo.png&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;This three properites will not be shown if not set. You will want to keep these lines short since there&amp;rsquo;s limited space.&lt;br /&gt;
+&lt;p&gt;This three properites will not be shown if not set. You will want to keep these lines short since there&amp;rsquo;s limited space.
 Alternatively you could add custom HTML using the &lt;code&gt;sidebarheader.html&lt;/code&gt; partial and keep those values empty strings.&lt;/p&gt;
 
 &lt;h3 id=&#34;menus&#34;&gt;Menus&lt;/h3&gt;
 
 &lt;p&gt;There are a few menus this theme allows you to define (all optional) in your main config.&lt;/p&gt;
 
-&lt;p&gt;Main - This menu is pretty basic and goes on the left panel under the site title and description. It contains red markers to separate items and call attention to the&lt;br /&gt;
+&lt;p&gt;Main - This menu is pretty basic and goes on the left panel under the site title and description. It contains red markers to separate items and call attention to the
 fact that it is more important than the other lists/menus that you may have on your site. It is optional, but always shows a link to the home page.&lt;br /&gt;
 This would be a good place to link to your various sections.&lt;/p&gt;
 
@@ -445,7 +444,7 @@ This menu is simply plain text links centered and they are gray to match the foo
 
 &lt;p&gt;Each label will have the following class: &lt;code&gt;class=&amp;quot;post-category post-category-{{ . | urlize }}&amp;quot;&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Note the name is going to be urlized. So for example: &lt;code&gt;post-category-technology&lt;/code&gt; or &lt;code&gt;post-category-golang&lt;/code&gt; and so on. This allows you to create your own CSS around the&lt;br /&gt;
+&lt;p&gt;Note the name is going to be urlized. So for example: &lt;code&gt;post-category-technology&lt;/code&gt; or &lt;code&gt;post-category-golang&lt;/code&gt; and so on. This allows you to create your own CSS around the
 categories you end up defining. You can then set the background color to be something specific and then all instances of that category label will match.&lt;/p&gt;
 
 &lt;p&gt;You can easily include a categories CSS file, without modifying template partials, by using the site config params. Something like the following:&lt;/p&gt;
@@ -458,14 +457,14 @@ categories you end up defining. You can then set the background color to be some
 
 &lt;h3 id=&#34;comments&#34;&gt;Comments&lt;/h3&gt;
 
-&lt;p&gt;Comments use Disqus, so the main config needs to define &lt;code&gt;disqusShortname&lt;/code&gt; like normal. However, each page can disable comments from appearing with front matter. Simply set&lt;br /&gt;
+&lt;p&gt;Comments use Disqus, so the main config needs to define &lt;code&gt;disqusShortname&lt;/code&gt; like normal. However, each page can disable comments from appearing with front matter. Simply set
 &lt;code&gt;nocomment = true&lt;/code&gt; and they will be hidden.&lt;/p&gt;
 
 &lt;h3 id=&#34;lightbox&#34;&gt;Lightbox&lt;/h3&gt;
 
-&lt;p&gt;Lightbox is included with the theme but won&amp;rsquo;t be available for use (not even linked in the HTML) unless you enable it. This way it stays out of the way and saves on bandwidth.&lt;br /&gt;
-Should you decide you want to use it, simply add to your front-matter: &lt;code&gt;lightbox = true&lt;/code&gt; and then in your markdown you&amp;rsquo;ll need add links with a &lt;code&gt;data-lightbox&lt;/code&gt; attribute.&lt;br /&gt;
-Markdown wants to add titles when you add quotes so the syntax is a little weird. Alternatively, you can use HTML (which is likely easier in this case). So the following should&lt;br /&gt;
+&lt;p&gt;Lightbox is included with the theme but won&amp;rsquo;t be available for use (not even linked in the HTML) unless you enable it. This way it stays out of the way and saves on bandwidth.
+Should you decide you want to use it, simply add to your front-matter: &lt;code&gt;lightbox = true&lt;/code&gt; and then in your markdown you&amp;rsquo;ll need add links with a &lt;code&gt;data-lightbox&lt;/code&gt; attribute.
+Markdown wants to add titles when you add quotes so the syntax is a little weird. Alternatively, you can use HTML (which is likely easier in this case). So the following should
 use images in your &lt;code&gt;static&lt;/code&gt; directory:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;/image.jpg&amp;quot; title=&amp;quot;&amp;quot; data-lightbox=&amp;quot;set1&amp;quot; data-title=&amp;quot;This is my caption&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;/image-thumbnail.jpg&amp;quot; alt=&amp;quot;&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;
@@ -475,42 +474,40 @@ use images in your &lt;code&gt;static&lt;/code&gt; directory:&lt;/p&gt;
 
 &lt;h3 id=&#34;hiding-showing-things&#34;&gt;Hiding &amp;amp; Showing Things&lt;/h3&gt;
 
-&lt;p&gt;Comments can be hidden on a per page basis with &lt;code&gt;nocomment = true&lt;/code&gt; but there&amp;rsquo;s also some other things that can be hidden. Sometimes simply by not defining them, other times&lt;br /&gt;
+&lt;p&gt;Comments can be hidden on a per page basis with &lt;code&gt;nocomment = true&lt;/code&gt; but there&amp;rsquo;s also some other things that can be hidden. Sometimes simply by not defining them, other times
 by explicitly setting variables. They are as follows:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;nodate = true&lt;/code&gt; Hides the date on a page&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;noauthor = true&lt;/code&gt; Hides the author (which may simply be defined per page, but also could be set higher up in the config, so this overrides)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;noread = true&lt;/code&gt; Hides the read time displayed on list pages&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;nopaging = true&lt;/code&gt; Hides the next/prev links that navigate through pages&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;notoc = true&lt;/code&gt; Hides the table of contents from a page&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;totop = true&lt;/code&gt; Shows a &amp;laquo;To Top&amp;raquo; link, fixed in the top right of the page after scrolling beyond 1000px, that takes the user back to the top of the page (not shown by default)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;socialsharing = true&lt;/code&gt; Shows social media sharing buttons from a partial template (which can be overwritten)&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;nodate = true&lt;/code&gt; Hides the date on a page&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;noauthor = true&lt;/code&gt; Hides the author (which may simply be defined per page, but also could be set higher up in the config, so this overrides)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;noread = true&lt;/code&gt; Hides the read time displayed on list pages&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;nopaging = true&lt;/code&gt; Hides the next/prev links that navigate through pages&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;notoc = true&lt;/code&gt; Hides the table of contents from a page&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;totop = true&lt;/code&gt; Shows a &amp;ldquo;To Top&amp;rdquo; link, fixed in the top right of the page after scrolling beyond 1000px, that takes the user back to the top of the page (not shown by default)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;socialsharing = true&lt;/code&gt; Shows social media sharing buttons from a partial template (which can be overwritten)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;other-params&#34;&gt;Other Params&lt;/h3&gt;
 
-&lt;p&gt;Aside from the above variables that hide/show things, there are a few other variables that this theme will look for and use. These can be placed in any front matter. In some cases&lt;br /&gt;
+&lt;p&gt;Aside from the above variables that hide/show things, there are a few other variables that this theme will look for and use. These can be placed in any front matter. In some cases
  you&amp;rsquo;ll want to define these in the archetypes so you don&amp;rsquo;t need to keep defining the values. These are all optional of course.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;ogimage&lt;/code&gt; OpenGraph image tag&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ogtitle&lt;/code&gt; OpenGraph title tag (if not set, will use &lt;code&gt;.Title&lt;/code&gt;)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ogdescription&lt;/code&gt; OpenGraph description tag (if not set, will use &lt;code&gt;.Description&lt;/code&gt; - also used the same way for meta description)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;banner&lt;/code&gt; A banner image for a page that sits above the title and stretches across the width of the page&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;bannerheight&lt;/code&gt; An optional height for the banner image wrapper to help cut off larger images (specified as just a number, none by default)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;bannerfill&lt;/code&gt; If set true, this will attempt to fill the available width of the content area with the banner image by applying a 100% width to the image style&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;bannerinline&lt;/code&gt; Use this instead to place a banner image after the title, author, tags, etc. which floats to the right of the content (does not use the fill/height params)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;thumbnail&lt;/code&gt; Set this to an image path if you want to show a thumbnail with pages in the list view; originally intended for author avatars, any small image could work (50x50 pixels)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;author&lt;/code&gt; The author name&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;authorlink&lt;/code&gt; A link for the author&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;authorlinktarget&lt;/code&gt; The link target, ie. &amp;laquo;_blank&amp;raquo; (useful if the link goes to an external site or something)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;authortwitter&lt;/code&gt; The full URL to the author&amp;rsquo;s Twitter profile (opens in a new window)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;authorlinkedin&lt;/code&gt; The full URL to the author&amp;rsquo;s LinkedIn profile (opens in a new window)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;authorfacebook&lt;/code&gt; The full URL to the author&amp;rsquo;s Facebook page/profile (opens in a new window)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;authorgoogleplus&lt;/code&gt; The full URL to the author&amp;rsquo;s Google+ page/profile (opens in a new window)&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ogimage&lt;/code&gt; OpenGraph image tag&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ogtitle&lt;/code&gt; OpenGraph title tag (if not set, will use &lt;code&gt;.Title&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ogdescription&lt;/code&gt; OpenGraph description tag (if not set, will use &lt;code&gt;.Description&lt;/code&gt; - also used the same way for meta description)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;banner&lt;/code&gt; A banner image for a page that sits above the title and stretches across the width of the page&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bannerheight&lt;/code&gt; An optional height for the banner image wrapper to help cut off larger images (specified as just a number, none by default)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bannerfill&lt;/code&gt; If set true, this will attempt to fill the available width of the content area with the banner image by applying a 100% width to the image style&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bannerinline&lt;/code&gt; Use this instead to place a banner image after the title, author, tags, etc. which floats to the right of the content (does not use the fill/height params)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;thumbnail&lt;/code&gt; Set this to an image path if you want to show a thumbnail with pages in the list view; originally intended for author avatars, any small image could work (50x50 pixels)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;author&lt;/code&gt; The author name&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;authorlink&lt;/code&gt; A link for the author&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;authorlinktarget&lt;/code&gt; The link target, ie. &amp;ldquo;_blank&amp;rdquo; (useful if the link goes to an external site or something)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;authortwitter&lt;/code&gt; The full URL to the author&amp;rsquo;s Twitter profile (opens in a new window)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;authorlinkedin&lt;/code&gt; The full URL to the author&amp;rsquo;s LinkedIn profile (opens in a new window)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;authorfacebook&lt;/code&gt; The full URL to the author&amp;rsquo;s Facebook page/profile (opens in a new window)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;authorgoogleplus&lt;/code&gt; The full URL to the author&amp;rsquo;s Google+ page/profile (opens in a new window)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;template-partials&#34;&gt;Template Partials&lt;/h3&gt;
@@ -518,19 +515,19 @@ by explicitly setting variables. They are as follows:&lt;/p&gt;
 &lt;p&gt;There are a few partials being used so that key areas can be easily overwritten.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;doctype.html&lt;/code&gt; This contains the HTML document declaration and you may wish to change it from the default value of english for language, add namespaces, etc.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;header.html&lt;/code&gt; This contains the &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; portion of the page&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;meta.html&lt;/code&gt; This contains some basic meta tags, feel free to modify as needed (within header.html)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;og.html&lt;/code&gt; OpenGraph only meta tags (within header.html)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;headend.html&lt;/code&gt; This easily provides the ability to add custom style sheets and JavaScript right before &lt;code&gt;&amp;lt;/head&amp;gt;&lt;/code&gt; to override styles, etc. (within header.html)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;authorsocial.html&lt;/code&gt; If an author is set this template partial will be used to optionally show links to their social media profiles if also set (within single.html)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;socialsharing.html&lt;/code&gt; Allows you to change what&amp;rsquo;s displayed when &lt;code&gt;socialsharing = true&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;sidebar.html&lt;/code&gt; The sidebar which is already pretty customizable with site params and menus, but can also easily be changed if need be&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;sidebarheader.html&lt;/code&gt; Placed above the h1 and h2 elements in the sidebar (which will appear if your site config was set), allowing for further sidebar header adjustments&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;singletop.html&lt;/code&gt; Placed at the top of the page for single.html (but under the banner)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;listtop.html&lt;/code&gt; Placed at the top of the page for list.html&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;footer.html&lt;/code&gt; The footer&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;bodyend.html&lt;/code&gt; Right before &lt;code&gt;&amp;lt;/body&amp;gt;&lt;/code&gt; (within list.html, single.html, and index.html - be sure to include it when/if overwriting with your own index.html)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;doctype.html&lt;/code&gt; This contains the HTML document declaration and you may wish to change it from the default value of english for language, add namespaces, etc.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;header.html&lt;/code&gt; This contains the &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; portion of the page&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;meta.html&lt;/code&gt; This contains some basic meta tags, feel free to modify as needed (within header.html)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;og.html&lt;/code&gt; OpenGraph only meta tags (within header.html)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;headend.html&lt;/code&gt; This easily provides the ability to add custom style sheets and JavaScript right before &lt;code&gt;&amp;lt;/head&amp;gt;&lt;/code&gt; to override styles, etc. (within header.html)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;authorsocial.html&lt;/code&gt; If an author is set this template partial will be used to optionally show links to their social media profiles if also set (within single.html)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;socialsharing.html&lt;/code&gt; Allows you to change what&amp;rsquo;s displayed when &lt;code&gt;socialsharing = true&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sidebar.html&lt;/code&gt; The sidebar which is already pretty customizable with site params and menus, but can also easily be changed if need be&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sidebarheader.html&lt;/code&gt; Placed above the h1 and h2 elements in the sidebar (which will appear if your site config was set), allowing for further sidebar header adjustments&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;singletop.html&lt;/code&gt; Placed at the top of the page for single.html (but under the banner)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;listtop.html&lt;/code&gt; Placed at the top of the page for list.html&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;footer.html&lt;/code&gt; The footer&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bodyend.html&lt;/code&gt; Right before &lt;code&gt;&amp;lt;/body&amp;gt;&lt;/code&gt; (within list.html, single.html, and index.html - be sure to include it when/if overwriting with your own index.html)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>

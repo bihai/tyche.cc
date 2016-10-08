@@ -23,9 +23,8 @@
 &lt;p&gt;It is a simple template containing a nice header menu bar and content area. Default the theme support 2 types of content.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;pages (used for About/Resume pages)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;posts (used for standard blogposts)&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;pages (used for About/Resume pages)&lt;/li&gt;
+&lt;li&gt;posts (used for standard blogposts)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h1&gt;
@@ -45,8 +44,7 @@
 &lt;h1 id=&#34;how-to-use&#34;&gt;How to use&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mpas/hugo-journal/archive/master.zip&#34;&gt;Download the repository&lt;/a&gt; and extract to your hugo working directory (&lt;dir&gt;/themes/&lt;themename&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mpas/hugo-journal/archive/master.zip&#34;&gt;Download the repository&lt;/a&gt; and extract to your hugo working directory (&lt;dir&gt;/themes/&lt;themename&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Or read more on the main Hugo site -&amp;gt; &lt;a href=&#34;http://hugo.spf13.com/themes/installing&#34;&gt;Installing Hugo Themes&lt;/a&gt;&lt;/p&gt;

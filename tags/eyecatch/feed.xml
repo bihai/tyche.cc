@@ -33,15 +33,14 @@ It is naive English, but please acknowledge.
 &lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Google Analytics&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Gravatar Profile&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Disqus&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;SNS Links(Facebook, Twitter, GitHub)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Share Button&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Eye-catching Image&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Tagging&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Related Post&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Google Analytics&lt;/li&gt;
+&lt;li&gt;Gravatar Profile&lt;/li&gt;
+&lt;li&gt;Disqus&lt;/li&gt;
+&lt;li&gt;SNS Links(Facebook, Twitter, GitHub)&lt;/li&gt;
+&lt;li&gt;Share Button&lt;/li&gt;
+&lt;li&gt;Eye-catching Image&lt;/li&gt;
+&lt;li&gt;Tagging&lt;/li&gt;
+&lt;li&gt;Related Post&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;installation&#34;&gt;Installation&lt;/h1&gt;

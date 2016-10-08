@@ -18,7 +18,7 @@
 
 &lt;h1 id=&#34;hugomdl&#34;&gt;HugoMDL&lt;/h1&gt;
 
-&lt;p&gt;HugoMDL is a multipage responsibe blog/portfolio theme for &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;. The theme is based on the&lt;br /&gt;
+&lt;p&gt;HugoMDL is a multipage responsibe blog/portfolio theme for &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;. The theme is based on the
 &lt;a href=&#34;http://www.getmdl.io/&#34;&gt;Material Design Lite&lt;/a&gt; sample blog layout.&lt;/p&gt;
 
 &lt;p&gt;At present it suits my needs, but feel free to help improve this theme by forking a copy and submitting a pull request.&lt;/p&gt;
@@ -40,8 +40,8 @@ $ git clone https://github.com/jchatkinson/HugoMDL
 
 &lt;p&gt;For more information read the official &lt;a href=&#34;//gohugo.io/overview/installing/&#34;&gt;setup guide&lt;/a&gt; of Hugo.&lt;/p&gt;
 
-&lt;p&gt;(Note for myself)&lt;br /&gt;
-To develop on c9, add the hugo binary to the workspace, then add it to the path using &lt;code&gt;export PATH=$PATH:/home/ubuntu/workspace/hugo&lt;/code&gt;&lt;br /&gt;
+&lt;p&gt;(Note for myself)
+To develop on c9, add the hugo binary to the workspace, then add it to the path using &lt;code&gt;export PATH=$PATH:/home/ubuntu/workspace/hugo&lt;/code&gt;
 To serve the site from c9, cd to site root and use &lt;code&gt;hugo server --bind=&amp;quot;0.0.0.0&amp;quot; --port=8080  --watch --disableLiveReload&lt;/code&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;configure-the-theme&#34;&gt;Configure the Theme&lt;/h2&gt;
@@ -88,10 +88,10 @@ cardbackground: &amp;quot;#263238&amp;quot; #optional: card background color; on
 ---
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;code&gt;cardthumbimage&lt;/code&gt; is used as the card media on the front page. If unset, a solid color will be displayed.&lt;br /&gt;
-&lt;code&gt;cardheaderimage&lt;/code&gt; is used as the card media on the post page. If unset, a solid color will be displayed.&lt;br /&gt;
-&lt;code&gt;cardbackground&lt;/code&gt; is used as the solid color if no image is specified. If unset, the default theme color is displayed.&lt;br /&gt;
-&lt;code&gt;cardtitlecolor&lt;/code&gt; is used to modify the default white title color (for instance, if you have a light colored background)&lt;br /&gt;
+&lt;p&gt;&lt;code&gt;cardthumbimage&lt;/code&gt; is used as the card media on the front page. If unset, a solid color will be displayed.
+&lt;code&gt;cardheaderimage&lt;/code&gt; is used as the card media on the post page. If unset, a solid color will be displayed.
+&lt;code&gt;cardbackground&lt;/code&gt; is used as the solid color if no image is specified. If unset, the default theme color is displayed.
+&lt;code&gt;cardtitlecolor&lt;/code&gt; is used to modify the default white title color (for instance, if you have a light colored background)
 &lt;code&gt;author&lt;/code&gt; parameters are used to populate the card and post with author&amp;rsquo;s data&lt;/p&gt;
 
 &lt;h3 id=&#34;projects&#34;&gt;Projects&lt;/h3&gt;

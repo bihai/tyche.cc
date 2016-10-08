@@ -14,7 +14,7 @@
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
             <guid>http://tyche.cc/post/2016/info/</guid>
-            <description>&lt;p&gt;You can optionally set an image in the front matter of a post using&lt;br /&gt;
+            <description>&lt;p&gt;You can optionally set an image in the front matter of a post using
 &lt;code&gt;image = &amp;quot;...&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
         </item>
@@ -25,7 +25,7 @@
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
             <guid>http://tyche.cc/post/custompost/info/</guid>
-            <description>&lt;p&gt;You can optionally set an image in the front matter of a post using&lt;br /&gt;
+            <description>&lt;p&gt;You can optionally set an image in the front matter of a post using
 &lt;code&gt;image = &amp;quot;...&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
         </item>
@@ -36,7 +36,7 @@
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
             <guid>http://tyche.cc/post/2016/redirect/</guid>
-            <description>&lt;p&gt;You can optionally set the front matter &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt; to automatically&lt;br /&gt;
+            <description>&lt;p&gt;You can optionally set the front matter &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt; to automatically
 redirect the content to another page.&lt;/p&gt;
 </description>
         </item>
@@ -47,7 +47,7 @@ redirect the content to another page.&lt;/p&gt;
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
             <guid>http://tyche.cc/post/custompost/redirect/</guid>
-            <description>&lt;p&gt;You can optionally set the front matter &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt; to automatically&lt;br /&gt;
+            <description>&lt;p&gt;You can optionally set the front matter &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt; to automatically
 redirect the content to another page.&lt;/p&gt;
 </description>
         </item>

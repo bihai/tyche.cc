@@ -1,121 +1,236 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="A clean, responsive, template with red accents.">
-        <link rel="alternate" href="/feed.xml" type="application/rss+xml" title="tyche.cc">
-        <link rel="icon" href="http://tyche.cc//favicon.ico">
-        <title> - tyche.cc</title>
-        <link rel="stylesheet" href="http://tyche.cc//css/highlight.js.min.css">
-        <link rel="stylesheet" href="http://tyche.cc//css/bootstrap.min.css">
-        <link rel="stylesheet" href="http://tyche.cc//css/bootstrap-theme.css">
-        <link rel="stylesheet" href="http://tyche.cc//css/font-awesome/css/font-awesome.min.css" />
-        <link rel="stylesheet" href="http://tyche.cc//css/theme.css">
-        <link rel="stylesheet" href="http://tyche.cc//css/hugo-org.css">
-    </head>
+<html class="no-js">
+<head>
+  <base href="http://tyche.cc//">
+  <script>
+    document._writeOriginal = document.write;
+    document.write = function(str) {
+        if (str.indexOf('livereload.js') > -1) {
+            document._writeOriginal(str);
+        } else {
+            document._writeOriginal('<!-- Be Hijack!! -->');
+        }
+    }
+  </script>
+  <title> - tyche.cc</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-<body role="document">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="http://tyche.cc//">tyche.cc</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li ><a href="http://tyche.cc//">主页</a></li>
-                    
-                    
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">常用链接<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                        
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">官方文档<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                        
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<meta name="description" content="A clean, responsive, template with red accents.">
+<meta name="author" content="bihai">
+<meta name="publisher" content="bihai">
+<meta name="generator" content="http://tyche.cc/"/>
 
+<meta itemprop="name" content=" - tyche.cc">
+<meta itemprop="description" content="A clean, responsive, template with red accents.">
+<meta itemprop="image" content="http://tyche.cc//public/bihai.jpg">
 
-<div class="container">
-    <div id="theme-header">
-        <img src="/images/redlounge.screenshot.png" class="screenshot-blurred" />
-        <div class="dark-overlay"></div>
-        <div class="row">
-            <div class="col-md-6 col-sm-6 screenshot-container"><img src="/images/redlounge.screenshot.png" class="screenshot-normal" /></div>
-            <div class="col-md-6 col-sm-6 theme-details">
-                <h1>Red Lounge</h1>
-                <p class="description">A clean, responsive, template with red accents.</p>
-                <ul class="theme-meta">
-                    
-                        
-                            <li><span class="label">Author:</span> <a href="http://www.shift8creative.com">Tom Maiaroto</a></li>
-                        
-                    
-                    
-                        <li><span class="label">Minimum Hugo Version:</span> <span class="value">0.14</span></li>
-                    
-                    
-                        <li><span class="label">License:</span> <a href="https://github.com/tmaiaroto/hugo-redlounge/blob/master/LICENSE.md">Apache 2.0</a></li>
-                    
-                    
-                        <li>
-                            <span class="label">Tags:</span>
-                            
-                            <a href="/tags/redlounge">redlounge</a>
-                            
-                            <a href="/tags/red">red</a>
-                            
-                            <a href="/tags/raleway">raleway</a>
-                            
-                            <a href="/tags/libre-baskerville">libre baskerville</a>
-                            
-                            <a href="/tags/blog">blog</a>
-                            
-                            <a href="/tags/gallery">gallery</a>
-                            
-                        </li>
-                    
-                </ul>
-            </div>
+<meta property="og:title" content=" - tyche.cc" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://tyche.cc/theme/redlounge/" />
+<meta property="og:image" content="http://tyche.cc//public/bihai.jpg" />
+<meta property="og:description" content="A clean, responsive, template with red accents.">
 
-            <div class="theme-buttons">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@bihaiorg">
+<meta name="twitter:title" content=" - tyche.cc">
+<meta name="twitter:description" content="A clean, responsive, template with red accents.">
+<meta name="twitter:creator" content="@bihaiorg">
+<meta name="twitter:image" content="http://tyche.cc//public/bihai.jpg">
 
-                
-                <a class="btn btn-info btn-lg" href="https://github.com/tmaiaroto/hugo-redlounge.git"><i class="fa fa-download"></i> Download</a>
-                
+  <script>document.documentElement.className = document.documentElement.className.replace("no-js", "js");</script>
+  <link rel="canonical" href="http://tyche.cc/theme/redlounge/">
+  <link rel='shortlink' href="http://tyche.cc/theme/redlounge/"/>
+  <link rel="shortcut icon" href="http://tyche.cc//public/favicon.ico"/>
+  
+<link rel="stylesheet" id="human-style-css" href="/wp-content/themes/hueman/style.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="human-style-css2" href="/wp-content/themes/hueman-child/style.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="responsive-css" href="/wp-content/themes/hueman/responsive.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="font-awesome-css" href="/wp-content/themes/hueman/fonts/font-awesome.min.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="/public/highlight/styles/github.css">
+<script src="/public/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<link rel="stylesheet" id="human-style-css3" href="/wp-content/themes/hueman-child/user.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="public/font/hack/css/hack.min.css">
 
-                
-                <a class="btn btn-success btn-lg" href="/theme/redlounge/"><i class="fa fa-road"></i> Demo</a>
-                
+<script type="text/javascript" src="assets/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="wp-content/themes/hueman/js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="wp-content/themes/hueman/js/scripts.js"></script>
+<script type="text/javascript" src="assets/picturefill/picturefill.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.matchHeight-min.js"></script>
+<script type="text/javascript" async defer src="assets/js/myblog.js"></script>
 
-                
+</head>
 
+<body class="single single-post single-format-standard col-3cm full-width topbar-enabled chrome">
+<div id="wrapper">
+  <header id="header">
 
-            </div>
-        </div>
+  <nav class="nav-container group" id="nav-topbar">
+    <div class="nav-toggle"><i class="fa fa-bars"></i></div>
+    <div class="nav-text"></div>
+    <div class="nav-wrap container">
+      <a rel="nofollow" href="http://tyche.cc//" class="nav-cs-icon">
+        <img width="40" height="40" src="/public/bihai.jpg" alt="bihai" title="Home">
+      </a>
+      <ul id="menu-default-menu" class="nav container-inner group">
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/">首页</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/">心得笔记-blog</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/">技术文章-article</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/">灌水乐乐-post</a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/post/">归档-Archive</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/about/">关于-About Me</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/post/linked-post/">Linked post</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">community</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">content</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">extras</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">getting started</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">layout</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">taxonomy</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">themes</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">troubleshooting</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">tutorials</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/feed.xml" type="application/rss+xml" target="_blank">订阅</a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-text">
+        tyche.cc
+        </li>
+      </ul>
     </div>
 
-    <div class="content">
-        
+    <div class="container">
+      <div class="container-inner">
+        <div class="toggle-search"><i class="fa fa-search"></i></div>
+        <div class="search-expand">
+          <div class="search-expand-inner">
+            <form method="get" class="searchform themeform" action="https://www.baidu.com/baidu">
+              <div>
+                <input type="text" class="search" name="word" placeholder="Press enter to start searching">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+
+  </nav>
+  
+
+  <div class="container group">
+    <div class="container-inner">
+
+      <div class="group pad">
+
+        <div class="group pad">
+          <h1 class="site-title">
+            <a rel="nofollow" href="http://tyche.cc//" rel="home">
+              <img style="border-radius: 50%;width:72px;height:72px;margin:0 auto;" alt="bihai" src="/public/bihai.jpg"></img>
+              tyche.cc
+            </a>
+          </h1>
+          <p class="site-description"> tyche.cc your confidence, hope &amp; emotion. </p>
+        </div>
+
+      </div>
+    </div>
+    
+  </div>
+  
+
+</header>
+
+
+
+  <div class="container" id="page">
+    <div class="container-inner">
+      <div class="main">
+        <div class="main-inner group">
+          <section class="content">
+            <div class="page-title pad group">
+              <ul class="meta-single group">
+                
+              </ul>
+            </div>
+
+            <div class="pad group">
+
+              <article
+                  class="post type-post status-publish format-standard has-post-thumbnail hentry category-australien tag-bondi-beach tag-city2surf tag-sydney">
+                <div class="post-inner group">
+
+                  <h1 class="post-title"></h1>
+
+                  <p class="post-byline">
+                    by map[name:Tom Maiaroto homepage:http://www.shift8creative.com] · 1016年01月01日 · 1402 Words ·
+                    ~7min reading time |
+                    <a href="https://github.com/bihai/tyche.cc/blob/master/content/theme/redlounge.md"
+                       target="_blank">Improve on <i class="fa fa-github"></i></a>
+                  </p>
+
+                  <div class="clear"></div>
+
+                  <div class="entry">
+                    <div class="entry-inner">
+                      
+                      
 
 <h1 id="red-lounge">Red Lounge</h1>
 
-<p>This is an open-source Hugo theme designed by <a href="http://www.twitter.com/shift8creative">@shift8creative</a> to be responsive and clean. It uses Pure.css and contains a few web fonts from Google as well as Font Awesome icons.<br />
-So despite it being simple, it has a lot of flexibility in terms of typography and design elements. It&rsquo;s also quite configurable as it has a few variables to change the<br />
+<p>This is an open-source Hugo theme designed by <a href="http://www.twitter.com/shift8creative">@shift8creative</a> to be responsive and clean. It uses Pure.css and contains a few web fonts from Google as well as Font Awesome icons.
+So despite it being simple, it has a lot of flexibility in terms of typography and design elements. It&rsquo;s also quite configurable as it has a few variables to change the
 appearance and features of the pages. By default, excess features (and JavaScript) is not included.</p>
 
 <h2 id="configuration-and-options">Configuration and Options</h2>
@@ -130,14 +245,14 @@ appearance and features of the pages. By default, excess features (and JavaScrip
     sidebarphoto = &quot;/img/photo.png&quot;
 </code></pre>
 
-<p>This three properites will not be shown if not set. You will want to keep these lines short since there&rsquo;s limited space.<br />
+<p>This three properites will not be shown if not set. You will want to keep these lines short since there&rsquo;s limited space.
 Alternatively you could add custom HTML using the <code>sidebarheader.html</code> partial and keep those values empty strings.</p>
 
 <h3 id="menus">Menus</h3>
 
 <p>There are a few menus this theme allows you to define (all optional) in your main config.</p>
 
-<p>Main - This menu is pretty basic and goes on the left panel under the site title and description. It contains red markers to separate items and call attention to the<br />
+<p>Main - This menu is pretty basic and goes on the left panel under the site title and description. It contains red markers to separate items and call attention to the
 fact that it is more important than the other lists/menus that you may have on your site. It is optional, but always shows a link to the home page.<br />
 This would be a good place to link to your various sections.</p>
 
@@ -171,7 +286,7 @@ This menu is simply plain text links centered and they are gray to match the foo
 
 <p>Each label will have the following class: <code>class=&quot;post-category post-category-{{ . | urlize }}&quot;</code></p>
 
-<p>Note the name is going to be urlized. So for example: <code>post-category-technology</code> or <code>post-category-golang</code> and so on. This allows you to create your own CSS around the<br />
+<p>Note the name is going to be urlized. So for example: <code>post-category-technology</code> or <code>post-category-golang</code> and so on. This allows you to create your own CSS around the
 categories you end up defining. You can then set the background color to be something specific and then all instances of that category label will match.</p>
 
 <p>You can easily include a categories CSS file, without modifying template partials, by using the site config params. Something like the following:</p>
@@ -184,14 +299,14 @@ categories you end up defining. You can then set the background color to be some
 
 <h3 id="comments">Comments</h3>
 
-<p>Comments use Disqus, so the main config needs to define <code>disqusShortname</code> like normal. However, each page can disable comments from appearing with front matter. Simply set<br />
+<p>Comments use Disqus, so the main config needs to define <code>disqusShortname</code> like normal. However, each page can disable comments from appearing with front matter. Simply set
 <code>nocomment = true</code> and they will be hidden.</p>
 
 <h3 id="lightbox">Lightbox</h3>
 
-<p>Lightbox is included with the theme but won&rsquo;t be available for use (not even linked in the HTML) unless you enable it. This way it stays out of the way and saves on bandwidth.<br />
-Should you decide you want to use it, simply add to your front-matter: <code>lightbox = true</code> and then in your markdown you&rsquo;ll need add links with a <code>data-lightbox</code> attribute.<br />
-Markdown wants to add titles when you add quotes so the syntax is a little weird. Alternatively, you can use HTML (which is likely easier in this case). So the following should<br />
+<p>Lightbox is included with the theme but won&rsquo;t be available for use (not even linked in the HTML) unless you enable it. This way it stays out of the way and saves on bandwidth.
+Should you decide you want to use it, simply add to your front-matter: <code>lightbox = true</code> and then in your markdown you&rsquo;ll need add links with a <code>data-lightbox</code> attribute.
+Markdown wants to add titles when you add quotes so the syntax is a little weird. Alternatively, you can use HTML (which is likely easier in this case). So the following should
 use images in your <code>static</code> directory:</p>
 
 <pre><code>&lt;a href=&quot;/image.jpg&quot; title=&quot;&quot; data-lightbox=&quot;set1&quot; data-title=&quot;This is my caption&quot;&gt;&lt;img src=&quot;/image-thumbnail.jpg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
@@ -201,42 +316,40 @@ use images in your <code>static</code> directory:</p>
 
 <h3 id="hiding-showing-things">Hiding &amp; Showing Things</h3>
 
-<p>Comments can be hidden on a per page basis with <code>nocomment = true</code> but there&rsquo;s also some other things that can be hidden. Sometimes simply by not defining them, other times<br />
+<p>Comments can be hidden on a per page basis with <code>nocomment = true</code> but there&rsquo;s also some other things that can be hidden. Sometimes simply by not defining them, other times
 by explicitly setting variables. They are as follows:</p>
 
 <ul>
-<li><code>nodate = true</code> Hides the date on a page<br /></li>
-<li><code>noauthor = true</code> Hides the author (which may simply be defined per page, but also could be set higher up in the config, so this overrides)<br /></li>
-<li><code>noread = true</code> Hides the read time displayed on list pages<br /></li>
-<li><code>nopaging = true</code> Hides the next/prev links that navigate through pages<br /></li>
-<li><code>notoc = true</code> Hides the table of contents from a page<br /></li>
-<li><code>totop = true</code> Shows a &laquo;To Top&raquo; link, fixed in the top right of the page after scrolling beyond 1000px, that takes the user back to the top of the page (not shown by default)<br /></li>
-<li><code>socialsharing = true</code> Shows social media sharing buttons from a partial template (which can be overwritten)<br />
-<br /></li>
+<li><code>nodate = true</code> Hides the date on a page</li>
+<li><code>noauthor = true</code> Hides the author (which may simply be defined per page, but also could be set higher up in the config, so this overrides)</li>
+<li><code>noread = true</code> Hides the read time displayed on list pages</li>
+<li><code>nopaging = true</code> Hides the next/prev links that navigate through pages</li>
+<li><code>notoc = true</code> Hides the table of contents from a page</li>
+<li><code>totop = true</code> Shows a &ldquo;To Top&rdquo; link, fixed in the top right of the page after scrolling beyond 1000px, that takes the user back to the top of the page (not shown by default)</li>
+<li><code>socialsharing = true</code> Shows social media sharing buttons from a partial template (which can be overwritten)</li>
 </ul>
 
 <h3 id="other-params">Other Params</h3>
 
-<p>Aside from the above variables that hide/show things, there are a few other variables that this theme will look for and use. These can be placed in any front matter. In some cases<br />
+<p>Aside from the above variables that hide/show things, there are a few other variables that this theme will look for and use. These can be placed in any front matter. In some cases
  you&rsquo;ll want to define these in the archetypes so you don&rsquo;t need to keep defining the values. These are all optional of course.</p>
 
 <ul>
-<li><code>ogimage</code> OpenGraph image tag<br /></li>
-<li><code>ogtitle</code> OpenGraph title tag (if not set, will use <code>.Title</code>)<br /></li>
-<li><code>ogdescription</code> OpenGraph description tag (if not set, will use <code>.Description</code> - also used the same way for meta description)<br /></li>
-<li><code>banner</code> A banner image for a page that sits above the title and stretches across the width of the page<br /></li>
-<li><code>bannerheight</code> An optional height for the banner image wrapper to help cut off larger images (specified as just a number, none by default)<br /></li>
-<li><code>bannerfill</code> If set true, this will attempt to fill the available width of the content area with the banner image by applying a 100% width to the image style<br /></li>
-<li><code>bannerinline</code> Use this instead to place a banner image after the title, author, tags, etc. which floats to the right of the content (does not use the fill/height params)<br /></li>
-<li><code>thumbnail</code> Set this to an image path if you want to show a thumbnail with pages in the list view; originally intended for author avatars, any small image could work (50x50 pixels)<br /></li>
-<li><code>author</code> The author name<br /></li>
-<li><code>authorlink</code> A link for the author<br /></li>
-<li><code>authorlinktarget</code> The link target, ie. &laquo;_blank&raquo; (useful if the link goes to an external site or something)<br /></li>
-<li><code>authortwitter</code> The full URL to the author&rsquo;s Twitter profile (opens in a new window)<br /></li>
-<li><code>authorlinkedin</code> The full URL to the author&rsquo;s LinkedIn profile (opens in a new window)<br /></li>
-<li><code>authorfacebook</code> The full URL to the author&rsquo;s Facebook page/profile (opens in a new window)<br /></li>
-<li><code>authorgoogleplus</code> The full URL to the author&rsquo;s Google+ page/profile (opens in a new window)<br />
-<br /></li>
+<li><code>ogimage</code> OpenGraph image tag</li>
+<li><code>ogtitle</code> OpenGraph title tag (if not set, will use <code>.Title</code>)</li>
+<li><code>ogdescription</code> OpenGraph description tag (if not set, will use <code>.Description</code> - also used the same way for meta description)</li>
+<li><code>banner</code> A banner image for a page that sits above the title and stretches across the width of the page</li>
+<li><code>bannerheight</code> An optional height for the banner image wrapper to help cut off larger images (specified as just a number, none by default)</li>
+<li><code>bannerfill</code> If set true, this will attempt to fill the available width of the content area with the banner image by applying a 100% width to the image style</li>
+<li><code>bannerinline</code> Use this instead to place a banner image after the title, author, tags, etc. which floats to the right of the content (does not use the fill/height params)</li>
+<li><code>thumbnail</code> Set this to an image path if you want to show a thumbnail with pages in the list view; originally intended for author avatars, any small image could work (50x50 pixels)</li>
+<li><code>author</code> The author name</li>
+<li><code>authorlink</code> A link for the author</li>
+<li><code>authorlinktarget</code> The link target, ie. &ldquo;_blank&rdquo; (useful if the link goes to an external site or something)</li>
+<li><code>authortwitter</code> The full URL to the author&rsquo;s Twitter profile (opens in a new window)</li>
+<li><code>authorlinkedin</code> The full URL to the author&rsquo;s LinkedIn profile (opens in a new window)</li>
+<li><code>authorfacebook</code> The full URL to the author&rsquo;s Facebook page/profile (opens in a new window)</li>
+<li><code>authorgoogleplus</code> The full URL to the author&rsquo;s Google+ page/profile (opens in a new window)</li>
 </ul>
 
 <h3 id="template-partials">Template Partials</h3>
@@ -244,53 +357,202 @@ by explicitly setting variables. They are as follows:</p>
 <p>There are a few partials being used so that key areas can be easily overwritten.</p>
 
 <ul>
-<li><code>doctype.html</code> This contains the HTML document declaration and you may wish to change it from the default value of english for language, add namespaces, etc.<br /></li>
-<li><code>header.html</code> This contains the <code>&lt;head&gt;</code> portion of the page<br /></li>
-<li><code>meta.html</code> This contains some basic meta tags, feel free to modify as needed (within header.html)<br /></li>
-<li><code>og.html</code> OpenGraph only meta tags (within header.html)<br /></li>
-<li><code>headend.html</code> This easily provides the ability to add custom style sheets and JavaScript right before <code>&lt;/head&gt;</code> to override styles, etc. (within header.html)<br /></li>
-<li><code>authorsocial.html</code> If an author is set this template partial will be used to optionally show links to their social media profiles if also set (within single.html)<br /></li>
-<li><code>socialsharing.html</code> Allows you to change what&rsquo;s displayed when <code>socialsharing = true</code><br /></li>
-<li><code>sidebar.html</code> The sidebar which is already pretty customizable with site params and menus, but can also easily be changed if need be<br /></li>
-<li><code>sidebarheader.html</code> Placed above the h1 and h2 elements in the sidebar (which will appear if your site config was set), allowing for further sidebar header adjustments<br /></li>
-<li><code>singletop.html</code> Placed at the top of the page for single.html (but under the banner)<br /></li>
-<li><code>listtop.html</code> Placed at the top of the page for list.html<br /></li>
-<li><code>footer.html</code> The footer<br /></li>
-<li><code>bodyend.html</code> Right before <code>&lt;/body&gt;</code> (within list.html, single.html, and index.html - be sure to include it when/if overwriting with your own index.html)<br /></li>
+<li><code>doctype.html</code> This contains the HTML document declaration and you may wish to change it from the default value of english for language, add namespaces, etc.</li>
+<li><code>header.html</code> This contains the <code>&lt;head&gt;</code> portion of the page</li>
+<li><code>meta.html</code> This contains some basic meta tags, feel free to modify as needed (within header.html)</li>
+<li><code>og.html</code> OpenGraph only meta tags (within header.html)</li>
+<li><code>headend.html</code> This easily provides the ability to add custom style sheets and JavaScript right before <code>&lt;/head&gt;</code> to override styles, etc. (within header.html)</li>
+<li><code>authorsocial.html</code> If an author is set this template partial will be used to optionally show links to their social media profiles if also set (within single.html)</li>
+<li><code>socialsharing.html</code> Allows you to change what&rsquo;s displayed when <code>socialsharing = true</code></li>
+<li><code>sidebar.html</code> The sidebar which is already pretty customizable with site params and menus, but can also easily be changed if need be</li>
+<li><code>sidebarheader.html</code> Placed above the h1 and h2 elements in the sidebar (which will appear if your site config was set), allowing for further sidebar header adjustments</li>
+<li><code>singletop.html</code> Placed at the top of the page for single.html (but under the banner)</li>
+<li><code>listtop.html</code> Placed at the top of the page for list.html</li>
+<li><code>footer.html</code> The footer</li>
+<li><code>bodyend.html</code> Right before <code>&lt;/body&gt;</code> (within list.html, single.html, and index.html - be sure to include it when/if overwriting with your own index.html)</li>
+</ul>
+
+                      
+                    </div>
+                    <div style="border: 1px dashed #e0e0e0; padding: 10px 10px 10px 10px; background-color: #fffeee; background-repeat: no-repeat; background-attachment: scroll; background-position: 1% 50%; -moz-background-size: auto auto; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;">
+                        <div style="float:left;margin-top:0px;">
+                        <img src="/public/bihai.jpg" width="129px" height="129px"/>
+                        <div style="text-align:center;">微信扫一扫交流</div>
+                        </div>
+                        <div>
+                            <p style="margin-top:0px;">作者：<a target="_blank" href="http://tyche.cc/">bihai</a>
+                            <br />微信关注：tychecc 太奇兮
+                            <br />本文出处：<a target="_blank" href="http://tyche.cc/theme/redlounge/">http://tyche.cc/theme/redlounge/</a>
+                            <br />
+                            文章版权归本人所有，欢迎转载，但未经作者同意必须保留此段声明，且在文章页面明显位置给出原文连接，否则保留追究法律责任的权利。 </p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                  </div>
+                  
+
+                </div>
+                
+              </article>
+              
+              <div class="clear"></div>
+              
+              
+              
+            </div>
+          </section>
+          <div class="sidebar s1">
+  <a class="sidebar-toggle" title="Expand Sidebar"><i class="fa icon-sidebar-toggle"></i></a>
+  <div class="sidebar-content">
+    <div class="sidebar-top group">
+      <p>Follow:</p>
+      <ul class="social-links">
+    <li>
+    <a class="social-tooltip" title="On WeiBo"
+        href="http://weibo.com/<bihaiorg>1</bihaiorg>" target="_blank">
+        <i class="fa fa-weibo"></i>
+    </a>
+    </li>
+    <li>
+    <a class="social-tooltip" title="On Twitter" rel="nofollow"
+        href="https://twitter.com/bihaiorg" target="_blank">
+        <i class="fa fa-twitter"></i>
+    </a>
+    </li>
+    <li>
+    <a class="social-tooltip" title="On GitHub"
+        href="https://github.com/bihai" target="_blank">
+        <i class="fa fa-github"></i>
+    </a>
+    </li>
 </ul>
 
     </div>
-
-
-
-<hr />
-
-<div class="row">
-    <div class="col-sm-12">
-        
-	    <div class="text-center">
-        
-		    <p class="doc-footer-em"><a href="#">回到顶部↑</a></p>
-	    </div>
-	</div>
+    <div class="widget qrcode">
+    <img src="/public/qrcode.jpg" alt="qrcode" width="172px" height="172px"/>
+    <p> 微信扫一扫：<br/> 关注我的公众号： <br /> tychecc <br /></p>
 </div>
 
-</div> 
+    <ul class="post-nav group">
+      <li class="next">
+        
+        <a href="http://tyche.cc/theme/robust/" rel="next">
+          <i class="fa fa-chevron-right"></i>
+          <strong>Next post</strong>
+          <span></span>
+        </a>
+        
+      </li>
+      <li class="previous">
+        
+        <a href="http://tyche.cc/theme/purehugo/" rel="prev">
+          <i class="fa fa-chevron-left"></i>
+          <strong>Previous Post</strong>
+          <span></span>
+        </a>
+        
+      </li>
+    </ul>
+    <div id="search-2" class="widget widget_search"><h3>Search</h3>
+      <form method="get" class="searchform themeform" action="https://www.baidu.com/baidu">
+        <div>
+          <input type="text" class="search" name="word" placeholder="Press enter to start searching">
+        </div>
+      </form>
+    </div>
+  </div>
+  
+</div>
 
-<footer class="doc-footer">
-	
-    <p>Copyright (c) 2016. All rights reserved. Generated by <a href="http://gohugo.io/">Hugo</a></p>
+          <div class="sidebar s2">
+  <a class="sidebar-toggle" title="Expand Sidebar"><i class="fa icon-sidebar-toggle"></i></a>
+  <div class="sidebar-content">
+    <div class="sidebar-top group">
+      <p>More</p>
+    </div>
+    <div id="categories-2" class="widget widget_categories"><h3>Categories</h3>
+      <ul>
+        
+          <li class="cat-item cat-item-1">
+            <a rel="nofollow" href="/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/">心得笔记-blog</a>
+          </li>
+        
+          <li class="cat-item cat-item-1">
+            <a rel="nofollow" href="/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/">技术文章-article</a>
+          </li>
+        
+          <li class="cat-item cat-item-1">
+            <a rel="nofollow" href="/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/">灌水乐乐-post</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer id="footer">
+  <section class="container" id="footer-bottom">
+    <div class="container-inner">
+      <a id="back-to-top" href="#"><i class="fa fa-angle-up"></i></a>
+      <div class="pad group">
+        <div class="grid one-half">
+          <div id="copyright">
+            <p>Copyright © 2016. All Rights Reserved. <br>Powered by
+              <a rel="nofollow" href="http://gohugo.io/" target="_blank">Hugo - the static site generator</a>.
+              <a rel="nofollow" href="http://golang.org" target="_blank">#golang</a>.
+            </p>
+          </div>
+          
+        </div>
+        
+        <div class="grid one-half last">
+          <ul class="social-links">
+    <li>
+    <a class="social-tooltip" title="On WeiBo"
+        href="http://weibo.com/<bihaiorg>1</bihaiorg>" target="_blank">
+        <i class="fa fa-weibo"></i>
+    </a>
+    </li>
+    <li>
+    <a class="social-tooltip" title="On Twitter" rel="nofollow"
+        href="https://twitter.com/bihaiorg" target="_blank">
+        <i class="fa fa-twitter"></i>
+    </a>
+    </li>
+    <li>
+    <a class="social-tooltip" title="On GitHub"
+        href="https://github.com/bihai" target="_blank">
+        <i class="fa fa-github"></i>
+    </a>
+    </li>
+</ul>
+
+        </div>
+      </div>
+
+    </div>
+    
+  </section>
+  
 </footer>
 
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-10147768-2', 'auto');
+  ga('send', 'pageview');
 
-<script src="http://tyche.cc//js/jquery-1.11.2.min.js"></script>
-<script src="http://tyche.cc//js/bootstrap.min.js"></script>
+  $('#messagesbsb').remove();
 
-<script src="http://tyche.cc//js/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-<script src="http://tyche.cc//js/ie10-viewport-bug-workaround.js"></script>
-
+</script>
 </body>
 </html>
 

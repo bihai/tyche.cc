@@ -14,7 +14,7 @@
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
             <guid>http://tyche.cc/post/customproject/anotherphone/</guid>
-            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter&lt;br /&gt;
+            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
         </item>
@@ -25,29 +25,29 @@
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
             <guid>http://tyche.cc/post/customproject/phone/</guid>
-            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter&lt;br /&gt;
+            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
         </item>
         
         <item>
             <title>Phone</title>
-            <link>http://tyche.cc/post/project/anotherphone/</link>
+            <link>http://tyche.cc/project/anotherphone/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/post/project/anotherphone/</guid>
-            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter&lt;br /&gt;
+            <guid>http://tyche.cc/project/anotherphone/</guid>
+            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
         </item>
         
         <item>
             <title>Phone</title>
-            <link>http://tyche.cc/post/project/phone/</link>
+            <link>http://tyche.cc/project/phone/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/post/project/phone/</guid>
-            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter&lt;br /&gt;
+            <guid>http://tyche.cc/project/phone/</guid>
+            <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
         </item>

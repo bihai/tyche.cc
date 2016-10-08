@@ -14,7 +14,7 @@
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
             <guid>http://tyche.cc/post/2016/info/</guid>
-            <description>&lt;p&gt;You can optionally set an image in the front matter of a post using&lt;br /&gt;
+            <description>&lt;p&gt;You can optionally set an image in the front matter of a post using
 &lt;code&gt;image = &amp;quot;...&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
         </item>
@@ -25,7 +25,7 @@
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
             <guid>http://tyche.cc/post/custompost/info/</guid>
-            <description>&lt;p&gt;You can optionally set an image in the front matter of a post using&lt;br /&gt;
+            <description>&lt;p&gt;You can optionally set an image in the front matter of a post using
 &lt;code&gt;image = &amp;quot;...&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
         </item>
@@ -36,7 +36,7 @@
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
             <guid>http://tyche.cc/post/2016/redirect/</guid>
-            <description>&lt;p&gt;You can optionally set the front matter &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt; to automatically&lt;br /&gt;
+            <description>&lt;p&gt;You can optionally set the front matter &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt; to automatically
 redirect the content to another page.&lt;/p&gt;
 </description>
         </item>
@@ -47,7 +47,7 @@ redirect the content to another page.&lt;/p&gt;
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
             <guid>http://tyche.cc/post/custompost/redirect/</guid>
-            <description>&lt;p&gt;You can optionally set the front matter &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt; to automatically&lt;br /&gt;
+            <description>&lt;p&gt;You can optionally set the front matter &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt; to automatically
 redirect the content to another page.&lt;/p&gt;
 </description>
         </item>
@@ -58,12 +58,12 @@ redirect the content to another page.&lt;/p&gt;
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
             <guid>http://tyche.cc/post/2016/eight/</guid>
-            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate&lt;br /&gt;
-vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in&lt;br /&gt;
-faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices&lt;br /&gt;
-posuere cubilia Curae; Proin rutrum vestibulum quam vitae ultrices. Suspendisse&lt;br /&gt;
-dui tortor, suscipit id augue et, placerat placerat ipsum. Nam vulputate ex&lt;br /&gt;
-eget varius convallis. Nullam mollis egestas ex eget faucibus. Maecenas ut est&lt;br /&gt;
+            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
+vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
+faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+posuere cubilia Curae; Proin rutrum vestibulum quam vitae ultrices. Suspendisse
+dui tortor, suscipit id augue et, placerat placerat ipsum. Nam vulputate ex
+eget varius convallis. Nullam mollis egestas ex eget faucibus. Maecenas ut est
 a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
 </description>
         </item>
@@ -74,12 +74,12 @@ a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
             <guid>http://tyche.cc/post/2016/five/</guid>
-            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate&lt;br /&gt;
-vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in&lt;br /&gt;
-faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices&lt;br /&gt;
-posuere cubilia Curae; Proin rutrum vestibulum quam vitae ultrices. Suspendisse&lt;br /&gt;
-dui tortor, suscipit id augue et, placerat placerat ipsum. Nam vulputate ex&lt;br /&gt;
-eget varius convallis. Nullam mollis egestas ex eget faucibus. Maecenas ut est&lt;br /&gt;
+            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
+vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
+faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+posuere cubilia Curae; Proin rutrum vestibulum quam vitae ultrices. Suspendisse
+dui tortor, suscipit id augue et, placerat placerat ipsum. Nam vulputate ex
+eget varius convallis. Nullam mollis egestas ex eget faucibus. Maecenas ut est
 a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
 </description>
         </item>
@@ -90,12 +90,12 @@ a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
             <guid>http://tyche.cc/post/2016/one/</guid>
-            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate&lt;br /&gt;
-vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in&lt;br /&gt;
-faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices&lt;br /&gt;
-posuere cubilia Curae; Proin rutrum vestibulum quam vitae ultrices. Suspendisse&lt;br /&gt;
-dui tortor, suscipit id augue et, placerat placerat ipsum. Nam vulputate ex&lt;br /&gt;
-eget varius convallis. Nullam mollis egestas ex eget faucibus. Maecenas ut est&lt;br /&gt;
+            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
+vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
+faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+posuere cubilia Curae; Proin rutrum vestibulum quam vitae ultrices. Suspendisse
+dui tortor, suscipit id augue et, placerat placerat ipsum. Nam vulputate ex
+eget varius convallis. Nullam mollis egestas ex eget faucibus. Maecenas ut est
 a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
 </description>
         </item>
@@ -106,12 +106,12 @@ a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
             <guid>http://tyche.cc/post/2016/ten/</guid>
-            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate&lt;br /&gt;
-vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in&lt;br /&gt;
-faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices&lt;br /&gt;
-posuere cubilia Curae; Proin rutrum vestibulum quam vitae ultrices. Suspendisse&lt;br /&gt;
-dui tortor, suscipit id augue et, placerat placerat ipsum. Nam vulputate ex&lt;br /&gt;
-eget varius convallis. Nullam mollis egestas ex eget faucibus. Maecenas ut est&lt;br /&gt;
+            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
+vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
+faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+posuere cubilia Curae; Proin rutrum vestibulum quam vitae ultrices. Suspendisse
+dui tortor, suscipit id augue et, placerat placerat ipsum. Nam vulputate ex
+eget varius convallis. Nullam mollis egestas ex eget faucibus. Maecenas ut est
 a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
 </description>
         </item>
@@ -122,12 +122,12 @@ a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
             <guid>http://tyche.cc/post/2016/three/</guid>
-            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate&lt;br /&gt;
-vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in&lt;br /&gt;
-faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices&lt;br /&gt;
-posuere cubilia Curae; Proin rutrum vestibulum quam vitae ultrices. Suspendisse&lt;br /&gt;
-dui tortor, suscipit id augue et, placerat placerat ipsum. Nam vulputate ex&lt;br /&gt;
-eget varius convallis. Nullam mollis egestas ex eget faucibus. Maecenas ut est&lt;br /&gt;
+            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
+vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
+faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+posuere cubilia Curae; Proin rutrum vestibulum quam vitae ultrices. Suspendisse
+dui tortor, suscipit id augue et, placerat placerat ipsum. Nam vulputate ex
+eget varius convallis. Nullam mollis egestas ex eget faucibus. Maecenas ut est
 a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
 </description>
         </item>
@@ -138,12 +138,12 @@ a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
             <guid>http://tyche.cc/post/2016/twelve/</guid>
-            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate&lt;br /&gt;
-vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in&lt;br /&gt;
-faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices&lt;br /&gt;
-posuere cubilia Curae; Proin rutrum vestibulum quam vitae ultrices. Suspendisse&lt;br /&gt;
-dui tortor, suscipit id augue et, placerat placerat ipsum. Nam vulputate ex&lt;br /&gt;
-eget varius convallis. Nullam mollis egestas ex eget faucibus. Maecenas ut est&lt;br /&gt;
+            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
+vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
+faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+posuere cubilia Curae; Proin rutrum vestibulum quam vitae ultrices. Suspendisse
+dui tortor, suscipit id augue et, placerat placerat ipsum. Nam vulputate ex
+eget varius convallis. Nullam mollis egestas ex eget faucibus. Maecenas ut est
 a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
 </description>
         </item>
@@ -154,12 +154,12 @@ a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
             <guid>http://tyche.cc/post/custompost/eight/</guid>
-            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate&lt;br /&gt;
-vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in&lt;br /&gt;
-faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices&lt;br /&gt;
-posuere cubilia Curae; Proin rutrum vestibulum quam vitae ultrices. Suspendisse&lt;br /&gt;
-dui tortor, suscipit id augue et, placerat placerat ipsum. Nam vulputate ex&lt;br /&gt;
-eget varius convallis. Nullam mollis egestas ex eget faucibus. Maecenas ut est&lt;br /&gt;
+            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
+vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
+faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+posuere cubilia Curae; Proin rutrum vestibulum quam vitae ultrices. Suspendisse
+dui tortor, suscipit id augue et, placerat placerat ipsum. Nam vulputate ex
+eget varius convallis. Nullam mollis egestas ex eget faucibus. Maecenas ut est
 a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
 </description>
         </item>
@@ -170,12 +170,12 @@ a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
             <guid>http://tyche.cc/post/custompost/five/</guid>
-            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate&lt;br /&gt;
-vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in&lt;br /&gt;
-faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices&lt;br /&gt;
-posuere cubilia Curae; Proin rutrum vestibulum quam vitae ultrices. Suspendisse&lt;br /&gt;
-dui tortor, suscipit id augue et, placerat placerat ipsum. Nam vulputate ex&lt;br /&gt;
-eget varius convallis. Nullam mollis egestas ex eget faucibus. Maecenas ut est&lt;br /&gt;
+            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
+vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
+faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+posuere cubilia Curae; Proin rutrum vestibulum quam vitae ultrices. Suspendisse
+dui tortor, suscipit id augue et, placerat placerat ipsum. Nam vulputate ex
+eget varius convallis. Nullam mollis egestas ex eget faucibus. Maecenas ut est
 a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
 </description>
         </item>
@@ -186,12 +186,12 @@ a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
             <guid>http://tyche.cc/post/custompost/one/</guid>
-            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate&lt;br /&gt;
-vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in&lt;br /&gt;
-faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices&lt;br /&gt;
-posuere cubilia Curae; Proin rutrum vestibulum quam vitae ultrices. Suspendisse&lt;br /&gt;
-dui tortor, suscipit id augue et, placerat placerat ipsum. Nam vulputate ex&lt;br /&gt;
-eget varius convallis. Nullam mollis egestas ex eget faucibus. Maecenas ut est&lt;br /&gt;
+            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
+vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
+faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+posuere cubilia Curae; Proin rutrum vestibulum quam vitae ultrices. Suspendisse
+dui tortor, suscipit id augue et, placerat placerat ipsum. Nam vulputate ex
+eget varius convallis. Nullam mollis egestas ex eget faucibus. Maecenas ut est
 a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
 </description>
         </item>
@@ -202,12 +202,12 @@ a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
             <guid>http://tyche.cc/post/custompost/ten/</guid>
-            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate&lt;br /&gt;
-vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in&lt;br /&gt;
-faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices&lt;br /&gt;
-posuere cubilia Curae; Proin rutrum vestibulum quam vitae ultrices. Suspendisse&lt;br /&gt;
-dui tortor, suscipit id augue et, placerat placerat ipsum. Nam vulputate ex&lt;br /&gt;
-eget varius convallis. Nullam mollis egestas ex eget faucibus. Maecenas ut est&lt;br /&gt;
+            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
+vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
+faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+posuere cubilia Curae; Proin rutrum vestibulum quam vitae ultrices. Suspendisse
+dui tortor, suscipit id augue et, placerat placerat ipsum. Nam vulputate ex
+eget varius convallis. Nullam mollis egestas ex eget faucibus. Maecenas ut est
 a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
 </description>
         </item>
@@ -218,12 +218,12 @@ a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
             <pubDate>Sat, 25 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
             <guid>http://tyche.cc/post/custompost/three/</guid>
-            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate&lt;br /&gt;
-vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in&lt;br /&gt;
-faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices&lt;br /&gt;
-posuere cubilia Curae; Proin rutrum vestibulum quam vitae ultrices. Suspendisse&lt;br /&gt;
-dui tortor, suscipit id augue et, placerat placerat ipsum. Nam vulputate ex&lt;br /&gt;
-eget varius convallis. Nullam mollis egestas ex eget faucibus. Maecenas ut est&lt;br /&gt;
+            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate
+vehicula mi id fringilla. Interdum et malesuada fames ac ante ipsum primis in
+faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+posuere cubilia Curae; Proin rutrum vestibulum quam vitae ultrices. Suspendisse
+dui tortor, suscipit id augue et, placerat placerat ipsum. Nam vulputate ex
+eget varius convallis. Nullam mollis egestas ex eget faucibus. Maecenas ut est
 a diam ullamcorper aliquet at vel ante. Fusce ac lacinia tortor.&lt;/p&gt;
 </description>
         </item>

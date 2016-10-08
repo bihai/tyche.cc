@@ -20,7 +20,7 @@
 
 &lt;p&gt;Read more about &lt;a href=&#34;http://24ways.org/2013/project-hubs/&#34;&gt;project hubs on 24 Ways.&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;This is an Hugo theme for online project timelines (also known as &amp;laquo;project hubs&amp;raquo;).&lt;/p&gt;
+&lt;p&gt;This is an Hugo theme for online project timelines (also known as &amp;ldquo;project hubs&amp;rdquo;).&lt;/p&gt;
 
 &lt;h2 id=&#34;what-is-a-project-hub-and-why-would-i-use-one&#34;&gt;What is a project hub and why would I use one?&lt;/h2&gt;
 
@@ -31,8 +31,7 @@
 &lt;h1 id=&#34;theme-usage-and-asumptions&#34;&gt;Theme usage and asumptions&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;All content in &lt;code&gt;content&lt;/code&gt; folder appears on timeline)&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;All content in &lt;code&gt;content&lt;/code&gt; folder appears on timeline)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;installation&#34;&gt;Installation&lt;/h1&gt;

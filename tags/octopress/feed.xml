@@ -29,20 +29,17 @@
 &lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Responsive design.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Fancybox integration&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Gravatar support thanks to &lt;a href=&#34;https://github.com/zhigang1992&#34;&gt;Zhigang Fang&lt;/a&gt;. Add your email id to &lt;code&gt;_config.yml&lt;/code&gt; and your profile picture will appear in the left nav. If you don&amp;rsquo;t want your email to be visible in the HTML code, you can provide the MD5 hashed value of your email as &lt;a href=&#34;https://gravatar.com/site/implement/hash/&#34;&gt;expected&lt;/a&gt; by Gravatar with an &lt;code&gt;email_md5&lt;/code&gt; entry in &lt;code&gt;_config.yml&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://schema.org/&#34;&gt;Schema.org&lt;/a&gt; support thanks to &lt;a href=&#34;https://github.com/nathanshox&#34;&gt;Nathan Shaughnessy&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Responsive design.&lt;/li&gt;
+&lt;li&gt;Fancybox integration&lt;/li&gt;
+&lt;li&gt;Gravatar support thanks to &lt;a href=&#34;https://github.com/zhigang1992&#34;&gt;Zhigang Fang&lt;/a&gt;. Add your email id to &lt;code&gt;_config.yml&lt;/code&gt; and your profile picture will appear in the left nav. If you don&amp;rsquo;t want your email to be visible in the HTML code, you can provide the MD5 hashed value of your email as &lt;a href=&#34;https://gravatar.com/site/implement/hash/&#34;&gt;expected&lt;/a&gt; by Gravatar with an &lt;code&gt;email_md5&lt;/code&gt; entry in &lt;code&gt;_config.yml&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://schema.org/&#34;&gt;Schema.org&lt;/a&gt; support thanks to &lt;a href=&#34;https://github.com/nathanshox&#34;&gt;Nathan Shaughnessy&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&#34;setup&#34;&gt;Setup&lt;/h3&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Fork or &lt;a href=&#34;https://github.com/cxfksword/greyshade/archive/master.zip&#34;&gt;download&lt;/a&gt; this theme repo&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Add config to your site &lt;code&gt;config.toml&lt;/code&gt; file&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Fork or &lt;a href=&#34;https://github.com/cxfksword/greyshade/archive/master.zip&#34;&gt;download&lt;/a&gt; this theme repo&lt;/li&gt;
+&lt;li&gt;Add config to your site &lt;code&gt;config.toml&lt;/code&gt; file&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;pre&gt;&lt;code&gt;baseurl = &amp;quot;http://gohugo.io/&amp;quot;
@@ -102,12 +99,12 @@ google_analytics_tracking_id = &amp;quot;&amp;quot;
 
 &lt;h3 id=&#34;author&#34;&gt;Author&lt;/h3&gt;
 
-&lt;p&gt;&lt;strong&gt;Shashank Mehtal&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;Shashank Mehtal&lt;/strong&gt;
 - &lt;a href=&#34;https://github.com/shashankmehta&#34;&gt;https://github.com/shashankmehta&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;ported-by&#34;&gt;Ported By&lt;/h3&gt;
 
-&lt;p&gt;&lt;strong&gt;cxfksword&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;cxfksword&lt;/strong&gt;
 - &lt;a href=&#34;https://github.com/cxfksword&#34;&gt;https://github.com/cxfksword&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>

@@ -109,11 +109,10 @@ menu = &amp;quot;main&amp;quot;
 &lt;p&gt;Beside the profile section you can add widgets on the right sidebar. The following widgets are available:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;recent articles&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;category list&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;tag list&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;tag cloud&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;recent articles&lt;/li&gt;
+&lt;li&gt;category list&lt;/li&gt;
+&lt;li&gt;tag list&lt;/li&gt;
+&lt;li&gt;tag cloud&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;You can deactivate them under &lt;code&gt;params.widgets&lt;/code&gt;:&lt;/p&gt;
@@ -227,15 +226,13 @@ menu = &amp;quot;main&amp;quot;
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#localization-l10n&#34;&gt;Localization (l10n)&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#localization-l10n&#34;&gt;Localization (l10n)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
@@ -292,7 +289,7 @@ $ git clone git@github.com:digitalcraftsman/hugo-minimalist-theme.git
 
 &lt;h1 id=&#34;hugo-uno&#34;&gt;hugo-uno&lt;/h1&gt;
 
-&lt;p&gt;A responsive hugo theme with awesome font&amp;rsquo;s, charts and light-box galleries, the theme is based on &lt;a href=&#34;https://github.com/daleanthony/Uno&#34;&gt;Uno&lt;/a&gt; for ghost.&lt;br /&gt;
+&lt;p&gt;A responsive hugo theme with awesome font&amp;rsquo;s, charts and light-box galleries, the theme is based on &lt;a href=&#34;https://github.com/daleanthony/Uno&#34;&gt;Uno&lt;/a&gt; for ghost.
 A example site is available at &lt;a href=&#34;http://fredrikloch.me&#34;&gt;fredrikloch.me&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;A Swedish translation is available in the branch feature/swedish&lt;/p&gt;
@@ -334,11 +331,11 @@ copyright = &amp;quot;This work is licensed under a Creative Commons Attribution
   logo = &amp;quot;/img/logo-1.jpg&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;If you prefer to use discourse replace the &amp;laquo;muut&amp;raquo; line with the following(remember the trailing slash)&lt;/p&gt;
+&lt;p&gt;If you prefer to use discourse replace the &amp;ldquo;muut&amp;rdquo; line with the following(remember the trailing slash)&lt;/p&gt;
 
-&lt;p&gt;&amp;rdquo;&amp;rsquo;&lt;br /&gt;
-  discourse = &amp;laquo;&lt;a href=&#34;http://discourse.yoursite.com/&amp;quot;&#34;&gt;http://discourse.yoursite.com/&amp;quot;&lt;/a&gt;&lt;br /&gt;
-&amp;rdquo;&amp;rsquo;&lt;/p&gt;
+&lt;p&gt;&amp;rdquo;&amp;rsquo;
+  discourse = &amp;ldquo;&lt;a href=&#34;http://discourse.yoursite.com/&amp;quot;&#34;&gt;http://discourse.yoursite.com/&amp;quot;&lt;/a&gt;
+&amp;ldquo;&amp;rsquo;&lt;/p&gt;
 
 &lt;h2 id=&#34;charts&#34;&gt;Charts&lt;/h2&gt;
 
@@ -397,22 +394,22 @@ copyright = &amp;quot;This work is licensed under a Creative Commons Attribution
 
 &lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Cover page&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;Cover page&lt;/strong&gt;
 The landing page for Hugo-Uno is a full screen &amp;lsquo;cover&amp;rsquo; featuring your avatar, blog title, mini-bio and cover image.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Built with SASS, using BEM&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;Built with SASS, using BEM&lt;/strong&gt;
 If you know HTML and CSS making modifications to the theme should be super simple.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Responsive&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;Responsive&lt;/strong&gt;
 Hugo-Uno looks great on all devices, even those weird phablets that nobody buys.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Moot comments&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;Moot comments&lt;/strong&gt;
 Moot integration allows users to comment on your posts.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Font-awesome icons&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;Font-awesome icons&lt;/strong&gt;
 For more information on available icons: &lt;a href=&#34;http://fortawesome.github.io/Font-Awesome/&#34;&gt;font-awesome&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;No-JS fallback&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;No-JS fallback&lt;/strong&gt;
 While JS is widely used, some themes and websites don&amp;rsquo;t provide fallback for when no JS is available (I&amp;rsquo;m looking at you &lt;a href=&#34;http://blog.squarespace.com/&#34;&gt;Squarespace&lt;/a&gt;). If for some weird reason a visitor has JS disabled your blog will still be usable.&lt;/p&gt;
 
 &lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
@@ -491,7 +488,7 @@ git clone https://github.com/SenjinDarashiva/hugoscroll themes/hugoscroll
 hugo --buildDrafts --theme=&amp;quot;hugoscroll&amp;quot; --watch server
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;With this done you can start creating posts, for this theme theme there is some specific information that needs to be added to your&lt;br /&gt;
+&lt;p&gt;With this done you can start creating posts, for this theme theme there is some specific information that needs to be added to your
 post header. For the first and the last post you need to add a class definition, the headers for this page look like this:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;+++
@@ -511,7 +508,7 @@ class=&amp;quot;post last&amp;quot;
 +++
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Every standard post must contain a weight between the weight of the first and the last to ensure correct ordering, in this case this&lt;br /&gt;
+&lt;p&gt;Every standard post must contain a weight between the weight of the first and the last to ensure correct ordering, in this case this
 allows us to use any number between 2 &amp;ndash; 99&lt;/p&gt;
 
 &lt;h2 id=&#34;site-config&#34;&gt;Site config&lt;/h2&gt;
@@ -573,14 +570,14 @@ allows us to use any number between 2 &amp;ndash; 99&lt;/p&gt;
 
 &lt;h2 id=&#34;font-awesome-icons&#34;&gt;Font-awesome icons&lt;/h2&gt;
 
-&lt;p&gt;For more information on available icons: &lt;a href=&#34;http://fortawesome.github.io/Font-Awesome/&#34;&gt;font-awesome&lt;/a&gt;&lt;br /&gt;
-The files supplied with this theme have a minor alteration to work around an issue with adblocks and social icons.&lt;br /&gt;
+&lt;p&gt;For more information on available icons: &lt;a href=&#34;http://fortawesome.github.io/Font-Awesome/&#34;&gt;font-awesome&lt;/a&gt;
+The files supplied with this theme have a minor alteration to work around an issue with adblocks and social icons.
 The changes means that the following classes is used:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;fa-tt &amp;ndash; twitter&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;fa-fb &amp;ndash; facebook&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;fa-ll &amp;ndash; linkedin&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;fa-tt &amp;ndash; twitter&lt;/li&gt;
+&lt;li&gt;fa-fb &amp;ndash; facebook&lt;/li&gt;
+&lt;li&gt;fa-ll &amp;ndash; linkedin&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
@@ -618,7 +615,7 @@ $ git clone https://github.com/roperzh/tinyce-hugo-theme
 
 &lt;p&gt;&lt;em&gt;If you are using Hugo v0.11 or below, please read &lt;a href=&#34;https://github.com/roperzh/tinyce-hugo-theme/#usage-with-hugo-v011-and-below&#34;&gt;this&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Now you can set tinyce as the default theme for your site by adding this line&lt;br /&gt;
+&lt;p&gt;Now you can set tinyce as the default theme for your site by adding this line
 in the &lt;code&gt;config&lt;/code&gt; file:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;theme = &amp;quot;tinyce-hugo-theme&amp;quot;
@@ -631,16 +628,16 @@ in the &lt;code&gt;config&lt;/code&gt; file:&lt;/p&gt;
 
 &lt;h1 id=&#34;setting-variables&#34;&gt;Setting Variables&lt;/h1&gt;
 
-&lt;p&gt;Tinyce needs a custom archetype in order to work properly, behind the covers&lt;br /&gt;
-you will only need to define two new variables in the front matter section of&lt;br /&gt;
+&lt;p&gt;Tinyce needs a custom archetype in order to work properly, behind the covers
+you will only need to define two new variables in the front matter section of
 your contents.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;color&lt;/strong&gt; : the color associated with the post, valid colors are: &lt;code&gt;red&lt;/code&gt;,&lt;br /&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;color&lt;/strong&gt; : the color associated with the post, valid colors are: &lt;code&gt;red&lt;/code&gt;,
 &lt;code&gt;green&lt;/code&gt;, &lt;code&gt;blue&lt;/code&gt;, &lt;code&gt;yellow&lt;/code&gt;, &lt;code&gt;orange&lt;/code&gt; and &lt;code&gt;grey&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;icon&lt;/strong&gt; : a valid font-awesome icon name, without the &lt;code&gt;fa-&lt;/code&gt; prefix. For example,&lt;br /&gt;
-instead of &lt;code&gt;fa-heart&lt;/code&gt;, you only need to put &lt;code&gt;heart&lt;/code&gt;. &lt;a href=&#34;http://fortawesome.github.io/Font-Awesome/cheatsheet/&#34;&gt;here&lt;/a&gt;&lt;br /&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;icon&lt;/strong&gt; : a valid font-awesome icon name, without the &lt;code&gt;fa-&lt;/code&gt; prefix. For example,
+instead of &lt;code&gt;fa-heart&lt;/code&gt;, you only need to put &lt;code&gt;heart&lt;/code&gt;. &lt;a href=&#34;http://fortawesome.github.io/Font-Awesome/cheatsheet/&#34;&gt;here&lt;/a&gt;
 is a cheatsheet of valid icons.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -660,7 +657,7 @@ date = 2014-08-09T05:04:40Z
 
 &lt;h1 id=&#34;usage-with-hugo-v0-11-and-below&#34;&gt;Usage with Hugo v0.11 and below&lt;/h1&gt;
 
-&lt;p&gt;The latest version of the theme includes some features bundled with Hugo v0.12,&lt;br /&gt;
+&lt;p&gt;The latest version of the theme includes some features bundled with Hugo v0.12,
 if you are using an old version, please install tinyce like this:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ cd themes

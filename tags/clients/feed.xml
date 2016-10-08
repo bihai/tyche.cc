@@ -25,25 +25,23 @@
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;&lt;br /&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#change-the-hero-background&#34;&gt;Change the hero background&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#present-your-skills&#34;&gt;Present your skills&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#show-what-happened&#34;&gt;Show what happened&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#introduce-your-team&#34;&gt;Introduce your team&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#list-your-clients&#34;&gt;List your clients&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#change-the-hero-background&#34;&gt;Change the hero background&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#present-your-skills&#34;&gt;Present your skills&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#show-what-happened&#34;&gt;Show what happened&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#introduce-your-team&#34;&gt;Introduce your team&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#list-your-clients&#34;&gt;List your clients&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
@@ -151,13 +149,11 @@ description: Use this area to describe your project. Lorem ipsum dolor sit amet,
 &lt;p&gt;Since this page will be static, you can use &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt; as proxy to send the actual email. Each month, visitors can send you up to one thousand emails without incurring extra charges. Begin the setup by following the steps below:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Enter your email address under &amp;lsquo;email&amp;rsquo; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Upload the generated site to your server&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Send a dummy email yourself to confirm your account&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Click the confirm link in the email from &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;You&amp;rsquo;re done. Happy mailing!&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Enter your email address under &amp;lsquo;email&amp;rsquo; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Upload the generated site to your server&lt;/li&gt;
+&lt;li&gt;Send a dummy email yourself to confirm your account&lt;/li&gt;
+&lt;li&gt;Click the confirm link in the email from &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re done. Happy mailing!&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&#34;nearly-finished&#34;&gt;Nearly finished&lt;/h3&gt;
@@ -202,25 +198,23 @@ description: Use this area to describe your project. Lorem ipsum dolor sit amet,
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;&lt;br /&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#change-the-hero-background&#34;&gt;Change the hero background&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#add-your-own-logo&#34;&gt;Add your own logo&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#introduce-yourself&#34;&gt;Introduce yourself&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#what-your-clients-think&#34;&gt;What your clients think&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#add-social-networks&#34;&gt;Add social networks&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#change-the-hero-background&#34;&gt;Change the hero background&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#add-your-own-logo&#34;&gt;Add your own logo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#introduce-yourself&#34;&gt;Introduce yourself&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#what-your-clients-think&#34;&gt;What your clients think&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#add-social-networks&#34;&gt;Add social networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
@@ -315,7 +309,7 @@ TYPO: International Design Talks is an annual event held in Berlin, London, and 
 
 &lt;p&gt;The following social network icons are available:&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;twitter&lt;/code&gt;, &lt;code&gt;facebook&lt;/code&gt;, &lt;code&gt;github&lt;/code&gt;, &lt;code&gt;pinterest&lt;/code&gt; &lt;code&gt;google-plus&lt;/code&gt;, &lt;code&gt;linkedin&lt;/code&gt;&lt;br /&gt;
+&lt;p&gt;&lt;code&gt;twitter&lt;/code&gt;, &lt;code&gt;facebook&lt;/code&gt;, &lt;code&gt;github&lt;/code&gt;, &lt;code&gt;pinterest&lt;/code&gt; &lt;code&gt;google-plus&lt;/code&gt;, &lt;code&gt;linkedin&lt;/code&gt;
 &lt;code&gt;youtube&lt;/code&gt;, &lt;code&gt;instagram&lt;/code&gt;, &lt;code&gt;dribbble&lt;/code&gt;, &lt;code&gt;behance&lt;/code&gt;, &lt;code&gt;soundcloud&lt;/code&gt; and &lt;code&gt;vine&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/h3&gt;
@@ -323,13 +317,11 @@ TYPO: International Design Talks is an annual event held in Berlin, London, and 
 &lt;p&gt;Since this page will be static, you can use &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt; as proxy to send the actual email. Each month, visitors can send you up to one thousand emails without incurring extra charges. Begin the setup by following the steps below:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Enter your email address under &amp;lsquo;email&amp;rsquo; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Upload the generated site to your server&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Send a dummy email yourself to confirm your account&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Click the confirm link in the email from &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;You&amp;rsquo;re done. Happy mailing!&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Enter your email address under &amp;lsquo;email&amp;rsquo; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-artists-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Upload the generated site to your server&lt;/li&gt;
+&lt;li&gt;Send a dummy email yourself to confirm your account&lt;/li&gt;
+&lt;li&gt;Click the confirm link in the email from &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re done. Happy mailing!&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&#34;nearly-finished&#34;&gt;Nearly finished&lt;/h3&gt;
@@ -351,18 +343,17 @@ TYPO: International Design Talks is an annual event held in Berlin, London, and 
 
 &lt;h2 id=&#34;annotations&#34;&gt;Annotations&lt;/h2&gt;
 
-&lt;p&gt;A big thank you to these creators for contributing sample projects for the &amp;laquo;work&amp;raquo; section:&lt;/p&gt;
+&lt;p&gt;A big thank you to these creators for contributing sample projects for the &amp;ldquo;work&amp;rdquo; section:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/14751131/-TYPO-International-Design-Talks&#34;&gt;Micael Butial&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/16750837/Free-80-Crispy-Icons-in-PSD-AI-SVG-Webfont&#34;&gt;Petras Nargėla&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/13745729/Timeline-Page&#34;&gt;Sergey Valiukh&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/15812143/Flat-Mobile-UIUX-Concept-download&#34;&gt;Ayoub Elred&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/16483395/City-IN-website-concept&#34;&gt;Anton Skvortsov&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/13870569/Stripes-Co-Free-icon-Set&#34;&gt;Nick Zoutendijk&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/12748107/Weather-Dashboard-Global-Outlook-UIUX&#34;&gt;Jonathan Quintin&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/15063575/Fresh-It-Up-App-Design&#34;&gt;Jieyu Xiong&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/14751131/-TYPO-International-Design-Talks&#34;&gt;Micael Butial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/16750837/Free-80-Crispy-Icons-in-PSD-AI-SVG-Webfont&#34;&gt;Petras Nargėla&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/13745729/Timeline-Page&#34;&gt;Sergey Valiukh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/15812143/Flat-Mobile-UIUX-Concept-download&#34;&gt;Ayoub Elred&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/16483395/City-IN-website-concept&#34;&gt;Anton Skvortsov&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/13870569/Stripes-Co-Free-icon-Set&#34;&gt;Nick Zoutendijk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/12748107/Weather-Dashboard-Global-Outlook-UIUX&#34;&gt;Jonathan Quintin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.behance.net/gallery/15063575/Fresh-It-Up-App-Design&#34;&gt;Jieyu Xiong&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Also thanks to &lt;a href=&#34;//github.com/spf13&#34;&gt;Steve Francia&lt;/a&gt; for creating &lt;a href=&#34;//gohugo.io&#34;&gt;Hugo&lt;/a&gt; and the awesome community around the project.&lt;/p&gt;

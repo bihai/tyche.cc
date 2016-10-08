@@ -27,7 +27,7 @@
 &lt;h4 id=&#34;params&#34;&gt;Params&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;For add new links on navbar see &lt;code&gt;[params.links]&lt;/code&gt;.&lt;br /&gt;
+&lt;li&gt;For add new links on navbar see &lt;code&gt;[params.links]&lt;/code&gt;.
 &lt;code&gt;toml
 [params]
 github = &amp;quot;username&amp;quot;
@@ -41,7 +41,7 @@ shortDescription = &amp;quot;yada yada yada&amp;quot;
 [params.links.ContactMe]
   &amp;quot;url&amp;quot; = &amp;quot;/contact/&amp;quot;
   &amp;quot;title&amp;quot; = &amp;quot;Contact Me&amp;quot;
-&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>

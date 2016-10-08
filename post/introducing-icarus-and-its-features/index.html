@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+  <base href="http://tyche.cc//">
+  <script>
+    document._writeOriginal = document.write;
+    document.write = function(str) {
+        if (str.indexOf('livereload.js') > -1) {
+            document._writeOriginal(str);
+        } else {
+            document._writeOriginal('<!-- Be Hijack!! -->');
+        }
+    }
+  </script>
+  <title>Introducing Icarus and its features - tyche.cc</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta name="description" content="Icarus is a responsive and customizable theme for bloggers. It&rsquo;s a port of the same-named theme for Hexo made by Ruipeng Zhang. Noteworthy features of this Hugo theme are the integration of a comment-system powered by Disqus, localization (l10n) support, syntax highlighting for source code, optional widgets for the sidebar and a handful shortcodes to make your life easier.
+Get the theme I assume you&rsquo;ve Git installed. Inside the folder of your Hugo site run">
+<meta name="author" content="bihai">
+<meta name="publisher" content="bihai">
+<meta name="generator" content="http://tyche.cc/"/>
+
+<meta itemprop="name" content="Introducing Icarus and its features - tyche.cc">
+<meta itemprop="description" content="Icarus is a responsive and customizable theme for bloggers. It&rsquo;s a port of the same-named theme for Hexo made by Ruipeng Zhang. Noteworthy features of this Hugo theme are the integration of a comment-system powered by Disqus, localization (l10n) support, syntax highlighting for source code, optional widgets for the sidebar and a handful shortcodes to make your life easier.
+Get the theme I assume you&rsquo;ve Git installed. Inside the folder of your Hugo site run">
+<meta itemprop="image" content="http://tyche.cc//public/bihai.jpg">
+
+<meta property="og:title" content="Introducing Icarus and its features - tyche.cc" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://tyche.cc/post/introducing-icarus-and-its-features/" />
+<meta property="og:image" content="http://tyche.cc//public/bihai.jpg" />
+<meta property="og:description" content="Icarus is a responsive and customizable theme for bloggers. It&rsquo;s a port of the same-named theme for Hexo made by Ruipeng Zhang. Noteworthy features of this Hugo theme are the integration of a comment-system powered by Disqus, localization (l10n) support, syntax highlighting for source code, optional widgets for the sidebar and a handful shortcodes to make your life easier.
+Get the theme I assume you&rsquo;ve Git installed. Inside the folder of your Hugo site run">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@bihaiorg">
+<meta name="twitter:title" content="Introducing Icarus and its features - tyche.cc">
+<meta name="twitter:description" content="Icarus is a responsive and customizable theme for bloggers. It&rsquo;s a port of the same-named theme for Hexo made by Ruipeng Zhang. Noteworthy features of this Hugo theme are the integration of a comment-system powered by Disqus, localization (l10n) support, syntax highlighting for source code, optional widgets for the sidebar and a handful shortcodes to make your life easier.
+Get the theme I assume you&rsquo;ve Git installed. Inside the folder of your Hugo site run">
+<meta name="twitter:creator" content="@bihaiorg">
+<meta name="twitter:image" content="http://tyche.cc//public/bihai.jpg">
+
+  <script>document.documentElement.className = document.documentElement.className.replace("no-js", "js");</script>
+  <link rel="canonical" href="http://tyche.cc/post/introducing-icarus-and-its-features/">
+  <link rel='shortlink' href="http://tyche.cc/post/introducing-icarus-and-its-features/"/>
+  <link rel="shortcut icon" href="http://tyche.cc//public/favicon.ico"/>
+  
+<link rel="stylesheet" id="human-style-css" href="/wp-content/themes/hueman/style.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="human-style-css2" href="/wp-content/themes/hueman-child/style.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="responsive-css" href="/wp-content/themes/hueman/responsive.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="font-awesome-css" href="/wp-content/themes/hueman/fonts/font-awesome.min.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="/public/highlight/styles/github.css">
+<script src="/public/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<link rel="stylesheet" id="human-style-css3" href="/wp-content/themes/hueman-child/user.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="public/font/hack/css/hack.min.css">
+
+<script type="text/javascript" src="assets/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="wp-content/themes/hueman/js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="wp-content/themes/hueman/js/scripts.js"></script>
+<script type="text/javascript" src="assets/picturefill/picturefill.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.matchHeight-min.js"></script>
+<script type="text/javascript" async defer src="assets/js/myblog.js"></script>
+
+</head>
+
+<body class="single single-post single-format-standard col-3cm full-width topbar-enabled chrome">
+<div id="wrapper">
+  <header id="header">
+
+  <nav class="nav-container group" id="nav-topbar">
+    <div class="nav-toggle"><i class="fa fa-bars"></i></div>
+    <div class="nav-text"></div>
+    <div class="nav-wrap container">
+      <a rel="nofollow" href="http://tyche.cc//" class="nav-cs-icon">
+        <img width="40" height="40" src="/public/bihai.jpg" alt="bihai" title="Home">
+      </a>
+      <ul id="menu-default-menu" class="nav container-inner group">
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/">首页</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/">心得笔记-blog</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/">技术文章-article</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/">灌水乐乐-post</a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/post/">归档-Archive</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/about/">关于-About Me</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/post/linked-post/">Linked post</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">community</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">content</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">extras</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">getting started</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">layout</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">taxonomy</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">themes</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">troubleshooting</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">tutorials</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/feed.xml" type="application/rss+xml" target="_blank">订阅</a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-text">
+        tyche.cc
+        </li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="container-inner">
+        <div class="toggle-search"><i class="fa fa-search"></i></div>
+        <div class="search-expand">
+          <div class="search-expand-inner">
+            <form method="get" class="searchform themeform" action="https://www.baidu.com/baidu">
+              <div>
+                <input type="text" class="search" name="word" placeholder="Press enter to start searching">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+
+  </nav>
+  
+
+  <div class="container group">
+    <div class="container-inner">
+
+      <div class="group pad">
+
+        <div class="group pad">
+          <h1 class="site-title">
+            <a rel="nofollow" href="http://tyche.cc//" rel="home">
+              <img style="border-radius: 50%;width:72px;height:72px;margin:0 auto;" alt="bihai" src="/public/bihai.jpg"></img>
+              tyche.cc
+            </a>
+          </h1>
+          <p class="site-description"> tyche.cc your confidence, hope &amp; emotion. </p>
+        </div>
+
+      </div>
+    </div>
+    
+  </div>
+  
+
+</header>
+
+
+
+  <div class="container" id="page">
+    <div class="container-inner">
+      <div class="main">
+        <div class="main-inner group">
+          <section class="content">
+            <div class="page-title pad group">
+              <ul class="meta-single group">
+                
+                <li class="category">
+                  <a href="/categories/theme/" rel="category tag">theme</a>
+                </li>
+                
+              </ul>
+            </div>
+
+            <div class="pad group">
+
+              <article
+                  class="post type-post status-publish format-standard has-post-thumbnail hentry category-australien tag-bondi-beach tag-city2surf tag-sydney">
+                <div class="post-inner group">
+
+                  <h1 class="post-title">Introducing Icarus and its features</h1>
+
+                  <p class="post-byline">
+                    by  · 10106年10月10日 · 733 Words ·
+                    ~4min reading time |
+                    <a href="https://github.com/bihai/tyche.cc/blob/master/content/post/introducing-icarus-and-its-features.md"
+                       target="_blank">Improve on <i class="fa fa-github"></i></a>
+                  </p>
+
+                  <div class="clear"></div>
+
+                  <div class="entry">
+                    <div class="entry-inner">
+                      
+                      
+
+<p>Icarus is a responsive and customizable theme for bloggers. It&rsquo;s a port of the same-named theme for <a href="//hexo.io">Hexo</a> made by <a href="https://github.com/ppoffice">Ruipeng Zhang</a>. Noteworthy features of this Hugo theme are the integration of a comment-system powered by Disqus, localization (l10n) support, syntax highlighting for source code, optional widgets for the sidebar and a handful <a href="http://gohugo.io/extras/shortcodes/">shortcodes</a> to make your life easier.</p>
+
+<h2 id="get-the-theme">Get the theme</h2>
+
+<p>I assume you&rsquo;ve Git installed. Inside the folder of your Hugo site run</p>
+
+<pre><code>$ mkdir themes
+$ cd themes
+$ git clone git@github.com:digitalcraftsman/hugo-icarus-theme.git
+</code></pre>
+
+<p>You should see a folder called <code>hugo-icarus-theme</code> inside the <code>themes</code> directory that we created a few moments ago. For more information read the official <a href="https://gohugo.io/overview/installing/">setup guide</a> of Hugo.</p>
+
+<h2 id="setup">Setup</h2>
+
+<p>In the next step navigate to the <code>exampleSite</code> folder at <code>themes/hugo-icarus-theme/exampleSite/</code>. Its structure should look similar to this:</p>
+
+<pre><code>exampleSite
+├── config.toml
+├── content
+│   └── post
+│       ├── creating-a-new-theme.md
+│       ├── go-is-for-lovers.md
+│       ├── hugo-is-for-lovers.md
+│       ├── introducing-icarus-and-its-features.md
+│       ├── linked-post.md
+│       └── migrate-from-jekyll.md
+├── data
+│   └── l10n.toml
+└── static
+    └── banners
+        └── placeholder.png
+</code></pre>
+
+<p>In order to get your site running, you need to copy <code>config.toml</code> and <code>data/l10n.toml</code> into the root folders.</p>
+
+<h2 id="the-config-file">The config file</h2>
+
+<p>Now, let us take a look into the <code>config.toml</code>. Feel free to play around with the settings.</p>
+
+<h3 id="comments">Comments</h3>
+
+<p>The optional comment system is powered by Disqus. Enter your shortname to enable the comment section under your posts.</p>
+
+<pre><code>disqusShortname = &quot;&quot;
+</code></pre>
+
+<p>Tip: you can disable the comment section for a single page in its frontmatter:</p>
+
+<pre><code class="language-toml">+++
+disable_comments = true
++++
+</code></pre>
+
+<h3 id="menu">Menu</h3>
+
+<p>You can also define the items menu entries as you like. First, let us link a post that you&rsquo;ve written. We can do this in the frontmatter of the post&rsquo;s content file by setting <code>menu</code> to <code>main</code>. Take a look at the menu if you want to see a live example.</p>
+
+<pre><code>+++
+menu = &quot;main&quot;
++++
+</code></pre>
+
+<p>Furthermore, we can add entries that don&rsquo;t link to posts. Back in the <code>config.toml</code> you&rsquo;ll find a section for the menus:</p>
+
+<pre><code>[[params.menu]]
+    before = true
+    label  = &quot;Home&quot;
+    link   = &quot;/&quot;
+</code></pre>
+
+<p>Define a label and enter the URL to resource you want to link. With <code>before</code> you can decide whether the link should appear before <strong>or</strong> after all linked posts in the menu. <code>Home</code> appears before the linked post, <code>Tags</code> and <code>Categories</code> after them (as in the menu above).</p>
+
+<h3 id="sidebars">Sidebars</h3>
+
+<p>In order to use the full width of the website you can disable the profile on the left and / or the widgets on the right for a single page in the frontmatter:</p>
+
+<pre><code class="language-toml">+++
+disable_profile = true
+disable_widgets = true
++++
+</code></pre>
+
+<h3 id="tell-me-who-you-are">Tell me who you are</h3>
+
+<p>Maybe you noticed the profile section on the left. Add your social network accounts to the profile section on the left by entering your username under <code>social</code>. The links to your account will be create automatically.</p>
+
+<h3 id="widgets">Widgets</h3>
+
+<p>On the right, you can see some useful widgets that you can activate as you like. You can deactivate them under <code>params.widgets</code>:</p>
+
+<pre><code>[params.widgets]
+    recent_articles = false
+    categories = true
+    tags = true
+    tag_cloud = true
+</code></pre>
+
+<h2 id="localization-l10n">Localization (l10n)</h2>
+
+<p>You don&rsquo;t blog in English and you want to translate the theme into your native locale? No problem. Take a look in the <code>data</code> folder and you&rsquo;ll find a file <code>l10n.toml</code> that we&rsquo;ve copied at the beginning. It contains all strings related to the theme. Just replace the original strings with your own.</p>
+
+<h2 id="linking-thumbnails">Linking thumbnails</h2>
+
+<p>After creating a new post you can define a banner by entering the relative path to the image.</p>
+
+<pre><code>banner = &quot;banners/placeholder.png&quot;
+</code></pre>
+
+<p>This way you can store them either next to the content file or in the <code>static</code> folder.</p>
+
+<h2 id="mathematical-equations">Mathematical equations</h2>
+
+<p>Mathematical equations in form of LaTeX or MathML code can be rendered with the support of <a href="https://www.mathjax.org">MathJax</a>. MathML works out of the box. If you&rsquo;re using LaTeX you need to wrap your equation with <code>$$</code> as shown in the following example:</p>
+
+<pre><code>$$ z = r \cdot (\sin{\phi} + \cos{\phi} \cdot i) $$
+</code></pre>
+
+<p>$$ z = r \cdot (\sin{\phi} + \cos{\phi} \cdot i) $$</p>
+
+<p>You can also print formulas inline: $a^2 + b^2 = c^2$. In this case wrap the formula only once with <code>$</code>.</p>
+
+<h2 id="shortcodes">Shortcodes</h2>
+
+<p>Last but not least I included some useful <a href="http://gohugo.io/extras/shortcodes/">shortcodes</a> to make your life easier.</p>
+
+<h3 id="gallery">Gallery</h3>
+
+<p>This way you can include a gallery into your post. Copy the code below into your content file and enter the relative paths to your images.</p>
+
+<pre><code>{{&lt; gallery
+    &quot;/banners/placeholder.png&quot;
+    &quot;/banners/placeholder.png&quot;
+    &quot;/banners/placeholder.png&quot;
+&gt;}}
+</code></pre>
+
+<p></p>
+
+                      
+                    </div>
+                    <div style="border: 1px dashed #e0e0e0; padding: 10px 10px 10px 10px; background-color: #fffeee; background-repeat: no-repeat; background-attachment: scroll; background-position: 1% 50%; -moz-background-size: auto auto; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;">
+                        <div style="float:left;margin-top:0px;">
+                        <img src="/public/bihai.jpg" width="129px" height="129px"/>
+                        <div style="text-align:center;">微信扫一扫交流</div>
+                        </div>
+                        <div>
+                            <p style="margin-top:0px;">作者：<a target="_blank" href="http://tyche.cc/">bihai</a>
+                            <br />微信关注：tychecc 太奇兮
+                            <br />本文出处：<a target="_blank" href="http://tyche.cc/post/introducing-icarus-and-its-features/">http://tyche.cc/post/introducing-icarus-and-its-features/</a>
+                            <br />
+                            文章版权归本人所有，欢迎转载，但未经作者同意必须保留此段声明，且在文章页面明显位置给出原文连接，否则保留追究法律责任的权利。 </p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                  </div>
+                  
+
+                </div>
+                
+              </article>
+              
+              <div class="clear"></div>
+              
+              
+              
+            </div>
+          </section>
+          <div class="sidebar s1">
+  <a class="sidebar-toggle" title="Expand Sidebar"><i class="fa icon-sidebar-toggle"></i></a>
+  <div class="sidebar-content">
+    <div class="sidebar-top group">
+      <p>Follow:</p>
+      <ul class="social-links">
+    <li>
+    <a class="social-tooltip" title="On WeiBo"
+        href="http://weibo.com/<bihaiorg>1</bihaiorg>" target="_blank">
+        <i class="fa fa-weibo"></i>
+    </a>
+    </li>
+    <li>
+    <a class="social-tooltip" title="On Twitter" rel="nofollow"
+        href="https://twitter.com/bihaiorg" target="_blank">
+        <i class="fa fa-twitter"></i>
+    </a>
+    </li>
+    <li>
+    <a class="social-tooltip" title="On GitHub"
+        href="https://github.com/bihai" target="_blank">
+        <i class="fa fa-github"></i>
+    </a>
+    </li>
+</ul>
+
+    </div>
+    <div class="widget qrcode">
+    <img src="/public/qrcode.jpg" alt="qrcode" width="172px" height="172px"/>
+    <p> 微信扫一扫：<br/> 关注我的公众号： <br /> tychecc <br /></p>
+</div>
+
+    <ul class="post-nav group">
+      <li class="next">
+        
+        <a href="http://tyche.cc/post/migrate-from-jekyll/" rel="next">
+          <i class="fa fa-chevron-right"></i>
+          <strong>Next post</strong>
+          <span>Migrate from Jekyll</span>
+        </a>
+        
+      </li>
+      <li class="previous">
+        
+        <a href="http://tyche.cc/showcase/ninjaducks/" rel="prev">
+          <i class="fa fa-chevron-left"></i>
+          <strong>Previous Post</strong>
+          <span>ninjaducks.in</span>
+        </a>
+        
+      </li>
+    </ul>
+    <div id="search-2" class="widget widget_search"><h3>Search</h3>
+      <form method="get" class="searchform themeform" action="https://www.baidu.com/baidu">
+        <div>
+          <input type="text" class="search" name="word" placeholder="Press enter to start searching">
+        </div>
+      </form>
+    </div>
+  </div>
+  
+</div>
+
+          <div class="sidebar s2">
+  <a class="sidebar-toggle" title="Expand Sidebar"><i class="fa icon-sidebar-toggle"></i></a>
+  <div class="sidebar-content">
+    <div class="sidebar-top group">
+      <p>More</p>
+    </div>
+    <div id="categories-2" class="widget widget_categories"><h3>Categories</h3>
+      <ul>
+        
+          <li class="cat-item cat-item-1">
+            <a rel="nofollow" href="/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/">心得笔记-blog</a>
+          </li>
+        
+          <li class="cat-item cat-item-1">
+            <a rel="nofollow" href="/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/">技术文章-article</a>
+          </li>
+        
+          <li class="cat-item cat-item-1">
+            <a rel="nofollow" href="/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/">灌水乐乐-post</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer id="footer">
+  <section class="container" id="footer-bottom">
+    <div class="container-inner">
+      <a id="back-to-top" href="#"><i class="fa fa-angle-up"></i></a>
+      <div class="pad group">
+        <div class="grid one-half">
+          <div id="copyright">
+            <p>Copyright © 2016. All Rights Reserved. <br>Powered by
+              <a rel="nofollow" href="http://gohugo.io/" target="_blank">Hugo - the static site generator</a>.
+              <a rel="nofollow" href="http://golang.org" target="_blank">#golang</a>.
+            </p>
+          </div>
+          
+        </div>
+        
+        <div class="grid one-half last">
+          <ul class="social-links">
+    <li>
+    <a class="social-tooltip" title="On WeiBo"
+        href="http://weibo.com/<bihaiorg>1</bihaiorg>" target="_blank">
+        <i class="fa fa-weibo"></i>
+    </a>
+    </li>
+    <li>
+    <a class="social-tooltip" title="On Twitter" rel="nofollow"
+        href="https://twitter.com/bihaiorg" target="_blank">
+        <i class="fa fa-twitter"></i>
+    </a>
+    </li>
+    <li>
+    <a class="social-tooltip" title="On GitHub"
+        href="https://github.com/bihai" target="_blank">
+        <i class="fa fa-github"></i>
+    </a>
+    </li>
+</ul>
+
+        </div>
+      </div>
+
+    </div>
+    
+  </section>
+  
+</footer>
+
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10147768-2', 'auto');
+  ga('send', 'pageview');
+
+  $('#messagesbsb').remove();
+
+</script>
+</body>
+</html>
+

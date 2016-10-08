@@ -124,25 +124,23 @@
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;&lt;br /&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started&lt;/a&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#change-the-hero-background&#34;&gt;Change the hero background&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#present-your-skills&#34;&gt;Present your skills&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#show-what-happened&#34;&gt;Show what happened&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#introduce-your-team&#34;&gt;Introduce your team&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#list-your-clients&#34;&gt;List your clients&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-config-file&#34;&gt;The config file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#change-the-hero-background&#34;&gt;Change the hero background&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#present-your-skills&#34;&gt;Present your skills&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#create-your-portfolio&#34;&gt;Create your portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#show-what-happened&#34;&gt;Show what happened&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#introduce-your-team&#34;&gt;Introduce your team&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#list-your-clients&#34;&gt;List your clients&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#make-the-contact-form-working&#34;&gt;Make the contact form working&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#nearly-finished&#34;&gt;Nearly finished&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#annotations&#34;&gt;Annotations&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
@@ -250,13 +248,11 @@ description: Use this area to describe your project. Lorem ipsum dolor sit amet,
 &lt;p&gt;Since this page will be static, you can use &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt; as proxy to send the actual email. Each month, visitors can send you up to one thousand emails without incurring extra charges. Begin the setup by following the steps below:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Enter your email address under &amp;lsquo;email&amp;rsquo; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Upload the generated site to your server&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Send a dummy email yourself to confirm your account&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Click the confirm link in the email from &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;You&amp;rsquo;re done. Happy mailing!&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Enter your email address under &amp;lsquo;email&amp;rsquo; in the &lt;a href=&#34;//github.com/digitalcraftsman/hugo-agency-theme/blob/master/exampleSite/config.toml&#34;&gt;&lt;code&gt;config.toml&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Upload the generated site to your server&lt;/li&gt;
+&lt;li&gt;Send a dummy email yourself to confirm your account&lt;/li&gt;
+&lt;li&gt;Click the confirm link in the email from &lt;a href=&#34;//formspree.io/&#34;&gt;formspree.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re done. Happy mailing!&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&#34;nearly-finished&#34;&gt;Nearly finished&lt;/h3&gt;
@@ -297,28 +293,26 @@ description: Use this area to describe your project. Lorem ipsum dolor sit amet,
 &lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Fixed Sidebar with social links&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Minimal design&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Comments by Disqus&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Social Sharing abilities&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Easy to configure&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Based on Bootstrap&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Fixed Sidebar with social links&lt;/li&gt;
+&lt;li&gt;Minimal design&lt;/li&gt;
+&lt;li&gt;Comments by Disqus&lt;/li&gt;
+&lt;li&gt;Social Sharing abilities&lt;/li&gt;
+&lt;li&gt;Easy to configure&lt;/li&gt;
+&lt;li&gt;Based on Bootstrap&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://tyche.cc/images/screenshot1.png&#34; alt=&#34;screenshot&#34; /&gt;&lt;br /&gt;
-&lt;img src=&#34;http://tyche.cc/images/screenshot2.png&#34; alt=&#34;screenshot&#34; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&#34;http://tyche.cc/images/screenshot1.png&#34; alt=&#34;screenshot&#34; /&gt;
+&lt;img src=&#34;http://tyche.cc/images/screenshot2.png&#34; alt=&#34;screenshot&#34; /&gt;
 &lt;img src=&#34;http://tyche.cc/images/screenshot-landing.png&#34; alt=&#34;screenshot&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;setup&#34;&gt;Setup&lt;/h3&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Install Hugo&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Fork or &lt;a href=&#34;//github.com/spf13/herring-cove/archive/master.zip&#34;&gt;download&lt;/a&gt; this theme repo&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Edit the config file in the root directory of your site&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Install Hugo&lt;/li&gt;
+&lt;li&gt;Fork or &lt;a href=&#34;//github.com/spf13/herring-cove/archive/master.zip&#34;&gt;download&lt;/a&gt; this theme repo&lt;/li&gt;
+&lt;li&gt;Edit the config file in the root directory of your site&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&#34;download&#34;&gt;Download&lt;/h3&gt;
@@ -328,18 +322,17 @@ description: Use this area to describe your project. Lorem ipsum dolor sit amet,
 &lt;h3 id=&#34;license&#34;&gt;License&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;//opensource.org/licenses/MIT&#34;&gt;MIT&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//opensource.org/licenses/MIT&#34;&gt;MIT&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;author&#34;&gt;Author&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Ravi Patel&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;Ravi Patel&lt;/strong&gt;
 - &lt;a href=&#34;https://github.com/arnp&#34;&gt;https://github.com/arnp&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;ported-by&#34;&gt;Ported By&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Steve Francia&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;Steve Francia&lt;/strong&gt;
 - &lt;a href=&#34;https://github.com/spf13&#34;&gt;https://github.com/spf13&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -352,16 +345,15 @@ description: Use this area to describe your project. Lorem ipsum dolor sit amet,
 
 &lt;h2 id=&#34;additional-features-by&#34;&gt;Additional features by&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Maikel Bollemeijer&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;Maikel Bollemeijer&lt;/strong&gt;
 - &lt;a href=&#34;https://github.com/mbollemeijer&#34;&gt;https://github.com/mbollemeijer&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Profile picture parameter&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Links in the menus are generated through params in the config&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Landingpage&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Profile picture parameter&lt;/li&gt;
+&lt;li&gt;Links in the menus are generated through params in the config&lt;/li&gt;
+&lt;li&gt;Landingpage&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;Below an example of the yaml config&lt;/p&gt;
@@ -437,17 +429,15 @@ sass scss/main.scss static/css/main.css
 &lt;p&gt;&lt;strong&gt;Karri Saarinen&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/karrisaarinen&#34;&gt;http://twitter.com/karrisaarinen&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://github.com/ksaa&#34;&gt;http://github.com/ksaa&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/karrisaarinen&#34;&gt;http://twitter.com/karrisaarinen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/ksaa&#34;&gt;http://github.com/ksaa&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Jori Lallo&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/jorilallo&#34;&gt;http://twitter.com/jorilallo&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://github.com/jorilallo&#34;&gt;http://github.com/jorde&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/jorilallo&#34;&gt;http://twitter.com/jorilallo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/jorilallo&#34;&gt;http://github.com/jorde&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Ported to Hugo:&lt;/p&gt;
@@ -455,18 +445,17 @@ sass scss/main.scss static/css/main.css
 &lt;p&gt;&lt;strong&gt;Nicholas Whittier&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;[&lt;a href=&#34;http://twitter.com/nw_iw&#34;&gt;http://twitter.com/nw_iw&lt;/a&gt;]&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&#34;http://github.com/imperialwicket&#34;&gt;http://github.com/imperialwicket&lt;/a&gt;]&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;[&lt;a href=&#34;http://twitter.com/nw_iw&#34;&gt;http://twitter.com/nw_iw&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;[&lt;a href=&#34;http://github.com/imperialwicket&#34;&gt;http://github.com/imperialwicket&lt;/a&gt;]&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;todo&#34;&gt;Todo:&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Document publishing&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Offer sass-less version (Remove ruby entirely?)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Fix feeds and 404 pages&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Confirm core functionality&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Document publishing&lt;/li&gt;
+&lt;li&gt;Offer sass-less version (Remove ruby entirely?)&lt;/li&gt;
+&lt;li&gt;Fix feeds and 404 pages&lt;/li&gt;
+&lt;li&gt;Confirm core functionality&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
@@ -481,7 +470,7 @@ sass scss/main.scss static/css/main.css
 
 &lt;h1 id=&#34;hyde&#34;&gt;Hyde&lt;/h1&gt;
 
-&lt;p&gt;Hyde is a brazen two-column &lt;a href=&#34;http://hugo.spf13.com&#34;&gt;hugo&lt;/a&gt; theme based on the &lt;a href=&#34;http://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt; theme of the same name.&lt;br /&gt;
+&lt;p&gt;Hyde is a brazen two-column &lt;a href=&#34;http://hugo.spf13.com&#34;&gt;hugo&lt;/a&gt; theme based on the &lt;a href=&#34;http://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt; theme of the same name.
 It pairs a prominent sidebar with uncomplicated content.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png&#34; alt=&#34;Hyde screenshot&#34; /&gt;&lt;/p&gt;
@@ -489,20 +478,18 @@ It pairs a prominent sidebar with uncomplicated content.&lt;/p&gt;
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#options&#34;&gt;Options&lt;/a&gt;&lt;br /&gt;
+&lt;li&gt;&lt;a href=&#34;#options&#34;&gt;Options&lt;/a&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#sidebar-menu&#34;&gt;Sidebar menu&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#sticky-sidebar-content&#34;&gt;Sticky sidebar content&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#themes&#34;&gt;Themes&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#reverse-layout&#34;&gt;Reverse layout&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#disqus&#34;&gt;Disqus&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#sidebar-menu&#34;&gt;Sidebar menu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#sticky-sidebar-content&#34;&gt;Sticky sidebar content&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#themes&#34;&gt;Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#reverse-layout&#34;&gt;Reverse layout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#disqus&#34;&gt;Disqus&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#author&#34;&gt;Author&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#ported-by&#34;&gt;Ported by&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#author&#34;&gt;Author&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#ported-by&#34;&gt;Ported by&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;options&#34;&gt;Options&lt;/h2&gt;
@@ -511,7 +498,7 @@ It pairs a prominent sidebar with uncomplicated content.&lt;/p&gt;
 
 &lt;h3 id=&#34;sidebar-menu&#34;&gt;Sidebar menu&lt;/h3&gt;
 
-&lt;p&gt;Create a list of nav links in the sidebar by assigning &amp;laquo;menu=main&amp;raquo; in the front matter.&lt;/p&gt;
+&lt;p&gt;Create a list of nav links in the sidebar by assigning &amp;ldquo;menu=main&amp;rdquo; in the front matter.&lt;/p&gt;
 
 &lt;h3 id=&#34;sticky-sidebar-content&#34;&gt;Sticky sidebar content&lt;/h3&gt;
 
@@ -591,14 +578,14 @@ params:
 
 &lt;h2 id=&#34;author&#34;&gt;Author&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Mark Otto&lt;/strong&gt;&lt;br /&gt;
-- &lt;a href=&#34;https://github.com/mdo&#34;&gt;https://github.com/mdo&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;Mark Otto&lt;/strong&gt;
+- &lt;a href=&#34;https://github.com/mdo&#34;&gt;https://github.com/mdo&lt;/a&gt;
 - &lt;a href=&#34;https://twitter.com/mdo&#34;&gt;https://twitter.com/mdo&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;ported-by&#34;&gt;Ported By&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Steve Francia&lt;/strong&gt;&lt;br /&gt;
-- &lt;a href=&#34;https://github.com/spf13&#34;&gt;https://github.com/spf13&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;Steve Francia&lt;/strong&gt;
+- &lt;a href=&#34;https://github.com/spf13&#34;&gt;https://github.com/spf13&lt;/a&gt;
 - &lt;a href=&#34;https://twitter.com/spf13&#34;&gt;https://twitter.com/spf13&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;

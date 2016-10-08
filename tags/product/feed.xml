@@ -58,17 +58,15 @@ sass scss/main.scss static/css/main.css
 &lt;p&gt;&lt;strong&gt;Karri Saarinen&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/karrisaarinen&#34;&gt;http://twitter.com/karrisaarinen&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://github.com/ksaa&#34;&gt;http://github.com/ksaa&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/karrisaarinen&#34;&gt;http://twitter.com/karrisaarinen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/ksaa&#34;&gt;http://github.com/ksaa&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Jori Lallo&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/jorilallo&#34;&gt;http://twitter.com/jorilallo&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://github.com/jorilallo&#34;&gt;http://github.com/jorde&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/jorilallo&#34;&gt;http://twitter.com/jorilallo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/jorilallo&#34;&gt;http://github.com/jorde&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Ported to Hugo:&lt;/p&gt;
@@ -76,18 +74,17 @@ sass scss/main.scss static/css/main.css
 &lt;p&gt;&lt;strong&gt;Nicholas Whittier&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;[&lt;a href=&#34;http://twitter.com/nw_iw&#34;&gt;http://twitter.com/nw_iw&lt;/a&gt;]&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;[&lt;a href=&#34;http://github.com/imperialwicket&#34;&gt;http://github.com/imperialwicket&lt;/a&gt;]&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;[&lt;a href=&#34;http://twitter.com/nw_iw&#34;&gt;http://twitter.com/nw_iw&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;[&lt;a href=&#34;http://github.com/imperialwicket&#34;&gt;http://github.com/imperialwicket&lt;/a&gt;]&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;todo&#34;&gt;Todo:&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Document publishing&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Offer sass-less version (Remove ruby entirely?)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Fix feeds and 404 pages&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Confirm core functionality&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Document publishing&lt;/li&gt;
+&lt;li&gt;Offer sass-less version (Remove ruby entirely?)&lt;/li&gt;
+&lt;li&gt;Fix feeds and 404 pages&lt;/li&gt;
+&lt;li&gt;Confirm core functionality&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>

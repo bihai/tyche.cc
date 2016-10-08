@@ -1,514 +1,257 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Hugo uses the excellent Go html/template library for its template engine.
+<html class="no-js">
+<head>
+  <base href="http://tyche.cc//">
+  <script>
+    document._writeOriginal = document.write;
+    document.write = function(str) {
+        if (str.indexOf('livereload.js') > -1) {
+            document._writeOriginal(str);
+        } else {
+            document._writeOriginal('<!-- Be Hijack!! -->');
+        }
+    }
+  </script>
+  <title>Hugo Template Functions - tyche.cc</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta name="description" content="Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience, it is just the right amount of logic to be able to create a good static website.
+Go templates are lightweight but extensible. Hugo has added the following functions to the basic template logic.
+(Go itself supplies built-in functions, including comparison operators and other basic tools; these are listed in the Go template documentation.">
+<meta name="author" content="bihai">
+<meta name="publisher" content="bihai">
+<meta name="generator" content="http://tyche.cc/"/>
+
+<meta itemprop="name" content="Hugo Template Functions - tyche.cc">
+<meta itemprop="description" content="Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience, it is just the right amount of logic to be able to create a good static website.
+Go templates are lightweight but extensible. Hugo has added the following functions to the basic template logic.
+(Go itself supplies built-in functions, including comparison operators and other basic tools; these are listed in the Go template documentation.">
+<meta itemprop="image" content="http://tyche.cc//public/bihai.jpg">
+
+<meta property="og:title" content="Hugo Template Functions - tyche.cc" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://tyche.cc/doc/templates/functions_en/" />
+<meta property="og:image" content="http://tyche.cc//public/bihai.jpg" />
+<meta property="og:description" content="Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience, it is just the right amount of logic to be able to create a good static website.
+Go templates are lightweight but extensible. Hugo has added the following functions to the basic template logic.
+(Go itself supplies built-in functions, including comparison operators and other basic tools; these are listed in the Go template documentation.">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@bihaiorg">
+<meta name="twitter:title" content="Hugo Template Functions - tyche.cc">
+<meta name="twitter:description" content="Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience, it is just the right amount of logic to be able to create a good static website.
+Go templates are lightweight but extensible. Hugo has added the following functions to the basic template logic.
+(Go itself supplies built-in functions, including comparison operators and other basic tools; these are listed in the Go template documentation.">
+<meta name="twitter:creator" content="@bihaiorg">
+<meta name="twitter:image" content="http://tyche.cc//public/bihai.jpg">
+
+  <script>document.documentElement.className = document.documentElement.className.replace("no-js", "js");</script>
+  <link rel="canonical" href="http://tyche.cc/doc/templates/functions_en/">
+  <link rel='shortlink' href="http://tyche.cc/doc/templates/functions_en/"/>
+  <link rel="shortcut icon" href="http://tyche.cc//public/favicon.ico"/>
+  
+<link rel="stylesheet" id="human-style-css" href="/wp-content/themes/hueman/style.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="human-style-css2" href="/wp-content/themes/hueman-child/style.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="responsive-css" href="/wp-content/themes/hueman/responsive.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="font-awesome-css" href="/wp-content/themes/hueman/fonts/font-awesome.min.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="/public/highlight/styles/github.css">
+<script src="/public/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<link rel="stylesheet" id="human-style-css3" href="/wp-content/themes/hueman-child/user.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="public/font/hack/css/hack.min.css">
+
+<script type="text/javascript" src="assets/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="wp-content/themes/hueman/js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="wp-content/themes/hueman/js/scripts.js"></script>
+<script type="text/javascript" src="assets/picturefill/picturefill.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.matchHeight-min.js"></script>
+<script type="text/javascript" async defer src="assets/js/myblog.js"></script>
+
+</head>
+
+<body class="single single-post single-format-standard col-3cm full-width topbar-enabled chrome">
+<div id="wrapper">
+  <header id="header">
+
+  <nav class="nav-container group" id="nav-topbar">
+    <div class="nav-toggle"><i class="fa fa-bars"></i></div>
+    <div class="nav-text"></div>
+    <div class="nav-wrap container">
+      <a rel="nofollow" href="http://tyche.cc//" class="nav-cs-icon">
+        <img width="40" height="40" src="/public/bihai.jpg" alt="bihai" title="Home">
+      </a>
+      <ul id="menu-default-menu" class="nav container-inner group">
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/">首页</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/">心得笔记-blog</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/">技术文章-article</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/">灌水乐乐-post</a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/post/">归档-Archive</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/about/">关于-About Me</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/post/linked-post/">Linked post</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">community</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">content</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">extras</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">getting started</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">layout</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">taxonomy</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">themes</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">troubleshooting</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">tutorials</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/feed.xml" type="application/rss+xml" target="_blank">订阅</a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-text">
+        tyche.cc
+        </li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="container-inner">
+        <div class="toggle-search"><i class="fa fa-search"></i></div>
+        <div class="search-expand">
+          <div class="search-expand-inner">
+            <form method="get" class="searchform themeform" action="https://www.baidu.com/baidu">
+              <div>
+                <input type="text" class="search" name="word" placeholder="Press enter to start searching">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+
+  </nav>
+  
+
+  <div class="container group">
+    <div class="container-inner">
+
+      <div class="group pad">
+
+        <div class="group pad">
+          <h1 class="site-title">
+            <a rel="nofollow" href="http://tyche.cc//" rel="home">
+              <img style="border-radius: 50%;width:72px;height:72px;margin:0 auto;" alt="bihai" src="/public/bihai.jpg"></img>
+              tyche.cc
+            </a>
+          </h1>
+          <p class="site-description"> tyche.cc your confidence, hope &amp; emotion. </p>
+        </div>
+
+      </div>
+    </div>
+    
+  </div>
+  
+
+</header>
+
+
+
+  <div class="container" id="page">
+    <div class="container-inner">
+      <div class="main">
+        <div class="main-inner group">
+          <section class="content">
+            <div class="page-title pad group">
+              <ul class="meta-single group">
+                
+              </ul>
+            </div>
+
+            <div class="pad group">
+
+              <article
+                  class="post type-post status-publish format-standard has-post-thumbnail hentry category-australien tag-bondi-beach tag-city2surf tag-sydney">
+                <div class="post-inner group">
+
+                  <h1 class="post-title">Hugo Template Functions</h1>
+
+                  <p class="post-byline">
+                    by  · 1076年07月01日 · 3275 Words ·
+                    ~16min reading time |
+                    <a href="https://github.com/bihai/tyche.cc/blob/master/content/doc/templates/functions_en.md"
+                       target="_blank">Improve on <i class="fa fa-github"></i></a>
+                  </p>
+
+                  <div class="clear"></div>
+
+                  <div class="entry">
+                    <div class="entry-inner">
+                      
+                      
+
+<p>Hugo uses the excellent Go html/template library for its template engine.
 It is an extremely lightweight engine that provides a very small amount of
 logic. In our experience, it is just the right amount of logic to be able
-to create a good static website.
-Go templates are lightweight but extensible. Hugo has added the following
-functions to the basic template logic.
-(Go itself supplies built-in functions, including comparison operators">
-        <link rel="alternate" href="/feed.xml" type="application/rss+xml" title="tyche.cc">
-        <link rel="icon" href="http://tyche.cc//favicon.ico">
-        <title>Hugo Template Functions - tyche.cc</title>
-        <link rel="stylesheet" href="http://tyche.cc//css/highlight.js.min.css">
-        <link rel="stylesheet" href="http://tyche.cc//css/bootstrap.min.css">
-        <link rel="stylesheet" href="http://tyche.cc//css/bootstrap-theme.css">
-        <link rel="stylesheet" href="http://tyche.cc//css/font-awesome/css/font-awesome.min.css" />
-        
-        <link rel="stylesheet" href="http://tyche.cc//css/hugo-org.css">
-    </head>
-
-<body role="document">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="http://tyche.cc//">tyche.cc</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li ><a href="http://tyche.cc//">主页</a></li>
-                    
-                    
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">常用链接<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                        
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">官方文档<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                        
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-
-
-<div class="container-fluid">
-
-<div class="row">
-    <div class="col-xs-12 col-sm-3">
-        
-<aside>
-    <div class="well">
-        
-        <div class="pull-right">Hugo v0.15.0(翻译中...)</div>
-        <ul class="nav nav-list">
-            
-            
-            
-            <li>
-                <label class="tree-toggle nav-header">归档-Archive</label>
-                <ul class="nav nav-list">
-                    <li>
-                        <a href="/post/">归档-Archive</a>
-                    </li>
-                </ul>
-            
-            </li>
-            
-            
-            <li>
-                <label class="tree-toggle nav-header">关于-About Me</label>
-                <ul class="nav nav-list">
-                    
-                    <li>
-                        <a href="/doc/meta/release-notes/">Release Notes</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/meta/roadmap/">Hugo Roadmap</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/meta/license/">License</a>
-                    </li>
-                    
-                </ul>
-            
-            </li>
-            
-            
-            <li>
-                <label class="tree-toggle nav-header">community</label>
-                <ul class="nav nav-list">
-                    
-                    <li>
-                        <a href="/doc/community/mailing-list/">Mailing List</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/community/contributing/">Contributing to Hugo</a>
-                    </li>
-                    
-                </ul>
-            
-            </li>
-            
-            
-            <li>
-                <label class="tree-toggle nav-header">content</label>
-                <ul class="nav nav-list">
-                    
-                    <li>
-                        <a href="/doc/content/organization/">Organization</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/content/supported-formats/">Supported Formats</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/content/front-matter/">Front Matter</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/content/sections/">Sections</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/content/types/">Types</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/content/archetypes/">Archetypes</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/content/ordering/">Ordering</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/content/summaries/">Summaries</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/content/example/">Example</a>
-                    </li>
-                    
-                </ul>
-            
-            </li>
-            
-            
-            <li>
-                <label class="tree-toggle nav-header">extras</label>
-                <ul class="nav nav-list">
-                    
-                    <li>
-                        <a href="/doc/extras/aliases/">Aliases</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/analytics/">Analytics</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/builders/">Builders</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/comments/">Comments</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/crossreferences/">Cross-References</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/livereload/">LiveReload</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/menus/">Menus</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/permalinks/">Permalinks</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/pagination/">Pagination</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/scratch/">Scratch</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/shortcodes/">Shortcodes</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/datafiles/">Data Files</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/highlighting/">Syntax Highlighting</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/datadrivencontent/">Data-driven Content</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/toc/">Table of Contents</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/localfiles/">Traversing Local Files</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/urls/">URLs</a>
-                    </li>
-                    
-                </ul>
-            
-            </li>
-            
-            
-            <li>
-                <label class="tree-toggle nav-header">getting started</label>
-                <ul class="nav nav-list">
-                    
-                    <li>
-                        <a href="/doc/overview/introduction/">Introduction</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/overview/quickstart/">Quickstart</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/overview/installing/">Installing Hugo</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/overview/usage/">Using Hugo</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/overview/configuration/">Configuration</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/overview/source-directory/">Source Organization</a>
-                    </li>
-                    
-                </ul>
-            
-            </li>
-            
-            
-            <li>
-                <label class="tree-toggle nav-header">layout</label>
-                <ul class="nav nav-list">
-                    
-                    <li>
-                        <a href="/doc/templates/overview/">Overview</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/go-templates/">Go Template Primer</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/ace/">Ace templates</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/amber/">Amber templates</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/functions/">Functions</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/variables/">Variables</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/content/">Single Content</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/list/">List of Content</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/homepage/">Homepage</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/terms/">Taxonomy Terms</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/views/">Content Views</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/partials/">Partial Templates</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/rss/">RSS</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/sitemap/">Sitemap</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/404/">Custom 404 page</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/debugging/">Debugging</a>
-                    </li>
-                    
-                </ul>
-            
-            </li>
-            
-            
-            <li>
-                <label class="tree-toggle nav-header">taxonomy</label>
-                <ul class="nav nav-list">
-                    
-                    <li>
-                        <a href="/doc/taxonomies/overview/">Overview</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/taxonomies/usage/">Usage</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/taxonomies/displaying/">Displaying</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/taxonomies/templates/">Templates</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/taxonomies/ordering/">Ordering</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/taxonomies/methods/">Structure &amp; Methods</a>
-                    </li>
-                    
-                </ul>
-            
-            </li>
-            
-            
-            <li>
-                <label class="tree-toggle nav-header">themes</label>
-                <ul class="nav nav-list">
-                    
-                    <li>
-                        <a href="/doc/themes/overview/">Themes Overview</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/themes/installing/">Installing Themes</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/themes/usage/">Using a Theme</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/themes/customizing/">Customizing a Theme</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/themes/creation/">Creating a Theme</a>
-                    </li>
-                    
-                </ul>
-            
-            </li>
-            
-            
-            <li>
-                <label class="tree-toggle nav-header">troubleshooting</label>
-                <ul class="nav nav-list">
-                    
-                    <li>
-                        <a href="/doc/troubleshooting/overview/">Troubleshooting Overview</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/troubleshooting/strange-eof-error/">Strange EOF error</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/troubleshooting/categories-with-accented-characters/">Accented Categories</a>
-                    </li>
-                    
-                </ul>
-            
-            </li>
-            
-            
-            <li>
-                <label class="tree-toggle nav-header">tutorials</label>
-                <ul class="nav nav-list">
-                    
-                    <li>
-                        <a href="/doc/tutorials/automated-deployments/">Automated deployments</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/tutorials/creating-a-new-theme/">Creating a New Theme</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/tutorials/github-pages-blog/">Hosting on GitHub</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/tutorials/installing-on-mac/">Installing on Mac</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/tutorials/installing-on-windows/">Installing on Windows</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/tutorials/mathjax/">MathJax Support</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/tutorials/migrate-from-jekyll/">Migrating from Jekyll</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/tutorials/create-a-multilingual-site/">Multilingual Site</a>
-                    </li>
-                    
-                </ul>
-            
-            </li>
-            
-            
-              
-            <li>
-                <a href="https://github.com/coderzh/gohugo.org/edit/master/content/doc/templates/functions_en.md" target="blank">
-                <i class='fa fa-edit'></i>修改此文章</a>
-            </li>
-            
-            
-        </ul>
-    </div>
-</aside>
-
-
-    </div>
-    <div class="col-xs-12 col-sm-9 doc-main">
-        <main role="main">
-            <article>
-                <a id="title"></a>
-                <h1 class="doc-entry-title">Hugo Template Functions</h1>
-                <section>
-                    
-
-<p>Hugo uses the excellent Go html/template library for its template engine.<br />
-It is an extremely lightweight engine that provides a very small amount of<br />
-logic. In our experience, it is just the right amount of logic to be able<br />
 to create a good static website.</p>
 
-<p>Go templates are lightweight but extensible. Hugo has added the following<br />
+<p>Go templates are lightweight but extensible. Hugo has added the following
 functions to the basic template logic.</p>
 
-<p>(Go itself supplies built-in functions, including comparison operators<br />
-and other basic tools; these are listed in the<br />
+<p>(Go itself supplies built-in functions, including comparison operators
+and other basic tools; these are listed in the
 <a href="http://golang.org/pkg/text/template/#hdr-Functions">Go template documentation</a>.)</p>
 
 <h2 id="general">General</h2>
 
 <h3 id="delimit">delimit</h3>
 
-<p>Loops through any array, slice or map and returns a string of all the values separated by the delimiter. There is an optional third parameter that lets you choose a different delimiter to go between the last two values.<br />
+<p>Loops through any array, slice or map and returns a string of all the values separated by the delimiter. There is an optional third parameter that lets you choose a different delimiter to go between the last two values.
 Maps will be sorted by the keys, and only a slice of the values will be returned, keeping a consistent output order.</p>
 
 <p>Works on <a href="/doc/templates/list/">lists</a>, <a href="/doc/taxonomies/displaying/">taxonomies</a>, <a href="/doc/templates/terms/">terms</a>, <a href="/doc/templates/list/">groups</a></p>
@@ -533,11 +276,11 @@ Tags: {{ delimit .Params.tags &quot;, &quot; &quot; and &quot; }}
 
 <h3 id="dict">dict</h3>
 
-<p>Creates a dictionary <code>(map[string, interface{})</code>, expects parameters added in value:object fasion.<br />
-Invalid combinations like keys that are not strings or uneven number of parameters, will result in an exception thrown.<br />
+<p>Creates a dictionary <code>(map[string, interface{})</code>, expects parameters added in value:object fasion.
+Invalid combinations like keys that are not strings or uneven number of parameters, will result in an exception thrown.
 Useful for passing maps to partials when adding to a template.</p>
 
-<p>e.g. Pass into &laquo;foo.html&raquo; a map with the keys &laquo;important, content&raquo;</p>
+<p>e.g. Pass into &ldquo;foo.html&rdquo; a map with the keys &ldquo;important, content&rdquo;</p>
 
 <pre><code>{{$important := .Site.Params.SomethingImportant }}
 {{range .Site.Params.Bar}}
@@ -545,7 +288,7 @@ Useful for passing maps to partials when adding to a template.</p>
 {{end}}
 </code></pre>
 
-<p>&laquo;foo.html&raquo;</p>
+<p>&ldquo;foo.html&rdquo;</p>
 
 <pre><code>Important {{.important}}
 {{.content}}
@@ -599,7 +342,7 @@ Useful for passing maps to partials when adding to a template.</p>
 
 <h3 id="after">after</h3>
 
-<p>Slices an array to only the items after the <em>N</em>th item. Use this in combination<br />
+<p>Slices an array to only the items after the <em>N</em>th item. Use this in combination
 with <code>first</code> to use both halves of an array split at item <em>N</em>.</p>
 
 <p>Works on <a href="/doc/templates/list/">lists</a>, <a href="/doc/taxonomies/displaying/">taxonomies</a>, <a href="/doc/templates/terms/">terms</a>, <a href="/doc/templates/list/">groups</a></p>
@@ -615,9 +358,9 @@ with <code>first</code> to use both halves of an array split at item <em>N</em>.
 
 <p>Returns the value of an environment variable.</p>
 
-<p>Takes a string containing the name of the variable as input. Returns<br />
-an empty string if the variable is not set, otherwise returns the<br />
-value of the variable. Note that in Unix-like environments, the<br />
+<p>Takes a string containing the name of the variable as input. Returns
+an empty string if the variable is not set, otherwise returns the
+value of the variable. Note that in Unix-like environments, the
 variable must also be exported in order to be seen by <code>hugo</code>.</p>
 
 <p>e.g.</p>
@@ -627,8 +370,8 @@ variable must also be exported in order to be seen by <code>hugo</code>.</p>
 
 <h3 id="in">in</h3>
 
-<p>Checks if an element is in an array (or slice) and returns a boolean.<br />
-The elements supported are strings, integers and floats (only float64 will match as expected).<br />
+<p>Checks if an element is in an array (or slice) and returns a boolean.
+The elements supported are strings, integers and floats (only float64 will match as expected).
 In addition, it can also check if a substring exists in a string.</p>
 
 <p>e.g.</p>
@@ -643,10 +386,10 @@ In addition, it can also check if a substring exists in a string.</p>
 
 <h3 id="intersect">intersect</h3>
 
-<p>Given two arrays (or slices), this function will return the common elements in the arrays.<br />
+<p>Given two arrays (or slices), this function will return the common elements in the arrays.
 The elements supported are strings, integers and floats (only float64).</p>
 
-<p>A useful example of this functionality is a &lsquo;similar posts&rsquo; block.<br />
+<p>A useful example of this functionality is a &lsquo;similar posts&rsquo; block.
 Create a list of links to posts where any of the tags in the current post match any tags in other posts.</p>
 
 <p>e.g.</p>
@@ -666,7 +409,7 @@ Create a list of links to posts where any of the tags in the current post match 
 
 <h3 id="isset">isset</h3>
 
-<p>Returns true if the parameter is set.<br />
+<p>Returns true if the parameter is set.
 Takes either a slice, array or channel and an index or a map and a key as input.</p>
 
 <p>e.g. <code>{{ if isset .Params &quot;project_url&quot; }} {{ index .Params &quot;project_url&quot; }}{{ end }}</code></p>
@@ -678,19 +421,18 @@ Takes either a slice, array or channel and an index or a map and a key as input.
 <p>Some examples:</p>
 
 <ul>
-<li><code>3</code> =&gt; <code>1, 2, 3</code><br /></li>
-<li><code>1 2 4</code> =&gt; <code>1, 3</code><br /></li>
-<li><code>-3</code> =&gt; <code>-1, -2, -3</code><br /></li>
-<li><code>1 4</code> =&gt; <code>1, 2, 3, 4</code><br /></li>
-<li><code>1 -2</code> =&gt; <code>1, 0, -1, -2</code><br />
-<br /></li>
+<li><code>3</code> =&gt; <code>1, 2, 3</code></li>
+<li><code>1 2 4</code> =&gt; <code>1, 3</code></li>
+<li><code>-3</code> =&gt; <code>-1, -2, -3</code></li>
+<li><code>1 4</code> =&gt; <code>1, 2, 3, 4</code></li>
+<li><code>1 -2</code> =&gt; <code>1, 0, -1, -2</code></li>
 </ul>
 
 <h3 id="sort">sort</h3>
 
-<p>Sorts maps, arrays and slices, returning a sorted slice.<br />
-A sorted array of map values will be returned, with the keys eliminated.<br />
-There are two optional arguments, which are <code>sortByField</code> and <code>sortAsc</code>.<br />
+<p>Sorts maps, arrays and slices, returning a sorted slice.
+A sorted array of map values will be returned, with the keys eliminated.
+There are two optional arguments, which are <code>sortByField</code> and <code>sortAsc</code>.
 If left blank, sort will sort by keys (for maps) in ascending order.</p>
 
 <p>Works on <a href="/doc/templates/list/">lists</a>, <a href="/doc/taxonomies/displaying/">taxonomies</a>, <a href="/doc/templates/terms/">terms</a>, <a href="/doc/templates/list/">groups</a></p>
@@ -776,15 +518,14 @@ series: golang
 <p>Following operators are now available</p>
 
 <ul>
-<li><code>=</code>, <code>==</code>, <code>eq</code>: True if a given field value equals a matching value<br /></li>
-<li><code>!=</code>, <code>&lt;&gt;</code>, <code>ne</code>: True if a given field value doesn&rsquo;t equal a matching value<br /></li>
-<li><code>&gt;=</code>, <code>ge</code>: True if a given field value is greater than or equal to a matching value<br /></li>
-<li><code>&gt;</code>, <code>gt</code>: True if a given field value is greater than a matching value<br /></li>
-<li><code>&lt;=</code>, <code>le</code>: True if a given field value is lesser than or equal to a matching value<br /></li>
-<li><code>&lt;</code>, <code>lt</code>: True if a given field value is lesser than a matching value<br /></li>
-<li><code>in</code>: True if a given field value is included in a matching value. A matching value must be an array or a slice<br /></li>
-<li><code>not in</code>: True if a given field value isn&rsquo;t included in a matching value. A matching value must be an array or a slice<br />
-<br /></li>
+<li><code>=</code>, <code>==</code>, <code>eq</code>: True if a given field value equals a matching value</li>
+<li><code>!=</code>, <code>&lt;&gt;</code>, <code>ne</code>: True if a given field value doesn&rsquo;t equal a matching value</li>
+<li><code>&gt;=</code>, <code>ge</code>: True if a given field value is greater than or equal to a matching value</li>
+<li><code>&gt;</code>, <code>gt</code>: True if a given field value is greater than a matching value</li>
+<li><code>&lt;=</code>, <code>le</code>: True if a given field value is lesser than or equal to a matching value</li>
+<li><code>&lt;</code>, <code>lt</code>: True if a given field value is lesser than a matching value</li>
+<li><code>in</code>: True if a given field value is included in a matching value. A matching value must be an array or a slice</li>
+<li><code>not in</code>: True if a given field value isn&rsquo;t included in a matching value. A matching value must be an array or a slice</li>
 </ul>
 
 <p><em><code>where</code> and <code>first</code> can be stacked, e.g.:</em></p>
@@ -803,9 +544,8 @@ series: golang
 <p>Only following operators are available for <code>nil</code></p>
 
 <ul>
-<li><code>=</code>, <code>==</code>, <code>eq</code>: True if the given field is not set.<br /></li>
-<li><code>!=</code>, <code>&lt;&gt;</code>, <code>ne</code>: True if the given field is set.<br />
-<br /></li>
+<li><code>=</code>, <code>==</code>, <code>eq</code>: True if the given field is not set.</li>
+<li><code>!=</code>, <code>&lt;&gt;</code>, <code>ne</code>: True if the given field is set.</li>
 </ul>
 
 <p>e.g.</p>
@@ -876,25 +616,25 @@ series: golang
 
 <h3 id="dateformat">dateFormat</h3>
 
-<p>Converts the textual representation of the datetime into the other form or returns it of Go <code>time.Time</code> type value.<br />
+<p>Converts the textual representation of the datetime into the other form or returns it of Go <code>time.Time</code> type value.
 These are formatted with the layout string.</p>
 
-<p>e.g. <code>{{ dateFormat &quot;Monday, Jan 2, 2006&quot; &quot;2015-01-21&quot; }}</code> → &laquo;Wednesday, Jan 21, 2015&raquo;</p>
+<p>e.g. <code>{{ dateFormat &quot;Monday, Jan 2, 2006&quot; &quot;2015-01-21&quot; }}</code> → &ldquo;Wednesday, Jan 21, 2015&rdquo;</p>
 
 <h3 id="highlight">highlight</h3>
 
-<p>Takes a string of code and a language, uses Pygments to return the syntax highlighted code in HTML.<br />
+<p>Takes a string of code and a language, uses Pygments to return the syntax highlighted code in HTML.
 Used in the <a href="/doc/extras/highlighting/">highlight shortcode</a>.</p>
 
 <h3 id="lower">lower</h3>
 
 <p>Converts all characters in string to lowercase.</p>
 
-<p>e.g. <code>{{lower &quot;BatMan&quot;}}</code> → &laquo;batman&raquo;</p>
+<p>e.g. <code>{{lower &quot;BatMan&quot;}}</code> → &ldquo;batman&rdquo;</p>
 
 <h3 id="markdownify">markdownify</h3>
 
-<p>Runs the string through the Markdown processor. The result will be declared as &laquo;safe&raquo; so Go templates will not filter it.</p>
+<p>Runs the string through the Markdown processor. The result will be declared as &ldquo;safe&rdquo; so Go templates will not filter it.</p>
 
 <p>e.g. <code>{{ .Title | markdownify }}</code></p>
 
@@ -902,18 +642,18 @@ Used in the <a href="/doc/extras/highlighting/">highlight shortcode</a>.</p>
 
 <p>Pluralize the given word with a set of common English pluralization rules.</p>
 
-<p>e.g. <code>{{ &quot;cat&quot; | pluralize }}</code> → &laquo;cats&raquo;</p>
+<p>e.g. <code>{{ &quot;cat&quot; | pluralize }}</code> → &ldquo;cats&rdquo;</p>
 
 <h3 id="replace">replace</h3>
 
 <p>Replaces all occurrences of the search string with the replacement string.</p>
 
-<p>e.g. <code>{{ replace &quot;Batman and Robin&quot; &quot;Robin&quot; &quot;Catwoman&quot; }}</code> → &laquo;Batman and Catwoman&raquo;</p>
+<p>e.g. <code>{{ replace &quot;Batman and Robin&quot; &quot;Robin&quot; &quot;Catwoman&quot; }}</code> → &ldquo;Batman and Catwoman&rdquo;</p>
 
 <h3 id="safehtml">safeHTML</h3>
 
-<p>Declares the provided string as a &laquo;safe&raquo; HTML document fragment<br />
-so Go html/template will not filter it.  It should not be used<br />
+<p>Declares the provided string as a &ldquo;safe&rdquo; HTML document fragment
+so Go html/template will not filter it.  It should not be used
 for HTML from a third-party, or HTML with unclosed tags or comments.</p>
 
 <p>Example: Given a site-wide <code>config.toml</code> that contains this line:</p>
@@ -927,8 +667,8 @@ for HTML from a third-party, or HTML with unclosed tags or comments.</p>
 <p>© 2015 Jane Doe.  <a href="http://creativecommons.org/licenses/by/4.0/">Some rights reserved</a>.</p>
 </blockquote>
 
-<p>However, without the <code>safeHTML</code> function, html/template assumes<br />
-<code>.Site.Copyright</code> to be unsafe, escaping all HTML tags,<br />
+<p>However, without the <code>safeHTML</code> function, html/template assumes
+<code>.Site.Copyright</code> to be unsafe, escaping all HTML tags,
 rendering the whole string as plain-text like this:</p>
 
 <blockquote>
@@ -953,107 +693,102 @@ Example: Given a site-wide `config.toml` that contains this menu entry:
 
 <h3 id="safecss">safeCSS</h3>
 
-<p>Declares the provided string as a known &laquo;safe&raquo; CSS string<br />
-so Go html/templates will not filter it.<br />
-&laquo;Safe&raquo; means CSS content that matches any of:</p>
+<p>Declares the provided string as a known &ldquo;safe&rdquo; CSS string
+so Go html/templates will not filter it.
+&ldquo;Safe&rdquo; means CSS content that matches any of:</p>
 
 <ol>
-<li>The CSS3 stylesheet production, such as <code>p { color: purple }</code>.<br /></li>
-<li>The CSS3 rule production, such as <code>a[href=~&quot;https:&quot;].foo#bar</code>.<br /></li>
-<li>CSS3 declaration productions, such as <code>color: red; margin: 2px</code>.<br /></li>
-<li>The CSS3 value production, such as <code>rgba(0, 0, 255, 127)</code>.<br />
-<br /></li>
+<li>The CSS3 stylesheet production, such as <code>p { color: purple }</code>.</li>
+<li>The CSS3 rule production, such as <code>a[href=~&quot;https:&quot;].foo#bar</code>.</li>
+<li>CSS3 declaration productions, such as <code>color: red; margin: 2px</code>.</li>
+<li>The CSS3 value production, such as <code>rgba(0, 0, 255, 127)</code>.</li>
 </ol>
 
 <p>Example: Given <code>style = &quot;color: red;&quot;</code> defined in the front matter of your <code>.md</code> file:</p>
 
 <ul>
-<li><code>&lt;p style=&quot;{{ .Params.style | safeCSS }}&quot;&gt;…&lt;/p&gt;</code> ⇒ <code>&lt;p style=&quot;color: red;&quot;&gt;…&lt;/p&gt;</code> (Good!)<br /></li>
-<li><code>&lt;p style=&quot;{{ .Params.style }}&quot;&gt;…&lt;/p&gt;</code> ⇒ <code>&lt;p style=&quot;ZgotmplZ&quot;&gt;…&lt;/p&gt;</code> (Bad!)<br />
-<br /></li>
+<li><code>&lt;p style=&quot;{{ .Params.style | safeCSS }}&quot;&gt;…&lt;/p&gt;</code> ⇒ <code>&lt;p style=&quot;color: red;&quot;&gt;…&lt;/p&gt;</code> (Good!)</li>
+<li><code>&lt;p style=&quot;{{ .Params.style }}&quot;&gt;…&lt;/p&gt;</code> ⇒ <code>&lt;p style=&quot;ZgotmplZ&quot;&gt;…&lt;/p&gt;</code> (Bad!)</li>
 </ul>
 
-<p>Note: &laquo;ZgotmplZ&raquo; is a special value that indicates that unsafe content reached a<br />
+<p>Note: &ldquo;ZgotmplZ&rdquo; is a special value that indicates that unsafe content reached a
 CSS or URL context.</p>
 
 <h3 id="safejs">safeJS</h3>
 
-<p>Declares the provided string as a known &laquo;safe&raquo; Javascript string so Go<br />
-html/templates will not escape it.  &laquo;Safe&raquo; means the string encapsulates a known<br />
-safe EcmaScript5 Expression, for example, <code>(x + y * z())</code>. Template authors<br />
-are responsible for ensuring that typed expressions do not break the intended<br />
-precedence and that there is no statement/expression ambiguity as when passing<br />
-an expression like <code>{ foo:bar() }\n['foo']()</code>, which is both a valid Expression<br />
+<p>Declares the provided string as a known &ldquo;safe&rdquo; Javascript string so Go
+html/templates will not escape it.  &ldquo;Safe&rdquo; means the string encapsulates a known
+safe EcmaScript5 Expression, for example, <code>(x + y * z())</code>. Template authors
+are responsible for ensuring that typed expressions do not break the intended
+precedence and that there is no statement/expression ambiguity as when passing
+an expression like <code>{ foo:bar() }\n['foo']()</code>, which is both a valid Expression
 and a valid Program with a very different meaning.</p>
 
 <p>Example: Given <code>hash = &quot;619c16f&quot;</code> defined in the front matter of your <code>.md</code> file:</p>
 
 <ul>
-<li><code>&lt;script&gt;var form_{{ .Params.hash | safeJS }};…&lt;/script&gt;</code> ⇒ <code>&lt;script&gt;var form_619c16f;…&lt;/script&gt;</code> (Good!)<br /></li>
-<li><code>&lt;script&gt;var form_{{ .Params.hash }};…&lt;/script&gt;</code> ⇒ <code>&lt;script&gt;var form_&quot;619c16f&quot;;…&lt;/script&gt;</code> (Bad!)<br />
-<br /></li>
+<li><code>&lt;script&gt;var form_{{ .Params.hash | safeJS }};…&lt;/script&gt;</code> ⇒ <code>&lt;script&gt;var form_619c16f;…&lt;/script&gt;</code> (Good!)</li>
+<li><code>&lt;script&gt;var form_{{ .Params.hash }};…&lt;/script&gt;</code> ⇒ <code>&lt;script&gt;var form_&quot;619c16f&quot;;…&lt;/script&gt;</code> (Bad!)</li>
 </ul>
 
 <h3 id="singularize">singularize</h3>
 
 <p>Singularize the given word with a set of common English singularization rules.</p>
 
-<p>e.g. <code>{{ &quot;cats&quot; | singularize }}</code> → &laquo;cat&raquo;</p>
+<p>e.g. <code>{{ &quot;cats&quot; | singularize }}</code> → &ldquo;cat&rdquo;</p>
 
 <h3 id="slicestr">slicestr</h3>
 
-<p>Slicing in <code>slicestr</code> is done by specifying a half-open range with two indices, <code>start</code> and <code>end</code>.<br />
-For example, 1 and 4 creates a slice including elements 1 through 3.<br />
+<p>Slicing in <code>slicestr</code> is done by specifying a half-open range with two indices, <code>start</code> and <code>end</code>.
+For example, 1 and 4 creates a slice including elements 1 through 3.
 The <code>end</code> index can be omitted; it defaults to the string&rsquo;s length.</p>
 
 <p>e.g.</p>
 
 <ul>
-<li><code>{{slicestr &quot;BatMan&quot; 3}}</code> → &laquo;Man&raquo;<br /></li>
-<li><code>{{slicestr &quot;BatMan&quot; 0 3}}</code> → &laquo;Bat&raquo;<br />
-<br /></li>
+<li><code>{{slicestr &quot;BatMan&quot; 3}}</code> → &ldquo;Man&rdquo;</li>
+<li><code>{{slicestr &quot;BatMan&quot; 0 3}}</code> → &ldquo;Bat&rdquo;</li>
 </ul>
 
 <h3 id="substr">substr</h3>
 
-<p>Extracts parts of a string, beginning at the character at the specified<br />
+<p>Extracts parts of a string, beginning at the character at the specified
 position, and returns the specified number of characters.</p>
 
-<p>It normally takes two parameters: <code>start</code> and <code>length</code>.<br />
-It can also take one parameter: <code>start</code>, i.e. <code>length</code> is omitted, in which case<br />
+<p>It normally takes two parameters: <code>start</code> and <code>length</code>.
+It can also take one parameter: <code>start</code>, i.e. <code>length</code> is omitted, in which case
 the substring starting from start until the end of the string will be returned.</p>
 
 <p>To extract characters from the end of the string, use a negative start number.</p>
 
-<p>In addition, borrowing from the extended behavior described at <a href="http://php.net/substr">http://php.net/substr</a>,<br />
-if <code>length</code> is given and is negative, then that many characters will be omitted from<br />
+<p>In addition, borrowing from the extended behavior described at <a href="http://php.net/substr">http://php.net/substr</a>,
+if <code>length</code> is given and is negative, then that many characters will be omitted from
 the end of string.</p>
 
 <p>e.g.</p>
 
 <ul>
-<li><code>{{substr &quot;BatMan&quot; 0 -3}}</code> → &laquo;Bat&raquo;<br /></li>
-<li><code>{{substr &quot;BatMan&quot; 3 3}}</code> → &laquo;Man&raquo;<br />
-<br /></li>
+<li><code>{{substr &quot;BatMan&quot; 0 -3}}</code> → &ldquo;Bat&rdquo;</li>
+<li><code>{{substr &quot;BatMan&quot; 3 3}}</code> → &ldquo;Man&rdquo;</li>
 </ul>
 
 <h3 id="title">title</h3>
 
 <p>Converts all characters in string to titlecase.</p>
 
-<p>e.g. <code>{{title &quot;BatMan&quot;}}</code> → &laquo;Batman&raquo;</p>
+<p>e.g. <code>{{title &quot;BatMan&quot;}}</code> → &ldquo;Batman&rdquo;</p>
 
 <h3 id="trim">trim</h3>
 
 <p>Returns a slice of the string with all leading and trailing characters contained in cutset removed.</p>
 
-<p>e.g. <code>{{ trim &quot;++Batman--&quot; &quot;+-&quot; }}</code> → &laquo;Batman&raquo;</p>
+<p>e.g. <code>{{ trim &quot;++Batman--&quot; &quot;+-&quot; }}</code> → &ldquo;Batman&rdquo;</p>
 
 <h3 id="upper">upper</h3>
 
 <p>Converts all characters in string to uppercase.</p>
 
-<p>e.g. <code>{{upper &quot;BatMan&quot;}}</code> → &laquo;BATMAN&raquo;</p>
+<p>e.g. <code>{{upper &quot;BatMan&quot;}}</code> → &ldquo;BATMAN&rdquo;</p>
 
 <h2 id="urls">URLs</h2>
 
@@ -1062,11 +797,10 @@ the end of string.</p>
 <p>Both <code>absURL</code> and <code>relURL</code> considers the configured value of <code>baseURL</code>, so given a <code>baseURL</code> set to <code>http://mysite.com/hugo/</code>:</p>
 
 <ul>
-<li><code>{{ &quot;mystyle.css&quot; | absURL }}</code> → &laquo;<a href="http://mysite.com/hugo/mystyle.css&quot;">http://mysite.com/hugo/mystyle.css&quot;</a><br /></li>
-<li><code>{{ &quot;mystyle.css&quot; | relURL }}</code> → &laquo;/hugo/mystyle.css&raquo;<br /></li>
-<li><code>{{ &quot;http://gohugo.io/&quot; | relURL }}</code> →  &laquo;<a href="http://gohugo.io/&quot;">http://gohugo.io/&quot;</a><br /></li>
-<li><code>{{ &quot;http://gohugo.io/&quot; | absURL }}</code> →  &laquo;<a href="http://gohugo.io/&quot;">http://gohugo.io/&quot;</a><br />
-<br /></li>
+<li><code>{{ &quot;mystyle.css&quot; | absURL }}</code> → &ldquo;<a href="http://mysite.com/hugo/mystyle.css&quot;">http://mysite.com/hugo/mystyle.css&quot;</a></li>
+<li><code>{{ &quot;mystyle.css&quot; | relURL }}</code> → &ldquo;/hugo/mystyle.css&rdquo;</li>
+<li><code>{{ &quot;http://gohugo.io/&quot; | relURL }}</code> →  &ldquo;<a href="http://gohugo.io/&quot;">http://gohugo.io/&quot;</a></li>
+<li><code>{{ &quot;http://gohugo.io/&quot; | absURL }}</code> →  &ldquo;<a href="http://gohugo.io/&quot;">http://gohugo.io/&quot;</a></li>
 </ul>
 
 <p>The last two examples may look funky, but is useful if you, say, have a list of images, some of them hosted externally, some locally:</p>
@@ -1088,19 +822,19 @@ the end of string.</p>
 
 <p>Looks up a content page by relative path or logical name to return the permalink (<code>ref</code>) or relative permalink (<code>relref</code>). Requires a Node or Page object (usually satisfied with <code>.</code>). Used in the <a href="http://tyche.cc/doc/extras/crossreferences/"><code>ref</code> and <code>relref</code> shortcodes</a>.</p>
 
-<p>e.g. {{ ref . &laquo;about.md&raquo; }}</p>
+<p>e.g. {{ ref . &ldquo;about.md&rdquo; }}</p>
 
 <h3 id="safeurl">safeURL</h3>
 
-<p>Declares the provided string as a &laquo;safe&raquo; URL or URL substring (see <a href="http://tools.ietf.org/html/rfc3986">RFC 3986</a>).<br />
-A URL like <code>javascript:checkThatFormNotEditedBeforeLeavingPage()</code> from a trusted<br />
-source should go in the page, but by default dynamic <code>javascript:</code> URLs are<br />
+<p>Declares the provided string as a &ldquo;safe&rdquo; URL or URL substring (see <a href="http://tools.ietf.org/html/rfc3986">RFC 3986</a>).
+A URL like <code>javascript:checkThatFormNotEditedBeforeLeavingPage()</code> from a trusted
+source should go in the page, but by default dynamic <code>javascript:</code> URLs are
 filtered out since they are a frequently exploited injection vector.</p>
 
-<p>Without <code>safeURL</code>, only the URI schemes <code>http:</code>, <code>https:</code> and <code>mailto:</code><br />
-are considered safe by Go.  If any other URI schemes, e.g.&nbsp;<code>irc:</code> and<br />
-<code>javascript:</code>, are detected, the whole URL would be replaced with<br />
-<code>#ZgotmplZ</code>.  This is to &laquo;defang&raquo; any potential attack in the URL,<br />
+<p>Without <code>safeURL</code>, only the URI schemes <code>http:</code>, <code>https:</code> and <code>mailto:</code>
+are considered safe by Go.  If any other URI schemes, e.g.&nbsp;<code>irc:</code> and
+<code>javascript:</code>, are detected, the whole URL would be replaced with
+<code>#ZgotmplZ</code>.  This is to &ldquo;defang&rdquo; any potential attack in the URL,
 rendering it useless.</p>
 
 <p>Example: Given a site-wide <code>config.toml</code> that contains this menu entry:</p>
@@ -1119,7 +853,7 @@ rendering it useless.</p>
 &lt;/ul&gt;
 </code></pre>
 
-<p>would produce <code>&lt;li&gt;&lt;a href=&quot;#ZgotmplZ&quot;&gt;IRC: #golang at freenode&lt;/a&gt;&lt;/li&gt;</code><br />
+<p>would produce <code>&lt;li&gt;&lt;a href=&quot;#ZgotmplZ&quot;&gt;IRC: #golang at freenode&lt;/a&gt;&lt;/li&gt;</code>
 for the <code>irc://…</code> URL.</p>
 
 <p>To fix this, add <code>| safeURL</code> after <code>.URL</code> on the 3rd line, like this:</p>
@@ -1127,12 +861,12 @@ for the <code>irc://…</code> URL.</p>
 <pre><code>  &lt;li&gt;&lt;a href=&quot;{{ .URL | safeURL }}&quot;&gt;{{ .Name }}&lt;/a&gt;&lt;/li&gt;
 </code></pre>
 
-<p>With this change, we finally get <code>&lt;li&gt;&lt;a href=&quot;irc://irc.freenode.net/#golang&quot;&gt;IRC: #golang at freenode&lt;/a&gt;&lt;/li&gt;</code><br />
+<p>With this change, we finally get <code>&lt;li&gt;&lt;a href=&quot;irc://irc.freenode.net/#golang&quot;&gt;IRC: #golang at freenode&lt;/a&gt;&lt;/li&gt;</code>
 as intended.</p>
 
 <h3 id="urlize">urlize</h3>
 
-<p>Takes a string and sanitizes it for usage in URLs, converts spaces to &laquo;-&raquo;.</p>
+<p>Takes a string and sanitizes it for usage in URLs, converts spaces to &ldquo;-&rdquo;.</p>
 
 <p>e.g. <code>&lt;a href=&quot;/tags/{{ . | urlize }}&quot;&gt;{{ . }}&lt;/a&gt;</code></p>
 
@@ -1169,7 +903,7 @@ names: [ &quot;Derek Perkins&quot;, &quot;Joe Bergevin&quot;, &quot;Tanner Linsl
 <pre><code>{{ range .Params.names }}{{ . | urlize }}{{ end }}
 </code></pre>
 
-<p>However, it isn’t possible to provide the output of a range to the <code>delimit</code> function, so you need to <code>apply</code> it. A more complete example should explain this. Let&rsquo;s say you have two partials for displaying tag links in a post,  &laquo;post/tag/list.html&raquo; and &laquo;post/tag/link.html&raquo;, as shown below.</p>
+<p>However, it isn’t possible to provide the output of a range to the <code>delimit</code> function, so you need to <code>apply</code> it. A more complete example should explain this. Let&rsquo;s say you have two partials for displaying tag links in a post,  &ldquo;post/tag/list.html&rdquo; and &ldquo;post/tag/link.html&rdquo;, as shown below.</p>
 
 <pre><code>&lt;!-- post/tag/list.html --&gt;
 {{ with .Params.tags }}
@@ -1193,9 +927,9 @@ names: [ &quot;Derek Perkins&quot;, &quot;Joe Bergevin&quot;, &quot;Tanner Linsl
 &lt;a class=&quot;post-tag post-tag-{{ . | urlize }}&quot; href=&quot;/tags/{{ . | urlize }}&quot;&gt;{{ . }}&lt;/a&gt;
 </code></pre>
 
-<p>This works, but the complexity of &laquo;post/tag/list.html&raquo; is fairly high; the Hugo template needs to perform special behaviour for the case where there’s only one tag, and it has to treat the last tag as special. Additionally, the tag list will be rendered something like &laquo;Tags: tag1 , tag2 , tag3&raquo; because of the way that the HTML is generated and it is interpreted by a browser.</p>
+<p>This works, but the complexity of &ldquo;post/tag/list.html&rdquo; is fairly high; the Hugo template needs to perform special behaviour for the case where there’s only one tag, and it has to treat the last tag as special. Additionally, the tag list will be rendered something like &ldquo;Tags: tag1 , tag2 , tag3&rdquo; because of the way that the HTML is generated and it is interpreted by a browser.</p>
 
-<p>This is Hugo. We have a better way. If this were your &laquo;post/tag/list.html&raquo; instead, all of those problems are fixed automatically (this first version separates all of the operations for ease of reading; the combined version will be shown after the explanation).</p>
+<p>This is Hugo. We have a better way. If this were your &ldquo;post/tag/list.html&rdquo; instead, all of those problems are fixed automatically (this first version separates all of the operations for ease of reading; the combined version will be shown after the explanation).</p>
 
 <pre><code>&lt;!-- post/tag/list.html --&gt;
 {{ with .Params.tags }}
@@ -1209,7 +943,7 @@ names: [ &quot;Derek Perkins&quot;, &quot;Joe Bergevin&quot;, &quot;Tanner Linsl
 {{ end }}
 </code></pre>
 
-<p>In this version, we are now sorting the tags, converting them to links with &laquo;post/tag/link.html&raquo;, cleaning off stray newlines, and joining them together in a delimited list for presentation. That can also be written as:</p>
+<p>In this version, we are now sorting the tags, converting them to links with &ldquo;post/tag/link.html&rdquo;, cleaning off stray newlines, and joining them together in a delimited list for presentation. That can also be written as:</p>
 
 <pre><code>&lt;!-- post/tag/list.html --&gt;
 {{ with .Params.tags }}
@@ -1235,14 +969,14 @@ names: [ &quot;Derek Perkins&quot;, &quot;Joe Bergevin&quot;, &quot;Tanner Linsl
 &lt;!-- becomes &quot;Hello world&quot; again. --&gt;
 </code></pre>
 
-<p>You can also pass other datatypes as argument to the template function which tries<br />
+<p>You can also pass other datatypes as argument to the template function which tries
 to convert them. Now we use an integer instead of a string:</p>
 
 <pre><code>{{ 42 | base64Encode | base64Decode }}
 &lt;!-- will output &quot;42&quot;. Both functions always return a string. --&gt;
 </code></pre>
 
-<p><strong>Tip:</strong> Using base64 to decode and encode becomes really powerful if we have to handle<br />
+<p><strong>Tip:</strong> Using base64 to decode and encode becomes really powerful if we have to handle
 responses of APIs.</p>
 
 <pre><code>{{ $resp := getJSON &quot;https://api.github.com/repos/spf13/hugo/readme&quot;  }}
@@ -1251,57 +985,187 @@ responses of APIs.</p>
 
 <p>The response of the GitHub API contains the base64-encoded version of the <a href="https://github.com/spf13/hugo/blob/master/README.md">README.md</a> in the Hugo repository. Now we can decode it and parse the Markdown. The final output will look similar to the rendered version on GitHub.</p>
 
-                </section>
-            </article>
-        </main>
-        <br />
+                      
+                    </div>
+                    <div style="border: 1px dashed #e0e0e0; padding: 10px 10px 10px 10px; background-color: #fffeee; background-repeat: no-repeat; background-attachment: scroll; background-position: 1% 50%; -moz-background-size: auto auto; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;">
+                        <div style="float:left;margin-top:0px;">
+                        <img src="/public/bihai.jpg" width="129px" height="129px"/>
+                        <div style="text-align:center;">微信扫一扫交流</div>
+                        </div>
+                        <div>
+                            <p style="margin-top:0px;">作者：<a target="_blank" href="http://tyche.cc/">bihai</a>
+                            <br />微信关注：tychecc 太奇兮
+                            <br />本文出处：<a target="_blank" href="http://tyche.cc/doc/templates/functions_en/">http://tyche.cc/doc/templates/functions_en/</a>
+                            <br />
+                            文章版权归本人所有，欢迎转载，但未经作者同意必须保留此段声明，且在文章页面明显位置给出原文连接，否则保留追究法律责任的权利。 </p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                  </div>
+                  
+
+                </div>
+                
+              </article>
+              
+              <div class="clear"></div>
+              
+              
+              
+            </div>
+          </section>
+          <div class="sidebar s1">
+  <a class="sidebar-toggle" title="Expand Sidebar"><i class="fa icon-sidebar-toggle"></i></a>
+  <div class="sidebar-content">
+    <div class="sidebar-top group">
+      <p>Follow:</p>
+      <ul class="social-links">
+    <li>
+    <a class="social-tooltip" title="On WeiBo"
+        href="http://weibo.com/<bihaiorg>1</bihaiorg>" target="_blank">
+        <i class="fa fa-weibo"></i>
+    </a>
+    </li>
+    <li>
+    <a class="social-tooltip" title="On Twitter" rel="nofollow"
+        href="https://twitter.com/bihaiorg" target="_blank">
+        <i class="fa fa-twitter"></i>
+    </a>
+    </li>
+    <li>
+    <a class="social-tooltip" title="On GitHub"
+        href="https://github.com/bihai" target="_blank">
+        <i class="fa fa-github"></i>
+    </a>
+    </li>
+</ul>
+
+    </div>
+    <div class="widget qrcode">
+    <img src="/public/qrcode.jpg" alt="qrcode" width="172px" height="172px"/>
+    <p> 微信扫一扫：<br/> 关注我的公众号： <br /> tychecc <br /></p>
+</div>
+
+    <ul class="post-nav group">
+      <li class="next">
         
-        <div class="row">
-            <div class="col-xs-6 col-sm-6 text-center">
-                
-                <a href="/doc/templates/go-templates">&lt; 上一篇</a>
-                
-            </div>
-            <div class="col-xs-6 col-sm-6 text-center">
-                
-                <a href="/doc/templates/variables">下一篇 &gt;</a>
-                
-            </div>
+        <a href="http://tyche.cc/doc/meta/roadmap/" rel="next">
+          <i class="fa fa-chevron-right"></i>
+          <strong>Next post</strong>
+          <span>Hugo Roadmap</span>
+        </a>
+        
+      </li>
+      <li class="previous">
+        
+        <a href="http://tyche.cc/doc/templates/functions/" rel="prev">
+          <i class="fa fa-chevron-left"></i>
+          <strong>Previous Post</strong>
+          <span>Hugo Template Functions</span>
+        </a>
+        
+      </li>
+    </ul>
+    <div id="search-2" class="widget widget_search"><h3>Search</h3>
+      <form method="get" class="searchform themeform" action="https://www.baidu.com/baidu">
+        <div>
+          <input type="text" class="search" name="word" placeholder="Press enter to start searching">
+        </div>
+      </form>
+    </div>
+  </div>
+  
+</div>
+
+          <div class="sidebar s2">
+  <a class="sidebar-toggle" title="Expand Sidebar"><i class="fa icon-sidebar-toggle"></i></a>
+  <div class="sidebar-content">
+    <div class="sidebar-top group">
+      <p>More</p>
+    </div>
+    <div id="categories-2" class="widget widget_categories"><h3>Categories</h3>
+      <ul>
+        
+          <li class="cat-item cat-item-1">
+            <a rel="nofollow" href="/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/">心得笔记-blog</a>
+          </li>
+        
+          <li class="cat-item cat-item-1">
+            <a rel="nofollow" href="/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/">技术文章-article</a>
+          </li>
+        
+          <li class="cat-item cat-item-1">
+            <a rel="nofollow" href="/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/">灌水乐乐-post</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer id="footer">
+  <section class="container" id="footer-bottom">
+    <div class="container-inner">
+      <a id="back-to-top" href="#"><i class="fa fa-angle-up"></i></a>
+      <div class="pad group">
+        <div class="grid one-half">
+          <div id="copyright">
+            <p>Copyright © 2016. All Rights Reserved. <br>Powered by
+              <a rel="nofollow" href="http://gohugo.io/" target="_blank">Hugo - the static site generator</a>.
+              <a rel="nofollow" href="http://golang.org" target="_blank">#golang</a>.
+            </p>
+          </div>
+          
         </div>
         
-    </div> 
-</div>
+        <div class="grid one-half last">
+          <ul class="social-links">
+    <li>
+    <a class="social-tooltip" title="On WeiBo"
+        href="http://weibo.com/<bihaiorg>1</bihaiorg>" target="_blank">
+        <i class="fa fa-weibo"></i>
+    </a>
+    </li>
+    <li>
+    <a class="social-tooltip" title="On Twitter" rel="nofollow"
+        href="https://twitter.com/bihaiorg" target="_blank">
+        <i class="fa fa-twitter"></i>
+    </a>
+    </li>
+    <li>
+    <a class="social-tooltip" title="On GitHub"
+        href="https://github.com/bihai" target="_blank">
+        <i class="fa fa-github"></i>
+    </a>
+    </li>
+</ul>
 
+        </div>
+      </div>
 
-
-<hr />
-
-<div class="row">
-    <div class="col-sm-12">
-        
-	    <div class="text-center">
-        
-		    <p class="doc-footer-em"><a href="#">回到顶部↑</a></p>
-	    </div>
-	</div>
-</div>
-
-</div> 
-
-<footer class="doc-footer">
-	
-    <p>Copyright (c) 2016. All rights reserved. Generated by <a href="http://gohugo.io/">Hugo</a></p>
+    </div>
+    
+  </section>
+  
 </footer>
 
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-10147768-2', 'auto');
+  ga('send', 'pageview');
 
-<script src="http://tyche.cc//js/jquery-1.11.2.min.js"></script>
-<script src="http://tyche.cc//js/bootstrap.min.js"></script>
+  $('#messagesbsb').remove();
 
-<script src="http://tyche.cc//js/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-<script src="http://tyche.cc//js/ie10-viewport-bug-workaround.js"></script>
-
+</script>
 </body>
 </html>
 

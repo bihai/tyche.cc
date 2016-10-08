@@ -29,14 +29,13 @@
 &lt;h1 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#setup&#34;&gt;Setup&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#theme&#34;&gt;Theme&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#screenshots&#34;&gt;Screenshots&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#extras&#34;&gt;Extras&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#example-sites&#34;&gt;Example Sites&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#setup&#34;&gt;Setup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#theme&#34;&gt;Theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#screenshots&#34;&gt;Screenshots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#extras&#34;&gt;Extras&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#example-sites&#34;&gt;Example Sites&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contributing&#34;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;setup&#34;&gt;Setup&lt;/h1&gt;
@@ -58,16 +57,14 @@ $ git clone https://github.com/nishanths/cocoa-hugo-theme.git cocoa
 &lt;h2 id=&#34;creating-content&#34;&gt;Creating Content&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Posts should go under a &lt;code&gt;content/posts&lt;/code&gt; directory. Typically you would run:&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Posts should go under a &lt;code&gt;content/posts&lt;/code&gt; directory. Typically you would run:&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;pre&gt;&lt;code&gt;$ hugo new posts/newpost.md
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Fixed pages such as an About page should preferably go under a &lt;code&gt;content/fixed&lt;/code&gt; or be present at the root of the &lt;code&gt;contents&lt;/code&gt; directory.&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Fixed pages such as an About page should preferably go under a &lt;code&gt;content/fixed&lt;/code&gt; or be present at the root of the &lt;code&gt;contents&lt;/code&gt; directory.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;pre&gt;&lt;code&gt;$ hugo new fixed/about.md
@@ -106,10 +103,9 @@ $ git clone https://github.com/nishanths/cocoa-hugo-theme.git cocoa
 &lt;p&gt;The main colors are:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;#333333&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;#b7b7b7&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;#21bb5b&lt;/code&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;#333333&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;#b7b7b7&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;#21bb5b&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;For syntax highlighting, set &lt;code&gt;pygmentsuseclasses = true&lt;/code&gt; in your &lt;code&gt;config.toml&lt;/code&gt;. Syntax highlighting classes in &lt;code&gt;css/pygments.css&lt;/code&gt; are from &lt;a href=&#34;https://github.com/richleland/pygments-css/blob/master/default.css&#34;&gt;&lt;code&gt;default.css&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
@@ -117,11 +113,10 @@ $ git clone https://github.com/nishanths/cocoa-hugo-theme.git cocoa
 &lt;h2 id=&#34;site-variables&#34;&gt;Site Variables&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Add the following params in &lt;code&gt;config.toml&lt;/code&gt; to customize your site.&lt;br /&gt;
+&lt;li&gt;Add the following params in &lt;code&gt;config.toml&lt;/code&gt; to customize your site.
 
 &lt;ul&gt;
-&lt;li&gt;The only required key is &lt;code&gt;DateForm&lt;/code&gt;.&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;The only required key is &lt;code&gt;DateForm&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -160,9 +155,8 @@ WebfontsFile = &amp;quot;css/mywebfontsfile.css&amp;quot; # relative to static/ 
 &lt;h1 id=&#34;example-sites&#34;&gt;Example Sites&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://nishanths.me&#34;&gt;http://nishanths.me&lt;/a&gt; • &lt;a href=&#34;https://github.com/nishanths/&#34;&gt;source&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/nishanths/nishanths.me/pulls&#34;&gt;Add yours by submitting a pull request&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://nishanths.me&#34;&gt;http://nishanths.me&lt;/a&gt; • &lt;a href=&#34;https://github.com/nishanths/&#34;&gt;source&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nishanths/nishanths.me/pulls&#34;&gt;Add yours by submitting a pull request&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;contributing&#34;&gt;Contributing&lt;/h1&gt;

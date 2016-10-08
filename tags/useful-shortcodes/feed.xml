@@ -95,11 +95,10 @@ menu = &amp;quot;main&amp;quot;
 &lt;p&gt;Beside the profile section you can add widgets on the right sidebar. The following widgets are available:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;recent articles&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;category list&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;tag list&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;tag cloud&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;recent articles&lt;/li&gt;
+&lt;li&gt;category list&lt;/li&gt;
+&lt;li&gt;tag list&lt;/li&gt;
+&lt;li&gt;tag cloud&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;You can deactivate them under &lt;code&gt;params.widgets&lt;/code&gt;:&lt;/p&gt;

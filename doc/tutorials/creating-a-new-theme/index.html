@@ -1,491 +1,235 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
+<html class="no-js">
+<head>
+  <base href="http://tyche.cc//">
+  <script>
+    document._writeOriginal = document.write;
+    document.write = function(str) {
+        if (str.indexOf('livereload.js') > -1) {
+            document._writeOriginal(str);
+        } else {
+            document._writeOriginal('<!-- Be Hijack!! -->');
+        }
+    }
+  </script>
+  <title>Creating a New Theme - tyche.cc</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta name="description" content="Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
 We&rsquo;ll start with creating a new site with a very basic template.">
-        <link rel="alternate" href="/feed.xml" type="application/rss+xml" title="tyche.cc">
-        <link rel="icon" href="http://tyche.cc//favicon.ico">
-        <title>Creating a New Theme - tyche.cc</title>
-        <link rel="stylesheet" href="http://tyche.cc//css/highlight.js.min.css">
-        <link rel="stylesheet" href="http://tyche.cc//css/bootstrap.min.css">
-        <link rel="stylesheet" href="http://tyche.cc//css/bootstrap-theme.css">
-        <link rel="stylesheet" href="http://tyche.cc//css/font-awesome/css/font-awesome.min.css" />
-        
-        <link rel="stylesheet" href="http://tyche.cc//css/hugo-org.css">
-    </head>
+<meta name="author" content="bihai">
+<meta name="publisher" content="bihai">
+<meta name="generator" content="http://tyche.cc/"/>
 
-<body role="document">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="http://tyche.cc//">tyche.cc</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li ><a href="http://tyche.cc//">主页</a></li>
-                    
-                    
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">常用链接<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                        
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">官方文档<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                        
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+<meta itemprop="name" content="Creating a New Theme - tyche.cc">
+<meta itemprop="description" content="Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
+We&rsquo;ll start with creating a new site with a very basic template.">
+<meta itemprop="image" content="http://tyche.cc//public/bihai.jpg">
+
+<meta property="og:title" content="Creating a New Theme - tyche.cc" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://tyche.cc/doc/tutorials/creating-a-new-theme/" />
+<meta property="og:image" content="http://tyche.cc//public/bihai.jpg" />
+<meta property="og:description" content="Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
+We&rsquo;ll start with creating a new site with a very basic template.">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@bihaiorg">
+<meta name="twitter:title" content="Creating a New Theme - tyche.cc">
+<meta name="twitter:description" content="Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
+We&rsquo;ll start with creating a new site with a very basic template.">
+<meta name="twitter:creator" content="@bihaiorg">
+<meta name="twitter:image" content="http://tyche.cc//public/bihai.jpg">
+
+  <script>document.documentElement.className = document.documentElement.className.replace("no-js", "js");</script>
+  <link rel="canonical" href="http://tyche.cc/doc/tutorials/creating-a-new-theme/">
+  <link rel='shortlink' href="http://tyche.cc/doc/tutorials/creating-a-new-theme/"/>
+  <link rel="shortcut icon" href="http://tyche.cc//public/favicon.ico"/>
+  
+<link rel="stylesheet" id="human-style-css" href="/wp-content/themes/hueman/style.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="human-style-css2" href="/wp-content/themes/hueman-child/style.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="responsive-css" href="/wp-content/themes/hueman/responsive.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="font-awesome-css" href="/wp-content/themes/hueman/fonts/font-awesome.min.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="/public/highlight/styles/github.css">
+<script src="/public/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<link rel="stylesheet" id="human-style-css3" href="/wp-content/themes/hueman-child/user.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="public/font/hack/css/hack.min.css">
+
+<script type="text/javascript" src="assets/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="wp-content/themes/hueman/js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="wp-content/themes/hueman/js/scripts.js"></script>
+<script type="text/javascript" src="assets/picturefill/picturefill.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.matchHeight-min.js"></script>
+<script type="text/javascript" async defer src="assets/js/myblog.js"></script>
+
+</head>
+
+<body class="single single-post single-format-standard col-3cm full-width topbar-enabled chrome">
+<div id="wrapper">
+  <header id="header">
+
+  <nav class="nav-container group" id="nav-topbar">
+    <div class="nav-toggle"><i class="fa fa-bars"></i></div>
+    <div class="nav-text"></div>
+    <div class="nav-wrap container">
+      <a rel="nofollow" href="http://tyche.cc//" class="nav-cs-icon">
+        <img width="40" height="40" src="/public/bihai.jpg" alt="bihai" title="Home">
+      </a>
+      <ul id="menu-default-menu" class="nav container-inner group">
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/">首页</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/">心得笔记-blog</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/">技术文章-article</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/">灌水乐乐-post</a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/post/">归档-Archive</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/about/">关于-About Me</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/post/linked-post/">Linked post</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">community</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">content</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">extras</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">getting started</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">layout</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">taxonomy</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">themes</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">troubleshooting</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">tutorials</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/feed.xml" type="application/rss+xml" target="_blank">订阅</a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-text">
+        tyche.cc
+        </li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="container-inner">
+        <div class="toggle-search"><i class="fa fa-search"></i></div>
+        <div class="search-expand">
+          <div class="search-expand-inner">
+            <form method="get" class="searchform themeform" action="https://www.baidu.com/baidu">
+              <div>
+                <input type="text" class="search" name="word" placeholder="Press enter to start searching">
+              </div>
+            </form>
+          </div>
         </div>
-    </nav>
-
-
-
-<div class="container-fluid">
-
-<div class="row">
-    <div class="col-xs-12 col-sm-3">
-        
-<aside>
-    <div class="well">
-        
-        <div class="pull-right">Hugo v0.15.0(翻译中...)</div>
-        <ul class="nav nav-list">
-            
-            
-            
-            <li>
-                <label class="tree-toggle nav-header">归档-Archive</label>
-                <ul class="nav nav-list">
-                    <li>
-                        <a href="/post/">归档-Archive</a>
-                    </li>
-                </ul>
-            
-            </li>
-            
-            
-            <li>
-                <label class="tree-toggle nav-header">关于-About Me</label>
-                <ul class="nav nav-list">
-                    
-                    <li>
-                        <a href="/doc/meta/release-notes/">Release Notes</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/meta/roadmap/">Hugo Roadmap</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/meta/license/">License</a>
-                    </li>
-                    
-                </ul>
-            
-            </li>
-            
-            
-            <li>
-                <label class="tree-toggle nav-header">community</label>
-                <ul class="nav nav-list">
-                    
-                    <li>
-                        <a href="/doc/community/mailing-list/">Mailing List</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/community/contributing/">Contributing to Hugo</a>
-                    </li>
-                    
-                </ul>
-            
-            </li>
-            
-            
-            <li>
-                <label class="tree-toggle nav-header">content</label>
-                <ul class="nav nav-list">
-                    
-                    <li>
-                        <a href="/doc/content/organization/">Organization</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/content/supported-formats/">Supported Formats</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/content/front-matter/">Front Matter</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/content/sections/">Sections</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/content/types/">Types</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/content/archetypes/">Archetypes</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/content/ordering/">Ordering</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/content/summaries/">Summaries</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/content/example/">Example</a>
-                    </li>
-                    
-                </ul>
-            
-            </li>
-            
-            
-            <li>
-                <label class="tree-toggle nav-header">extras</label>
-                <ul class="nav nav-list">
-                    
-                    <li>
-                        <a href="/doc/extras/aliases/">Aliases</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/analytics/">Analytics</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/builders/">Builders</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/comments/">Comments</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/crossreferences/">Cross-References</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/livereload/">LiveReload</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/menus/">Menus</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/permalinks/">Permalinks</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/pagination/">Pagination</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/scratch/">Scratch</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/shortcodes/">Shortcodes</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/datafiles/">Data Files</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/highlighting/">Syntax Highlighting</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/datadrivencontent/">Data-driven Content</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/toc/">Table of Contents</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/localfiles/">Traversing Local Files</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/extras/urls/">URLs</a>
-                    </li>
-                    
-                </ul>
-            
-            </li>
-            
-            
-            <li>
-                <label class="tree-toggle nav-header">getting started</label>
-                <ul class="nav nav-list">
-                    
-                    <li>
-                        <a href="/doc/overview/introduction/">Introduction</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/overview/quickstart/">Quickstart</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/overview/installing/">Installing Hugo</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/overview/usage/">Using Hugo</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/overview/configuration/">Configuration</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/overview/source-directory/">Source Organization</a>
-                    </li>
-                    
-                </ul>
-            
-            </li>
-            
-            
-            <li>
-                <label class="tree-toggle nav-header">layout</label>
-                <ul class="nav nav-list">
-                    
-                    <li>
-                        <a href="/doc/templates/overview/">Overview</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/go-templates/">Go Template Primer</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/ace/">Ace templates</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/amber/">Amber templates</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/functions/">Functions</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/variables/">Variables</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/content/">Single Content</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/list/">List of Content</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/homepage/">Homepage</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/terms/">Taxonomy Terms</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/views/">Content Views</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/partials/">Partial Templates</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/rss/">RSS</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/sitemap/">Sitemap</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/404/">Custom 404 page</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/templates/debugging/">Debugging</a>
-                    </li>
-                    
-                </ul>
-            
-            </li>
-            
-            
-            <li>
-                <label class="tree-toggle nav-header">taxonomy</label>
-                <ul class="nav nav-list">
-                    
-                    <li>
-                        <a href="/doc/taxonomies/overview/">Overview</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/taxonomies/usage/">Usage</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/taxonomies/displaying/">Displaying</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/taxonomies/templates/">Templates</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/taxonomies/ordering/">Ordering</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/taxonomies/methods/">Structure &amp; Methods</a>
-                    </li>
-                    
-                </ul>
-            
-            </li>
-            
-            
-            <li>
-                <label class="tree-toggle nav-header">themes</label>
-                <ul class="nav nav-list">
-                    
-                    <li>
-                        <a href="/doc/themes/overview/">Themes Overview</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/themes/installing/">Installing Themes</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/themes/usage/">Using a Theme</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/themes/customizing/">Customizing a Theme</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/themes/creation/">Creating a Theme</a>
-                    </li>
-                    
-                </ul>
-            
-            </li>
-            
-            
-            <li>
-                <label class="tree-toggle nav-header">troubleshooting</label>
-                <ul class="nav nav-list">
-                    
-                    <li>
-                        <a href="/doc/troubleshooting/overview/">Troubleshooting Overview</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/troubleshooting/strange-eof-error/">Strange EOF error</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/troubleshooting/categories-with-accented-characters/">Accented Categories</a>
-                    </li>
-                    
-                </ul>
-            
-            </li>
-            
-            
-            <li>
-                <label class="tree-toggle nav-header">tutorials</label>
-                <ul class="nav nav-list">
-                    
-                    <li>
-                        <a href="/doc/tutorials/automated-deployments/">Automated deployments</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/tutorials/creating-a-new-theme/">Creating a New Theme</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/tutorials/github-pages-blog/">Hosting on GitHub</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/tutorials/installing-on-mac/">Installing on Mac</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/tutorials/installing-on-windows/">Installing on Windows</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/tutorials/mathjax/">MathJax Support</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/tutorials/migrate-from-jekyll/">Migrating from Jekyll</a>
-                    </li>
-                    
-                    <li>
-                        <a href="/doc/tutorials/create-a-multilingual-site/">Multilingual Site</a>
-                    </li>
-                    
-                </ul>
-            
-            </li>
-            
-            
-              
-            <li>
-                <a href="https://github.com/coderzh/gohugo.org/edit/master/content/doc/tutorials/creating-a-new-theme.md" target="blank">
-                <i class='fa fa-edit'></i>修改此文章</a>
-            </li>
-            
-            
-        </ul>
+      </div>
+      
     </div>
-</aside>
+    
 
+  </nav>
+  
 
+  <div class="container group">
+    <div class="container-inner">
+
+      <div class="group pad">
+
+        <div class="group pad">
+          <h1 class="site-title">
+            <a rel="nofollow" href="http://tyche.cc//" rel="home">
+              <img style="border-radius: 50%;width:72px;height:72px;margin:0 auto;" alt="bihai" src="/public/bihai.jpg"></img>
+              tyche.cc
+            </a>
+          </h1>
+          <p class="site-description"> tyche.cc your confidence, hope &amp; emotion. </p>
+        </div>
+
+      </div>
     </div>
-    <div class="col-xs-12 col-sm-9 doc-main">
-        <main role="main">
-            <article>
-                <a id="title"></a>
-                <h1 class="doc-entry-title">Creating a New Theme</h1>
-                <section>
-                    
+    
+  </div>
+  
+
+</header>
+
+
+
+  <div class="container" id="page">
+    <div class="container-inner">
+      <div class="main">
+        <div class="main-inner group">
+          <section class="content">
+            <div class="page-title pad group">
+              <ul class="meta-single group">
+                
+              </ul>
+            </div>
+
+            <div class="pad group">
+
+              <article
+                  class="post type-post status-publish format-standard has-post-thumbnail hentry category-australien tag-bondi-beach tag-city2surf tag-sydney">
+                <div class="post-inner group">
+
+                  <h1 class="post-title">Creating a New Theme</h1>
+
+                  <p class="post-byline">
+                    by michael henderson · 26116年11月26日 · 7871 Words ·
+                    ~37min reading time |
+                    <a href="https://github.com/bihai/tyche.cc/blob/master/content/doc/tutorials/creating-a-new-theme.md"
+                       target="_blank">Improve on <i class="fa fa-github"></i></a>
+                  </p>
+
+                  <div class="clear"></div>
+
+                  <div class="entry">
+                    <div class="entry-inner">
+                      
+                      
 
 <h2 id="introduction">Introduction</h2>
 
@@ -552,11 +296,11 @@ $
 
 <h3 id="content">Content</h3>
 
-<p>Content is stored in text files that contain two sections. The first section is the &laquo;front matter,&raquo; which is the meta-information on the content. The second section contains Markdown that will be converted to HTML.</p>
+<p>Content is stored in text files that contain two sections. The first section is the &ldquo;front matter,&rdquo; which is the meta-information on the content. The second section contains Markdown that will be converted to HTML.</p>
 
 <h4 id="front-matter">Front Matter</h4>
 
-<p>The front matter is information about the content. Like the configuration file, it can be written in TOML, YAML, or JSON. Unlike the configuration file, Hugo doesn’t use the file’s extension to know the format. It looks for markers to signal the type. TOML is surrounded by &laquo;<code>+++</code>&raquo;, YAML by &laquo;<code>---</code>&raquo;, and JSON is enclosed in curly braces. I prefer to use TOML, so you’ll need to translate my examples if you prefer YAML or JSON.</p>
+<p>The front matter is information about the content. Like the configuration file, it can be written in TOML, YAML, or JSON. Unlike the configuration file, Hugo doesn’t use the file’s extension to know the format. It looks for markers to signal the type. TOML is surrounded by &ldquo;<code>+++</code>&rdquo;, YAML by &ldquo;<code>---</code>&rdquo;, and JSON is enclosed in curly braces. I prefer to use TOML, so you’ll need to translate my examples if you prefer YAML or JSON.</p>
 
 <p>The information in the front matter is passed into the template before the content is rendered into HTML.</p>
 
@@ -586,7 +330,7 @@ $
 
 <h4 id="partial-template">Partial Template</h4>
 
-<p>A partial template is a template that can be included in other templates. Partial templates must be called using the &laquo;partial&raquo; template command. They are very handy for rolling up common behavior. For example, your site may have a banner that all pages use. Instead of copying the text of the banner into every single and list template, you could create a partial with the banner in it. That way if you decide to change the banner, you only have to change the partial template.</p>
+<p>A partial template is a template that can be included in other templates. Partial templates must be called using the &ldquo;partial&rdquo; template command. They are very handy for rolling up common behavior. For example, your site may have a banner that all pages use. Instead of copying the text of the banner into every single and list template, you could create a partial with the banner in it. That way if you decide to change the banner, you only have to change the partial template.</p>
 
 <h2 id="create-a-new-site">Create a New Site</h2>
 
@@ -628,7 +372,7 @@ in 4 ms
 $ 
 </code></pre>
 
-<p>The &laquo;<code>--verbose</code>&raquo; flag gives extra information that will be helpful when we build the template. Every line of the output that starts with &laquo;INFO:&raquo; or &laquo;WARN:&raquo; is present because we used that flag. The lines that start with &laquo;WARN:&raquo; are warning messages. We&rsquo;ll go over them later.</p>
+<p>The &ldquo;<code>--verbose</code>&rdquo; flag gives extra information that will be helpful when we build the template. Every line of the output that starts with &ldquo;INFO:&rdquo; or &ldquo;WARN:&rdquo; is present because we used that flag. The lines that start with &ldquo;WARN:&rdquo; are warning messages. We&rsquo;ll go over them later.</p>
 
 <p>We can verify that the command worked by looking at the directory again.</p>
 
@@ -694,7 +438,7 @@ Press Ctrl+C to stop
 WARN: 2015/11/27 Unable to locate layout for 404 page: [404.html]
 </code></pre>
 
-<p>That second warning is easier to explain. We haven’t created a template to be used to generate &laquo;page not found errors.&raquo; The 404 message is a topic for a separate tutorial.</p>
+<p>That second warning is easier to explain. We haven’t created a template to be used to generate &ldquo;page not found errors.&rdquo; The 404 message is a topic for a separate tutorial.</p>
 
 <p>Now for the first warning. It is for the home page. You can tell because the first layout that it looked for was <code>index.html</code>. That’s only used by the home page.</p>
 
@@ -706,9 +450,9 @@ WARN: 2015/11/27 Unable to locate layout for 404 page: [404.html]
 
 <p>Hugo doesn&rsquo;t ship with a default theme. There are a few available (I counted a dozen when I first installed Hugo) and Hugo comes with a command to create new themes.</p>
 
-<p>We&rsquo;re going to create a new theme called &laquo;zafta.&raquo; Since the goal of this tutorial is to show you how to fill out the files to pull in your content, the theme will not contain any CSS. In other words, ugly but functional.</p>
+<p>We&rsquo;re going to create a new theme called &ldquo;zafta.&rdquo; Since the goal of this tutorial is to show you how to fill out the files to pull in your content, the theme will not contain any CSS. In other words, ugly but functional.</p>
 
-<p>All themes have opinions on content and layout. For example, Zafta uses &laquo;article&raquo; over &laquo;blog&raquo; or &laquo;post.&raquo; Strong opinions make for simpler templates but differing opinions make it tougher to use themes. When you build a theme, consider using the terms that other themes do.</p>
+<p>All themes have opinions on content and layout. For example, Zafta uses &ldquo;article&rdquo; over &ldquo;blog&rdquo; or &ldquo;post.&rdquo; Strong opinions make for simpler templates but differing opinions make it tougher to use themes. When you build a theme, consider using the terms that other themes do.</p>
 
 <h3 id="create-a-skeleton">Create a Skeleton</h3>
 
@@ -759,7 +503,7 @@ $
 
 <h3 id="update-the-configuration-file-to-use-the-theme">Update the Configuration File to Use the Theme</h3>
 
-<p>Now that we&rsquo;ve got a theme to work with, it&rsquo;s a good idea to add the theme name to the configuration file. This is optional, because you can always add &laquo;-t zafta&raquo; on all your commands. I like to put it the configuration file because I like shorter command lines. If you don&rsquo;t put it in the configuration file or specify it on the command line, you won&rsquo;t use the template that you&rsquo;re expecting to.</p>
+<p>Now that we&rsquo;ve got a theme to work with, it&rsquo;s a good idea to add the theme name to the configuration file. This is optional, because you can always add &ldquo;-t zafta&rdquo; on all your commands. I like to put it the configuration file because I like shorter command lines. If you don&rsquo;t put it in the configuration file or specify it on the command line, you won&rsquo;t use the template that you&rsquo;re expecting to.</p>
 
 <p>Edit the file to add the named theme.</p>
 
@@ -855,13 +599,12 @@ $
 <p>When you&rsquo;re working on a theme, you will make changes in the theme&rsquo;s directory, rebuild the site, and check your changes in the browser. Hugo makes this very easy:</p>
 
 <ol>
-<li>Purge the <code>public/</code> directory (optional, but useful if you want to start with a clean slate).<br /></li>
-<li>Run the built in web server.<br /></li>
-<li>Open your site in a browser.<br /></li>
-<li>Update the theme.<br /></li>
-<li>Glance at your browser window to see changes.<br /></li>
-<li>Return to step 4.<br />
-<br /></li>
+<li>Purge the <code>public/</code> directory (optional, but useful if you want to start with a clean slate).</li>
+<li>Run the built in web server.</li>
+<li>Open your site in a browser.</li>
+<li>Update the theme.</li>
+<li>Glance at your browser window to see changes.</li>
+<li>Return to step 4.</li>
 </ol>
 
 <p>I’ll throw in one more opinion: never work on a theme on a live site. Always work on a copy of your site. Make changes to your theme, test them, then copy them up to your site. For added safety, use a tool like Git to keep a revision history of your content and your theme. Believe me when I say that it is too easy to lose both your mind and your changes.</p>
@@ -872,15 +615,15 @@ $
 
 <p>When rendering the site, Hugo will create new files and update existing ones in the <code>public/</code> directory. It will not delete files that are no longer used. For example, files that were created in the wrong directory or with the wrong title will remain. If you leave them, you might get confused by them later. Cleaning out your public files prior to rendering can help.</p>
 
-<p>As of version 0.15, Hugo doesn&rsquo;t write files when running in server mode. Instead, it keeps all the rendered files in memory. You can &laquo;clean&raquo; up files by stopping and restarting the server.</p>
+<p>As of version 0.15, Hugo doesn&rsquo;t write files when running in server mode. Instead, it keeps all the rendered files in memory. You can &ldquo;clean&rdquo; up files by stopping and restarting the server.</p>
 
 <h3 id="hugo-s-watch-option">Hugo&rsquo;s Watch Option</h3>
 
-<p>Hugo&rsquo;s &laquo;<code>--watch</code>&raquo; option will monitor the content/ and your theme directories for changes and rebuild the site automatically. Since version 0.15, this has been the default option for <code>hugo server</code>.</p>
+<p>Hugo&rsquo;s &ldquo;<code>--watch</code>&rdquo; option will monitor the content/ and your theme directories for changes and rebuild the site automatically. Since version 0.15, this has been the default option for <code>hugo server</code>.</p>
 
 <h3 id="live-reload">Live Reload</h3>
 
-<p>Hugo&rsquo;s built in web server supports live reload. As pages are saved on the server, the browser is told to refresh the page. Usually, this happens faster than you can say, &laquo;Wow, that&rsquo;s totally amazing.&raquo;</p>
+<p>Hugo&rsquo;s built in web server supports live reload. As pages are saved on the server, the browser is told to refresh the page. Usually, this happens faster than you can say, &ldquo;Wow, that&rsquo;s totally amazing.&rdquo;</p>
 
 <h3 id="development-commands">Development Commands</h3>
 
@@ -934,9 +677,8 @@ in 3 ms
 <p>The home page is one of a few special pages that Hugo creates automatically. As mentioned earlier, it looks for one of two files in the theme&rsquo;s <code>layout/</code> directory:</p>
 
 <ol>
-<li><code>index.html</code><br /></li>
-<li><code>_default/list.html</code><br />
-<br /></li>
+<li><code>index.html</code></li>
+<li><code>_default/list.html</code></li>
 </ol>
 
 <p>We could update the default templates, but a good design decision is to update the most specific template available. That&rsquo;s not a hard and fast rule (in fact, we&rsquo;ll break it a few times in this tutorial), but it is a good generalization.</p>
@@ -984,9 +726,9 @@ $ cat public/index.html
 $ 
 </code></pre>
 
-<h3 id="build-a-dynamic-home-page">Build a &laquo;Dynamic&raquo; Home Page</h3>
+<h3 id="build-a-dynamic-home-page">Build a &ldquo;Dynamic&rdquo; Home Page</h3>
 
-<p>&laquo;Dynamic home page?&raquo; Hugo&rsquo;s a static web site generator, so this seems an odd thing to say. I mean let&rsquo;s have the home page automatically reflect the content in the site every time Hugo builds it. We&rsquo;ll use iteration in the template to do that.</p>
+<p>&ldquo;Dynamic home page?&rdquo; Hugo&rsquo;s a static web site generator, so this seems an odd thing to say. I mean let&rsquo;s have the home page automatically reflect the content in the site every time Hugo builds it. We&rsquo;ll use iteration in the template to do that.</p>
 
 <h4 id="create-new-articles">Create New Articles</h4>
 
@@ -1098,9 +840,9 @@ $
 
 <h3 id="list-and-single-templates">List and Single Templates</h3>
 
-<p>In Hugo, we have three major kinds of templates. There&rsquo;s the home page template that we updated previously. It is used only by the home page. We also have &laquo;single&raquo; templates which are used to generate output for a single content file. We also have &laquo;list&raquo; templates that are used to group multiple pieces of content before generating output.</p>
+<p>In Hugo, we have three major kinds of templates. There&rsquo;s the home page template that we updated previously. It is used only by the home page. We also have &ldquo;single&rdquo; templates which are used to generate output for a single content file. We also have &ldquo;list&rdquo; templates that are used to group multiple pieces of content before generating output.</p>
 
-<p>Generally speaking, list templates are named &laquo;list.html&raquo; and single templates are named &laquo;single.html.&raquo;</p>
+<p>Generally speaking, list templates are named &ldquo;list.html&rdquo; and single templates are named &ldquo;single.html.&rdquo;</p>
 
 <p>There are three other types of templates: partials, content views, and terms. We will give an example of some partials, but really won&rsquo;t go into much detail on these.</p>
 
@@ -1122,21 +864,20 @@ $
 $
 </code></pre>
 
-<p>Hugo uses the Go template engine. That engine scans the template files for commands which are enclosed between &laquo;{{&raquo; and &laquo;}}&raquo; (affectionately called &laquo;moustaches&raquo;).</p>
+<p>Hugo uses the Go template engine. That engine scans the template files for commands which are enclosed between &ldquo;{{&rdquo; and &ldquo;}}&rdquo; (affectionately called &ldquo;moustaches&rdquo;).</p>
 
 <p>In our template, the commands are:</p>
 
 <ol>
-<li>range<br /></li>
-<li>.Permalink<br /></li>
-<li>.Title<br /></li>
-<li>end<br />
-<br /></li>
+<li>range</li>
+<li>.Permalink</li>
+<li>.Title</li>
+<li>end</li>
 </ol>
 
 <p>The <code>range</code> command is an iterator. We use it to go through the first ten pages. Every HTML file that Hugo creates is treated as a page, so looping through the list of pages will look at every file that will be created.</p>
 
-<p><code>.Permalink</code> prints the URL to link to an article and <code>.Title</code> prints the value of the &laquo;title&raquo; variable. Hugo pulls it from the front matter in the Markdown file.</p>
+<p><code>.Permalink</code> prints the URL to link to an article and <code>.Title</code> prints the value of the &ldquo;title&rdquo; variable. Hugo pulls it from the front matter in the Markdown file.</p>
 
 <p>The <code>end</code> command signals the end of the range iterator. The engine loops back to the top of the iteration when it finds <code>end.</code> Everything between <code>range</code> and <code>end</code> is evaluated each time the engine goes through the iteration. In this template, that would cause the title from the first ten pages to be output as heading level one tags along. Because of the permalink, the heading will link to the actual article.</p>
 
@@ -1187,7 +928,7 @@ $
 
 <h3 id="add-content-to-the-articles">Add Content to the Articles</h3>
 
-<p>We&rsquo;re working with articles, which are in the <code>content/article/</code> directory. That means that their section (as far as templates are concerned) is &laquo;article.&raquo; If we don&rsquo;t do something weird, their type is also &laquo;article.&raquo;</p>
+<p>We&rsquo;re working with articles, which are in the <code>content/article/</code> directory. That means that their section (as far as templates are concerned) is &ldquo;article.&rdquo; If we don&rsquo;t do something weird, their type is also &ldquo;article.&rdquo;</p>
 
 <p>Hugo uses the section and type to find the template file for every piece of content that it renders. Hugo will first look for a template file that matches the section or type name. If it can&rsquo;t find one, then it will look in the <code>_default/</code> directory. There are some twists that we&rsquo;ll cover when we get to categories and tags, but for now we can assume that Hugo will try <code>article/single.html</code>, then <code>_default/single.html</code>.</p>
 
@@ -1251,7 +992,7 @@ $ find public -type f -name '*.html' | xargs ls -l
 -rw-r--r--  1 mdhender  wheel  241 Nov 27 21:39 public/index.html
 </code></pre>
 
-<p>Note that the we have a &laquo;list&raquo; file for our articles, <code>public/article/index.html</code>. The file is empty because we don&rsquo;t have a template for it, but the other files contain our HTML.</p>
+<p>Note that the we have a &ldquo;list&rdquo; file for our articles, <code>public/article/index.html</code>. The file is empty because we don&rsquo;t have a template for it, but the other files contain our HTML.</p>
 
 <pre><code class="language-bash">$ cat public/article/first/index.html
 &lt;!DOCTYPE html&gt;
@@ -1302,7 +1043,7 @@ $
 
 <h3 id="create-a-list-of-articles">Create a List of Articles</h3>
 
-<p>We have the articles displaying on the home page and on their own page. We also have the empty file <code>public/article/index.html</code> file. Let&rsquo;s make it show a list of all articles (not just the first ten). Key to this is that individual pages use &laquo;single&raquo; templates. Pages that show collections (or lists) of other pages use &laquo;list&raquo; templates.</p>
+<p>We have the articles displaying on the home page and on their own page. We also have the empty file <code>public/article/index.html</code> file. Let&rsquo;s make it show a list of all articles (not just the first ten). Key to this is that individual pages use &ldquo;single&rdquo; templates. Pages that show collections (or lists) of other pages use &ldquo;list&rdquo; templates.</p>
 
 <p>We need to decide which template to update. This will be a listing, so it should be a list template. Let&rsquo;s take a quick look and see which list templates are available.</p>
 
@@ -1357,9 +1098,9 @@ $
 
 <h2 id="creating-top-level-pages">Creating Top Level Pages</h2>
 
-<p>Let&rsquo;s add an &laquo;about&raquo; page and display it at the top level (as opposed to a sub-level like we did with articles).</p>
+<p>Let&rsquo;s add an &ldquo;about&rdquo; page and display it at the top level (as opposed to a sub-level like we did with articles).</p>
 
-<p>The default in Hugo is to use the directory structure of the <code>content/</code> directory to guide the location of the generated html in the <code>public/</code> directory. Let&rsquo;s verify that by creating an &laquo;about&raquo; page at the top level:</p>
+<p>The default in Hugo is to use the directory structure of the <code>content/</code> directory to guide the location of the generated html in the <code>public/</code> directory. Let&rsquo;s verify that by creating an &ldquo;about&rdquo; page at the top level:</p>
 
 <pre><code class="language-bash">$ hugo new about.md
 /tmp/hugo-0.15/content/about.md created
@@ -1452,7 +1193,7 @@ $
 $ 
 </code></pre>
 
-<p>Notice that the &laquo;about&raquo; link is listed with the articles? That&rsquo;s not desirable, so let&rsquo;s change that first.</p>
+<p>Notice that the &ldquo;about&rdquo; link is listed with the articles? That&rsquo;s not desirable, so let&rsquo;s change that first.</p>
 
 <pre><code class="language-bash">$ vi doc/themes/zafta/layouts/index.html
 &lt;!DOCTYPE html&gt;
@@ -1570,7 +1311,7 @@ $ vi doc/themes/zafta/layouts/partials/footer.html
 :wq
 </code></pre>
 
-<p>Render the web site and verify the results. The title on the home page is now &laquo;My New Hugo Site&raquo;, which comes from the &laquo;title&raquo; variable in the <code>config.toml</code> file.</p>
+<p>Render the web site and verify the results. The title on the home page is now &ldquo;My New Hugo Site&rdquo;, which comes from the &ldquo;title&rdquo; variable in the <code>config.toml</code> file.</p>
 
 <h3 id="update-the-default-templates-to-use-the-partials">Update the Default Templates to Use the Partials</h3>
 
@@ -1595,18 +1336,18 @@ $ vi doc/themes/zafta/layouts/_default/list.html
 
 <p>Generate the web site and verify the results. The title on the articles and the about page should both reflect the value in the markdown file.</p>
 
-<h2 id="addressing-the-date-published-on-the-about-page">Addressing the &laquo;Date Published&raquo; on the About page</h2>
+<h2 id="addressing-the-date-published-on-the-about-page">Addressing the &ldquo;Date Published&rdquo; on the About page</h2>
 
-<p>It&rsquo;s common to have articles display the date that they were written or published, so let&rsquo;s add that. The front matter of our articles has a variable named &laquo;date.&raquo; It&rsquo;s usually the date the content was created, but let&rsquo;s pretend that&rsquo;s the value we want to display.</p>
+<p>It&rsquo;s common to have articles display the date that they were written or published, so let&rsquo;s add that. The front matter of our articles has a variable named &ldquo;date.&rdquo; It&rsquo;s usually the date the content was created, but let&rsquo;s pretend that&rsquo;s the value we want to display.</p>
 
 <p>We display it by printing the formatted date in the template.</p>
 
 <pre><code class="language-bash">{{ .Date.Format &quot;Mon, Jan 2, 2006&quot; }}
 </code></pre>
 
-<p>Articles use the <code>_default/single.html</code> template, which includes this, so they show a nice looking date. Unfortunately, the &laquo;about&raquo; page uses the same default template, so it shows the date, too.</p>
+<p>Articles use the <code>_default/single.html</code> template, which includes this, so they show a nice looking date. Unfortunately, the &ldquo;about&rdquo; page uses the same default template, so it shows the date, too.</p>
 
-<p>There are a couple of ways to make the date display only for articles. We could do an &laquo;if&raquo; statement to only display the date when the type equals &laquo;article.&raquo; That would work, and is acceptable for sites that have just a couple of content types. It aligns with the principle of &laquo;code for today,&raquo; too.</p>
+<p>There are a couple of ways to make the date display only for articles. We could do an &ldquo;if&rdquo; statement to only display the date when the type equals &ldquo;article.&rdquo; That would work, and is acceptable for sites that have just a couple of content types. It aligns with the principle of &ldquo;code for today,&rdquo; too.</p>
 
 <p>Let&rsquo;s assume, though, that we&rsquo;ve made our site so complex that we feel we have to create a new template type. In Hugo-speak, we&rsquo;re going to create a section template for our articles.</p>
 
@@ -1633,7 +1374,7 @@ $ vi doc/themes/zafta/layouts/_default/list.html
 :wq
 </code></pre>
 
-<p>Now let&rsquo;s create the section template. First step is to create the directory for the new section. Then we just create a &laquo;single&raquo; template in it.</p>
+<p>Now let&rsquo;s create the section template. First step is to create the directory for the new section. Then we just create a &ldquo;single&rdquo; template in it.</p>
 
 <pre><code class="language-bash">$ mkdir doc/themes/zafta/layouts/article
 $ vi doc/themes/zafta/layouts/article/single.html
@@ -1648,7 +1389,7 @@ $
 
 </code></pre>
 
-<p>Note that we removed the date logic from the default template and put it in the &laquo;single&raquo; template for <code>layouts/article/</code>.</p>
+<p>Note that we removed the date logic from the default template and put it in the &ldquo;single&rdquo; template for <code>layouts/article/</code>.</p>
 
 <p>Render the site and verify the results. Articles have dates and the about page doesn&rsquo;t.</p>
 
@@ -1712,57 +1453,187 @@ $
 
 <p>DRY is a good design goal and Hugo does a great job supporting it. Part of the art of a good template is knowing when to add a new template and when to update an existing one. While you&rsquo;re figuring that out, accept that you&rsquo;ll be doing some refactoring. Hugo makes that easy and fast, so it&rsquo;s okay to delay splitting up a template.</p>
 
-                </section>
-            </article>
-        </main>
-        <br />
+                      
+                    </div>
+                    <div style="border: 1px dashed #e0e0e0; padding: 10px 10px 10px 10px; background-color: #fffeee; background-repeat: no-repeat; background-attachment: scroll; background-position: 1% 50%; -moz-background-size: auto auto; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;">
+                        <div style="float:left;margin-top:0px;">
+                        <img src="/public/bihai.jpg" width="129px" height="129px"/>
+                        <div style="text-align:center;">微信扫一扫交流</div>
+                        </div>
+                        <div>
+                            <p style="margin-top:0px;">作者：<a target="_blank" href="http://tyche.cc/">bihai</a>
+                            <br />微信关注：tychecc 太奇兮
+                            <br />本文出处：<a target="_blank" href="http://tyche.cc/doc/tutorials/creating-a-new-theme/">http://tyche.cc/doc/tutorials/creating-a-new-theme/</a>
+                            <br />
+                            文章版权归本人所有，欢迎转载，但未经作者同意必须保留此段声明，且在文章页面明显位置给出原文连接，否则保留追究法律责任的权利。 </p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                  </div>
+                  
+
+                </div>
+                
+              </article>
+              
+              <div class="clear"></div>
+              
+              
+              
+            </div>
+          </section>
+          <div class="sidebar s1">
+  <a class="sidebar-toggle" title="Expand Sidebar"><i class="fa icon-sidebar-toggle"></i></a>
+  <div class="sidebar-content">
+    <div class="sidebar-top group">
+      <p>Follow:</p>
+      <ul class="social-links">
+    <li>
+    <a class="social-tooltip" title="On WeiBo"
+        href="http://weibo.com/<bihaiorg>1</bihaiorg>" target="_blank">
+        <i class="fa fa-weibo"></i>
+    </a>
+    </li>
+    <li>
+    <a class="social-tooltip" title="On Twitter" rel="nofollow"
+        href="https://twitter.com/bihaiorg" target="_blank">
+        <i class="fa fa-twitter"></i>
+    </a>
+    </li>
+    <li>
+    <a class="social-tooltip" title="On GitHub"
+        href="https://github.com/bihai" target="_blank">
+        <i class="fa fa-github"></i>
+    </a>
+    </li>
+</ul>
+
+    </div>
+    <div class="widget qrcode">
+    <img src="/public/qrcode.jpg" alt="qrcode" width="172px" height="172px"/>
+    <p> 微信扫一扫：<br/> 关注我的公众号： <br /> tychecc <br /></p>
+</div>
+
+    <ul class="post-nav group">
+      <li class="next">
         
-        <div class="row">
-            <div class="col-xs-6 col-sm-6 text-center">
-                
-                <a href="/doc/tutorials/automated-deployments">&lt; 上一篇</a>
-                
-            </div>
-            <div class="col-xs-6 col-sm-6 text-center">
-                
-                <a href="/doc/tutorials/github-pages-blog">下一篇 &gt;</a>
-                
-            </div>
+        <a href="http://tyche.cc/doc/tutorials/creating-a-new-theme_en/" rel="next">
+          <i class="fa fa-chevron-right"></i>
+          <strong>Next post</strong>
+          <span>Creating a New Theme</span>
+        </a>
+        
+      </li>
+      <li class="previous">
+        
+        <a href="http://tyche.cc/doc/overview/introduction_en/" rel="prev">
+          <i class="fa fa-chevron-left"></i>
+          <strong>Previous Post</strong>
+          <span>Introduction to Hugo</span>
+        </a>
+        
+      </li>
+    </ul>
+    <div id="search-2" class="widget widget_search"><h3>Search</h3>
+      <form method="get" class="searchform themeform" action="https://www.baidu.com/baidu">
+        <div>
+          <input type="text" class="search" name="word" placeholder="Press enter to start searching">
+        </div>
+      </form>
+    </div>
+  </div>
+  
+</div>
+
+          <div class="sidebar s2">
+  <a class="sidebar-toggle" title="Expand Sidebar"><i class="fa icon-sidebar-toggle"></i></a>
+  <div class="sidebar-content">
+    <div class="sidebar-top group">
+      <p>More</p>
+    </div>
+    <div id="categories-2" class="widget widget_categories"><h3>Categories</h3>
+      <ul>
+        
+          <li class="cat-item cat-item-1">
+            <a rel="nofollow" href="/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/">心得笔记-blog</a>
+          </li>
+        
+          <li class="cat-item cat-item-1">
+            <a rel="nofollow" href="/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/">技术文章-article</a>
+          </li>
+        
+          <li class="cat-item cat-item-1">
+            <a rel="nofollow" href="/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/">灌水乐乐-post</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer id="footer">
+  <section class="container" id="footer-bottom">
+    <div class="container-inner">
+      <a id="back-to-top" href="#"><i class="fa fa-angle-up"></i></a>
+      <div class="pad group">
+        <div class="grid one-half">
+          <div id="copyright">
+            <p>Copyright © 2016. All Rights Reserved. <br>Powered by
+              <a rel="nofollow" href="http://gohugo.io/" target="_blank">Hugo - the static site generator</a>.
+              <a rel="nofollow" href="http://golang.org" target="_blank">#golang</a>.
+            </p>
+          </div>
+          
         </div>
         
-    </div> 
-</div>
+        <div class="grid one-half last">
+          <ul class="social-links">
+    <li>
+    <a class="social-tooltip" title="On WeiBo"
+        href="http://weibo.com/<bihaiorg>1</bihaiorg>" target="_blank">
+        <i class="fa fa-weibo"></i>
+    </a>
+    </li>
+    <li>
+    <a class="social-tooltip" title="On Twitter" rel="nofollow"
+        href="https://twitter.com/bihaiorg" target="_blank">
+        <i class="fa fa-twitter"></i>
+    </a>
+    </li>
+    <li>
+    <a class="social-tooltip" title="On GitHub"
+        href="https://github.com/bihai" target="_blank">
+        <i class="fa fa-github"></i>
+    </a>
+    </li>
+</ul>
 
+        </div>
+      </div>
 
-
-<hr />
-
-<div class="row">
-    <div class="col-sm-12">
-        
-	    <div class="text-center">
-        
-		    <p class="doc-footer-em"><a href="#">回到顶部↑</a></p>
-	    </div>
-	</div>
-</div>
-
-</div> 
-
-<footer class="doc-footer">
-	
-    <p>Copyright (c) 2016. All rights reserved. Generated by <a href="http://gohugo.io/">Hugo</a></p>
+    </div>
+    
+  </section>
+  
 </footer>
 
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-10147768-2', 'auto');
+  ga('send', 'pageview');
 
-<script src="http://tyche.cc//js/jquery-1.11.2.min.js"></script>
-<script src="http://tyche.cc//js/bootstrap.min.js"></script>
+  $('#messagesbsb').remove();
 
-<script src="http://tyche.cc//js/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-<script src="http://tyche.cc//js/ie10-viewport-bug-workaround.js"></script>
-
+</script>
 </body>
 </html>
 

@@ -24,7 +24,7 @@
 
 &lt;p&gt;hugo 是主要的命令，用来构建你的网站。&lt;/p&gt;
 
-&lt;p&gt;hugo 是一个速度快同时扩展性很好的静态网站生成器，&lt;br /&gt;
+&lt;p&gt;hugo 是一个速度快同时扩展性很好的静态网站生成器，
 由 spf13 和他的朋友们用 Go 语言实现。&lt;/p&gt;
 
 &lt;p&gt;完整的文档请见：&lt;a href=&#34;http://gohugo.io/。&#34;&gt;http://gohugo.io/。&lt;/a&gt;&lt;/p&gt;
@@ -62,18 +62,17 @@
 &lt;h3 id=&#34;同时&#34;&gt;同时&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_benchmark/&#34;&gt;hugo benchmark&lt;/a&gt;    - hugo 的性能测试&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_check/&#34;&gt;hugo check&lt;/a&gt;    - 检查文章内容&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_config/&#34;&gt;hugo config&lt;/a&gt;  - 输出网站的配置信息&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_convert/&#34;&gt;hugo convert&lt;/a&gt;    - 转换文章内容到不同的格式&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_gen/&#34;&gt;hugo gen&lt;/a&gt;    - 一些有用的生成器集合&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_import/&#34;&gt;hugo import&lt;/a&gt;  - 从其他的网站导入到 hugo&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_list/&#34;&gt;hugo list&lt;/a&gt;  - 显示文章内容的列表&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_new/&#34;&gt;hugo new&lt;/a&gt;    - 生成新文章内容&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_server/&#34;&gt;hugo server&lt;/a&gt;  - 一个高性能的 Web 服务器&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_undraft/&#34;&gt;hugo undraft&lt;/a&gt;    - 把文章的 draft 状态由 &amp;lsquo;True&amp;rsquo; 变成 &amp;lsquo;False&amp;rsquo;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_version/&#34;&gt;hugo version&lt;/a&gt;    - 输出 Hugo 的版本信息&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_benchmark/&#34;&gt;hugo benchmark&lt;/a&gt;    - hugo 的性能测试&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_check/&#34;&gt;hugo check&lt;/a&gt;    - 检查文章内容&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_config/&#34;&gt;hugo config&lt;/a&gt;  - 输出网站的配置信息&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_convert/&#34;&gt;hugo convert&lt;/a&gt;    - 转换文章内容到不同的格式&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_gen/&#34;&gt;hugo gen&lt;/a&gt;    - 一些有用的生成器集合&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_import/&#34;&gt;hugo import&lt;/a&gt;  - 从其他的网站导入到 hugo&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_list/&#34;&gt;hugo list&lt;/a&gt;  - 显示文章内容的列表&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_new/&#34;&gt;hugo new&lt;/a&gt;    - 生成新文章内容&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_server/&#34;&gt;hugo server&lt;/a&gt;  - 一个高性能的 Web 服务器&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_undraft/&#34;&gt;hugo undraft&lt;/a&gt;    - 把文章的 draft 状态由 &amp;lsquo;True&amp;rsquo; 变成 &amp;lsquo;False&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_version/&#34;&gt;hugo version&lt;/a&gt;    - 输出 Hugo 的版本信息&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
@@ -94,7 +93,7 @@
 
 &lt;p&gt;hugo is the main command, used to build your Hugo site.&lt;/p&gt;
 
-&lt;p&gt;Hugo is a Fast and Flexible Static Site Generator&lt;br /&gt;
+&lt;p&gt;Hugo is a Fast and Flexible Static Site Generator
 built with love by spf13 and friends in Go.&lt;/p&gt;
 
 &lt;p&gt;Complete documentation is available at &lt;a href=&#34;http://gohugo.io/&#34;&gt;http://gohugo.io/&lt;/a&gt;.&lt;/p&gt;
@@ -132,18 +131,17 @@ built with love by spf13 and friends in Go.&lt;/p&gt;
 &lt;h3 id=&#34;see-also&#34;&gt;SEE ALSO&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_benchmark/&#34;&gt;hugo benchmark&lt;/a&gt;    - Benchmark hugo by building a site a number of times.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_check/&#34;&gt;hugo check&lt;/a&gt;    - Check content in the source directory&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_config/&#34;&gt;hugo config&lt;/a&gt;  - Print the site configuration&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_convert/&#34;&gt;hugo convert&lt;/a&gt;    - Convert your content to different formats&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_gen/&#34;&gt;hugo gen&lt;/a&gt;    - A collection of several useful generators.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_import/&#34;&gt;hugo import&lt;/a&gt;  - Import your site from others.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_list/&#34;&gt;hugo list&lt;/a&gt;  - Listing out various types of content&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_new/&#34;&gt;hugo new&lt;/a&gt;    - Create new content for your site&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_server/&#34;&gt;hugo server&lt;/a&gt;  - A high performance webserver&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_undraft/&#34;&gt;hugo undraft&lt;/a&gt;    - Undraft changes the content&amp;rsquo;s draft status from &amp;lsquo;True&amp;rsquo; to &amp;lsquo;False&amp;rsquo;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_version/&#34;&gt;hugo version&lt;/a&gt;    - Print the version number of Hugo&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_benchmark/&#34;&gt;hugo benchmark&lt;/a&gt;    - Benchmark hugo by building a site a number of times.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_check/&#34;&gt;hugo check&lt;/a&gt;    - Check content in the source directory&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_config/&#34;&gt;hugo config&lt;/a&gt;  - Print the site configuration&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_convert/&#34;&gt;hugo convert&lt;/a&gt;    - Convert your content to different formats&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_gen/&#34;&gt;hugo gen&lt;/a&gt;    - A collection of several useful generators.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_import/&#34;&gt;hugo import&lt;/a&gt;  - Import your site from others.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_list/&#34;&gt;hugo list&lt;/a&gt;  - Listing out various types of content&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_new/&#34;&gt;hugo new&lt;/a&gt;    - Create new content for your site&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_server/&#34;&gt;hugo server&lt;/a&gt;  - A high performance webserver&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_undraft/&#34;&gt;hugo undraft&lt;/a&gt;    - Undraft changes the content&amp;rsquo;s draft status from &amp;lsquo;True&amp;rsquo; to &amp;lsquo;False&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_version/&#34;&gt;hugo version&lt;/a&gt;    - Print the version number of Hugo&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h6 id=&#34;auto-generated-by-spf13-cobra-on-25-nov-2015&#34;&gt;Auto generated by spf13/cobra on 25-Nov-2015&lt;/h6&gt;
@@ -164,7 +162,7 @@ built with love by spf13 and friends in Go.&lt;/p&gt;
 
 &lt;h3 id=&#34;synopsis&#34;&gt;Synopsis&lt;/h3&gt;
 
-&lt;p&gt;Hugo can build a site many times over and analyze the running process&lt;br /&gt;
+&lt;p&gt;Hugo can build a site many times over and analyze the running process
 creating a benchmark.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo benchmark
@@ -205,8 +203,7 @@ creating a benchmark.&lt;/p&gt;
 &lt;h3 id=&#34;see-also&#34;&gt;SEE ALSO&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo/&#34;&gt;hugo&lt;/a&gt;    - hugo builds your site&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo/&#34;&gt;hugo&lt;/a&gt;    - hugo builds your site&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h6 id=&#34;auto-generated-by-spf13-cobra-on-25-nov-2015&#34;&gt;Auto generated by spf13/cobra on 25-Nov-2015&lt;/h6&gt;
@@ -227,7 +224,7 @@ creating a benchmark.&lt;/p&gt;
 
 &lt;h3 id=&#34;synopsis&#34;&gt;Synopsis&lt;/h3&gt;
 
-&lt;p&gt;Hugo can build a site many times over and analyze the running process&lt;br /&gt;
+&lt;p&gt;Hugo can build a site many times over and analyze the running process
 creating a benchmark.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo benchmark
@@ -268,8 +265,7 @@ creating a benchmark.&lt;/p&gt;
 &lt;h3 id=&#34;see-also&#34;&gt;SEE ALSO&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo/&#34;&gt;hugo&lt;/a&gt;    - hugo builds your site&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo/&#34;&gt;hugo&lt;/a&gt;    - hugo builds your site&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h6 id=&#34;auto-generated-by-spf13-cobra-on-25-nov-2015&#34;&gt;Auto generated by spf13/cobra on 25-Nov-2015&lt;/h6&gt;
@@ -290,7 +286,7 @@ creating a benchmark.&lt;/p&gt;
 
 &lt;h3 id=&#34;synopsis&#34;&gt;Synopsis&lt;/h3&gt;
 
-&lt;p&gt;Hugo will perform some basic analysis on the content provided&lt;br /&gt;
+&lt;p&gt;Hugo will perform some basic analysis on the content provided
 and will give feedback.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo check
@@ -324,9 +320,8 @@ and will give feedback.&lt;/p&gt;
 &lt;h3 id=&#34;see-also&#34;&gt;SEE ALSO&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo/&#34;&gt;hugo&lt;/a&gt;    - hugo builds your site&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_check_ulimit/&#34;&gt;hugo check ulimit&lt;/a&gt;  - Check system ulimit settings&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo/&#34;&gt;hugo&lt;/a&gt;    - hugo builds your site&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_check_ulimit/&#34;&gt;hugo check ulimit&lt;/a&gt;  - Check system ulimit settings&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h6 id=&#34;auto-generated-by-spf13-cobra-on-25-nov-2015&#34;&gt;Auto generated by spf13/cobra on 25-Nov-2015&lt;/h6&gt;
@@ -347,7 +342,7 @@ and will give feedback.&lt;/p&gt;
 
 &lt;h3 id=&#34;synopsis&#34;&gt;Synopsis&lt;/h3&gt;
 
-&lt;p&gt;Hugo will perform some basic analysis on the content provided&lt;br /&gt;
+&lt;p&gt;Hugo will perform some basic analysis on the content provided
 and will give feedback.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo check
@@ -381,9 +376,8 @@ and will give feedback.&lt;/p&gt;
 &lt;h3 id=&#34;see-also&#34;&gt;SEE ALSO&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo/&#34;&gt;hugo&lt;/a&gt;    - hugo builds your site&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_check_ulimit/&#34;&gt;hugo check ulimit&lt;/a&gt;  - Check system ulimit settings&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo/&#34;&gt;hugo&lt;/a&gt;    - hugo builds your site&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_check_ulimit/&#34;&gt;hugo check ulimit&lt;/a&gt;  - Check system ulimit settings&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h6 id=&#34;auto-generated-by-spf13-cobra-on-25-nov-2015&#34;&gt;Auto generated by spf13/cobra on 25-Nov-2015&lt;/h6&gt;
@@ -404,7 +398,7 @@ and will give feedback.&lt;/p&gt;
 
 &lt;h3 id=&#34;synopsis&#34;&gt;Synopsis&lt;/h3&gt;
 
-&lt;p&gt;Hugo will inspect the current ulimit settings on the system.&lt;br /&gt;
+&lt;p&gt;Hugo will inspect the current ulimit settings on the system.
     This is primarily to ensure that Hugo can watch enough files on some OSs&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo check ulimit
@@ -438,8 +432,7 @@ and will give feedback.&lt;/p&gt;
 &lt;h3 id=&#34;see-also&#34;&gt;SEE ALSO&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_check/&#34;&gt;hugo check&lt;/a&gt;    - Check content in the source directory&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_check/&#34;&gt;hugo check&lt;/a&gt;    - Check content in the source directory&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h6 id=&#34;auto-generated-by-spf13-cobra-on-25-nov-2015&#34;&gt;Auto generated by spf13/cobra on 25-Nov-2015&lt;/h6&gt;
@@ -460,7 +453,7 @@ and will give feedback.&lt;/p&gt;
 
 &lt;h3 id=&#34;synopsis&#34;&gt;Synopsis&lt;/h3&gt;
 
-&lt;p&gt;Hugo will inspect the current ulimit settings on the system.&lt;br /&gt;
+&lt;p&gt;Hugo will inspect the current ulimit settings on the system.
     This is primarily to ensure that Hugo can watch enough files on some OSs&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo check ulimit
@@ -494,8 +487,7 @@ and will give feedback.&lt;/p&gt;
 &lt;h3 id=&#34;see-also&#34;&gt;SEE ALSO&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_check/&#34;&gt;hugo check&lt;/a&gt;    - Check content in the source directory&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_check/&#34;&gt;hugo check&lt;/a&gt;    - Check content in the source directory&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h6 id=&#34;auto-generated-by-spf13-cobra-on-25-nov-2015&#34;&gt;Auto generated by spf13/cobra on 25-Nov-2015&lt;/h6&gt;
@@ -549,8 +541,7 @@ and will give feedback.&lt;/p&gt;
 &lt;h3 id=&#34;see-also&#34;&gt;SEE ALSO&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo/&#34;&gt;hugo&lt;/a&gt;    - hugo builds your site&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo/&#34;&gt;hugo&lt;/a&gt;    - hugo builds your site&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h6 id=&#34;auto-generated-by-spf13-cobra-on-25-nov-2015&#34;&gt;Auto generated by spf13/cobra on 25-Nov-2015&lt;/h6&gt;
@@ -604,8 +595,7 @@ and will give feedback.&lt;/p&gt;
 &lt;h3 id=&#34;see-also&#34;&gt;SEE ALSO&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo/&#34;&gt;hugo&lt;/a&gt;    - hugo builds your site&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo/&#34;&gt;hugo&lt;/a&gt;    - hugo builds your site&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h6 id=&#34;auto-generated-by-spf13-cobra-on-25-nov-2015&#34;&gt;Auto generated by spf13/cobra on 25-Nov-2015&lt;/h6&gt;
@@ -664,11 +654,10 @@ and will give feedback.&lt;/p&gt;
 &lt;h3 id=&#34;see-also&#34;&gt;SEE ALSO&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo/&#34;&gt;hugo&lt;/a&gt;    - hugo builds your site&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_convert_tojson/&#34;&gt;hugo convert toJSON&lt;/a&gt;  - Convert front matter to JSON&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_convert_totoml/&#34;&gt;hugo convert toTOML&lt;/a&gt;  - Convert front matter to TOML&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_convert_toyaml/&#34;&gt;hugo convert toYAML&lt;/a&gt;  - Convert front matter to YAML&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo/&#34;&gt;hugo&lt;/a&gt;    - hugo builds your site&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_convert_tojson/&#34;&gt;hugo convert toJSON&lt;/a&gt;  - Convert front matter to JSON&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_convert_totoml/&#34;&gt;hugo convert toTOML&lt;/a&gt;  - Convert front matter to TOML&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_convert_toyaml/&#34;&gt;hugo convert toYAML&lt;/a&gt;  - Convert front matter to YAML&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h6 id=&#34;auto-generated-by-spf13-cobra-on-25-nov-2015&#34;&gt;Auto generated by spf13/cobra on 25-Nov-2015&lt;/h6&gt;
@@ -727,11 +716,10 @@ and will give feedback.&lt;/p&gt;
 &lt;h3 id=&#34;see-also&#34;&gt;SEE ALSO&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo/&#34;&gt;hugo&lt;/a&gt;    - hugo builds your site&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_convert_tojson/&#34;&gt;hugo convert toJSON&lt;/a&gt;  - Convert front matter to JSON&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_convert_totoml/&#34;&gt;hugo convert toTOML&lt;/a&gt;  - Convert front matter to TOML&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_convert_toyaml/&#34;&gt;hugo convert toYAML&lt;/a&gt;  - Convert front matter to YAML&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo/&#34;&gt;hugo&lt;/a&gt;    - hugo builds your site&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_convert_tojson/&#34;&gt;hugo convert toJSON&lt;/a&gt;  - Convert front matter to JSON&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_convert_totoml/&#34;&gt;hugo convert toTOML&lt;/a&gt;  - Convert front matter to TOML&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_convert_toyaml/&#34;&gt;hugo convert toYAML&lt;/a&gt;  - Convert front matter to YAML&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h6 id=&#34;auto-generated-by-spf13-cobra-on-25-nov-2015&#34;&gt;Auto generated by spf13/cobra on 25-Nov-2015&lt;/h6&gt;
@@ -752,7 +740,7 @@ and will give feedback.&lt;/p&gt;
 
 &lt;h3 id=&#34;synopsis&#34;&gt;Synopsis&lt;/h3&gt;
 
-&lt;p&gt;toJSON converts all front matter in the content directory&lt;br /&gt;
+&lt;p&gt;toJSON converts all front matter in the content directory
 to use JSON for the front matter.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo convert toJSON
@@ -788,8 +776,7 @@ to use JSON for the front matter.&lt;/p&gt;
 &lt;h3 id=&#34;see-also&#34;&gt;SEE ALSO&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_convert/&#34;&gt;hugo convert&lt;/a&gt;    - Convert your content to different formats&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_convert/&#34;&gt;hugo convert&lt;/a&gt;    - Convert your content to different formats&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h6 id=&#34;auto-generated-by-spf13-cobra-on-25-nov-2015&#34;&gt;Auto generated by spf13/cobra on 25-Nov-2015&lt;/h6&gt;
@@ -810,7 +797,7 @@ to use JSON for the front matter.&lt;/p&gt;
 
 &lt;h3 id=&#34;synopsis&#34;&gt;Synopsis&lt;/h3&gt;
 
-&lt;p&gt;toJSON converts all front matter in the content directory&lt;br /&gt;
+&lt;p&gt;toJSON converts all front matter in the content directory
 to use JSON for the front matter.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo convert toJSON
@@ -846,8 +833,7 @@ to use JSON for the front matter.&lt;/p&gt;
 &lt;h3 id=&#34;see-also&#34;&gt;SEE ALSO&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_convert/&#34;&gt;hugo convert&lt;/a&gt;    - Convert your content to different formats&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_convert/&#34;&gt;hugo convert&lt;/a&gt;    - Convert your content to different formats&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h6 id=&#34;auto-generated-by-spf13-cobra-on-25-nov-2015&#34;&gt;Auto generated by spf13/cobra on 25-Nov-2015&lt;/h6&gt;
@@ -868,7 +854,7 @@ to use JSON for the front matter.&lt;/p&gt;
 
 &lt;h3 id=&#34;synopsis&#34;&gt;Synopsis&lt;/h3&gt;
 
-&lt;p&gt;toTOML converts all front matter in the content directory&lt;br /&gt;
+&lt;p&gt;toTOML converts all front matter in the content directory
 to use TOML for the front matter.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;hugo convert toTOML
@@ -904,8 +890,7 @@ to use TOML for the front matter.&lt;/p&gt;
 &lt;h3 id=&#34;see-also&#34;&gt;SEE ALSO&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_convert/&#34;&gt;hugo convert&lt;/a&gt;    - Convert your content to different formats&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tyche.cc/doc/commands/hugo_convert/&#34;&gt;hugo convert&lt;/a&gt;    - Convert your content to different formats&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h6 id=&#34;auto-generated-by-spf13-cobra-on-25-nov-2015&#34;&gt;Auto generated by spf13/cobra on 25-Nov-2015&lt;/h6&gt;

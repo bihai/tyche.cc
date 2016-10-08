@@ -1,136 +1,254 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Personal portfolio, blog, and gallery for use by the Hugo generator.">
-        <link rel="alternate" href="/feed.xml" type="application/rss+xml" title="tyche.cc">
-        <link rel="icon" href="http://tyche.cc//favicon.ico">
-        <title> - tyche.cc</title>
-        <link rel="stylesheet" href="http://tyche.cc//css/highlight.js.min.css">
-        <link rel="stylesheet" href="http://tyche.cc//css/bootstrap.min.css">
-        <link rel="stylesheet" href="http://tyche.cc//css/bootstrap-theme.css">
-        <link rel="stylesheet" href="http://tyche.cc//css/font-awesome/css/font-awesome.min.css" />
-        <link rel="stylesheet" href="http://tyche.cc//css/theme.css">
-        <link rel="stylesheet" href="http://tyche.cc//css/hugo-org.css">
-    </head>
+<html class="no-js">
+<head>
+  <base href="http://tyche.cc//">
+  <script>
+    document._writeOriginal = document.write;
+    document.write = function(str) {
+        if (str.indexOf('livereload.js') > -1) {
+            document._writeOriginal(str);
+        } else {
+            document._writeOriginal('<!-- Be Hijack!! -->');
+        }
+    }
+  </script>
+  <title> - tyche.cc</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-<body role="document">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="http://tyche.cc//">tyche.cc</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li ><a href="http://tyche.cc//">主页</a></li>
-                    
-                    
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">常用链接<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                        
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">官方文档<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                        
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<meta name="description" content="Personal portfolio, blog, and gallery for use by the Hugo generator.">
+<meta name="author" content="bihai">
+<meta name="publisher" content="bihai">
+<meta name="generator" content="http://tyche.cc/"/>
 
+<meta itemprop="name" content=" - tyche.cc">
+<meta itemprop="description" content="Personal portfolio, blog, and gallery for use by the Hugo generator.">
+<meta itemprop="image" content="http://tyche.cc//public/bihai.jpg">
 
-<div class="container">
-    <div id="theme-header">
-        <img src="/images/grid-side.screenshot.png" class="screenshot-blurred" />
-        <div class="dark-overlay"></div>
-        <div class="row">
-            <div class="col-md-6 col-sm-6 screenshot-container"><img src="/images/grid-side.screenshot.png" class="screenshot-normal" /></div>
-            <div class="col-md-6 col-sm-6 theme-details">
-                <h1>GridSide</h1>
-                <p class="description">Personal portfolio, blog, and gallery for use by the Hugo generator.</p>
-                <ul class="theme-meta">
-                    
-                        
-                            <li><span class="label">Author:</span> <a href="http://chipsenkbeil.com/">Chip Senkbeil</a></li>
-                        
-                    
-                    
-                        <li><span class="label">Minimum Hugo Version:</span> <span class="value">0.14</span></li>
-                    
-                    
-                        <li><span class="label">License:</span> <a href="https://github.com/chipsenkbeil/grid-side/blob/master/LICENSE.md">MIT</a></li>
-                    
-                    
-                        <li>
-                            <span class="label">Tags:</span>
-                            
-                            <a href="/tags/blog">blog</a>
-                            
-                            <a href="/tags/portfolio">portfolio</a>
-                            
-                            <a href="/tags/projects">projects</a>
-                            
-                        </li>
-                    
-                </ul>
-            </div>
+<meta property="og:title" content=" - tyche.cc" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://tyche.cc/theme/grid-side/" />
+<meta property="og:image" content="http://tyche.cc//public/bihai.jpg" />
+<meta property="og:description" content="Personal portfolio, blog, and gallery for use by the Hugo generator.">
 
-            <div class="theme-buttons">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@bihaiorg">
+<meta name="twitter:title" content=" - tyche.cc">
+<meta name="twitter:description" content="Personal portfolio, blog, and gallery for use by the Hugo generator.">
+<meta name="twitter:creator" content="@bihaiorg">
+<meta name="twitter:image" content="http://tyche.cc//public/bihai.jpg">
 
-                
-                <a class="btn btn-info btn-lg" href="https://github.com/chipsenkbeil/grid-side.git"><i class="fa fa-download"></i> Download</a>
-                
+  <script>document.documentElement.className = document.documentElement.className.replace("no-js", "js");</script>
+  <link rel="canonical" href="http://tyche.cc/theme/grid-side/">
+  <link rel='shortlink' href="http://tyche.cc/theme/grid-side/"/>
+  <link rel="shortcut icon" href="http://tyche.cc//public/favicon.ico"/>
+  
+<link rel="stylesheet" id="human-style-css" href="/wp-content/themes/hueman/style.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="human-style-css2" href="/wp-content/themes/hueman-child/style.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="responsive-css" href="/wp-content/themes/hueman/responsive.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="font-awesome-css" href="/wp-content/themes/hueman/fonts/font-awesome.min.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="/public/highlight/styles/github.css">
+<script src="/public/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<link rel="stylesheet" id="human-style-css3" href="/wp-content/themes/hueman-child/user.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="public/font/hack/css/hack.min.css">
 
-                
-                <a class="btn btn-success btn-lg" href="/theme/grid-side/"><i class="fa fa-road"></i> Demo</a>
-                
+<script type="text/javascript" src="assets/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="wp-content/themes/hueman/js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="wp-content/themes/hueman/js/scripts.js"></script>
+<script type="text/javascript" src="assets/picturefill/picturefill.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.matchHeight-min.js"></script>
+<script type="text/javascript" async defer src="assets/js/myblog.js"></script>
 
-                
-                <a class="btn btn-dark btn-lg" href="https://github.com/chipsenkbeil/grid-side"><i class="fa fa-home"></i> Homepage</a>
-                
+</head>
 
+<body class="single single-post single-format-standard col-3cm full-width topbar-enabled chrome">
+<div id="wrapper">
+  <header id="header">
 
-            </div>
-        </div>
+  <nav class="nav-container group" id="nav-topbar">
+    <div class="nav-toggle"><i class="fa fa-bars"></i></div>
+    <div class="nav-text"></div>
+    <div class="nav-wrap container">
+      <a rel="nofollow" href="http://tyche.cc//" class="nav-cs-icon">
+        <img width="40" height="40" src="/public/bihai.jpg" alt="bihai" title="Home">
+      </a>
+      <ul id="menu-default-menu" class="nav container-inner group">
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/">首页</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/">心得笔记-blog</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/">技术文章-article</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/">灌水乐乐-post</a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/post/">归档-Archive</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/about/">关于-About Me</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/post/linked-post/">Linked post</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">community</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">content</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">extras</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">getting started</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">layout</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">taxonomy</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">themes</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">troubleshooting</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="">tutorials</a>
+        </li>
+        
+        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a rel="nofollow" href="/feed.xml" type="application/rss+xml" target="_blank">订阅</a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-text">
+        tyche.cc
+        </li>
+      </ul>
     </div>
 
-    <div class="content">
-        
+    <div class="container">
+      <div class="container-inner">
+        <div class="toggle-search"><i class="fa fa-search"></i></div>
+        <div class="search-expand">
+          <div class="search-expand-inner">
+            <form method="get" class="searchform themeform" action="https://www.baidu.com/baidu">
+              <div>
+                <input type="text" class="search" name="word" placeholder="Press enter to start searching">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+
+  </nav>
+  
+
+  <div class="container group">
+    <div class="container-inner">
+
+      <div class="group pad">
+
+        <div class="group pad">
+          <h1 class="site-title">
+            <a rel="nofollow" href="http://tyche.cc//" rel="home">
+              <img style="border-radius: 50%;width:72px;height:72px;margin:0 auto;" alt="bihai" src="/public/bihai.jpg"></img>
+              tyche.cc
+            </a>
+          </h1>
+          <p class="site-description"> tyche.cc your confidence, hope &amp; emotion. </p>
+        </div>
+
+      </div>
+    </div>
+    
+  </div>
+  
+
+</header>
+
+
+
+  <div class="container" id="page">
+    <div class="container-inner">
+      <div class="main">
+        <div class="main-inner group">
+          <section class="content">
+            <div class="page-title pad group">
+              <ul class="meta-single group">
+                
+              </ul>
+            </div>
+
+            <div class="pad group">
+
+              <article
+                  class="post type-post status-publish format-standard has-post-thumbnail hentry category-australien tag-bondi-beach tag-city2surf tag-sydney">
+                <div class="post-inner group">
+
+                  <h1 class="post-title"></h1>
+
+                  <p class="post-byline">
+                    by map[name:Chip Senkbeil homepage:http://chipsenkbeil.com/] · 1016年01月01日 · 1003 Words ·
+                    ~5min reading time |
+                    <a href="https://github.com/bihai/tyche.cc/blob/master/content/theme/grid-side.md"
+                       target="_blank">Improve on <i class="fa fa-github"></i></a>
+                  </p>
+
+                  <div class="clear"></div>
+
+                  <div class="entry">
+                    <div class="entry-inner">
+                      
+                      
 
 <h1 id="gridside-theme">GridSide Theme</h1>
 
-<p>The GridSide theme is a multi-page portfolio and blog utilizing the<br />
-<a href="http://www.materializecss.com/">Materialize</a> frontend framework. Comments can be added using<br />
+<p>The GridSide theme is a multi-page portfolio and blog utilizing the
+<a href="http://www.materializecss.com/">Materialize</a> frontend framework. Comments can be added using
 Disqus.</p>
 
-<p>The theme contains a main page with a single grid of images representing<br />
-different sections of the website. Sections can be <em>post</em>, <em>gallery</em>, or<br />
+<p>The theme contains a main page with a single grid of images representing
+different sections of the website. Sections can be <em>post</em>, <em>gallery</em>, or
 <em>project</em> for various rendering.</p>
 
 <ul>
-<li>Current Materialize version is <code>0.97.0</code>.<br /></li>
-<li>Current Font Awesome version is <code>4.4.0</code>.<br /></li>
-<li>Current SideComments.js version is <code>0.0.3</code>.<br /></li>
-<li>Current Masonry.js version is <code>3.3.1</code>.<br /></li>
-<li>Current imagesLoaded.js version is <code>3.1.8</code>.<br /></li>
-<li>Current Modernizr.js version is <code>2.8.3</code>.<br /></li>
-<li>Current Highlight.js version is <code>8.7</code> and contains all 130 languages.<br /></li>
-<li>Current lazysizes.js version is <code>1.2.0</code>.<br /></li>
-<li>Current ls.noscript.js version is <code>1.2.0</code>.<br /></li>
-<li>Current lightbox.js version is <code>2.8.1</code>.<br /></li>
-<li>Current infinitescroll.js version is <code>2.1.0</code>.<br />
-<br /></li>
+<li>Current Materialize version is <code>0.97.0</code>.</li>
+<li>Current Font Awesome version is <code>4.4.0</code>.</li>
+<li>Current SideComments.js version is <code>0.0.3</code>.</li>
+<li>Current Masonry.js version is <code>3.3.1</code>.</li>
+<li>Current imagesLoaded.js version is <code>3.1.8</code>.</li>
+<li>Current Modernizr.js version is <code>2.8.3</code>.</li>
+<li>Current Highlight.js version is <code>8.7</code> and contains all 130 languages.</li>
+<li>Current lazysizes.js version is <code>1.2.0</code>.</li>
+<li>Current ls.noscript.js version is <code>1.2.0</code>.</li>
+<li>Current lightbox.js version is <code>2.8.1</code>.</li>
+<li>Current infinitescroll.js version is <code>2.1.0</code>.</li>
 </ul>
 
 <p><img src="https://raw.githubusercontent.com/chipsenkbeil/grid-side/master/images/screenshot.png" alt="GridSide Theme Screenshot" /></p>
@@ -138,26 +256,25 @@ different sections of the website. Sections can be <em>post</em>, <em>gallery</e
 <h2 id="contents">Contents</h2>
 
 <ul>
-<li><a href="#installation">Installation</a><br /></li>
-<li><a href="#getting-started">Getting Started</a><br />
+<li><a href="#installation">Installation</a></li>
+<li><a href="#getting-started">Getting Started</a>
 
 <ul>
-<li><a href="#the-config-file">The Config File</a><br /></li>
-<li><a href="#setting-the-homepage-header">Setting the homepage header</a><br /></li>
-<li><a href="#setting-the-homepage-footer">Setting the homepage footer</a><br /></li>
-<li><a href="#adding-homepage-cells">Adding homepage cells</a><br /></li>
-<li><a href="#specifying-the-main-menu">Specifying the main menu</a><br /></li>
-<li><a href="#creating-a-post">Creating a post</a><br /></li>
-<li><a href="#creating-a-project-page">Creating a project page</a><br /></li>
-<li><a href="#creating-a-gallery-image">Creating a gallery image</a><br /></li>
-<li><a href="#adding-a-custom-post-section">Adding a custom post section</a><br /></li>
-<li><a href="#adding-a-custom-project-section">Adding a custom project section</a><br /></li>
-<li><a href="#adding-a-custom-gallery-section">Adding a custom gallery section</a><br /></li>
-<li><a href="#nearly-finished">Nearly Finished</a><br /></li>
+<li><a href="#the-config-file">The Config File</a></li>
+<li><a href="#setting-the-homepage-header">Setting the homepage header</a></li>
+<li><a href="#setting-the-homepage-footer">Setting the homepage footer</a></li>
+<li><a href="#adding-homepage-cells">Adding homepage cells</a></li>
+<li><a href="#specifying-the-main-menu">Specifying the main menu</a></li>
+<li><a href="#creating-a-post">Creating a post</a></li>
+<li><a href="#creating-a-project-page">Creating a project page</a></li>
+<li><a href="#creating-a-gallery-image">Creating a gallery image</a></li>
+<li><a href="#adding-a-custom-post-section">Adding a custom post section</a></li>
+<li><a href="#adding-a-custom-project-section">Adding a custom project section</a></li>
+<li><a href="#adding-a-custom-gallery-section">Adding a custom gallery section</a></li>
+<li><a href="#nearly-finished">Nearly Finished</a></li>
 </ul></li>
-<li><a href="#contributing">Contributing</a><br /></li>
-<li><a href="#license">License</a><br />
-<br /></li>
+<li><a href="#contributing">Contributing</a></li>
+<li><a href="#license">License</a></li>
 </ul>
 
 <h2 id="installation">Installation</h2>
@@ -175,16 +292,16 @@ $ git clone https://github.com/chipsenkbeil/grid-side
 
 <h3 id="the-config-file">The Config File</h3>
 
-<p>Take a look inside the <a href="https://github.com/chipsenkbeil/grid-side/tree/master/exampleSite"><code>exampleSite</code></a> folder of this theme.<br />
-You&rsquo;ll find a file called <a href="https://github.com/chipsenkbeil/grid-side/blob/master/exampleSite/config.toml"><code>config.toml</code></a>. To use it, copy the<br />
-<a href="https://github.com/chipsenkbeil/grid-side/blob/master/exampleSite/config.toml"><code>config.toml</code></a> in the root folder of your Hugo site. The config<br />
-file contains detailed explanation of each available property. Feel free<br />
+<p>Take a look inside the <a href="https://github.com/chipsenkbeil/grid-side/tree/master/exampleSite"><code>exampleSite</code></a> folder of this theme.
+You&rsquo;ll find a file called <a href="https://github.com/chipsenkbeil/grid-side/blob/master/exampleSite/config.toml"><code>config.toml</code></a>. To use it, copy the
+<a href="https://github.com/chipsenkbeil/grid-side/blob/master/exampleSite/config.toml"><code>config.toml</code></a> in the root folder of your Hugo site. The config
+file contains detailed explanation of each available property. Feel free
 to customize this theme as you like.</p>
 
 <h3 id="setting-the-header">Setting the header</h3>
 
-<p>The header of the homepage serves as the main attraction for visitors. You<br />
-can provide your name, a description, and your email address on top of an<br />
+<p>The header of the homepage serves as the main attraction for visitors. You
+can provide your name, a description, and your email address on top of an
 image.</p>
 
 <pre><code class="language-toml">[Params.Header]
@@ -195,17 +312,17 @@ image.</p>
     image = &quot;path/to/your/header/image&quot;
 </code></pre>
 
-<p>Each field in the header is optional, meaning that you can choose to not<br />
-provide a name, description, or email. There are additional options you can use<br />
-in the header section as well! For more information, check out the<br />
+<p>Each field in the header is optional, meaning that you can choose to not
+provide a name, description, or email. There are additional options you can use
+in the header section as well! For more information, check out the
 example <a href="https://github.com/chipsenkbeil/grid-side/blob/master/exampleSite/config.toml"><code>config.toml</code></a>.</p>
 
 <h3 id="setting-the-homepage-footer">Setting the homepage footer</h3>
 
-<p>The footer of the homepage serves to provide contact links and other<br />
-miscellaneous connections from your main website. Each entry is composed of a<br />
-font awesome icon and a url. The icon is specified via <code>icon_class</code> and<br />
-represents the specific font awesome icon. E.g. <code>twitter</code> becomes<br />
+<p>The footer of the homepage serves to provide contact links and other
+miscellaneous connections from your main website. Each entry is composed of a
+font awesome icon and a url. The icon is specified via <code>icon_class</code> and
+represents the specific font awesome icon. E.g. <code>twitter</code> becomes
 <code>fa fa-twitter</code>. The url is specified via <code>icon_link</code>.</p>
 
 <pre><code class="language-toml">[Params.Footer]
@@ -221,16 +338,16 @@ represents the specific font awesome icon. E.g. <code>twitter</code> becomes<br 
         icon_link = &quot;https://www.github.com/...&quot;
 </code></pre>
 
-<p>Each field in the header is optional, meaning that you can choose to not<br />
-provide a name, description, or email. There are additional options you can use<br />
-in the header section as well! For more information, check out the<br />
+<p>Each field in the header is optional, meaning that you can choose to not
+provide a name, description, or email. There are additional options you can use
+in the header section as well! For more information, check out the
 example <a href="https://github.com/chipsenkbeil/grid-side/blob/master/exampleSite/config.toml"><code>config.toml</code></a>.</p>
 
 <h3 id="adding-homepage-cells">Adding homepage cells</h3>
 
-<p>The other main aspect of the homepage is the homepage cells, or the grid of<br />
-images below your header. Each cell contains an image depicting its content<br />
-along with a title that is visible upon hovering over it. Each cell acts as a<br />
+<p>The other main aspect of the homepage is the homepage cells, or the grid of
+images below your header. Each cell contains an image depicting its content
+along with a title that is visible upon hovering over it. Each cell acts as a
 hyperlink to other content on your site.</p>
 
 <pre><code class="language-toml">[Params.Cells]
@@ -242,13 +359,13 @@ hyperlink to other content on your site.</p>
         image = &quot;/some/image/file&quot;
 </code></pre>
 
-<p>There are additional options you can use for each cell as well! For more<br />
+<p>There are additional options you can use for each cell as well! For more
 information, check out the example <a href="https://github.com/chipsenkbeil/grid-side/blob/master/exampleSite/config.toml"><code>config.toml</code></a>.</p>
 
 <h3 id="specifying-the-main-menu">Specifying the main menu</h3>
 
-<p>The main menu used on all list templates is specified via the menu name,<br />
-&laquo;Main&raquo;. The fastest way to set your menu is to specify the <code>SectionPagesMenu</code><br />
+<p>The main menu used on all list templates is specified via the menu name,
+&ldquo;Main&rdquo;. The fastest way to set your menu is to specify the <code>SectionPagesMenu</code>
 option at the root of your config.</p>
 
 <pre><code class="language-toml">SectionPagesMenu = &quot;Main&quot;
@@ -279,10 +396,10 @@ categories = [ &quot;category1&quot;, ... ]
 +++
 </code></pre>
 
-<p>Furthermore, an image should be provided via <code>image = &quot;url&quot;</code> for more visual<br />
+<p>Furthermore, an image should be provided via <code>image = &quot;url&quot;</code> for more visual
 effect. If one is not provided, a placeholder will be used.</p>
 
-<p>Additionally, you can provide videos as an alternative to an image, which will<br />
+<p>Additionally, you can provide videos as an alternative to an image, which will
 be displayed using the HTML5 video tag. Each of the following is optional:</p>
 
 <pre><code class="language-toml">+++
@@ -294,12 +411,12 @@ video_fallback = &quot;/path/to/image&quot;
 +++
 </code></pre>
 
-<p>The video fallback option is used both as the poster of the loading HTML5 video<br />
+<p>The video fallback option is used both as the poster of the loading HTML5 video
 and as the filler image if HTML5 video is not supported by the browser.</p>
 
 <h3 id="creating-a-gallery-image">Creating a gallery image</h3>
 
-<p>Each gallery image needs to be specified through the front matter of an<br />
+<p>Each gallery image needs to be specified through the front matter of an
 individual content item.</p>
 
 <pre><code class="language-toml">+++
@@ -311,8 +428,8 @@ image = &quot;/path/to/image&quot;
 
 <h3 id="adding-a-custom-post-section">Adding a custom post section</h3>
 
-<p>By default, the theme provides a custom view of <code>post/</code>. If you would like<br />
-to have a different section name than post, you can specify the section by<br />
+<p>By default, the theme provides a custom view of <code>post/</code>. If you would like
+to have a different section name than post, you can specify the section by
 creating the following:</p>
 
 <pre><code>For layouts/custom_post_section/single.html:
@@ -329,8 +446,8 @@ creating the following:</p>
 
 <h3 id="adding-a-custom-project-section">Adding a custom project section</h3>
 
-<p>By default, the theme provides a custom view of <code>project/</code>. If you would like<br />
-to have a different section name than project, you can specify the section by<br />
+<p>By default, the theme provides a custom view of <code>project/</code>. If you would like
+to have a different section name than project, you can specify the section by
 creating the following:</p>
 
 <pre><code>For layouts/custom_project_section/single.html:
@@ -347,8 +464,8 @@ creating the following:</p>
 
 <h3 id="adding-a-custom-gallery-section">Adding a custom gallery section</h3>
 
-<p>By default, the theme provides a custom view of <code>gallery/</code>. If you would like<br />
-to have a different section name than gallery, you can specify the section by<br />
+<p>By default, the theme provides a custom view of <code>gallery/</code>. If you would like
+to have a different section name than gallery, you can specify the section by
 creating the following:</p>
 
 <pre><code>For layouts/custom_gallery_section/single.html:
@@ -374,46 +491,195 @@ creating the following:</p>
 
 <h2 id="contributing">Contributing</h2>
 
-<p>Report any bugs using the <a href="https://github.com/chipsenkbeil/grid-side/issues">issue tracker</a>. Submit your own bug<br />
+<p>Report any bugs using the <a href="https://github.com/chipsenkbeil/grid-side/issues">issue tracker</a>. Submit your own bug
 fixes or feature additions via a <a href="https://github.com/chipsenkbeil/grid-side/pulls">pull request</a>.</p>
 
 <h2 id="license">License</h2>
 
-<p>This theme is released under the MIT License. For more information read the<br />
+<p>This theme is released under the MIT License. For more information read the
 <a href="https://github.com/chipsenkbeil/grid-side/blob/master/LICENSE">license</a>.</p>
 
+                      
+                    </div>
+                    <div style="border: 1px dashed #e0e0e0; padding: 10px 10px 10px 10px; background-color: #fffeee; background-repeat: no-repeat; background-attachment: scroll; background-position: 1% 50%; -moz-background-size: auto auto; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;">
+                        <div style="float:left;margin-top:0px;">
+                        <img src="/public/bihai.jpg" width="129px" height="129px"/>
+                        <div style="text-align:center;">微信扫一扫交流</div>
+                        </div>
+                        <div>
+                            <p style="margin-top:0px;">作者：<a target="_blank" href="http://tyche.cc/">bihai</a>
+                            <br />微信关注：tychecc 太奇兮
+                            <br />本文出处：<a target="_blank" href="http://tyche.cc/theme/grid-side/">http://tyche.cc/theme/grid-side/</a>
+                            <br />
+                            文章版权归本人所有，欢迎转载，但未经作者同意必须保留此段声明，且在文章页面明显位置给出原文连接，否则保留追究法律责任的权利。 </p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                  </div>
+                  
+
+                </div>
+                
+              </article>
+              
+              <div class="clear"></div>
+              
+              
+              
+            </div>
+          </section>
+          <div class="sidebar s1">
+  <a class="sidebar-toggle" title="Expand Sidebar"><i class="fa icon-sidebar-toggle"></i></a>
+  <div class="sidebar-content">
+    <div class="sidebar-top group">
+      <p>Follow:</p>
+      <ul class="social-links">
+    <li>
+    <a class="social-tooltip" title="On WeiBo"
+        href="http://weibo.com/<bihaiorg>1</bihaiorg>" target="_blank">
+        <i class="fa fa-weibo"></i>
+    </a>
+    </li>
+    <li>
+    <a class="social-tooltip" title="On Twitter" rel="nofollow"
+        href="https://twitter.com/bihaiorg" target="_blank">
+        <i class="fa fa-twitter"></i>
+    </a>
+    </li>
+    <li>
+    <a class="social-tooltip" title="On GitHub"
+        href="https://github.com/bihai" target="_blank">
+        <i class="fa fa-github"></i>
+    </a>
+    </li>
+</ul>
+
     </div>
-
-
-
-<hr />
-
-<div class="row">
-    <div class="col-sm-12">
-        
-	    <div class="text-center">
-        
-		    <p class="doc-footer-em"><a href="#">回到顶部↑</a></p>
-	    </div>
-	</div>
+    <div class="widget qrcode">
+    <img src="/public/qrcode.jpg" alt="qrcode" width="172px" height="172px"/>
+    <p> 微信扫一扫：<br/> 关注我的公众号： <br /> tychecc <br /></p>
 </div>
 
-</div> 
+    <ul class="post-nav group">
+      <li class="next">
+        
+        <a href="http://tyche.cc/theme/heather-hugo/" rel="next">
+          <i class="fa fa-chevron-right"></i>
+          <strong>Next post</strong>
+          <span></span>
+        </a>
+        
+      </li>
+      <li class="previous">
+        
+        <a href="http://tyche.cc/theme/greyshade/" rel="prev">
+          <i class="fa fa-chevron-left"></i>
+          <strong>Previous Post</strong>
+          <span></span>
+        </a>
+        
+      </li>
+    </ul>
+    <div id="search-2" class="widget widget_search"><h3>Search</h3>
+      <form method="get" class="searchform themeform" action="https://www.baidu.com/baidu">
+        <div>
+          <input type="text" class="search" name="word" placeholder="Press enter to start searching">
+        </div>
+      </form>
+    </div>
+  </div>
+  
+</div>
 
-<footer class="doc-footer">
-	
-    <p>Copyright (c) 2016. All rights reserved. Generated by <a href="http://gohugo.io/">Hugo</a></p>
+          <div class="sidebar s2">
+  <a class="sidebar-toggle" title="Expand Sidebar"><i class="fa icon-sidebar-toggle"></i></a>
+  <div class="sidebar-content">
+    <div class="sidebar-top group">
+      <p>More</p>
+    </div>
+    <div id="categories-2" class="widget widget_categories"><h3>Categories</h3>
+      <ul>
+        
+          <li class="cat-item cat-item-1">
+            <a rel="nofollow" href="/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/">心得笔记-blog</a>
+          </li>
+        
+          <li class="cat-item cat-item-1">
+            <a rel="nofollow" href="/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/">技术文章-article</a>
+          </li>
+        
+          <li class="cat-item cat-item-1">
+            <a rel="nofollow" href="/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/">灌水乐乐-post</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer id="footer">
+  <section class="container" id="footer-bottom">
+    <div class="container-inner">
+      <a id="back-to-top" href="#"><i class="fa fa-angle-up"></i></a>
+      <div class="pad group">
+        <div class="grid one-half">
+          <div id="copyright">
+            <p>Copyright © 2016. All Rights Reserved. <br>Powered by
+              <a rel="nofollow" href="http://gohugo.io/" target="_blank">Hugo - the static site generator</a>.
+              <a rel="nofollow" href="http://golang.org" target="_blank">#golang</a>.
+            </p>
+          </div>
+          
+        </div>
+        
+        <div class="grid one-half last">
+          <ul class="social-links">
+    <li>
+    <a class="social-tooltip" title="On WeiBo"
+        href="http://weibo.com/<bihaiorg>1</bihaiorg>" target="_blank">
+        <i class="fa fa-weibo"></i>
+    </a>
+    </li>
+    <li>
+    <a class="social-tooltip" title="On Twitter" rel="nofollow"
+        href="https://twitter.com/bihaiorg" target="_blank">
+        <i class="fa fa-twitter"></i>
+    </a>
+    </li>
+    <li>
+    <a class="social-tooltip" title="On GitHub"
+        href="https://github.com/bihai" target="_blank">
+        <i class="fa fa-github"></i>
+    </a>
+    </li>
+</ul>
+
+        </div>
+      </div>
+
+    </div>
+    
+  </section>
+  
 </footer>
 
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-10147768-2', 'auto');
+  ga('send', 'pageview');
 
-<script src="http://tyche.cc//js/jquery-1.11.2.min.js"></script>
-<script src="http://tyche.cc//js/bootstrap.min.js"></script>
+  $('#messagesbsb').remove();
 
-<script src="http://tyche.cc//js/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-<script src="http://tyche.cc//js/ie10-viewport-bug-workaround.js"></script>
-
+</script>
 </body>
 </html>
 

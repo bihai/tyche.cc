@@ -36,21 +36,20 @@
 
 &lt;h1 id=&#34;hyde-x&#34;&gt;Hyde-X&lt;/h1&gt;
 
-&lt;p&gt;Enhanced port of the Jekyll &amp;laquo;&lt;a href=&#34;https://github.com/poole/hyde&#34;&gt;Hyde&lt;/a&gt;&amp;raquo; theme to the &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; site generator. Check below for a list of enhancements.&lt;/p&gt;
+&lt;p&gt;Enhanced port of the Jekyll &amp;ldquo;&lt;a href=&#34;https://github.com/poole/hyde&#34;&gt;Hyde&lt;/a&gt;&amp;rdquo; theme to the &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; site generator. Check below for a list of enhancements.&lt;/p&gt;
 
 &lt;p&gt;You can find a live site using this theme &lt;a href=&#34;http://andreimihu.com&#34;&gt;here&lt;/a&gt; and the corresponding source code &lt;a href=&#34;https://github.com/zyro/andreimihu.com&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#usage&#34;&gt;Usage&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#configuration&#34;&gt;Configuration&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#built-in-colour-themes&#34;&gt;Built-in colour themes&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#tips&#34;&gt;Tips&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#changes-and-enhancements-from-the-original-theme&#34;&gt;Changes and enhancements from the original theme&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#attribution&#34;&gt;Attribution&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#questions-ideas-bugs-pull-requests&#34;&gt;Questions, ideas, bugs, pull requests?&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#usage&#34;&gt;Usage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#configuration&#34;&gt;Configuration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#built-in-colour-themes&#34;&gt;Built-in colour themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#tips&#34;&gt;Tips&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#changes-and-enhancements-from-the-original-theme&#34;&gt;Changes and enhancements from the original theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#attribution&#34;&gt;Attribution&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#questions-ideas-bugs-pull-requests&#34;&gt;Questions, ideas, bugs, pull requests?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
@@ -160,32 +159,30 @@ paginate = 10
 &lt;h3 id=&#34;tips&#34;&gt;Tips&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;If you&amp;rsquo;ve added &lt;code&gt;theme = &amp;quot;hyde-x&amp;quot;&lt;/code&gt; to your &lt;code&gt;config.toml&lt;/code&gt;, you don&amp;rsquo;t need to keep using the &lt;code&gt;--theme=hyde-x&lt;/code&gt; flag!&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Pages where you specify &lt;code&gt;menu = &amp;quot;main&amp;quot;&lt;/code&gt; in the front matter will be linked in the sidebar just below the &lt;code&gt;Blog&lt;/code&gt; link.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Use the exact permalink format above to maintain old links if migrating from Jekyll/Octopress.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Although all of the syntax highlight CSS files under the theme&amp;rsquo;s &lt;code&gt;static/css/highlight&lt;/code&gt; are bundled with the site, only the one you choose will be included in the page and delivered to the browser.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Change the favicon by providing your own as &lt;code&gt;static/favicon.png&lt;/code&gt; in your site directory.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Hugo makes it easy to override theme layout and behaviour, read about it &lt;a href=&#34;http://gohugo.io/themes/customizing&#34;&gt;here&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Pagination is set to 10 items by default, change it by updating &lt;code&gt;paginate = 10&lt;/code&gt; in your &lt;code&gt;config.toml&lt;/code&gt;.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Set &lt;code&gt;truncate = false&lt;/code&gt; in the &lt;code&gt;[params]&lt;/code&gt; section of your &lt;code&gt;config.toml&lt;/code&gt; to display full blog post contents in the index page, like the &lt;a href=&#34;https://github.com/poole/hyde&#34;&gt;base Hyde theme&lt;/a&gt; did.&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;If you&amp;rsquo;ve added &lt;code&gt;theme = &amp;quot;hyde-x&amp;quot;&lt;/code&gt; to your &lt;code&gt;config.toml&lt;/code&gt;, you don&amp;rsquo;t need to keep using the &lt;code&gt;--theme=hyde-x&lt;/code&gt; flag!&lt;/li&gt;
+&lt;li&gt;Pages where you specify &lt;code&gt;menu = &amp;quot;main&amp;quot;&lt;/code&gt; in the front matter will be linked in the sidebar just below the &lt;code&gt;Blog&lt;/code&gt; link.&lt;/li&gt;
+&lt;li&gt;Use the exact permalink format above to maintain old links if migrating from Jekyll/Octopress.&lt;/li&gt;
+&lt;li&gt;Although all of the syntax highlight CSS files under the theme&amp;rsquo;s &lt;code&gt;static/css/highlight&lt;/code&gt; are bundled with the site, only the one you choose will be included in the page and delivered to the browser.&lt;/li&gt;
+&lt;li&gt;Change the favicon by providing your own as &lt;code&gt;static/favicon.png&lt;/code&gt; in your site directory.&lt;/li&gt;
+&lt;li&gt;Hugo makes it easy to override theme layout and behaviour, read about it &lt;a href=&#34;http://gohugo.io/themes/customizing&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Pagination is set to 10 items by default, change it by updating &lt;code&gt;paginate = 10&lt;/code&gt; in your &lt;code&gt;config.toml&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Set &lt;code&gt;truncate = false&lt;/code&gt; in the &lt;code&gt;[params]&lt;/code&gt; section of your &lt;code&gt;config.toml&lt;/code&gt; to display full blog post contents in the index page, like the &lt;a href=&#34;https://github.com/poole/hyde&#34;&gt;base Hyde theme&lt;/a&gt; did.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;changes-and-enhancements-from-the-original-theme&#34;&gt;Changes and enhancements from the original theme&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Category labels and lists.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Client-side syntax highlighting through &lt;a href=&#34;https://highlightjs.org/&#34;&gt;highlight.js&lt;/a&gt;, sane fallback if disabled or no JS - infinitely more flexible than the standard Hugo highlighting.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Disqus integration: comment counts listed under blog entry names in post list, comments displayed at the bottom of each post.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Gravatar image in sidebar.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Google Analytics integration.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Google Authorship metadata.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Sidebar link layout and footer format changes.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Blog post list now contains only the post description, not the full contents.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Paginated blog listing.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://fortawesome.github.io/Font-Awesome&#34;&gt;FontAwesome&lt;/a&gt; social links.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&amp;hellip;many other small layout tweaks!&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Category labels and lists.&lt;/li&gt;
+&lt;li&gt;Client-side syntax highlighting through &lt;a href=&#34;https://highlightjs.org/&#34;&gt;highlight.js&lt;/a&gt;, sane fallback if disabled or no JS - infinitely more flexible than the standard Hugo highlighting.&lt;/li&gt;
+&lt;li&gt;Disqus integration: comment counts listed under blog entry names in post list, comments displayed at the bottom of each post.&lt;/li&gt;
+&lt;li&gt;Gravatar image in sidebar.&lt;/li&gt;
+&lt;li&gt;Google Analytics integration.&lt;/li&gt;
+&lt;li&gt;Google Authorship metadata.&lt;/li&gt;
+&lt;li&gt;Sidebar link layout and footer format changes.&lt;/li&gt;
+&lt;li&gt;Blog post list now contains only the post description, not the full contents.&lt;/li&gt;
+&lt;li&gt;Paginated blog listing.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://fortawesome.github.io/Font-Awesome&#34;&gt;FontAwesome&lt;/a&gt; social links.&lt;/li&gt;
+&lt;li&gt;&amp;hellip;many other small layout tweaks!&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;attribution&#34;&gt;Attribution&lt;/h3&gt;
@@ -214,7 +211,7 @@ paginate = 10
 
 &lt;p&gt;&lt;small&gt;Forked from &lt;a href=&#34;https://github.com/zyro/hyde-x&#34;&gt;Hyde-X&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
 
-&lt;p&gt;You can find a live site using this theme &lt;a href=&#34;http://enten.github.io/hugo-boilerplate/&#34;&gt;here&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;You can find a live site using this theme &lt;a href=&#34;http://enten.github.io/hugo-boilerplate/&#34;&gt;here&lt;/a&gt;
 and the corresponding source code &lt;a href=&#34;https://github.com/enten/hugo-boilerplate&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;screenshot&#34;&gt;Screenshot&lt;/h2&gt;
@@ -393,30 +390,28 @@ Done, without errors.
 &lt;h2 id=&#34;tips&#34;&gt;Tips&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;If you&amp;rsquo;ve added &lt;code&gt;theme = &amp;quot;hyde-y&amp;quot;&lt;/code&gt; to your &lt;code&gt;config.toml&lt;/code&gt;, you don&amp;rsquo;t need to keep using the &lt;code&gt;--theme=hyde-y&lt;/code&gt; flag!&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Although all of the syntax highlight CSS files under the theme&amp;rsquo;s &lt;code&gt;static/css/highlight&lt;/code&gt; are bundled with the site, only the one you choose will be included in the page and delivered to the browser.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Change the favicon by providing your own as &lt;code&gt;static/favicon.png&lt;/code&gt; (and &lt;code&gt;static/touch-icon-144-precomposed.png&lt;/code&gt; for Apple devices) in your site directory.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Hugo makes it easy to override theme layout and behaviour, read about it &lt;a href=&#34;http://gohugo.io/themes/customizing&#34;&gt;here&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Pagination is set to 10 items by default, change it by updating &lt;code&gt;paginate = 10&lt;/code&gt; in your &lt;code&gt;config.toml&lt;/code&gt;.&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;If you&amp;rsquo;ve added &lt;code&gt;theme = &amp;quot;hyde-y&amp;quot;&lt;/code&gt; to your &lt;code&gt;config.toml&lt;/code&gt;, you don&amp;rsquo;t need to keep using the &lt;code&gt;--theme=hyde-y&lt;/code&gt; flag!&lt;/li&gt;
+&lt;li&gt;Although all of the syntax highlight CSS files under the theme&amp;rsquo;s &lt;code&gt;static/css/highlight&lt;/code&gt; are bundled with the site, only the one you choose will be included in the page and delivered to the browser.&lt;/li&gt;
+&lt;li&gt;Change the favicon by providing your own as &lt;code&gt;static/favicon.png&lt;/code&gt; (and &lt;code&gt;static/touch-icon-144-precomposed.png&lt;/code&gt; for Apple devices) in your site directory.&lt;/li&gt;
+&lt;li&gt;Hugo makes it easy to override theme layout and behaviour, read about it &lt;a href=&#34;http://gohugo.io/themes/customizing&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Pagination is set to 10 items by default, change it by updating &lt;code&gt;paginate = 10&lt;/code&gt; in your &lt;code&gt;config.toml&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;changes-and-enhancements-from-the-original-theme&#34;&gt;Changes and enhancements from the original theme&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Highly customizable: every layout blocks are pieces of HTML code individually stored.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Consistent hierarchy for the partials and templates files to assist the overrides of any layout block.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Adjustable sidebar in config file.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Project layout (badges, github ribbon) for posts stored in &lt;code&gt;content/code/&lt;/code&gt; folder.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;CSS built with &lt;a href=&#34;http://knacss.com/&#34;&gt;KNACSS&lt;/a&gt; micro-framework.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Client-side syntax highlighting through &lt;a href=&#34;https://highlightjs.org/&#34;&gt;highlight.js&lt;/a&gt;, sane fallback if disabled or no JS - infinitely more flexible than the standard Hugo highlighting.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Disqus integration: comment counts listed under blog entry names in post list, comments displayed at the bottom of each post.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Google Analytics integration.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Google Authorship metadata.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Paginated blog listing.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://fortawesome.github.io/Font-Awesome&#34;&gt;FontAwesome&lt;/a&gt; social links.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&amp;hellip;many other small layout tweaks!&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Highly customizable: every layout blocks are pieces of HTML code individually stored.&lt;/li&gt;
+&lt;li&gt;Consistent hierarchy for the partials and templates files to assist the overrides of any layout block.&lt;/li&gt;
+&lt;li&gt;Adjustable sidebar in config file.&lt;/li&gt;
+&lt;li&gt;Project layout (badges, github ribbon) for posts stored in &lt;code&gt;content/code/&lt;/code&gt; folder.&lt;/li&gt;
+&lt;li&gt;CSS built with &lt;a href=&#34;http://knacss.com/&#34;&gt;KNACSS&lt;/a&gt; micro-framework.&lt;/li&gt;
+&lt;li&gt;Client-side syntax highlighting through &lt;a href=&#34;https://highlightjs.org/&#34;&gt;highlight.js&lt;/a&gt;, sane fallback if disabled or no JS - infinitely more flexible than the standard Hugo highlighting.&lt;/li&gt;
+&lt;li&gt;Disqus integration: comment counts listed under blog entry names in post list, comments displayed at the bottom of each post.&lt;/li&gt;
+&lt;li&gt;Google Analytics integration.&lt;/li&gt;
+&lt;li&gt;Google Authorship metadata.&lt;/li&gt;
+&lt;li&gt;Paginated blog listing.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://fortawesome.github.io/Font-Awesome&#34;&gt;FontAwesome&lt;/a&gt; social links.&lt;/li&gt;
+&lt;li&gt;&amp;hellip;many other small layout tweaks!&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;attribution&#34;&gt;Attribution&lt;/h2&gt;
