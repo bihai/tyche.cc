@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>https://tyche.cc/tags/educational/feed/index.xml</link>
+        <link>http://tyche.cc/tags/educational/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title>devmonk</title>
-            <link>https://tyche.cc/showcase/devmonk/</link>
+            <link>http://tyche.cc/showcase/devmonk/</link>
             <pubDate>Tue, 26 Aug 2014 11:31:02 -0400</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/devmonk/</guid>
+            <guid>http://tyche.cc/showcase/devmonk/</guid>
             <description></description>
         </item>
         

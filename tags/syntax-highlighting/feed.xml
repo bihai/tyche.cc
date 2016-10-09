@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>https://tyche.cc/tags/syntax-highlighting/feed/index.xml</link>
+        <link>http://tyche.cc/tags/syntax-highlighting/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title></title>
-            <link>https://tyche.cc/theme/cactus/</link>
+            <link>http://tyche.cc/theme/cactus/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/theme/cactus/</guid>
+            <guid>http://tyche.cc/theme/cactus/</guid>
             <description>
 
 &lt;h1 id=&#34;cactus-theme&#34;&gt;Cactus Theme&lt;/h1&gt;
@@ -85,10 +85,10 @@ $ git clone git@github.com:digitalcraftsman/hugo-cactus-theme.git
         
         <item>
             <title></title>
-            <link>https://tyche.cc/theme/hikari/</link>
+            <link>http://tyche.cc/theme/hikari/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/theme/hikari/</guid>
+            <guid>http://tyche.cc/theme/hikari/</guid>
             <description>
 
 &lt;h1 id=&#34;hikari-theme&#34;&gt;Hikari theme&lt;/h1&gt;
@@ -166,10 +166,10 @@ $ git clone git@github.com:digitalcraftsman/hugo-hikari-theme.git
         
         <item>
             <title></title>
-            <link>https://tyche.cc/theme/hugo-icarus/</link>
+            <link>http://tyche.cc/theme/hugo-icarus/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/theme/hugo-icarus/</guid>
+            <guid>http://tyche.cc/theme/hugo-icarus/</guid>
             <description>
 
 &lt;h1 id=&#34;icarus&#34;&gt;Icarus&lt;/h1&gt;
@@ -353,10 +353,10 @@ menu = &amp;quot;main&amp;quot;
         
         <item>
             <title></title>
-            <link>https://tyche.cc/theme/hugo-minimalist/</link>
+            <link>http://tyche.cc/theme/hugo-minimalist/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/theme/hugo-minimalist/</guid>
+            <guid>http://tyche.cc/theme/hugo-minimalist/</guid>
             <description>
 
 &lt;h1 id=&#34;minimalist&#34;&gt;Minimalist&lt;/h1&gt;

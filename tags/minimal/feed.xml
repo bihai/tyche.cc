@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>https://tyche.cc/tags/minimal/feed/index.xml</link>
+        <link>http://tyche.cc/tags/minimal/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title></title>
-            <link>https://tyche.cc/theme/cocoa/</link>
+            <link>http://tyche.cc/theme/cocoa/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/theme/cocoa/</guid>
+            <guid>http://tyche.cc/theme/cocoa/</guid>
             <description>
 
 &lt;h1 id=&#34;cocoa&#34;&gt;Cocoa&lt;/h1&gt;
@@ -171,10 +171,10 @@ WebfontsFile = &amp;quot;css/mywebfontsfile.css&amp;quot; # relative to static/ 
         
         <item>
             <title></title>
-            <link>https://tyche.cc/theme/crisp/</link>
+            <link>http://tyche.cc/theme/crisp/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/theme/crisp/</guid>
+            <guid>http://tyche.cc/theme/crisp/</guid>
             <description>
 
 &lt;h1 id=&#34;crisp&#34;&gt;Crisp&lt;/h1&gt;
@@ -218,10 +218,10 @@ WebfontsFile = &amp;quot;css/mywebfontsfile.css&amp;quot; # relative to static/ 
         
         <item>
             <title></title>
-            <link>https://tyche.cc/theme/detox/</link>
+            <link>http://tyche.cc/theme/detox/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/theme/detox/</guid>
+            <guid>http://tyche.cc/theme/detox/</guid>
             <description>
 
 &lt;h1 id=&#34;detox&#34;&gt;Detox&lt;/h1&gt;
@@ -238,10 +238,10 @@ WebfontsFile = &amp;quot;css/mywebfontsfile.css&amp;quot; # relative to static/ 
         
         <item>
             <title></title>
-            <link>https://tyche.cc/theme/gindoro/</link>
+            <link>http://tyche.cc/theme/gindoro/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/theme/gindoro/</guid>
+            <guid>http://tyche.cc/theme/gindoro/</guid>
             <description>
 
 &lt;h4 id=&#34;gindoro&#34;&gt;gindoro&lt;/h4&gt;
@@ -304,10 +304,10 @@ Press Ctrl+C to stop
         
         <item>
             <title></title>
-            <link>https://tyche.cc/theme/hikari/</link>
+            <link>http://tyche.cc/theme/hikari/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/theme/hikari/</guid>
+            <guid>http://tyche.cc/theme/hikari/</guid>
             <description>
 
 &lt;h1 id=&#34;hikari-theme&#34;&gt;Hikari theme&lt;/h1&gt;
@@ -385,10 +385,10 @@ $ git clone git@github.com:digitalcraftsman/hugo-hikari-theme.git
         
         <item>
             <title></title>
-            <link>https://tyche.cc/theme/slim/</link>
+            <link>http://tyche.cc/theme/slim/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/theme/slim/</guid>
+            <guid>http://tyche.cc/theme/slim/</guid>
             <description>
 
 &lt;h1 id=&#34;slim&#34;&gt;Slim&lt;/h1&gt;
@@ -447,10 +447,10 @@ git clone https://github.com/zhe/hugo-theme-slim slim
         
         <item>
             <title></title>
-            <link>https://tyche.cc/theme/steam/</link>
+            <link>http://tyche.cc/theme/steam/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/theme/steam/</guid>
+            <guid>http://tyche.cc/theme/steam/</guid>
             <description>
 
 &lt;h1 id=&#34;steam&#34;&gt;Steam&lt;/h1&gt;

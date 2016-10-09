@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Project-rsses on tyche.cc</title>
-        <link>https://tyche.cc/project/feed/index.xml</link>
+        <link>http://tyche.cc/project/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title>Video</title>
-            <link>https://tyche.cc/project/video/</link>
+            <link>http://tyche.cc/project/video/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/project/video/</guid>
+            <guid>http://tyche.cc/project/video/</guid>
             <description>&lt;p&gt;Videos can be provided via:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;video_mp4 = &amp;quot;/vid/vid_480x320.mp4&amp;quot;
@@ -37,10 +37,10 @@ support HTML5 video.&lt;/p&gt;
         
         <item>
             <title>Another Car</title>
-            <link>https://tyche.cc/project/anothercar/</link>
+            <link>http://tyche.cc/project/anothercar/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/project/anothercar/</guid>
+            <guid>http://tyche.cc/project/anothercar/</guid>
             <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
@@ -48,10 +48,10 @@ support HTML5 video.&lt;/p&gt;
         
         <item>
             <title>Another Cup</title>
-            <link>https://tyche.cc/project/anothercup/</link>
+            <link>http://tyche.cc/project/anothercup/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/project/anothercup/</guid>
+            <guid>http://tyche.cc/project/anothercup/</guid>
             <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
@@ -59,10 +59,10 @@ support HTML5 video.&lt;/p&gt;
         
         <item>
             <title>Car</title>
-            <link>https://tyche.cc/project/car/</link>
+            <link>http://tyche.cc/project/car/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/project/car/</guid>
+            <guid>http://tyche.cc/project/car/</guid>
             <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
@@ -70,10 +70,10 @@ support HTML5 video.&lt;/p&gt;
         
         <item>
             <title>Cup</title>
-            <link>https://tyche.cc/project/cup/</link>
+            <link>http://tyche.cc/project/cup/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/project/cup/</guid>
+            <guid>http://tyche.cc/project/cup/</guid>
             <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
@@ -81,10 +81,10 @@ support HTML5 video.&lt;/p&gt;
         
         <item>
             <title>Drone</title>
-            <link>https://tyche.cc/project/anotherdrone/</link>
+            <link>http://tyche.cc/project/anotherdrone/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/project/anotherdrone/</guid>
+            <guid>http://tyche.cc/project/anotherdrone/</guid>
             <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
@@ -92,10 +92,10 @@ support HTML5 video.&lt;/p&gt;
         
         <item>
             <title>Drone</title>
-            <link>https://tyche.cc/project/drone/</link>
+            <link>http://tyche.cc/project/drone/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/project/drone/</guid>
+            <guid>http://tyche.cc/project/drone/</guid>
             <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
@@ -103,10 +103,10 @@ support HTML5 video.&lt;/p&gt;
         
         <item>
             <title>Food</title>
-            <link>https://tyche.cc/project/anotherfood/</link>
+            <link>http://tyche.cc/project/anotherfood/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/project/anotherfood/</guid>
+            <guid>http://tyche.cc/project/anotherfood/</guid>
             <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
@@ -114,10 +114,10 @@ support HTML5 video.&lt;/p&gt;
         
         <item>
             <title>Food</title>
-            <link>https://tyche.cc/project/food/</link>
+            <link>http://tyche.cc/project/food/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/project/food/</guid>
+            <guid>http://tyche.cc/project/food/</guid>
             <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
@@ -125,10 +125,10 @@ support HTML5 video.&lt;/p&gt;
         
         <item>
             <title>Jars</title>
-            <link>https://tyche.cc/project/anotherjars/</link>
+            <link>http://tyche.cc/project/anotherjars/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/project/anotherjars/</guid>
+            <guid>http://tyche.cc/project/anotherjars/</guid>
             <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
@@ -136,10 +136,10 @@ support HTML5 video.&lt;/p&gt;
         
         <item>
             <title>Jars</title>
-            <link>https://tyche.cc/project/jars/</link>
+            <link>http://tyche.cc/project/jars/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/project/jars/</guid>
+            <guid>http://tyche.cc/project/jars/</guid>
             <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
@@ -147,10 +147,10 @@ support HTML5 video.&lt;/p&gt;
         
         <item>
             <title>Phone</title>
-            <link>https://tyche.cc/project/anotherphone/</link>
+            <link>http://tyche.cc/project/anotherphone/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/project/anotherphone/</guid>
+            <guid>http://tyche.cc/project/anotherphone/</guid>
             <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
@@ -158,10 +158,10 @@ support HTML5 video.&lt;/p&gt;
         
         <item>
             <title>Phone</title>
-            <link>https://tyche.cc/project/phone/</link>
+            <link>http://tyche.cc/project/phone/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/project/phone/</guid>
+            <guid>http://tyche.cc/project/phone/</guid>
             <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>

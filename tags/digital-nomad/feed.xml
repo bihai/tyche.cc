@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>https://tyche.cc/tags/digital-nomad/feed/index.xml</link>
+        <link>http://tyche.cc/tags/digital-nomad/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title>nodesk.co</title>
-            <link>https://tyche.cc/showcase/nodesk/</link>
+            <link>http://tyche.cc/showcase/nodesk/</link>
             <pubDate>Wed, 26 Aug 2015 22:33:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/nodesk/</guid>
+            <guid>http://tyche.cc/showcase/nodesk/</guid>
             <description></description>
         </item>
         

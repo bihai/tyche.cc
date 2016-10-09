@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>https://tyche.cc/tags/kube/feed/index.xml</link>
+        <link>http://tyche.cc/tags/kube/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title>consequently.org</title>
-            <link>https://tyche.cc/showcase/consequently/</link>
+            <link>http://tyche.cc/showcase/consequently/</link>
             <pubDate>Wed, 11 Feb 2015 13:21:27 &#43;1100</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/consequently/</guid>
+            <guid>http://tyche.cc/showcase/consequently/</guid>
             <description></description>
         </item>
         

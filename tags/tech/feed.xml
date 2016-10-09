@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>https://tyche.cc/tags/tech/feed/index.xml</link>
+        <link>http://tyche.cc/tags/tech/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,46 +10,46 @@
         
         <item>
             <title>cdnoverview.com</title>
-            <link>https://tyche.cc/showcase/cdnoverview/</link>
+            <link>http://tyche.cc/showcase/cdnoverview/</link>
             <pubDate>Wed, 17 Feb 2016 15:19:08 &#43;0100</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/cdnoverview/</guid>
+            <guid>http://tyche.cc/showcase/cdnoverview/</guid>
             <description></description>
         </item>
         
         <item>
             <title>Data Pipeline Architect</title>
-            <link>https://tyche.cc/showcase/datapipelinearchitect/</link>
+            <link>http://tyche.cc/showcase/datapipelinearchitect/</link>
             <pubDate>Thu, 04 Feb 2016 18:30:07 -0500</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/datapipelinearchitect/</guid>
+            <guid>http://tyche.cc/showcase/datapipelinearchitect/</guid>
             <description></description>
         </item>
         
         <item>
             <title>David Allen</title>
-            <link>https://tyche.cc/showcase/davidrallen/</link>
+            <link>http://tyche.cc/showcase/davidrallen/</link>
             <pubDate>Wed, 03 Feb 2016 11:49:07 -0500</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/davidrallen/</guid>
+            <guid>http://tyche.cc/showcase/davidrallen/</guid>
             <description></description>
         </item>
         
         <item>
             <title>RIDING BYTES</title>
-            <link>https://tyche.cc/showcase/ridingbytes/</link>
+            <link>http://tyche.cc/showcase/ridingbytes/</link>
             <pubDate>Sun, 27 Sep 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/ridingbytes/</guid>
+            <guid>http://tyche.cc/showcase/ridingbytes/</guid>
             <description></description>
         </item>
         
         <item>
             <title>Vamp.io</title>
-            <link>https://tyche.cc/showcase/vamp/</link>
+            <link>http://tyche.cc/showcase/vamp/</link>
             <pubDate>Thu, 26 Jun 2014 15:45:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/vamp/</guid>
+            <guid>http://tyche.cc/showcase/vamp/</guid>
             <description></description>
         </item>
         

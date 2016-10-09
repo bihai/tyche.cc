@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>https://tyche.cc/tags/esolia/feed/index.xml</link>
+        <link>http://tyche.cc/tags/esolia/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,19 +10,19 @@
         
         <item>
             <title>eSolia.com</title>
-            <link>https://tyche.cc/showcase/esolia-com/</link>
+            <link>http://tyche.cc/showcase/esolia-com/</link>
             <pubDate>Tue, 07 Jul 2015 04:32:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/esolia-com/</guid>
+            <guid>http://tyche.cc/showcase/esolia-com/</guid>
             <description></description>
         </item>
         
         <item>
             <title>eSolia.pro</title>
-            <link>https://tyche.cc/showcase/esolia-pro/</link>
+            <link>http://tyche.cc/showcase/esolia-pro/</link>
             <pubDate>Tue, 07 Jul 2015 04:32:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/esolia-pro/</guid>
+            <guid>http://tyche.cc/showcase/esolia-pro/</guid>
             <description></description>
         </item>
         

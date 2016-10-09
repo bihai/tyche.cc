@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>https://tyche.cc/tags/bootstrap/feed/index.xml</link>
+        <link>http://tyche.cc/tags/bootstrap/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,64 +10,64 @@
         
         <item>
             <title>cdnoverview.com</title>
-            <link>https://tyche.cc/showcase/cdnoverview/</link>
+            <link>http://tyche.cc/showcase/cdnoverview/</link>
             <pubDate>Wed, 17 Feb 2016 15:19:08 &#43;0100</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/cdnoverview/</guid>
+            <guid>http://tyche.cc/showcase/cdnoverview/</guid>
             <description></description>
         </item>
         
         <item>
             <title>arresteddevops</title>
-            <link>https://tyche.cc/showcase/arresteddevops/</link>
+            <link>http://tyche.cc/showcase/arresteddevops/</link>
             <pubDate>Fri, 20 Nov 2015 01:46:33 -0600</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/arresteddevops/</guid>
+            <guid>http://tyche.cc/showcase/arresteddevops/</guid>
             <description></description>
         </item>
         
         <item>
             <title>Launchcode Software Studios</title>
-            <link>https://tyche.cc/showcase/launchcode5/</link>
+            <link>http://tyche.cc/showcase/launchcode5/</link>
             <pubDate>Sat, 01 Nov 2014 07:32:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/launchcode5/</guid>
+            <guid>http://tyche.cc/showcase/launchcode5/</guid>
             <description></description>
         </item>
         
         <item>
             <title>Andrew S Codispoti</title>
-            <link>https://tyche.cc/showcase/asc/</link>
+            <link>http://tyche.cc/showcase/asc/</link>
             <pubDate>Wed, 22 Jan 2014 07:32:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/asc/</guid>
+            <guid>http://tyche.cc/showcase/asc/</guid>
             <description></description>
         </item>
         
         <item>
             <title>Chimera Art Space</title>
-            <link>https://tyche.cc/showcase/chimera-art-space/</link>
+            <link>http://tyche.cc/showcase/chimera-art-space/</link>
             <pubDate>Wed, 02 Oct 2013 07:32:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/chimera-art-space/</guid>
+            <guid>http://tyche.cc/showcase/chimera-art-space/</guid>
             <description></description>
         </item>
         
         <item>
             <title>Hugo</title>
-            <link>https://tyche.cc/showcase/hugo/</link>
+            <link>http://tyche.cc/showcase/hugo/</link>
             <pubDate>Mon, 01 Jul 2013 07:32:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/hugo/</guid>
+            <guid>http://tyche.cc/showcase/hugo/</guid>
             <description></description>
         </item>
         
         <item>
             <title></title>
-            <link>https://tyche.cc/theme/beg/</link>
+            <link>http://tyche.cc/theme/beg/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/theme/beg/</guid>
+            <guid>http://tyche.cc/theme/beg/</guid>
             <description>
 
 &lt;h1 id=&#34;beg&#34;&gt;Beg&lt;/h1&gt;
@@ -166,10 +166,10 @@ Contents here
         
         <item>
             <title></title>
-            <link>https://tyche.cc/theme/bootie-docs/</link>
+            <link>http://tyche.cc/theme/bootie-docs/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/theme/bootie-docs/</guid>
+            <guid>http://tyche.cc/theme/bootie-docs/</guid>
             <description>
 
 &lt;h1 id=&#34;bootie-docs&#34;&gt;Bootie Docs&lt;/h1&gt;
@@ -234,10 +234,10 @@ Released under the MIT License.&lt;/p&gt;
         
         <item>
             <title></title>
-            <link>https://tyche.cc/theme/hugo-bootswatch/</link>
+            <link>http://tyche.cc/theme/hugo-bootswatch/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/theme/hugo-bootswatch/</guid>
+            <guid>http://tyche.cc/theme/hugo-bootswatch/</guid>
             <description>
 
 &lt;h1 id=&#34;hugo-bootswatch&#34;&gt;Hugo-bootswatch&lt;/h1&gt;
@@ -264,10 +264,10 @@ Released under the MIT License.&lt;/p&gt;
         
         <item>
             <title></title>
-            <link>https://tyche.cc/theme/startbootstrap-clean-blog/</link>
+            <link>http://tyche.cc/theme/startbootstrap-clean-blog/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/theme/startbootstrap-clean-blog/</guid>
+            <guid>http://tyche.cc/theme/startbootstrap-clean-blog/</guid>
             <description>
 
 &lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
@@ -378,10 +378,10 @@ copyright = &amp;quot;Code released under the Apache 2.0 license.&amp;quot;
         
         <item>
             <title></title>
-            <link>https://tyche.cc/theme/vienna/</link>
+            <link>http://tyche.cc/theme/vienna/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/theme/vienna/</guid>
+            <guid>http://tyche.cc/theme/vienna/</guid>
             <description>
 
 &lt;h1 id=&#34;vienna&#34;&gt;Vienna&lt;/h1&gt;

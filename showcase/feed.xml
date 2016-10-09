@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Showcase-rsses on tyche.cc</title>
-        <link>https://tyche.cc/showcase/feed/index.xml</link>
+        <link>http://tyche.cc/showcase/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,136 +10,136 @@
         
         <item>
             <title>cdnoverview.com</title>
-            <link>https://tyche.cc/showcase/cdnoverview/</link>
+            <link>http://tyche.cc/showcase/cdnoverview/</link>
             <pubDate>Wed, 17 Feb 2016 15:19:08 &#43;0100</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/cdnoverview/</guid>
+            <guid>http://tyche.cc/showcase/cdnoverview/</guid>
             <description></description>
         </item>
         
         <item>
             <title>gntech.se</title>
-            <link>https://tyche.cc/showcase/gntech/</link>
+            <link>http://tyche.cc/showcase/gntech/</link>
             <pubDate>Sat, 13 Feb 2016 21:47:27 &#43;0100</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/gntech/</guid>
+            <guid>http://tyche.cc/showcase/gntech/</guid>
             <description></description>
         </item>
         
         <item>
             <title>jorgennilsson.com</title>
-            <link>https://tyche.cc/showcase/jorgennilsson/</link>
+            <link>http://tyche.cc/showcase/jorgennilsson/</link>
             <pubDate>Thu, 11 Feb 2016 23:41:27 &#43;0100</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/jorgennilsson/</guid>
+            <guid>http://tyche.cc/showcase/jorgennilsson/</guid>
             <description></description>
         </item>
         
         <item>
             <title>shelan.org</title>
-            <link>https://tyche.cc/showcase/shelan/</link>
+            <link>http://tyche.cc/showcase/shelan/</link>
             <pubDate>Sun, 07 Feb 2016 10:30:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/shelan/</guid>
+            <guid>http://tyche.cc/showcase/shelan/</guid>
             <description></description>
         </item>
         
         <item>
             <title>Data Pipeline Architect</title>
-            <link>https://tyche.cc/showcase/datapipelinearchitect/</link>
+            <link>http://tyche.cc/showcase/datapipelinearchitect/</link>
             <pubDate>Thu, 04 Feb 2016 18:30:07 -0500</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/datapipelinearchitect/</guid>
+            <guid>http://tyche.cc/showcase/datapipelinearchitect/</guid>
             <description></description>
         </item>
         
         <item>
             <title>David Allen</title>
-            <link>https://tyche.cc/showcase/davidrallen/</link>
+            <link>http://tyche.cc/showcase/davidrallen/</link>
             <pubDate>Wed, 03 Feb 2016 11:49:07 -0500</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/davidrallen/</guid>
+            <guid>http://tyche.cc/showcase/davidrallen/</guid>
             <description></description>
         </item>
         
         <item>
             <title>Lee Penney</title>
-            <link>https://tyche.cc/showcase/leepenney/</link>
+            <link>http://tyche.cc/showcase/leepenney/</link>
             <pubDate>Sun, 24 Jan 2016 16:10:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/leepenney/</guid>
+            <guid>http://tyche.cc/showcase/leepenney/</guid>
             <description></description>
         </item>
         
         <item>
             <title>Web Study List</title>
-            <link>https://tyche.cc/showcase/webstudylist/</link>
+            <link>http://tyche.cc/showcase/webstudylist/</link>
             <pubDate>Thu, 21 Jan 2016 23:33:01 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/webstudylist/</guid>
+            <guid>http://tyche.cc/showcase/webstudylist/</guid>
             <description></description>
         </item>
         
         <item>
             <title>Rakuten Tech Blog</title>
-            <link>https://tyche.cc/showcase/rakutentech/</link>
+            <link>http://tyche.cc/showcase/rakutentech/</link>
             <pubDate>Wed, 20 Jan 2016 07:32:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/rakutentech/</guid>
+            <guid>http://tyche.cc/showcase/rakutentech/</guid>
             <description></description>
         </item>
         
         <item>
             <title>Java Union</title>
-            <link>https://tyche.cc/showcase/javaunion/</link>
+            <link>http://tyche.cc/showcase/javaunion/</link>
             <pubDate>Wed, 20 Jan 2016 01:28:16 CST</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/javaunion/</guid>
+            <guid>http://tyche.cc/showcase/javaunion/</guid>
             <description></description>
         </item>
         
         <item>
             <title>emilyhorsman.com</title>
-            <link>https://tyche.cc/showcase/emilyhorsman/</link>
+            <link>http://tyche.cc/showcase/emilyhorsman/</link>
             <pubDate>Sat, 09 Jan 2016 01:00:10 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/emilyhorsman/</guid>
+            <guid>http://tyche.cc/showcase/emilyhorsman/</guid>
             <description></description>
         </item>
         
         <item>
             <title>Coding Journal</title>
-            <link>https://tyche.cc/showcase/coding-journal/</link>
+            <link>http://tyche.cc/showcase/coding-journal/</link>
             <pubDate>Wed, 23 Dec 2015 11:42:00 &#43;0100</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/coding-journal/</guid>
+            <guid>http://tyche.cc/showcase/coding-journal/</guid>
             <description></description>
         </item>
         
         <item>
             <title>Camunda Blog</title>
-            <link>https://tyche.cc/showcase/camunda-blog/</link>
+            <link>http://tyche.cc/showcase/camunda-blog/</link>
             <pubDate>Tue, 01 Dec 2015 04:20:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/camunda-blog/</guid>
+            <guid>http://tyche.cc/showcase/camunda-blog/</guid>
             <description></description>
         </item>
         
         <item>
             <title>Camunda Docs</title>
-            <link>https://tyche.cc/showcase/camunda-docs/</link>
+            <link>http://tyche.cc/showcase/camunda-docs/</link>
             <pubDate>Tue, 01 Dec 2015 04:20:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/camunda-docs/</guid>
+            <guid>http://tyche.cc/showcase/camunda-docs/</guid>
             <description></description>
         </item>
         
         <item>
             <title>gadgetplayboy.com</title>
-            <link>https://tyche.cc/showcase/gadgetplayboy/</link>
+            <link>http://tyche.cc/showcase/gadgetplayboy/</link>
             <pubDate>Sun, 29 Nov 2015 07:16:53 -0500</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/gadgetplayboy/</guid>
+            <guid>http://tyche.cc/showcase/gadgetplayboy/</guid>
             <description></description>
         </item>
         

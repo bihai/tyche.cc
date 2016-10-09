@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>https://tyche.cc/tags/tag1/feed/index.xml</link>
+        <link>http://tyche.cc/tags/tag1/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title>Info</title>
-            <link>https://tyche.cc/post/2016/info/</link>
+            <link>http://tyche.cc/post/2016/info/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/post/2016/info/</guid>
+            <guid>http://tyche.cc/post/2016/info/</guid>
             <description>&lt;p&gt;You can optionally set an image in the front matter of a post using
 &lt;code&gt;image = &amp;quot;...&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
@@ -21,10 +21,10 @@
         
         <item>
             <title>Info</title>
-            <link>https://tyche.cc/post/custompost/info/</link>
+            <link>http://tyche.cc/post/custompost/info/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/post/custompost/info/</guid>
+            <guid>http://tyche.cc/post/custompost/info/</guid>
             <description>&lt;p&gt;You can optionally set an image in the front matter of a post using
 &lt;code&gt;image = &amp;quot;...&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
@@ -32,10 +32,10 @@
         
         <item>
             <title>Redirect</title>
-            <link>https://tyche.cc/post/2016/redirect/</link>
+            <link>http://tyche.cc/post/2016/redirect/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/post/2016/redirect/</guid>
+            <guid>http://tyche.cc/post/2016/redirect/</guid>
             <description>&lt;p&gt;You can optionally set the front matter &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt; to automatically
 redirect the content to another page.&lt;/p&gt;
 </description>
@@ -43,10 +43,10 @@ redirect the content to another page.&lt;/p&gt;
         
         <item>
             <title>Redirect</title>
-            <link>https://tyche.cc/post/custompost/redirect/</link>
+            <link>http://tyche.cc/post/custompost/redirect/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/post/custompost/redirect/</guid>
+            <guid>http://tyche.cc/post/custompost/redirect/</guid>
             <description>&lt;p&gt;You can optionally set the front matter &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt; to automatically
 redirect the content to another page.&lt;/p&gt;
 </description>

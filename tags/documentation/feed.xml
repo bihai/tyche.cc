@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>https://tyche.cc/tags/documentation/feed/index.xml</link>
+        <link>http://tyche.cc/tags/documentation/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,73 +10,73 @@
         
         <item>
             <title>Camunda Docs</title>
-            <link>https://tyche.cc/showcase/camunda-docs/</link>
+            <link>http://tyche.cc/showcase/camunda-docs/</link>
             <pubDate>Tue, 01 Dec 2015 04:20:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/camunda-docs/</guid>
+            <guid>http://tyche.cc/showcase/camunda-docs/</guid>
             <description></description>
         </item>
         
         <item>
             <title>&lt;span lang=&#34;zh-CN&#34;&gt;语林灵&lt;/span&gt; (Yulinling)</title>
-            <link>https://tyche.cc/showcase/yulinling/</link>
+            <link>http://tyche.cc/showcase/yulinling/</link>
             <pubDate>Wed, 09 Sep 2015 21:42:00 -0400</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/yulinling/</guid>
+            <guid>http://tyche.cc/showcase/yulinling/</guid>
             <description></description>
         </item>
         
         <item>
             <title>LearnOverpass</title>
-            <link>https://tyche.cc/showcase/learnoverpass/</link>
+            <link>http://tyche.cc/showcase/learnoverpass/</link>
             <pubDate>Sat, 06 Jun 2015 12:51:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/learnoverpass/</guid>
+            <guid>http://tyche.cc/showcase/learnoverpass/</guid>
             <description></description>
         </item>
         
         <item>
             <title>Firefox Site Compatibility</title>
-            <link>https://tyche.cc/showcase/fxsitecompat/</link>
+            <link>http://tyche.cc/showcase/fxsitecompat/</link>
             <pubDate>Tue, 26 Aug 2014 19:40:00 -0400</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/fxsitecompat/</guid>
+            <guid>http://tyche.cc/showcase/fxsitecompat/</guid>
             <description></description>
         </item>
         
         <item>
             <title>Vamp.io</title>
-            <link>https://tyche.cc/showcase/vamp/</link>
+            <link>http://tyche.cc/showcase/vamp/</link>
             <pubDate>Thu, 26 Jun 2014 15:45:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/vamp/</guid>
+            <guid>http://tyche.cc/showcase/vamp/</guid>
             <description></description>
         </item>
         
         <item>
             <title>YSlow Rules</title>
-            <link>https://tyche.cc/showcase/yslow-rules/</link>
+            <link>http://tyche.cc/showcase/yslow-rules/</link>
             <pubDate>Mon, 07 Apr 2014 10:45:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/yslow-rules/</guid>
+            <guid>http://tyche.cc/showcase/yslow-rules/</guid>
             <description></description>
         </item>
         
         <item>
             <title>CloudShark</title>
-            <link>https://tyche.cc/showcase/cloudshark/</link>
+            <link>http://tyche.cc/showcase/cloudshark/</link>
             <pubDate>Thu, 27 Mar 2014 09:45:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/cloudshark/</guid>
+            <guid>http://tyche.cc/showcase/cloudshark/</guid>
             <description></description>
         </item>
         
         <item>
             <title>Hugo</title>
-            <link>https://tyche.cc/showcase/hugo/</link>
+            <link>http://tyche.cc/showcase/hugo/</link>
             <pubDate>Mon, 01 Jul 2013 07:32:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/hugo/</guid>
+            <guid>http://tyche.cc/showcase/hugo/</guid>
             <description></description>
         </item>
         

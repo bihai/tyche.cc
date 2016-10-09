@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>https://tyche.cc/categories/%E9%83%A8%E7%BD%B2%E4%B8%8A%E7%BA%BF/feed/index.xml</link>
+        <link>http://tyche.cc/categories/%E9%83%A8%E7%BD%B2%E4%B8%8A%E7%BA%BF/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title>通过webhook将Hugo自动部署至GitHub Pages和GitCafe Pages</title>
-            <link>https://tyche.cc/post/coderzh-automated-deploy-hugo/</link>
+            <link>http://tyche.cc/post/coderzh-automated-deploy-hugo/</link>
             <pubDate>Sun, 13 Sep 2015 08:48:52 CST</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/post/coderzh-automated-deploy-hugo/</guid>
+            <guid>http://tyche.cc/post/coderzh-automated-deploy-hugo/</guid>
             <description>&lt;p&gt;本文的主要内容如标题所示，通过webhook将Hugo自动部署至GitHub Pages和GitCafe Pages。如果你正好有这个需求，看这篇文章正好，可以节省你不少时间。如果不是，了解一下也无妨。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>https://tyche.cc/feed/index.xml</link>
+        <link>http://tyche.cc/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title>使用hugo搭建个人博客站点</title>
-            <link>https://tyche.cc/post/coderzh-hugo/</link>
+            <link>http://tyche.cc/post/coderzh-hugo/</link>
             <pubDate>Sat, 29 Aug 2015 16:52:15 CST</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/post/coderzh-hugo/</guid>
+            <guid>http://tyche.cc/post/coderzh-hugo/</guid>
             <description>&lt;p&gt;Hugo是一个用Go语言编写的静态网站生成器，它使用起来非常简单，相对于Jekyll复杂的安装设置来说，Hugo仅需要一个二进制文件hugo(hugo.exe)即可轻松用于本地调试和生成静态页面。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -250,10 +250,10 @@ $ git push -u origin master
         
         <item>
             <title>使用Hugo Import一键迁移Jekyll</title>
-            <link>https://tyche.cc/post/coderzh-hugo-import-from-jekyll/</link>
+            <link>http://tyche.cc/post/coderzh-hugo-import-from-jekyll/</link>
             <pubDate>Sun, 11 Oct 2015 10:06:11 CST</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/post/coderzh-hugo-import-from-jekyll/</guid>
+            <guid>http://tyche.cc/post/coderzh-hugo-import-from-jekyll/</guid>
             <description>&lt;p&gt;&lt;img src=&#34;http://7xlx3k.com1.z0.glb.clouddn.com/HugoImportJekyll.png-wt&#34; alt=&#34;HugoImportJekyll&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -329,10 +329,10 @@ $ git push -u origin master
         
         <item>
             <title>通过webhook将Hugo自动部署至GitHub Pages和GitCafe Pages</title>
-            <link>https://tyche.cc/post/coderzh-automated-deploy-hugo/</link>
+            <link>http://tyche.cc/post/coderzh-automated-deploy-hugo/</link>
             <pubDate>Sun, 13 Sep 2015 08:48:52 CST</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/post/coderzh-automated-deploy-hugo/</guid>
+            <guid>http://tyche.cc/post/coderzh-automated-deploy-hugo/</guid>
             <description>&lt;p&gt;本文的主要内容如标题所示，通过webhook将Hugo自动部署至GitHub Pages和GitCafe Pages。如果你正好有这个需求，看这篇文章正好，可以节省你不少时间。如果不是，了解一下也无妨。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -473,10 +473,10 @@ go version
         
         <item>
             <title>给Hugo提交了一个PR</title>
-            <link>https://tyche.cc/post/coderzh-a-hugo-pull-request/</link>
+            <link>http://tyche.cc/post/coderzh-a-hugo-pull-request/</link>
             <pubDate>Thu, 03 Sep 2015 08:55:31 CST</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/post/coderzh-a-hugo-pull-request/</guid>
+            <guid>http://tyche.cc/post/coderzh-a-hugo-pull-request/</guid>
             <description>&lt;p&gt;给Hugo提交了一个Pull Request，并且通过了，记录一下。PR的内容是在config里增加了disablePathToLower选项，可以配置是否需要阻止Hugo自动将路径转换为小写。在站点从旧的系统里迁移到Hugo中时会非常有用。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -542,10 +542,10 @@ disablePathToLower: true
         
         <item>
             <title>Video</title>
-            <link>https://tyche.cc/post/customproject/video/</link>
+            <link>http://tyche.cc/post/customproject/video/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/post/customproject/video/</guid>
+            <guid>http://tyche.cc/post/customproject/video/</guid>
             <description>&lt;p&gt;Videos can be provided via:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;video_mp4 = &amp;quot;/vid/vid_480x320.mp4&amp;quot;
@@ -569,10 +569,10 @@ support HTML5 video.&lt;/p&gt;
         
         <item>
             <title>Video</title>
-            <link>https://tyche.cc/project/video/</link>
+            <link>http://tyche.cc/project/video/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/project/video/</guid>
+            <guid>http://tyche.cc/project/video/</guid>
             <description>&lt;p&gt;Videos can be provided via:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;video_mp4 = &amp;quot;/vid/vid_480x320.mp4&amp;quot;
@@ -596,10 +596,10 @@ support HTML5 video.&lt;/p&gt;
         
         <item>
             <title>About tyche.cc</title>
-            <link>https://tyche.cc/about/</link>
+            <link>http://tyche.cc/about/</link>
             <pubDate>Wed, 28 Sep 2016 10:00:47 CST</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/about/</guid>
+            <guid>http://tyche.cc/about/</guid>
             <description>
 
 &lt;p&gt;&lt;img src=&#34;https://cdn.v2ex.co/avatar/afec/1e2e/94644_large.png?m=1473034381&#34; alt=&#34;nhew&#34; /&gt;&lt;/p&gt;
@@ -629,10 +629,10 @@ Tyche很有意思，作为希腊女神，她既是好运气的给予者也是邪
         
         <item>
             <title>Welcome to tyche.cc</title>
-            <link>https://tyche.cc/post/2016/2016-09-25-Welcome%20to%20tyche/</link>
+            <link>http://tyche.cc/post/2016/2016-09-25-Welcome%20to%20tyche/</link>
             <pubDate>Sun, 25 Sep 2016 18:53:52 CST</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/post/2016/2016-09-25-Welcome%20to%20tyche/</guid>
+            <guid>http://tyche.cc/post/2016/2016-09-25-Welcome%20to%20tyche/</guid>
             <description>
 
 &lt;p&gt;&lt;img src=&#34;https://cdn.v2ex.co/avatar/afec/1e2e/94644_large.png?m=1473034381&#34; alt=&#34;nhew&#34; /&gt;&lt;/p&gt;
@@ -662,64 +662,64 @@ Tyche很有意思，作为希腊女神，她既是好运气的给予者也是邪
         
         <item>
             <title>cdnoverview.com</title>
-            <link>https://tyche.cc/showcase/cdnoverview/</link>
+            <link>http://tyche.cc/showcase/cdnoverview/</link>
             <pubDate>Wed, 17 Feb 2016 15:19:08 &#43;0100</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/cdnoverview/</guid>
+            <guid>http://tyche.cc/showcase/cdnoverview/</guid>
             <description></description>
         </item>
         
         <item>
             <title>gntech.se</title>
-            <link>https://tyche.cc/showcase/gntech/</link>
+            <link>http://tyche.cc/showcase/gntech/</link>
             <pubDate>Sat, 13 Feb 2016 21:47:27 &#43;0100</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/gntech/</guid>
+            <guid>http://tyche.cc/showcase/gntech/</guid>
             <description></description>
         </item>
         
         <item>
             <title>jorgennilsson.com</title>
-            <link>https://tyche.cc/showcase/jorgennilsson/</link>
+            <link>http://tyche.cc/showcase/jorgennilsson/</link>
             <pubDate>Thu, 11 Feb 2016 23:41:27 &#43;0100</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/jorgennilsson/</guid>
+            <guid>http://tyche.cc/showcase/jorgennilsson/</guid>
             <description></description>
         </item>
         
         <item>
             <title>shelan.org</title>
-            <link>https://tyche.cc/showcase/shelan/</link>
+            <link>http://tyche.cc/showcase/shelan/</link>
             <pubDate>Sun, 07 Feb 2016 10:30:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/shelan/</guid>
+            <guid>http://tyche.cc/showcase/shelan/</guid>
             <description></description>
         </item>
         
         <item>
             <title>Data Pipeline Architect</title>
-            <link>https://tyche.cc/showcase/datapipelinearchitect/</link>
+            <link>http://tyche.cc/showcase/datapipelinearchitect/</link>
             <pubDate>Thu, 04 Feb 2016 18:30:07 -0500</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/datapipelinearchitect/</guid>
+            <guid>http://tyche.cc/showcase/datapipelinearchitect/</guid>
             <description></description>
         </item>
         
         <item>
             <title>David Allen</title>
-            <link>https://tyche.cc/showcase/davidrallen/</link>
+            <link>http://tyche.cc/showcase/davidrallen/</link>
             <pubDate>Wed, 03 Feb 2016 11:49:07 -0500</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/davidrallen/</guid>
+            <guid>http://tyche.cc/showcase/davidrallen/</guid>
             <description></description>
         </item>
         
         <item>
             <title>Lee Penney</title>
-            <link>https://tyche.cc/showcase/leepenney/</link>
+            <link>http://tyche.cc/showcase/leepenney/</link>
             <pubDate>Sun, 24 Jan 2016 16:10:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/leepenney/</guid>
+            <guid>http://tyche.cc/showcase/leepenney/</guid>
             <description></description>
         </item>
         

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>https://tyche.cc/tags/audiophile/feed/index.xml</link>
+        <link>http://tyche.cc/tags/audiophile/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title>LosslessLife</title>
-            <link>https://tyche.cc/showcase/losslesslife/</link>
+            <link>http://tyche.cc/showcase/losslesslife/</link>
             <pubDate>Sun, 15 Nov 2015 11:20:00 -0800</pubDate>
             <author>bihai</author>
-            <guid>https://tyche.cc/showcase/losslesslife/</guid>
+            <guid>http://tyche.cc/showcase/losslesslife/</guid>
             <description></description>
         </item>
         
