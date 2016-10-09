@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>http://tyche.cc/tags/screencasts/feed/index.xml</link>
+        <link>https://tyche.cc/tags/screencasts/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title>Go in 5 minutes</title>
-            <link>http://tyche.cc/showcase/goin5minutes/</link>
+            <link>https://tyche.cc/showcase/goin5minutes/</link>
             <pubDate>Fri, 20 Nov 2015 20:46:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/showcase/goin5minutes/</guid>
+            <guid>https://tyche.cc/showcase/goin5minutes/</guid>
             <description></description>
         </item>
         

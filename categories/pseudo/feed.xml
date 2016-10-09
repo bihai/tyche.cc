@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>http://tyche.cc/categories/pseudo/feed/index.xml</link>
+        <link>https://tyche.cc/categories/pseudo/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title>Hugo is for lovers</title>
-            <link>http://tyche.cc/post/hugo-is-for-lovers/</link>
+            <link>https://tyche.cc/post/hugo-is-for-lovers/</link>
             <pubDate>Mon, 03 Aug 2015 13:39:46 &#43;0200</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/post/hugo-is-for-lovers/</guid>
+            <guid>https://tyche.cc/post/hugo-is-for-lovers/</guid>
             <description>
 
 &lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
@@ -23,7 +23,7 @@ appropriate version for your os and architecture.&lt;/p&gt;
 
 &lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
 
-&lt;p&gt;More complete instructions are available at &lt;a href=&#34;http://tyche.cc/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;More complete instructions are available at &lt;a href=&#34;https://tyche.cc/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;step-2-build-the-docs&#34;&gt;Step 2. Build the Docs&lt;/h2&gt;
 

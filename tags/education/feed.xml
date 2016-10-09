@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>http://tyche.cc/tags/education/feed/index.xml</link>
+        <link>https://tyche.cc/tags/education/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,37 +10,37 @@
         
         <item>
             <title>Web Study List</title>
-            <link>http://tyche.cc/showcase/webstudylist/</link>
+            <link>https://tyche.cc/showcase/webstudylist/</link>
             <pubDate>Thu, 21 Jan 2016 23:33:01 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/showcase/webstudylist/</guid>
+            <guid>https://tyche.cc/showcase/webstudylist/</guid>
             <description></description>
         </item>
         
         <item>
             <title>LosslessLife</title>
-            <link>http://tyche.cc/showcase/losslesslife/</link>
+            <link>https://tyche.cc/showcase/losslesslife/</link>
             <pubDate>Sun, 15 Nov 2015 11:20:00 -0800</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/showcase/losslesslife/</guid>
+            <guid>https://tyche.cc/showcase/losslesslife/</guid>
             <description></description>
         </item>
         
         <item>
             <title>Chinese Grammar</title>
-            <link>http://tyche.cc/showcase/chinese-grammar/</link>
+            <link>https://tyche.cc/showcase/chinese-grammar/</link>
             <pubDate>Sun, 23 Aug 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/showcase/chinese-grammar/</guid>
+            <guid>https://tyche.cc/showcase/chinese-grammar/</guid>
             <description></description>
         </item>
         
         <item>
             <title>ucsb</title>
-            <link>http://tyche.cc/showcase/ucsb/</link>
+            <link>https://tyche.cc/showcase/ucsb/</link>
             <pubDate>Tue, 26 Aug 2014 14:12:55 -0400</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/showcase/ucsb/</guid>
+            <guid>https://tyche.cc/showcase/ucsb/</guid>
             <description></description>
         </item>
         

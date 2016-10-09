@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>http://tyche.cc/categories/%E5%8A%9F%E8%83%BD%E6%94%B9%E8%BF%9B/feed/index.xml</link>
+        <link>https://tyche.cc/categories/%E5%8A%9F%E8%83%BD%E6%94%B9%E8%BF%9B/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title>使用Hugo Import一键迁移Jekyll</title>
-            <link>http://tyche.cc/post/coderzh-hugo-import-from-jekyll/</link>
+            <link>https://tyche.cc/post/coderzh-hugo-import-from-jekyll/</link>
             <pubDate>Sun, 11 Oct 2015 10:06:11 CST</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/post/coderzh-hugo-import-from-jekyll/</guid>
+            <guid>https://tyche.cc/post/coderzh-hugo-import-from-jekyll/</guid>
             <description>&lt;p&gt;&lt;img src=&#34;http://7xlx3k.com1.z0.glb.clouddn.com/HugoImportJekyll.png-wt&#34; alt=&#34;HugoImportJekyll&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -89,10 +89,10 @@
         
         <item>
             <title>给Hugo提交了一个PR</title>
-            <link>http://tyche.cc/post/coderzh-a-hugo-pull-request/</link>
+            <link>https://tyche.cc/post/coderzh-a-hugo-pull-request/</link>
             <pubDate>Thu, 03 Sep 2015 08:55:31 CST</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/post/coderzh-a-hugo-pull-request/</guid>
+            <guid>https://tyche.cc/post/coderzh-a-hugo-pull-request/</guid>
             <description>&lt;p&gt;给Hugo提交了一个Pull Request，并且通过了，记录一下。PR的内容是在config里增加了disablePathToLower选项，可以配置是否需要阻止Hugo自动将路径转换为小写。在站点从旧的系统里迁移到Hugo中时会非常有用。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -158,10 +158,10 @@ disablePathToLower: true
         
         <item>
             <title>Hugo 自动化部署脚本 deploy.py</title>
-            <link>http://tyche.cc/2015/11/21/hugo-deploy-script/</link>
+            <link>https://tyche.cc/2015/11/21/hugo-deploy-script/</link>
             <pubDate>Sat, 21 Nov 2015 17:48:04 CST</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/2015/11/21/hugo-deploy-script/</guid>
+            <guid>https://tyche.cc/2015/11/21/hugo-deploy-script/</guid>
             <description>&lt;p&gt;之前我写了一个脚本用来自动部署我的 Hugo 博客，今天闲来无事完善了一下这个脚本，使这个脚本更加通用一些。&lt;/p&gt;
 
 &lt;p&gt;脚本路径：&lt;a href=&#34;https://github.com/coderzh/coderzh-hugo-blog/blob/master/deploy.py&#34;&gt;https://github.com/coderzh/coderzh-hugo-blog/blob/master/deploy.py&lt;/a&gt;&lt;/p&gt;

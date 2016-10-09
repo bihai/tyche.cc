@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>http://tyche.cc/tags/google-analytics/feed/index.xml</link>
+        <link>https://tyche.cc/tags/google-analytics/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title></title>
-            <link>http://tyche.cc/theme/cactus/</link>
+            <link>https://tyche.cc/theme/cactus/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/theme/cactus/</guid>
+            <guid>https://tyche.cc/theme/cactus/</guid>
             <description>
 
 &lt;h1 id=&#34;cactus-theme&#34;&gt;Cactus Theme&lt;/h1&gt;
@@ -85,10 +85,10 @@ $ git clone git@github.com:digitalcraftsman/hugo-cactus-theme.git
         
         <item>
             <title></title>
-            <link>http://tyche.cc/theme/hikari/</link>
+            <link>https://tyche.cc/theme/hikari/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/theme/hikari/</guid>
+            <guid>https://tyche.cc/theme/hikari/</guid>
             <description>
 
 &lt;h1 id=&#34;hikari-theme&#34;&gt;Hikari theme&lt;/h1&gt;
@@ -166,10 +166,10 @@ $ git clone git@github.com:digitalcraftsman/hugo-hikari-theme.git
         
         <item>
             <title></title>
-            <link>http://tyche.cc/theme/hugo-icarus/</link>
+            <link>https://tyche.cc/theme/hugo-icarus/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/theme/hugo-icarus/</guid>
+            <guid>https://tyche.cc/theme/hugo-icarus/</guid>
             <description>
 
 &lt;h1 id=&#34;icarus&#34;&gt;Icarus&lt;/h1&gt;
@@ -353,10 +353,10 @@ menu = &amp;quot;main&amp;quot;
         
         <item>
             <title></title>
-            <link>http://tyche.cc/theme/hugo-minimalist/</link>
+            <link>https://tyche.cc/theme/hugo-minimalist/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/theme/hugo-minimalist/</guid>
+            <guid>https://tyche.cc/theme/hugo-minimalist/</guid>
             <description>
 
 &lt;h1 id=&#34;minimalist&#34;&gt;Minimalist&lt;/h1&gt;
@@ -423,10 +423,10 @@ $ git clone git@github.com:digitalcraftsman/hugo-minimalist-theme.git
         
         <item>
             <title></title>
-            <link>http://tyche.cc/theme/steam/</link>
+            <link>https://tyche.cc/theme/steam/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/theme/steam/</guid>
+            <guid>https://tyche.cc/theme/steam/</guid>
             <description>
 
 &lt;h1 id=&#34;steam&#34;&gt;Steam&lt;/h1&gt;
@@ -514,10 +514,10 @@ menu  = &amp;quot;main&amp;quot;
         
         <item>
             <title></title>
-            <link>http://tyche.cc/theme/strata/</link>
+            <link>https://tyche.cc/theme/strata/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/theme/strata/</guid>
+            <guid>https://tyche.cc/theme/strata/</guid>
             <description>
 
 &lt;h1 id=&#34;strata-theme&#34;&gt;Strata Theme&lt;/h1&gt;

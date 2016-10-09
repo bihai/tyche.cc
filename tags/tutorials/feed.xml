@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>http://tyche.cc/tags/tutorials/feed/index.xml</link>
+        <link>https://tyche.cc/tags/tutorials/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title>Java Union</title>
-            <link>http://tyche.cc/showcase/javaunion/</link>
+            <link>https://tyche.cc/showcase/javaunion/</link>
             <pubDate>Wed, 20 Jan 2016 01:28:16 CST</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/showcase/javaunion/</guid>
+            <guid>https://tyche.cc/showcase/javaunion/</guid>
             <description></description>
         </item>
         

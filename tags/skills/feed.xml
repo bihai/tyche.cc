@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>http://tyche.cc/tags/skills/feed/index.xml</link>
+        <link>https://tyche.cc/tags/skills/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title></title>
-            <link>http://tyche.cc/theme/artists/</link>
+            <link>https://tyche.cc/theme/artists/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/theme/artists/</guid>
+            <guid>https://tyche.cc/theme/artists/</guid>
             <description>
 
 &lt;h1 id=&#34;artists-theme&#34;&gt;Artists Theme&lt;/h1&gt;

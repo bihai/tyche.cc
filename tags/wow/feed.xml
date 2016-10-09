@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>http://tyche.cc/tags/wow/feed/index.xml</link>
+        <link>https://tyche.cc/tags/wow/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title>Video</title>
-            <link>http://tyche.cc/post/customproject/video/</link>
+            <link>https://tyche.cc/post/customproject/video/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/post/customproject/video/</guid>
+            <guid>https://tyche.cc/post/customproject/video/</guid>
             <description>&lt;p&gt;Videos can be provided via:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;video_mp4 = &amp;quot;/vid/vid_480x320.mp4&amp;quot;
@@ -37,10 +37,10 @@ support HTML5 video.&lt;/p&gt;
         
         <item>
             <title>Video</title>
-            <link>http://tyche.cc/project/video/</link>
+            <link>https://tyche.cc/project/video/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/project/video/</guid>
+            <guid>https://tyche.cc/project/video/</guid>
             <description>&lt;p&gt;Videos can be provided via:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;video_mp4 = &amp;quot;/vid/vid_480x320.mp4&amp;quot;

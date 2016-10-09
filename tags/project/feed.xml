@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>http://tyche.cc/tags/project/feed/index.xml</link>
+        <link>https://tyche.cc/tags/project/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,28 +10,28 @@
         
         <item>
             <title>ninya.io</title>
-            <link>http://tyche.cc/showcase/ninya/</link>
+            <link>https://tyche.cc/showcase/ninya/</link>
             <pubDate>Tue, 26 Aug 2014 09:47:00 -0400</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/showcase/ninya/</guid>
+            <guid>https://tyche.cc/showcase/ninya/</guid>
             <description></description>
         </item>
         
         <item>
             <title>tendermint</title>
-            <link>http://tyche.cc/showcase/tendermint/</link>
+            <link>https://tyche.cc/showcase/tendermint/</link>
             <pubDate>Tue, 26 Aug 2014 09:34:42 -0400</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/showcase/tendermint/</guid>
+            <guid>https://tyche.cc/showcase/tendermint/</guid>
             <description></description>
         </item>
         
         <item>
             <title>GoGB</title>
-            <link>http://tyche.cc/showcase/gogb/</link>
+            <link>https://tyche.cc/showcase/gogb/</link>
             <pubDate>Fri, 01 Nov 2013 07:32:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/showcase/gogb/</guid>
+            <guid>https://tyche.cc/showcase/gogb/</guid>
             <description></description>
         </item>
         

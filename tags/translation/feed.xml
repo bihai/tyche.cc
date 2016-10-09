@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>http://tyche.cc/tags/translation/feed/index.xml</link>
+        <link>https://tyche.cc/tags/translation/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,19 +10,19 @@
         
         <item>
             <title>Firefox Site Compatibility</title>
-            <link>http://tyche.cc/showcase/fxsitecompat/</link>
+            <link>https://tyche.cc/showcase/fxsitecompat/</link>
             <pubDate>Tue, 26 Aug 2014 19:40:00 -0400</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/showcase/fxsitecompat/</guid>
+            <guid>https://tyche.cc/showcase/fxsitecompat/</guid>
             <description></description>
         </item>
         
         <item>
             <title>YSlow Rules</title>
-            <link>http://tyche.cc/showcase/yslow-rules/</link>
+            <link>https://tyche.cc/showcase/yslow-rules/</link>
             <pubDate>Mon, 07 Apr 2014 10:45:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/showcase/yslow-rules/</guid>
+            <guid>https://tyche.cc/showcase/yslow-rules/</guid>
             <description></description>
         </item>
         

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>http://tyche.cc/tags/awesome-fonts/feed/index.xml</link>
+        <link>https://tyche.cc/tags/awesome-fonts/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title></title>
-            <link>http://tyche.cc/theme/hugo-uno/</link>
+            <link>https://tyche.cc/theme/hugo-uno/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/theme/hugo-uno/</guid>
+            <guid>https://tyche.cc/theme/hugo-uno/</guid>
             <description>
 
 &lt;h1 id=&#34;hugo-uno&#34;&gt;hugo-uno&lt;/h1&gt;
@@ -192,10 +192,10 @@ bourbon help
         
         <item>
             <title></title>
-            <link>http://tyche.cc/theme/hugoscroll/</link>
+            <link>https://tyche.cc/theme/hugoscroll/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/theme/hugoscroll/</guid>
+            <guid>https://tyche.cc/theme/hugoscroll/</guid>
             <description>
 
 &lt;h1 id=&#34;hugo-scroll&#34;&gt;Hugo Scroll&lt;/h1&gt;

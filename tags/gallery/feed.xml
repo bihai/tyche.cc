@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>http://tyche.cc/tags/gallery/feed/index.xml</link>
+        <link>https://tyche.cc/tags/gallery/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title></title>
-            <link>http://tyche.cc/theme/hugo-icarus/</link>
+            <link>https://tyche.cc/theme/hugo-icarus/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/theme/hugo-icarus/</guid>
+            <guid>https://tyche.cc/theme/hugo-icarus/</guid>
             <description>
 
 &lt;h1 id=&#34;icarus&#34;&gt;Icarus&lt;/h1&gt;
@@ -197,10 +197,10 @@ menu = &amp;quot;main&amp;quot;
         
         <item>
             <title></title>
-            <link>http://tyche.cc/theme/hugo-uno/</link>
+            <link>https://tyche.cc/theme/hugo-uno/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/theme/hugo-uno/</guid>
+            <guid>https://tyche.cc/theme/hugo-uno/</guid>
             <description>
 
 &lt;h1 id=&#34;hugo-uno&#34;&gt;hugo-uno&lt;/h1&gt;
@@ -379,10 +379,10 @@ bourbon help
         
         <item>
             <title></title>
-            <link>http://tyche.cc/theme/redlounge/</link>
+            <link>https://tyche.cc/theme/redlounge/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/theme/redlounge/</guid>
+            <guid>https://tyche.cc/theme/redlounge/</guid>
             <description>
 
 &lt;h1 id=&#34;red-lounge&#34;&gt;Red Lounge&lt;/h1&gt;

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Post-rsses on tyche.cc</title>
-        <link>http://tyche.cc/post/feed/index.xml</link>
+        <link>https://tyche.cc/post/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title>使用hugo搭建个人博客站点</title>
-            <link>http://tyche.cc/post/coderzh-hugo/</link>
+            <link>https://tyche.cc/post/coderzh-hugo/</link>
             <pubDate>Sat, 29 Aug 2015 16:52:15 CST</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/post/coderzh-hugo/</guid>
+            <guid>https://tyche.cc/post/coderzh-hugo/</guid>
             <description>&lt;p&gt;Hugo是一个用Go语言编写的静态网站生成器，它使用起来非常简单，相对于Jekyll复杂的安装设置来说，Hugo仅需要一个二进制文件hugo(hugo.exe)即可轻松用于本地调试和生成静态页面。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -250,10 +250,10 @@ $ git push -u origin master
         
         <item>
             <title>使用Hugo Import一键迁移Jekyll</title>
-            <link>http://tyche.cc/post/coderzh-hugo-import-from-jekyll/</link>
+            <link>https://tyche.cc/post/coderzh-hugo-import-from-jekyll/</link>
             <pubDate>Sun, 11 Oct 2015 10:06:11 CST</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/post/coderzh-hugo-import-from-jekyll/</guid>
+            <guid>https://tyche.cc/post/coderzh-hugo-import-from-jekyll/</guid>
             <description>&lt;p&gt;&lt;img src=&#34;http://7xlx3k.com1.z0.glb.clouddn.com/HugoImportJekyll.png-wt&#34; alt=&#34;HugoImportJekyll&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -329,10 +329,10 @@ $ git push -u origin master
         
         <item>
             <title>通过webhook将Hugo自动部署至GitHub Pages和GitCafe Pages</title>
-            <link>http://tyche.cc/post/coderzh-automated-deploy-hugo/</link>
+            <link>https://tyche.cc/post/coderzh-automated-deploy-hugo/</link>
             <pubDate>Sun, 13 Sep 2015 08:48:52 CST</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/post/coderzh-automated-deploy-hugo/</guid>
+            <guid>https://tyche.cc/post/coderzh-automated-deploy-hugo/</guid>
             <description>&lt;p&gt;本文的主要内容如标题所示，通过webhook将Hugo自动部署至GitHub Pages和GitCafe Pages。如果你正好有这个需求，看这篇文章正好，可以节省你不少时间。如果不是，了解一下也无妨。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -473,10 +473,10 @@ go version
         
         <item>
             <title>给Hugo提交了一个PR</title>
-            <link>http://tyche.cc/post/coderzh-a-hugo-pull-request/</link>
+            <link>https://tyche.cc/post/coderzh-a-hugo-pull-request/</link>
             <pubDate>Thu, 03 Sep 2015 08:55:31 CST</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/post/coderzh-a-hugo-pull-request/</guid>
+            <guid>https://tyche.cc/post/coderzh-a-hugo-pull-request/</guid>
             <description>&lt;p&gt;给Hugo提交了一个Pull Request，并且通过了，记录一下。PR的内容是在config里增加了disablePathToLower选项，可以配置是否需要阻止Hugo自动将路径转换为小写。在站点从旧的系统里迁移到Hugo中时会非常有用。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -542,10 +542,10 @@ disablePathToLower: true
         
         <item>
             <title>Video</title>
-            <link>http://tyche.cc/post/customproject/video/</link>
+            <link>https://tyche.cc/post/customproject/video/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/post/customproject/video/</guid>
+            <guid>https://tyche.cc/post/customproject/video/</guid>
             <description>&lt;p&gt;Videos can be provided via:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;video_mp4 = &amp;quot;/vid/vid_480x320.mp4&amp;quot;
@@ -569,10 +569,10 @@ support HTML5 video.&lt;/p&gt;
         
         <item>
             <title>Welcome to tyche.cc</title>
-            <link>http://tyche.cc/post/2016/2016-09-25-Welcome%20to%20tyche/</link>
+            <link>https://tyche.cc/post/2016/2016-09-25-Welcome%20to%20tyche/</link>
             <pubDate>Sun, 25 Sep 2016 18:53:52 CST</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/post/2016/2016-09-25-Welcome%20to%20tyche/</guid>
+            <guid>https://tyche.cc/post/2016/2016-09-25-Welcome%20to%20tyche/</guid>
             <description>
 
 &lt;p&gt;&lt;img src=&#34;https://cdn.v2ex.co/avatar/afec/1e2e/94644_large.png?m=1473034381&#34; alt=&#34;nhew&#34; /&gt;&lt;/p&gt;
@@ -602,10 +602,10 @@ Tyche很有意思，作为希腊女神，她既是好运气的给予者也是邪
         
         <item>
             <title>Hugo 自动化部署脚本 deploy.py</title>
-            <link>http://tyche.cc/2015/11/21/hugo-deploy-script/</link>
+            <link>https://tyche.cc/2015/11/21/hugo-deploy-script/</link>
             <pubDate>Sat, 21 Nov 2015 17:48:04 CST</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/2015/11/21/hugo-deploy-script/</guid>
+            <guid>https://tyche.cc/2015/11/21/hugo-deploy-script/</guid>
             <description>&lt;p&gt;之前我写了一个脚本用来自动部署我的 Hugo 博客，今天闲来无事完善了一下这个脚本，使这个脚本更加通用一些。&lt;/p&gt;
 
 &lt;p&gt;脚本路径：&lt;a href=&#34;https://github.com/coderzh/coderzh-hugo-blog/blob/master/deploy.py&#34;&gt;https://github.com/coderzh/coderzh-hugo-blog/blob/master/deploy.py&lt;/a&gt;&lt;/p&gt;
@@ -667,10 +667,10 @@ DEPLOY_DIR = &#39;gh-pages&#39;
         
         <item>
             <title>Introducing Icarus and its features</title>
-            <link>http://tyche.cc/post/introducing-icarus-and-its-features/</link>
+            <link>https://tyche.cc/post/introducing-icarus-and-its-features/</link>
             <pubDate>Sat, 10 Oct 2015 16:56:43 &#43;0200</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/post/introducing-icarus-and-its-features/</guid>
+            <guid>https://tyche.cc/post/introducing-icarus-and-its-features/</guid>
             <description>
 
 &lt;p&gt;Icarus is a responsive and customizable theme for bloggers. It&amp;rsquo;s a port of the same-named theme for &lt;a href=&#34;//hexo.io&#34;&gt;Hexo&lt;/a&gt; made by &lt;a href=&#34;https://github.com/ppoffice&#34;&gt;Ruipeng Zhang&lt;/a&gt;. Noteworthy features of this Hugo theme are the integration of a comment-system powered by Disqus, localization (l10n) support, syntax highlighting for source code, optional widgets for the sidebar and a handful &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34;&gt;shortcodes&lt;/a&gt; to make your life easier.&lt;/p&gt;
@@ -816,10 +816,10 @@ disable_widgets = true
         
         <item>
             <title>Migrate from Jekyll</title>
-            <link>http://tyche.cc/post/migrate-from-jekyll/</link>
+            <link>https://tyche.cc/post/migrate-from-jekyll/</link>
             <pubDate>Sat, 10 Oct 2015 13:07:31 &#43;0200</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/post/migrate-from-jekyll/</guid>
+            <guid>https://tyche.cc/post/migrate-from-jekyll/</guid>
             <description>
 
 &lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
@@ -844,7 +844,7 @@ With Jekyll, something that looked like&lt;/p&gt;
 
 &lt;h2 id=&#34;create-your-hugo-configuration-file&#34;&gt;Create your Hugo configuration file&lt;/h2&gt;
 
-&lt;p&gt;Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the &lt;a href=&#34;http://tyche.cc/overview/configuration/&#34;&gt;Hugo configuration documentation&lt;/a&gt; for details.&lt;/p&gt;
+&lt;p&gt;Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the &lt;a href=&#34;https://tyche.cc/overview/configuration/&#34;&gt;Hugo configuration documentation&lt;/a&gt; for details.&lt;/p&gt;
 
 &lt;h2 id=&#34;set-your-configuration-publish-folder-to-site&#34;&gt;Set your configuration publish folder to &lt;code&gt;_site&lt;/code&gt;&lt;/h2&gt;
 
@@ -870,13 +870,13 @@ git submodule add -b gh-pages git@github.com:your-username/your-repo.git public
 
 &lt;h2 id=&#34;convert-jekyll-templates-to-hugo-templates&#34;&gt;Convert Jekyll templates to Hugo templates&lt;/h2&gt;
 
-&lt;p&gt;That&amp;rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to &lt;a href=&#34;http://jekyllrb.com/docs/templates/&#34;&gt;Jekyll&amp;rsquo;s template documentation&lt;/a&gt; if you need to refresh your memory on how you built your blog and &lt;a href=&#34;http://tyche.cc/layout/templates/&#34;&gt;Hugo&amp;rsquo;s template&lt;/a&gt; to learn Hugo&amp;rsquo;s way.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to &lt;a href=&#34;http://jekyllrb.com/docs/templates/&#34;&gt;Jekyll&amp;rsquo;s template documentation&lt;/a&gt; if you need to refresh your memory on how you built your blog and &lt;a href=&#34;https://tyche.cc/layout/templates/&#34;&gt;Hugo&amp;rsquo;s template&lt;/a&gt; to learn Hugo&amp;rsquo;s way.&lt;/p&gt;
 
 &lt;p&gt;As a single reference data point, converting my templates for &lt;a href=&#34;http://heyitsalex.net/&#34;&gt;heyitsalex.net&lt;/a&gt; took me no more than a few hours.&lt;/p&gt;
 
 &lt;h2 id=&#34;convert-jekyll-plugins-to-hugo-shortcodes&#34;&gt;Convert Jekyll plugins to Hugo shortcodes&lt;/h2&gt;
 
-&lt;p&gt;Jekyll has &lt;a href=&#34;http://jekyllrb.com/docs/plugins/&#34;&gt;plugins&lt;/a&gt;; Hugo has &lt;a href=&#34;http://tyche.cc/doc/shortcodes/&#34;&gt;shortcodes&lt;/a&gt;. It&amp;rsquo;s fairly trivial to do a port.&lt;/p&gt;
+&lt;p&gt;Jekyll has &lt;a href=&#34;http://jekyllrb.com/docs/plugins/&#34;&gt;plugins&lt;/a&gt;; Hugo has &lt;a href=&#34;https://tyche.cc/doc/shortcodes/&#34;&gt;shortcodes&lt;/a&gt;. It&amp;rsquo;s fairly trivial to do a port.&lt;/p&gt;
 
 &lt;h3 id=&#34;implementation&#34;&gt;Implementation&lt;/h3&gt;
 
@@ -993,10 +993,10 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
         
         <item>
             <title>Linked post</title>
-            <link>http://tyche.cc/post/linked-post/</link>
+            <link>https://tyche.cc/post/linked-post/</link>
             <pubDate>Fri, 02 Oct 2015 21:49:20 &#43;0200</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/post/linked-post/</guid>
+            <guid>https://tyche.cc/post/linked-post/</guid>
             <description>&lt;p&gt;I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;menu = &amp;quot;main&amp;quot;
@@ -1012,10 +1012,10 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
         
         <item>
             <title>使用Hugo搭建静态站点</title>
-            <link>http://tyche.cc/post/tonybai-intro-of-gohugo/</link>
+            <link>https://tyche.cc/post/tonybai-intro-of-gohugo/</link>
             <pubDate>Wed, 23 Sep 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/post/tonybai-intro-of-gohugo/</guid>
+            <guid>https://tyche.cc/post/tonybai-intro-of-gohugo/</guid>
             <description>&lt;p&gt;虽然前一篇Blog宣称自己要用Markdown开始写Post，但实际操作起来还是发现了诸多不兼容问题(插件与主题间、插件与插件间的)，让编写和修改文章变得十分繁琐，于是我研究了一下静态Web站点生成工具Hugo。Hugo是由前Docker的重量级员工(2015年8月末从Docker离职)：Steve Francia实现的一个开源静态站点生成工具框架，类似于Jekyll、Octopress或Hexo，都是将特定格式(最常见的是Markdown格式)的文本文件转换为静态html文件而生成一个静态站点，多用于个人Blog站点、项目文档(Docker的官方manual Site就是用Hugo生成的)、初创公司站点等。这类工具越来越多的受到程序员等颇具“极客”精神的群体的欢迎，结合github.com等版本控制服务，采用具有简单语法格式但强大表达力的Markdown标记语言，人们可以在很短时间内就构建出一个符合自己需求的静态Web站点。在这些工具中，Hugo算是后起之秀了，它最大的优点就是Fast! 一个中等规模的站点在几分之一秒内就可以生成出来。其次是良好的跨平台特性、配置简单、使用方便等。这一切均源于其良好的基因：采用Go语言实现。Steve Francia除了Hugo平台自身外，还维护了一个Hugo Theme的Repo，这个Hugo主题库可以帮助Hugo使用者快速找到自己心仪的主题并快速搭建起静态站点。目前国内使用Hugo的人还不多，但感觉其趋势是在逐渐增多。这里写下这篇Post，也算是为大家入个门，引个路吧。&lt;/p&gt;
 
 &lt;p&gt;&amp;hellip;&lt;/p&gt;
@@ -1024,10 +1024,10 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
         
         <item>
             <title>Go is for lovers</title>
-            <link>http://tyche.cc/post/go-is-for-lovers/</link>
+            <link>https://tyche.cc/post/go-is-for-lovers/</link>
             <pubDate>Thu, 17 Sep 2015 13:47:08 &#43;0200</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/post/go-is-for-lovers/</guid>
+            <guid>https://tyche.cc/post/go-is-for-lovers/</guid>
             <description>
 
 &lt;p&gt;Hugo uses the excellent &lt;a href=&#34;http://golang.org/&amp;gt;&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;http://golang.org/pkg/html/template/&amp;gt;&#34;&gt;html/template&lt;/a&gt; library for
@@ -1086,7 +1086,7 @@ functions.&lt;/p&gt;
 &lt;p&gt;Each go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
 page you are rendering. More details are available on the
-&lt;a href=&#34;http://tyche.cc/layout/variables&#34;&gt;variables&lt;/a&gt; page.&lt;/p&gt;
+&lt;a href=&#34;https://tyche.cc/layout/variables&#34;&gt;variables&lt;/a&gt; page.&lt;/p&gt;
 
 &lt;p&gt;A variable is accessed by referencing the variable name.&lt;/p&gt;
 
@@ -1103,7 +1103,7 @@ page you are rendering. More details are available on the
 
 &lt;p&gt;Go template ship with a few functions which provide basic functionality. The go
 template system also provides a mechanism for applications to extend the
-available functions with their own. &lt;a href=&#34;http://tyche.cc/layout/functions&#34;&gt;Hugo template
+available functions with their own. &lt;a href=&#34;https://tyche.cc/layout/functions&#34;&gt;Hugo template
 functions&lt;/a&gt; provide some additional functionality we believe
 are useful for building websites. Functions are called by using their name
 followed by the required parameters separated by spaces. Template
@@ -1291,7 +1291,7 @@ you want to inside of your templates.&lt;/p&gt;
 &lt;h2 id=&#34;using-content-page-parameters&#34;&gt;Using Content (page) Parameters&lt;/h2&gt;
 
 &lt;p&gt;In each piece of content you can provide variables to be used by the
-templates. This happens in the &lt;a href=&#34;http://tyche.cc/content/front-matter&#34;&gt;front matter&lt;/a&gt;.&lt;/p&gt;
+templates. This happens in the &lt;a href=&#34;https://tyche.cc/content/front-matter&#34;&gt;front matter&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;An example of this is used in this documentation site. Most of the pages
 benefit from having the table of contents provided. Sometimes the TOC just
@@ -1370,10 +1370,10 @@ so, such as in this example:&lt;/p&gt;
         
         <item>
             <title>Hugo is for lovers</title>
-            <link>http://tyche.cc/post/hugo-is-for-lovers/</link>
+            <link>https://tyche.cc/post/hugo-is-for-lovers/</link>
             <pubDate>Mon, 03 Aug 2015 13:39:46 &#43;0200</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/post/hugo-is-for-lovers/</guid>
+            <guid>https://tyche.cc/post/hugo-is-for-lovers/</guid>
             <description>
 
 &lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
@@ -1383,7 +1383,7 @@ appropriate version for your os and architecture.&lt;/p&gt;
 
 &lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
 
-&lt;p&gt;More complete instructions are available at &lt;a href=&#34;http://tyche.cc/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;More complete instructions are available at &lt;a href=&#34;https://tyche.cc/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;step-2-build-the-docs&#34;&gt;Step 2. Build the Docs&lt;/h2&gt;
 
@@ -1457,10 +1457,10 @@ Having nearly instant feedback enables you to have your creativity flow without 
         
         <item>
             <title>Info</title>
-            <link>http://tyche.cc/post/2016/info/</link>
+            <link>https://tyche.cc/post/2016/info/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/post/2016/info/</guid>
+            <guid>https://tyche.cc/post/2016/info/</guid>
             <description>&lt;p&gt;You can optionally set an image in the front matter of a post using
 &lt;code&gt;image = &amp;quot;...&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
@@ -1468,10 +1468,10 @@ Having nearly instant feedback enables you to have your creativity flow without 
         
         <item>
             <title>Info</title>
-            <link>http://tyche.cc/post/custompost/info/</link>
+            <link>https://tyche.cc/post/custompost/info/</link>
             <pubDate>Wed, 29 Jul 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/post/custompost/info/</guid>
+            <guid>https://tyche.cc/post/custompost/info/</guid>
             <description>&lt;p&gt;You can optionally set an image in the front matter of a post using
 &lt;code&gt;image = &amp;quot;...&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>http://tyche.cc/tags/company/feed/index.xml</link>
+        <link>https://tyche.cc/tags/company/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,109 +10,109 @@
         
         <item>
             <title>Data Pipeline Architect</title>
-            <link>http://tyche.cc/showcase/datapipelinearchitect/</link>
+            <link>https://tyche.cc/showcase/datapipelinearchitect/</link>
             <pubDate>Thu, 04 Feb 2016 18:30:07 -0500</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/showcase/datapipelinearchitect/</guid>
+            <guid>https://tyche.cc/showcase/datapipelinearchitect/</guid>
             <description></description>
         </item>
         
         <item>
             <title>Rakuten Tech Blog</title>
-            <link>http://tyche.cc/showcase/rakutentech/</link>
+            <link>https://tyche.cc/showcase/rakutentech/</link>
             <pubDate>Wed, 20 Jan 2016 07:32:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/showcase/rakutentech/</guid>
+            <guid>https://tyche.cc/showcase/rakutentech/</guid>
             <description></description>
         </item>
         
         <item>
             <title>Camunda Blog</title>
-            <link>http://tyche.cc/showcase/camunda-blog/</link>
+            <link>https://tyche.cc/showcase/camunda-blog/</link>
             <pubDate>Tue, 01 Dec 2015 04:20:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/showcase/camunda-blog/</guid>
+            <guid>https://tyche.cc/showcase/camunda-blog/</guid>
             <description></description>
         </item>
         
         <item>
             <title>Camunda Docs</title>
-            <link>http://tyche.cc/showcase/camunda-docs/</link>
+            <link>https://tyche.cc/showcase/camunda-docs/</link>
             <pubDate>Tue, 01 Dec 2015 04:20:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/showcase/camunda-docs/</guid>
+            <guid>https://tyche.cc/showcase/camunda-docs/</guid>
             <description></description>
         </item>
         
         <item>
             <title>RIDING BYTES</title>
-            <link>http://tyche.cc/showcase/ridingbytes/</link>
+            <link>https://tyche.cc/showcase/ridingbytes/</link>
             <pubDate>Sun, 27 Sep 2015 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/showcase/ridingbytes/</guid>
+            <guid>https://tyche.cc/showcase/ridingbytes/</guid>
             <description></description>
         </item>
         
         <item>
             <title>greenitglobe.com</title>
-            <link>http://tyche.cc/showcase/gig/</link>
+            <link>https://tyche.cc/showcase/gig/</link>
             <pubDate>Mon, 24 Aug 2015 07:32:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/showcase/gig/</guid>
+            <guid>https://tyche.cc/showcase/gig/</guid>
             <description></description>
         </item>
         
         <item>
             <title>eSolia.com</title>
-            <link>http://tyche.cc/showcase/esolia-com/</link>
+            <link>https://tyche.cc/showcase/esolia-com/</link>
             <pubDate>Tue, 07 Jul 2015 04:32:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/showcase/esolia-com/</guid>
+            <guid>https://tyche.cc/showcase/esolia-com/</guid>
             <description></description>
         </item>
         
         <item>
             <title>eSolia.pro</title>
-            <link>http://tyche.cc/showcase/esolia-pro/</link>
+            <link>https://tyche.cc/showcase/esolia-pro/</link>
             <pubDate>Tue, 07 Jul 2015 04:32:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/showcase/esolia-pro/</guid>
+            <guid>https://tyche.cc/showcase/esolia-pro/</guid>
             <description></description>
         </item>
         
         <item>
             <title>Vamp.io</title>
-            <link>http://tyche.cc/showcase/vamp/</link>
+            <link>https://tyche.cc/showcase/vamp/</link>
             <pubDate>Thu, 26 Jun 2014 15:45:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/showcase/vamp/</guid>
+            <guid>https://tyche.cc/showcase/vamp/</guid>
             <description></description>
         </item>
         
         <item>
             <title>CloudShark</title>
-            <link>http://tyche.cc/showcase/cloudshark/</link>
+            <link>https://tyche.cc/showcase/cloudshark/</link>
             <pubDate>Thu, 27 Mar 2014 09:45:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/showcase/cloudshark/</guid>
+            <guid>https://tyche.cc/showcase/cloudshark/</guid>
             <description></description>
         </item>
         
         <item>
             <title>Chimera Art Space</title>
-            <link>http://tyche.cc/showcase/chimera-art-space/</link>
+            <link>https://tyche.cc/showcase/chimera-art-space/</link>
             <pubDate>Wed, 02 Oct 2013 07:32:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/showcase/chimera-art-space/</guid>
+            <guid>https://tyche.cc/showcase/chimera-art-space/</guid>
             <description></description>
         </item>
         
         <item>
             <title></title>
-            <link>http://tyche.cc/theme/agency/</link>
+            <link>https://tyche.cc/theme/agency/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/theme/agency/</guid>
+            <guid>https://tyche.cc/theme/agency/</guid>
             <description>
 
 &lt;h1 id=&#34;agency-theme&#34;&gt;Agency Theme&lt;/h1&gt;
@@ -280,10 +280,10 @@ description: Use this area to describe your project. Lorem ipsum dolor sit amet,
         
         <item>
             <title></title>
-            <link>http://tyche.cc/theme/herring-cove/</link>
+            <link>https://tyche.cc/theme/herring-cove/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/theme/herring-cove/</guid>
+            <guid>https://tyche.cc/theme/herring-cove/</guid>
             <description>
 
 &lt;h1 id=&#34;herring-cove&#34;&gt;Herring Cove&lt;/h1&gt;
@@ -303,9 +303,9 @@ description: Use this area to describe your project. Lorem ipsum dolor sit amet,
 
 &lt;h3 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://tyche.cc/images/screenshot1.png&#34; alt=&#34;screenshot&#34; /&gt;
-&lt;img src=&#34;http://tyche.cc/images/screenshot2.png&#34; alt=&#34;screenshot&#34; /&gt;
-&lt;img src=&#34;http://tyche.cc/images/screenshot-landing.png&#34; alt=&#34;screenshot&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://tyche.cc/images/screenshot1.png&#34; alt=&#34;screenshot&#34; /&gt;
+&lt;img src=&#34;https://tyche.cc/images/screenshot2.png&#34; alt=&#34;screenshot&#34; /&gt;
+&lt;img src=&#34;https://tyche.cc/images/screenshot-landing.png&#34; alt=&#34;screenshot&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;setup&#34;&gt;Setup&lt;/h3&gt;
 
@@ -381,10 +381,10 @@ description: Use this area to describe your project. Lorem ipsum dolor sit amet,
         
         <item>
             <title></title>
-            <link>http://tyche.cc/theme/hugo-incorporated/</link>
+            <link>https://tyche.cc/theme/hugo-incorporated/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/theme/hugo-incorporated/</guid>
+            <guid>https://tyche.cc/theme/hugo-incorporated/</guid>
             <description>
 
 &lt;h1 id=&#34;hugo-incorporated&#34;&gt;Hugo Incorporated&lt;/h1&gt;
@@ -462,10 +462,10 @@ sass scss/main.scss static/css/main.css
         
         <item>
             <title></title>
-            <link>http://tyche.cc/theme/hyde/</link>
+            <link>https://tyche.cc/theme/hyde/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/theme/hyde/</guid>
+            <guid>https://tyche.cc/theme/hyde/</guid>
             <description>
 
 &lt;h1 id=&#34;hyde&#34;&gt;Hyde&lt;/h1&gt;

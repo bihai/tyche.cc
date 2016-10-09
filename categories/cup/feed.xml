@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>http://tyche.cc/categories/cup/feed/index.xml</link>
+        <link>https://tyche.cc/categories/cup/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title>Another Cup</title>
-            <link>http://tyche.cc/post/customproject/anothercup/</link>
+            <link>https://tyche.cc/post/customproject/anothercup/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/post/customproject/anothercup/</guid>
+            <guid>https://tyche.cc/post/customproject/anothercup/</guid>
             <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
@@ -21,10 +21,10 @@
         
         <item>
             <title>Another Cup</title>
-            <link>http://tyche.cc/project/anothercup/</link>
+            <link>https://tyche.cc/project/anothercup/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/project/anothercup/</guid>
+            <guid>https://tyche.cc/project/anothercup/</guid>
             <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
@@ -32,10 +32,10 @@
         
         <item>
             <title>Cup</title>
-            <link>http://tyche.cc/post/customproject/cup/</link>
+            <link>https://tyche.cc/post/customproject/cup/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/post/customproject/cup/</guid>
+            <guid>https://tyche.cc/post/customproject/cup/</guid>
             <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>
@@ -43,10 +43,10 @@
         
         <item>
             <title>Cup</title>
-            <link>http://tyche.cc/project/cup/</link>
+            <link>https://tyche.cc/project/cup/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/project/cup/</guid>
+            <guid>https://tyche.cc/project/cup/</guid>
             <description>&lt;p&gt;Project content would go here. You can also redirect using the front matter
 &lt;code&gt;redirect = &amp;quot;url&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 </description>

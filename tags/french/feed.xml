@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title> on tyche.cc</title>
-        <link>http://tyche.cc/tags/french/feed/index.xml</link>
+        <link>https://tyche.cc/tags/french/feed/index.xml</link>
         <language>zh-CN</language>
         <author>bihai</author>
         <rights>Copyright (c) 2015, bihai; all rights reserved.</rights>
@@ -10,10 +10,10 @@
         
         <item>
             <title>maximeguitare.com</title>
-            <link>http://tyche.cc/showcase/maximeguitare/</link>
+            <link>https://tyche.cc/showcase/maximeguitare/</link>
             <pubDate>Mon, 05 Oct 2015 17:15:00 UTC</pubDate>
             <author>bihai</author>
-            <guid>http://tyche.cc/showcase/maximeguitare/</guid>
+            <guid>https://tyche.cc/showcase/maximeguitare/</guid>
             <description></description>
         </item>
         
